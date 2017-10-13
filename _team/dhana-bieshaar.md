@@ -1,6 +1,6 @@
 ---
 title: Dhana Bieshaar
-Position: Back-office Medewerker
+Position: Back Office
 Venture: HelloSpecial
 Photo: "/uploads/dhana-bieshaar.jpg"
 Photo2x: "/uploads/dhana-bieshaar@2x.jpg"
