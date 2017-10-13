@@ -67,6 +67,7 @@ DEPENDENCIES
   autoprefixer-rails
   jekyll (= 3.5.2)
   jekyll-assets
+  tzinfo-data
 
 BUNDLED WITH
    1.16.0.pre.3
