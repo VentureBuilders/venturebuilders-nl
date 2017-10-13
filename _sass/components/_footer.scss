@@ -1,0 +1,42 @@
+.site-footer {
+
+    background-color: $charcoal;
+
+}
+
+.footer-logo {
+    max-width: 240px;
+    margin-bottom: $spacer;
+}
+
+
+
+.footer-link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: $spacer * 2;
+    @include media-breakpoint-up(md) {
+        text-align: right;
+        display: inherit;
+        padding-top: 0;
+    };
+}
+
+.footer-link {
+    color: $gray-light;
+    // margin-right: $spacer * 2;
+    transition: color 0.2s ease-out;
+
+    &:hover {
+        color: $white;
+        text-decoration: none;
+    }
+
+    @include media-breakpoint-up(md) {
+        margin-left: $spacer * 2;
+    }
+}
+
+.footer-copyright {
+    color: $gray-mid;
+}

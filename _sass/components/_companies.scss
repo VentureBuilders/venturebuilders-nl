@@ -1,0 +1,38 @@
+//
+//
+
+.companies {
+    // background-color: $gray-light;
+    background-color: $green-dark;
+    color: $white;
+
+    @include media-breakpoint-up(md) {
+        background-image: url('img/companies.png');
+        background-repeat: no-repeat;
+        background-position: 160% 50%;
+        background-size: auto 100%;
+    };
+
+    @include media-breakpoint-up(lg) {
+        background-image: url('img/companies.png');
+        background-position: 110% 50%;
+    };
+
+    @include media-breakpoint-up(xl) {
+        background-image: url('img/companies@2x.png');
+        background-position: 100% 50%;
+        background-size: auto 100%;
+    };
+}
+
+
+.company-stat {
+    h1 {
+        color: $white;
+        font-size: $display2-size;
+
+        @include media-breakpoint-up(lg) {
+            font-size: $display1-size;
+        }
+    }
+}

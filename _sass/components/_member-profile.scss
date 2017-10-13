@@ -1,0 +1,47 @@
+.member-profile {
+    position: relative;
+}
+
+.condense .member-profile {
+
+    @include media-breakpoint-up(md) {
+
+        &:hover {
+            background-color: $black;
+
+            .member-photo {
+                opacity: 0.6;
+            }
+
+            .member-meta {
+                bottom: 10%;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.member-photo,
+.member-meta {
+
+    transition: opacity 0.2s ease-in-out, bottom 0.3s ease-in-out;
+
+}
+
+.condense .member-meta {
+
+    @include media-breakpoint-up(md) {
+        position: absolute;
+        bottom: 5%;
+        padding: $spacer;
+        color: $white;
+        font-size: 100%;
+        opacity: 0;
+
+    }
+}
+
+
+.member-meta h6 {
+    font-size: 115%;
+}

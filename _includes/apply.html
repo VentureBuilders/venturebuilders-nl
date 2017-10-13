@@ -1,0 +1,68 @@
+
+<div class="modal fade" id="applyModal" tabindex="-1" role="dialog" aria-labelledby="Application" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">{{ page.title }}</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="https://formspree.io/{{ page.email_address }}" method="post" autocomplete="on">
+                    <div class="row">
+                        <div class="col form-group">
+                            <label for="contactName">Name</label>
+                            <input type="text" class="form-control form-control-lg" name="Name" id="contactName" aria-describedby="nameHelp" placeholder="Enter name" required>
+                        </div>
+
+                        <div class="col form-group">
+                            <label for="contactEmail">Email address</label>
+                            <input type="email" class="form-control form-control-lg" name="Email" id="contactEmail" aria-describedby="emailHelp" placeholder="Enter email" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-9 form-group">
+                            <label for="coverLetter">Your cover letter:</label>
+                            <textarea rows="4" class="form-control form-control-lg" name="Cover Letter" id="coverLetter" aria-describedby="message" placeholder="How can we help you?" required></textarea>
+
+                        </div>
+
+                        <div class="col-9 form-group">
+                            <input type="button" value="Upload" onclick="showPicker()" />
+                        </div>
+                        <input type="hidden" name="_next" value="/thank-you.html" />
+                        <input type="hidden" name="_subject" value="New application for {{ page.title }}" />
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <button type="submit" value="submit" class="btn btn-primary">Submit</button>
+                        </div>
+
+                    </div>
+
+                </form>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="https://static.filestackapi.com/v3/filestack.js"></script>
+<script>
+    var client = filestack.init('AYUXDGhD9SFu8zydKl1Lmz');
+    function showPicker() {
+        client.pick({
+        }).then(function(result) {
+            console.log(JSON.stringify(result.filesUploaded))
+        });
+    }
+</script>

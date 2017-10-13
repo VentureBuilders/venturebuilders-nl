@@ -1,0 +1,43 @@
+---
+layout: page
+---
+
+{% assign full_list = "" | split: "" | sort: "prio" %}
+
+{% assign vb = site.team | where: "Venture", "VentureBuilders" | sort: "prio" %}
+{% assign sd = site.team | where: "Venture", "Sleepdeal" | sort: "prio" %}
+{% assign t2a = site.team | where: "Venture", "Taxi2Airport" | sort: "prio" %}
+{% assign c24 = site.team | where: "Venture", "Case24" | sort: "prio" %}
+{% assign of = site.team | where: "Venture", "Offerte.nl" | sort: "prio" %}
+{% assign hd = site.team | where: "Venture", "HomeDeco" | sort: "prio" %}
+{% assign eu = site.team | where: "Venture", "Euroknaller" | sort: "prio" %}
+{% assign co = site.team | where: "Venture", "Contexta" | sort: "prio" %}
+{% assign hs = site.team | where: "Venture", "HelloSpecial" | sort: "prio" %}
+{% assign ap = site.team | where: "Venture", "Applyr" | sort: "prio" %}
+{% assign td = site.team | where: "Venture", "Traveldeal" | sort: "prio" %}
+{% assign cs = site.team | where: "Venture", "Consulto" | sort: "prio" %}
+
+{% for m in vb %}{% assign full_list = full_list | push: m %}{% endfor %}
+{% for m in sd %}{% assign full_list = full_list | push: m %}{% endfor %}
+{% for m in t2a %}{% assign full_list = full_list | push: m %}{% endfor %}
+{% for m in c24 %}{% assign full_list = full_list | push: m %}{% endfor %}
+{% for m in td %}{% assign full_list = full_list | push: m %}{% endfor %}
+{% for m in of %}{% assign full_list = full_list | push: m %}{% endfor %}
+{% for m in eu %}{% assign full_list = full_list | push: m %}{% endfor %}
+{% for m in hs %}{% assign full_list = full_list | push: m %}{% endfor %}
+{% for m in hd %}{% assign full_list = full_list | push: m %}{% endfor %}
+{% for m in ap %}{% assign full_list = full_list | push: m %}{% endfor %}
+{% for m in co %}{% assign full_list = full_list | push: m %}{% endfor %}
+{% for m in cs %}{% assign full_list = full_list | push: m %}{% endfor %}
+
+<div class="container">
+    <div class="team-grid-container condense mb-3 mb-lg-5">
+
+    {% for person in full_list %}
+        <div class=" team-grid-item">
+            {% include team-profile.html member = person show_social=false show_venture=true %}
+        </div>
+    {% endfor %}
+    </div>
+
+</div>

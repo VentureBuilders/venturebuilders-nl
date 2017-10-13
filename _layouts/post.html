@@ -1,0 +1,27 @@
+---
+layout: global
+---
+
+<article class="container post">
+
+    <header class="row pt-3 mb-1 mb-lg-3">
+        <div class="col col-lg-7 col-xl-6 mx-auto border-b-light">
+            <h2 class="display-2 headline-variant mb-1 mb-lg-2">{{ page.title | escape }}</h2>
+            <h5 class="display-5 mb-1">{{ page.date | date: "%d %b, %Y" }}</h5>
+        </div>
+    </header>
+
+    <main class="row mb-2 mb-lg-3 post-content" itemprop="articleBody">
+
+        <div class="col-9 col-lg-7 col-xl-6 mx-auto">
+            {{ content }}
+        </div>
+    </main>
+
+    <footer class="row mb-3 mb-lg-4">
+        <div class="col-6 py-3 mx-auto">
+            <a href="/news/" class="cta-link">View News &amp; Press</a>
+        </div>
+    </footer>
+
+</article>

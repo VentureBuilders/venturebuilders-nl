@@ -1,0 +1,22 @@
+<section class="container py-2 py-md-4 py-lg-5 feature-blocks">
+    <h4 class="mb-4 display-4 border-b">{{ include.heading }}</h4>
+    <ul class="list-unstyled row feature-blocks-list">
+
+        {% for item in include.content %}
+        <li class="col-9 col-md-3 mb-4 order-md-{% if forloop.last %}{{ forloop.length | plus:1 }}{% else %}{{ forloop.index }}{% endif %}">
+            <h4 class="mb-2 headline-variant">{{ item.subhead }}</h4>
+            <p class="">{{ item.description }}</p>
+        </li>
+        {% endfor %}
+
+        {% if page.feature_quote %}
+        <li class="col-9 col-md-6 order-md-4 mb-4">
+            <blockquote class="blockquote pr-md-5">
+                &ldquo;{{ page.feature_quote }}&rdquo;
+                <footer class="blockquote-footer">{{ page.feature_quote_cite }}</footer>
+            </blockquote>
+        </li>
+        {% endif %}
+
+    </ul>
+</section>

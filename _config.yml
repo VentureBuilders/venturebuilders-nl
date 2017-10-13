@@ -1,0 +1,54 @@
+---
+title: VentureBuilders
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  team:
+    title: Team
+    output: false
+  uploads:
+    title: Uploads
+    output: true
+  vacancies:
+    title: Vacancies
+    output: true
+    permalink: "/:collection/:name"
+  ventures:
+    title: Ventures
+    output: true
+    permalink: "/:collection/:name"
+defaults:
+- scope:
+    path: assets/img
+  values:
+    image: true
+- scope:
+    path: ''
+    type: ventures
+  values:
+    layout: venture-detail
+- scope:
+    path: ''
+    type: vacancies
+  values:
+    layout: vacancy
+- scope:
+    path: ''
+    type: team
+  values:
+    Position: ''
+    Venture: ''
+    linkedin: 
+    twitter: 
+permalink: date
+author: VentureBuilders
+email: info@venturebuilders.nl
+description: 'Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for Google search
+  results) and in your feed.xml site description. '
+markdown: kramdown
+exclude:
+- Gemfile
+- Gemfile.lock

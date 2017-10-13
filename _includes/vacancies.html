@@ -1,0 +1,18 @@
+<ul class="list-unstyled py-2 vacancy-grid">
+    {% assign vacancies = site.vacancies | sort: 'priority' %}
+    {% for pos in vacancies %}
+        <li class="vacancy-grid-item">
+            <div class="grid-item-wrapper">
+
+                {% assign ven = site.ventures | where: 'title', pos.Venture | first %}
+                {% capture vlogo %}/assets/img/venture-logos/{{ ven.class_name }}.svg{% endcapture %}
+                <!-- <h6 class="vacancy-company mb-0 display-6 text-muted text-uppercase">{{ ven.title }}</h6> -->
+                <img class="mt-1 mb-2 vacancy-grid-logo" src="{{ vlogo }}" alt="">
+                <p class="vacancy-title"><a class="" href="{{ pos.url }}" title="{{ pos.job }}">{{ pos.title }}</a></p>
+                <p class="vacancy-meta"><i class="icon-location"></i><span class="location">{{ pos.Location }}</span><span class="type">{{ pos.type }}</p>
+                <a class="cta-link" href="{{ pos.url }}" title="{{ pos.job }}">View</a>
+            </div>
+
+        </li>
+    {% endfor %}
+</ul>
