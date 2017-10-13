@@ -1,0 +1,8 @@
+
+
+@for $i from 1 through 4 {
+    .order-md-#{$i} {
+        order: #{$i};
+        -webkit-order: #{$i};
+    }
+}

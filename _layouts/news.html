@@ -1,0 +1,25 @@
+---
+layout: page
+---
+
+<div class="news container">
+
+    <div class="row no-gutters pt-3 mb-3 mb-lg-6">
+        <main class="col-9 col-lg-7">
+            {% for news in site.posts %}
+                <div class="news-item pb-1 mb-2 border-b-light row">
+
+                    <div class="col-9 col-md-6">
+                        <h4 class="display-4 headline-variant mb-0"><a href="{{ news.url }}">{{ news.title }}</a></h4>
+                        <p class="text-muted mb-0">{{ news.date | date: "%d %a, %Y" }}</p>
+                        <p class="">{{ news.intro }}</p>
+                    </div>
+
+                </div>
+            {% endfor %}
+        </main>
+
+
+    </div>
+
+</div>

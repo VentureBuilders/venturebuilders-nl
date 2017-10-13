@@ -1,0 +1,117 @@
+---
+layout: global
+---
+
+<article class="container bg-light venture-container">
+    <header class="row pt-3 pb-1 justify-content-center">
+        <div class="col-9 col-md-7 row no-gutters">
+            <h2 class="pt-4 col-9 display-2 pb-2">{{ page.title }}</h2>
+            <div class="venture-intro col-9 col-lg-5 mb-2">
+                <p class="lead pb-2">{{ page.Intro }}</p>
+                <ul class="list-unstyled venture-links">
+                    {% for v_link in page.Links %}
+                        <li><a class="cta-link external" href="http://{{ v_link }}" target="_blank" title="{{ v_link }}">{{ v_link }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="venuture-hero col-9 col-lg-4">
+                <div class="venture-hero-wrapper px-4 px-lg-5 px-xl-6 py-2 text-center">
+                    <img src="../assets/img/venture-logos/{{ page.class_name }}.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="row venture-photo mb-2 mb-md-4">
+        {% capture pic_src_lg %}../assets/img/venture-banner/{{ page.class_name }}@2x.png{% endcapture %}
+        {% capture pic_src_sm %}../assets/img/venture-banner/{{ page.class_name }}.png{% endcapture %}
+        {% include img_resp.html src_large=pic_src_lg src_sm=pic_src_sm %}
+    </div>
+
+    <div class="row justify-content-center venture-content">
+        <div class="col-9 col-md-7 row justify-content-between no-gutters">
+        {% for copy in page.Story %}
+        <div class="col-lg-4 mb-3">
+            <h4 class="display-4 mb-2">{{ copy.heading }}</h4>
+            <p>{{ copy.description }}</p>
+        </div>
+        {% endfor %}
+
+        {% if page.quote %}
+            <blockquote class="col-xl-9 align-self-center my-lg-5 blockquote large ">
+                &ldquo;{{ page.quote }}&rdquo;
+                <footer class="blockquote-footer">{{ page.quote_cite }}</footer>
+            </blockquote>
+        {% endif %}
+        </div>
+
+
+
+    </div>
+
+    <div class="row py-3 justify-content-center venture-members">
+        <div class="col-md-7">
+            <h3 class="mb-2 display-3">Meet some of our team</h3>
+
+            <div class="row ">
+
+                {% assign team = site.team | where: 'Venture', page.title | sort: 'prio' %}
+                {% for member in team %}
+                    {% if member.Venture == page.title %}
+                    <div class="team-grid-item">
+                        {% include team-profile.html member = member show_social=true show_venture=false %}
+                    </div>
+                    {% endif %}
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+
+</article>
+<div class="container venture-nav py-5">
+    <div class="row no-gutters justify-content-between">
+        <h5 class="col-9 mb-3 display-5 text-center">Discover our Ventures</h5>
+
+        {% if page.previous.url %}
+            <a class="w-50 venture-nav-link prev page.previous.class_name" href="{{ page.previous.url }}">
+                <picture>
+                     <source srcset="../assets/img/venture-large/{{ page.previous.class_name }}@2x.png" media="(min-width: 900px)">
+                     <img src="../assets/img/venture-large/{{ page.previous.class_name }}.png" alt="{{ page.previous.title }}">
+                </picture>
+            </a>
+        {% else %}
+            {% assign prev_num = site.ventures.length | minus: 2 %}
+            {% assign prev_ven = site.ventures[prev_num] %}
+            <a class="w-50 venture-nav-link prev prev_ven.url" href="{{ prev_ven.url }}">
+                <picture>
+                     <source srcset="../assets/img/venture-large/{{ prev_ven.class_name }}@2x.png" media="(min-width: 900px)">
+                     <img src="../assets/img/venture-large/{{ prev_ven.class_name }}.png" alt="{{ prev_ven.title }}">
+                </picture>
+            </a>
+        {% endif %}
+
+
+        {% if page.next.title == 'VentureBuilders' %}
+            {% assign next_ven = site.ventures | first %}
+              <a class="w-50 venture-nav-link next" href="{{ next_ven.url }}">
+                  <picture>
+                       <source srcset="../assets/img/venture-large/{{ next_ven.class_name }}@2x.png" media="(min-width: 900px)">
+                       <img src="../assets/img/venture-large/{{ next_ven.class_name }}.png" alt="{{ next_ven.title }}">
+                  </picture>
+              </a>
+
+        {% else %}
+
+          <a class="w-50 venture-nav-link next" href="{{ page.next.url }}">
+              <picture>
+                   <source srcset="../assets/img/venture-large/{{ page.next.class_name }}@2x.png" media="(min-width: 900px)">
+                   <img src="../assets/img/venture-large/{{ page.next.class_name }}.png" alt="{{ page.next.title }}">
+              </picture>
+          </a>
+
+        {% endif %}
+    </div>
+
+</div>

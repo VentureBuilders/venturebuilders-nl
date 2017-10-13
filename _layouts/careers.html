@@ -1,0 +1,35 @@
+---
+layout: page
+---
+
+<section class="container careers-photos-large">
+    <div class="row mb-1">
+        <div class="col">
+            {% include img_resp.html src_large="../assets/img/career-banner@2x.jpg" src_sm="../assets/img/career-banner-sm.jpg" %}
+        </div>
+    </div>
+</section>
+
+{% include feature-blocks.html content=page.feature_blocks heading=page.feature_block_heading %}
+
+<section class="py-2">
+    {% include feature-group.html subhead=page.feature_group_heading left=true content=page.feature_group %}
+</section>
+
+<section class="container careers-photos-small">
+    <div class="row mb-4">
+        <div class="col">
+        {% include img_resp.html src_large="../assets/img/career-photo-strip@2x.jpg" src_sm="../assets/img/career-photo-strip-sm.jpg" %}
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid careers-positions py-3 bg-light">
+    <div class="container">
+        <div class="row no-gutters">
+            <h4 class="col-9 display-4">Browse Current Open Positions</h4>
+            {% include vacancies.html %}
+        </div>
+    </div>
+
+</section>

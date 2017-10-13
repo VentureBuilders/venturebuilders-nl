@@ -1,0 +1,17 @@
+<section class="container feature-group {% if include.left %}left-align{% endif %}">
+    {% if include.subhead %}
+        <h4 class="display-4 mb-4">{{ include.subhead }}</h4>
+    {% endif %}
+    <ul class="row list-unstyled justify-content-between mb-2 mb-lg-4 mb-xl-5">
+
+        {% for item in include.content %}
+        <li class="col-sm-9 col-md pt-1 mb-3 mb-md-2 feature-item">
+            {% if item.image %}<img class="mb-1 mb-lg-2 mb-xl-3 feature-icon" src="assets/img/icons/{{ item.image }}" alt="">{% endif %}
+            <h4 class="mb-1 headline-variant feature-headline">{{ item.subhead }}</h4>
+            <p class="mb-1 mb-lg-2 feature-description">{{ item.description }}</p>
+            {% if item.cta %}<a class="feature-link" href="{{ item.cta_ref }}">{{ item.cta }}</a>{% endif %}
+        </li>
+        {% endfor %}
+
+    </ul>
+</section>

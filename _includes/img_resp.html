@@ -1,0 +1,9 @@
+{% comment %}
+    src_large
+    src_sm
+{% endcomment %}
+
+<picture>
+     <source srcset='{{ include.src_large }}' media="(min-width: 900px)">
+     <img src='{{ include.src_sm }}' alt="{{ page.title }}">
+</picture>

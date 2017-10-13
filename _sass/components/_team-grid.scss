@@ -1,0 +1,33 @@
+.team-grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-right: -$spacer;
+    margin-left: -$spacer;
+
+    @include media-breakpoint-up(md) {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+.team-grid-item {
+    width: 50%;
+    padding: $spacer;
+
+    @include media-breakpoint-up(md) {
+        width: 33.333%;
+
+        .condense & {
+            padding: 0;
+        }
+    };
+
+    @include media-breakpoint-up(lg) {
+        width: 25%;
+    };
+
+    @include media-breakpoint-up(xl) {
+        width: 20%;
+    };
+}

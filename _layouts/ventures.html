@@ -1,0 +1,26 @@
+---
+layout: page
+---
+
+<div class="container">
+
+    <div class="mb-2 mb-md-4 venture-grid">
+
+        {% for venture in site.ventures %}
+
+            {% unless venture.title == 'VentureBuilders' %}
+                <div class="venture-grid-item {{ venture.class_name }}">
+                    <a class="venture-grid-link" href="{{ venture.url }}" title="{{ venture.title }}">
+                        <picture>
+                             <source srcset='/assets/img/venture-small/{{ venture.class_name }}@2x.png' media="(min-width: 900px)">
+                             <img src='/assets/img/venture-small/{{ venture.class_name }}.png' alt="{{ venture.title }}">
+                        </picture>
+                    </a>
+                </div>
+            {% endunless %}
+
+        {% endfor %}
+
+    </div>
+
+</div>
