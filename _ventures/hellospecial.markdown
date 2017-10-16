@@ -9,7 +9,7 @@ Intro: HelloSpecial is the fastest and most entertaining marketplace in the Neth
   option of walking away with great new products. It's the online interactive auction
   marketplace that connects buyers and sellers.
 Links:
-- www.hellospecial.nl
+- www.hellospecial.com
 Stats:
 - number: 2mil
   description: This is the description
