@@ -3,7 +3,6 @@ title: Applyr.ai receives seed funding
 date: 2017-09-06 00:00:00 Z
 categories:
 - funding
-- hellospecial
 intro: Amsterdam, 26 June 2017, Artificial Intelligence company Applyr receives seed
   funding from VentureBuilders Capital Partners
 layout: post
