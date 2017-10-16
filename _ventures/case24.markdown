@@ -2,7 +2,7 @@
 title: Case24
 date: 2017-09-04 12:01:00 Z
 class_name: case24
-Logo: 
+prio: 5
 Intro: "People carry their smartphone around 24-7. In fact, for a lot people it's
   their most prized (and pricey!) possession. That's why we at Case24 believe that
   smartphone cases shouldn't be boring pieces of plastic, but instead can be a unique
@@ -36,7 +36,6 @@ Story:
     brand for high-end fashionable and customised phone accessories. We will expand
     the collaboration with a diverse network of artists and designers as improving
     our ever-expanding assortment of phone models. "
-quote: 
+quote:
 quote_cite: Christiaan de Rijk, Managing Director
 ---
-

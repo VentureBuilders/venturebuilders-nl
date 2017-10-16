@@ -2,7 +2,7 @@
 title: Sleepdeal
 date: 2017-09-04 12:01:00 Z
 class_name: sleepdeal
-Logo: 
+prio: 3
 Intro: |-
   Bedden.nl B.V. offers a complete assortment for a comfortable night's sleep.
   The company has multiple search engine optimized web stores for beds, mattresses, bedding and other sleep related articles.
@@ -32,7 +32,6 @@ Story:
     towards online-purchase of beds and related articles. Bedden has the ambition
     to expand to other EU markets, but in the near future the focus lies on serving
     the entire Dutch market.
-quote: 
+quote:
 quote_cite: Yvette Frantsen, Managing Director
 ---
-

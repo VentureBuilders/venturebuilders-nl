@@ -2,7 +2,7 @@
 title: Taxi2Airport
 date: 2017-09-04 12:01:00 Z
 class_name: taxi2airport
-Logo: 
+prio: 1
 Intro: 'Taxi2Airport.com is one of the world''s fastest growing ground transportation
   technology platform. The company is committed in providing safe and reliable transfers
   to and from main airports and cruise ports. '
@@ -28,4 +28,3 @@ quote: With a user first approach, we are sure to offer the best choice for our 
   and enable travel brands to effectively monetize the last step of every trip
 quote_cite: Carlos Pinto, CEO
 ---
-

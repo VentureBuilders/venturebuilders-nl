@@ -2,7 +2,7 @@
 title: HomeDeco
 date: 2017-09-04 12:01:00 Z
 class_name: homedeco
-Logo: 
+prio: 4
 Intro: HomeDeco is thé online platform for online interior inspiration and shopping.
   We combine user-generated content, editorial inspiration and an easy-to-browse aggregated
   overview of the assortment of all major online home deco-brands to help consumers
@@ -31,4 +31,3 @@ quote: Home&Garden is a perfect market for a new approach to online shopping. We
   connecting consumers with brands in a fun, casual and playful manner.
 quote_cite: Thijs Goos, Managing Director
 ---
-

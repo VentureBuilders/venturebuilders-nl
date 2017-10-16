@@ -2,7 +2,7 @@
 title: Applyr
 date: 2017-09-04 12:01:00 Z
 class_name: applyr
-Logo: 
+prio: 2
 Intro: Recruitment in 2017 is terribly inefficient. Applyr is developing an AI-powered
   pre-selection, scheduling and analytics platform to screen candidates and schedule
   interviews automatically. Applyr chatbots allow employers to engage with and select
@@ -35,4 +35,3 @@ quote: AI won’t replace recruiters. Recruiters who use AI will replace recruit
   who don’t.
 quote_cite: Steve Parkins, CEO
 ---
-

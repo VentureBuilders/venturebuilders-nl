@@ -2,7 +2,7 @@
 title: Euroknaller
 date: 2017-09-04 12:01:00 Z
 class_name: euroknaller
-Logo: 
+prio: 5
 Intro: Euroknaller B.V. is a European daily deal platform offering great products
   for extraordinary low prices. The daily deal offering consist of A-brands, surprising
   items and is setting the trend with bold new deals. Euroknaller stands for an excellent
@@ -29,7 +29,6 @@ Story:
     to quickly expand to Germany, France and other EU markets (est. mid 2018). By
     generating more scale we expect to further improve our offering (product offers)
     and even further reduce prices for our subscribers.
-quote: 
+quote:
 quote_cite: Steven van den Ingh, CEO
 ---
-
