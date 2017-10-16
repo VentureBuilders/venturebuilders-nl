@@ -17,7 +17,7 @@ feature_blocks:
 - subhead: Be an entrepreneur
   description: We provide the right blend of funding and collaboration to help entrepreneurs
     build successful and sustainable businesses.
-feature_quote: What's different here than most places I've worked is the diverse support
+feature_quote: What's different here from most places I've worked is the diverse support
   you have from everyone around you.
 feature_quote_cite: Thijmen Francken, Growth Hacker
 feature_group_heading: What we offer

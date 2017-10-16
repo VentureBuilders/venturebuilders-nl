@@ -13,16 +13,16 @@ euroknaller,
 offerte,
 sleepdeal;
 
-@each $brand in $ventures {
-    .#{$brand} {
-        // background: url('img/venture-small/#{$brand}.png') center top no-repeat;
-        background-size: 100% auto;
-
-        @include media-breakpoint-up(lg) {
-            // background-image: url('img/venture-small/#{$brand}@2x.png');
-        }
-    }
-}
+// @each $brand in $ventures {
+//     .#{$brand} {
+//         // background: url('img/venture-small/#{$brand}.png') center top no-repeat;
+//         // background-size: 100% auto;
+//
+//         @include media-breakpoint-up(lg) {
+//             // background-image: url('img/venture-small/#{$brand}@2x.png');
+//         }
+//     }
+// }
 
 .venture-grid {
     display: flex;
