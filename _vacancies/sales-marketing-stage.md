@@ -1,6 +1,6 @@
 ---
 title: Sales en Online Marketing stage
-priority: 1
+priority: 5
 Venture: VentureBuilders
 Location: Amsterdam
 type: Intern
