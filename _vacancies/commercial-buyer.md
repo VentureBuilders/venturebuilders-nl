@@ -1,6 +1,6 @@
 ---
 title: Commercial Buyer Manager
-priority: 1
+priority: 2
 Venture: HelloSpecial
 Location: Amsterdam
 type: Full-time
