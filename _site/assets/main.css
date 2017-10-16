@@ -5558,6 +5558,9 @@ ul > li {
 .intro {
   font-size: 1.5rem; }
 
+.btn {
+  cursor: pointer; }
+
 .container-fluid {
   padding-left: 0;
   padding-right: 0; }
@@ -5813,39 +5816,6 @@ ul > li {
 
 .venture-links {
   margin-left: 0; }
-
-.bedden {
-  background-size: 100% auto; }
-
-.applyr {
-  background-size: 100% auto; }
-
-.case24 {
-  background-size: 100% auto; }
-
-.contexta {
-  background-size: 100% auto; }
-
-.hellospecial {
-  background-size: 100% auto; }
-
-.homedeco {
-  background-size: 100% auto; }
-
-.taxi2airport {
-  background-size: 100% auto; }
-
-.traveldeal {
-  background-size: 100% auto; }
-
-.euroknaller {
-  background-size: 100% auto; }
-
-.offerte {
-  background-size: 100% auto; }
-
-.sleepdeal {
-  background-size: 100% auto; }
 
 .venture-grid {
   display: flex;
