@@ -42,8 +42,7 @@ The SEO Manager is responsible for orchestrating the organic growth of Taxi2airp
 
 #### Perks
 
+* Flexible hours
 * Daily lunch with a competition at table tennis.
-
 * Weekly drinks – yes we eat and drink together!
-
 * Monthly game nights / team-building activities
