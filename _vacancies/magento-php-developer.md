@@ -1,5 +1,5 @@
 ---
-title: Magneto/PHP Developer
+title: Magento/PHP Developer
 priority: 1
 Venture: VentureBuilders
 Location: Amsterdam
