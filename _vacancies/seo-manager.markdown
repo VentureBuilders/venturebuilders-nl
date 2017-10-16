@@ -2,6 +2,12 @@
 title: SEO Manager
 date: 2017-10-16 10:10:00 Z
 published: false
+priority: 2
+Venture: Taxi2Airport
+Location: Amsterdam
+type: Full-time
+contact: Chloe Witteveen
+email_address: chloe@venturebuilders.nl
 layout: vacancy
 ---
 
