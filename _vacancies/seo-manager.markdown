@@ -2,6 +2,7 @@
 title: SEO Manager
 date: 2017-10-16 10:10:00 Z
 published: false
+layout: vacancy
 ---
 
 **About T2A**
