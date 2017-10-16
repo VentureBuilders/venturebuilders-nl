@@ -3,7 +3,6 @@ title: Euroknaller receives growth funding
 date: 2017-09-08 11:36:00 Z
 categories:
 - funding
-- euroknaller
 intro: Amsterdam, 8 September 2017, daily deal platform Euroknaller received growth
   funding from a consortium of investors led by VentureBuilders Capital Partners
 layout: post

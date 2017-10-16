@@ -2,7 +2,6 @@
 title: Taxi2Airport.com receives growth funding
 date: 2017-06-26 00:00:00 Z
 categories:
-- applyr
 - funding
 intro: Amsterdam, 19 May 2017, airport transfer marketplace Taxi2Airport.com receives
   growth funding from VentureBuilders Capital Partners
