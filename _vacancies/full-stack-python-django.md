@@ -1,6 +1,6 @@
 ---
 title: Full Stack Python/Django Developer
-priority: 1
+priority: 2
 Venture: Applyr
 Location: Amsterdam
 type: Full-time
