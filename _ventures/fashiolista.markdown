@@ -23,6 +23,7 @@ Story:
 - heading: In the future
   description: Currently VentureBuilders, together with part of Fashiolista’s original
     founding team, is working hard to reinvent the platform and revive the community.
-quote:
-quote_cite:
+quote: 
+quote_cite: 
 ---
+

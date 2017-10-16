@@ -35,3 +35,4 @@ quote: AI won’t replace recruiters. Recruiters who use AI will replace recruit
   who don’t.
 quote_cite: Steve Parkins, CEO
 ---
+

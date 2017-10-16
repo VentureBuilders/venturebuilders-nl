@@ -31,3 +31,4 @@ quote: Home&Garden is a perfect market for a new approach to online shopping. We
   connecting consumers with brands in a fun, casual and playful manner.
 quote_cite: Thijs Goos, Managing Director
 ---
+

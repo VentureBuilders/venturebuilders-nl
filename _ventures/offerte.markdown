@@ -22,6 +22,7 @@ Story:
 - heading: In the future
   description: In the near future Offerte.nl will be dramatically expanding its team
     of Internet Marketing Consultants to facilitate further growth.
-quote:
-quote_cite:
+quote: 
+quote_cite: 
 ---
+

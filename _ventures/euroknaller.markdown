@@ -29,6 +29,7 @@ Story:
     to quickly expand to Germany, France and other EU markets (est. mid 2018). By
     generating more scale we expect to further improve our offering (product offers)
     and even further reduce prices for our subscribers.
-quote:
+quote: 
 quote_cite: Steven van den Ingh, CEO
 ---
+

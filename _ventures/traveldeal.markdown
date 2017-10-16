@@ -26,6 +26,7 @@ Story:
     expansion internationally, for example Belgium and France while keeping our systems
     and team in line to scale with a strong foundation. Customer focus is our main
     value in order to push relevant deals and increase retention.
-quote:
+quote: 
 quote_cite: Jaron Cohen, Managing Director
 ---
+

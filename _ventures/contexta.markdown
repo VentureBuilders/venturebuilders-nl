@@ -37,3 +37,4 @@ quote: We think AI should not be about making jobs redundant, it should be about
   can focus on what’s important.
 quote_cite: Marc van der Peet, CEO
 ---
+

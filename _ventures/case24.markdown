@@ -36,6 +36,7 @@ Story:
     brand for high-end fashionable and customised phone accessories. We will expand
     the collaboration with a diverse network of artists and designers as improving
     our ever-expanding assortment of phone models. "
-quote:
+quote: 
 quote_cite: Christiaan de Rijk, Managing Director
 ---
+
