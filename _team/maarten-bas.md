@@ -1,5 +1,5 @@
 ---
-title: Maarten Baas
+title: Maarten Bas
 Position: Online Marketing
 Venture: HelloSpecial
 Photo: "/uploads/maarten-baas.jpg"
