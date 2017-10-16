@@ -3,7 +3,6 @@ title: Contexta receives early growth funding
 date: 2017-07-20 00:00:00 Z
 categories:
 - funding
-- offerte
 intro: Amsterdam, 31 May 2017, Artificial Intelligence company Contexta receives growth
   funding from VentureBuilders Capital Partners
 layout: post
