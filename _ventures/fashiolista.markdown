@@ -2,7 +2,7 @@
 title: Fashiolista
 date: 2017-09-04 12:01:00 Z
 class_name: fashiolista
-Logo: 
+prio: 7
 Intro: 'Fashiolista was founded in 2010 and turned into one of the largest international
   social fashion platforms in 2015 with 2M active users in 100+ countries. From there
   the company shifted focus towards connecting brands with influencers, creating the

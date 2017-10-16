@@ -2,7 +2,7 @@
 title: Contexta
 date: 2017-09-04 12:01:00 Z
 class_name: contexta
-Logo: 
+prio: 3
 Intro: Contexta combines state-of-the-art speech recognition with advanced Natural
   Language Processing (NLP) to automatically label customer service calls. Using Contexta's
   software companies can get a better understanding of the root causes of its spoken

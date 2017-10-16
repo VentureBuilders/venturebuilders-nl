@@ -2,7 +2,7 @@
 title: Sleepdeal
 date: 2017-09-04 12:01:00 Z
 class_name: sleepdeal
-Logo: 
+prio: 3
 Intro: |-
   Bedden.nl B.V. offers a complete assortment for a comfortable night's sleep.
   The company has multiple search engine optimized web stores for beds, mattresses, bedding and other sleep related articles.

@@ -2,7 +2,7 @@
 title: Taxi2Airport
 date: 2017-09-04 12:01:00 Z
 class_name: taxi2airport
-Logo: 
+prio: 1
 Intro: 'Taxi2Airport.com is one of the world''s fastest growing ground transportation
   technology platform. The company is committed in providing safe and reliable transfers
   to and from main airports and cruise ports. '

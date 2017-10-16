@@ -2,7 +2,7 @@
 title: Consulto
 date: 2017-09-04 12:01:00 Z
 class_name: consulto
-Logo: 
+prio: 8
 Intro: Consulto gives you the marketing tools to promote your advice business like
   a pro. Setup your very own pay-for-chat platform within minutes. No technical know-how
   required.

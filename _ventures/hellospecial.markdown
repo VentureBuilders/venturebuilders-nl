@@ -2,7 +2,7 @@
 title: HelloSpecial
 date: 2017-09-04 12:01:00 Z
 class_name: hellospecial
-Logo: 
+prio: 4
 Intro: HelloSpecial is the fastest and most entertaining marketplace in the Netherlands.
   The company aims to make buying online exciting again. Through a new, faster, auction
   platform and gamification, the company brings in the thrill of winning with the

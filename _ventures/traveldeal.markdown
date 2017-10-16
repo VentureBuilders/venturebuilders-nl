@@ -2,7 +2,7 @@
 title: Traveldeal
 date: 2017-09-04 12:01:00 Z
 class_name: traveldeal
-Logo: 
+prio: 2
 Intro: 'Where to go, what to do and finding the best rates; Booking a hotel, holiday
   or activity often involves a lot of hassle. Traveldeal takes that hassle away by
   finding the best value deals in unique locations. '

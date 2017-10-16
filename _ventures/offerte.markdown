@@ -2,7 +2,7 @@
 title: Offerte.nl
 date: 2017-09-04 12:01:00 Z
 class_name: offerte
-Logo: 
+prio: 9
 Intro: Offerte.nl is an online service that matches customers with local professionals.
   Currently, Offerte.nl lists a very wide range of types of services in categories
   such as home, events, and business.
