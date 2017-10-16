@@ -1,6 +1,6 @@
 ---
 title: Visual Design Stage
-priority: 1
+priority: 5
 Venture: VentureBuilders
 Location: Amsterdam
 type: Intern
