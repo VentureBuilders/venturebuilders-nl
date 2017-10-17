@@ -1,5 +1,5 @@
 ---
-title: Anotonia Stoyanova
+title: Antonia Stoyanova
 Position: Customer & Partner Support
 Venture: Taxi2Airport
 Photo: "/uploads/antonia-stoyanova.jpg"
