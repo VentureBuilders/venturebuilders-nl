@@ -1,5 +1,5 @@
 ---
-title: Caterina Parreira
+title: Catarina Parreira
 Position: Online Marketing Intern
 Venture: Taxi2Airport
 Photo: "/uploads/caterina-parreira.jpg"
