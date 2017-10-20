@@ -7,7 +7,8 @@ Location: Amsterdam
 type: Full-time
 contact: Chloe Witteveen
 email_address: chloe@venturebuilders.nl
-layout: vacancy
+applyr_id: 82dae31faf06488b961933527abb92a5
+layout: vacancy-applyr
 ---
 
 #### About T2A
