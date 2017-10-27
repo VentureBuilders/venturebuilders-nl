@@ -1,7 +1,6 @@
 ---
 title: Arthur Schroer
-published: false
-Position: needed
+Position: Content
 Venture: Traveldeal
 Photo: "/uploads/arthur-schroer.jpg"
 Photo2x: "/uploads/arthur-schroer@2x.jpg"

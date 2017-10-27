@@ -1,6 +1,5 @@
 ---
 title: Zoey de Kort
-published: false
 Position: AM Frankrijk en België
 Venture: Traveldeal
 Photo: "/uploads/zooey-de-kort.jpg"
