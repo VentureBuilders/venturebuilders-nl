@@ -1,6 +1,5 @@
 ---
 title: Laura Josephs
-published: false
 Position: AM Duitsland, Oostenrijk en Zwitserland
 Venture: Traveldeal
 Photo: "/uploads/laura-josephs.jpg"
