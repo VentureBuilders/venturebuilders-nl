@@ -1,4 +1,3 @@
-
 ---
 title: Roos Becker
 Position: Back Office Manager
