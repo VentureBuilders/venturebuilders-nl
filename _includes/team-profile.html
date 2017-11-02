@@ -26,7 +26,11 @@ member_social[1] - twitter
         <p class="mb-0">{{ position }}</p>
 
         {% if include.show_venture %}
-          <p class="headline-variant small">{{ company }}</p>
+
+            <p>{{ company | size }}</p>
+
+            <p class="headline-variant small">{{ company | first }}</p>
+
         {% endif %}
 
         {% if include.show_social %}
