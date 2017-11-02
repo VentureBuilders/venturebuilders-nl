@@ -1,7 +1,9 @@
 ---
 title: Michael DeFazio
 Position: Lead Designer
-Venture: VentureBuilders
+Venture:
+- VentureBuilders
+- Applyr
 Photo: "/uploads/michael-defazio.jpg"
 Photo2x: "/uploads/michael-defazio@2x.jpg"
 prio: 3
