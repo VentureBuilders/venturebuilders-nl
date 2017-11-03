@@ -1,6 +1,6 @@
 ---
 title: Axel Kennick
-Position: CPO
+Position: CPO / CMO
 Venture:
 - HelloSpecial
 Photo: "/uploads/axel-kennick.jpg"
