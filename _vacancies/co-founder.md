@@ -4,6 +4,8 @@ priority: 1
 Venture: VentureBuilders
 Location: Amsterdam
 type: Full-time
+contact: Nina Schaaper
+email_address: nina@venturebuilders.nl
 ---
 
 ##### VentureBuilders is looking for a hands-on co-founder and talented business owner, for different new and existing startups. The co-founder will help get these projects going and build them out successfully.
@@ -42,5 +44,3 @@ The ideal candidate is highly analytical and an entrepreneurial all rounder with
 You will be part of an experienced team with a proven track record. You will work on promising new projects. Room for your own initiative and creative ideas. A start-up salary PLUS the opportunity to become shareholder in the start-up/project.
 
 ###### **Languages required:** Dutch, English
-
-###### **Interested?:** Send your profile and cover letter to **nina@venturebuilders.nl**
