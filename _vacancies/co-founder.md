@@ -4,8 +4,6 @@ priority: 1
 Venture: VentureBuilders
 Location: Amsterdam
 type: Full-time
-contact: Chloe Witteveen
-email_address: chloe@venturebuilders.nl
 ---
 
 ##### VentureBuilders is looking for a hands-on co-founder and talented business owner, for different new and existing startups. The co-founder will help get these projects going and build them out successfully.
