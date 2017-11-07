@@ -6,6 +6,8 @@ Location: Amsterdam
 type: Intern
 contact: Chloe Witteveen
 email_address: chloe@venturebuilders.nl
+applyr_id: a371e008d8564c26a4db9e4a651f2513
+layout: vacancy-applyr
 ---
 
 #### Yes, You!
