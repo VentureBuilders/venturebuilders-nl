@@ -5,5 +5,6 @@ Position: Operations Coordinator
 Venture: HelloSpecial
 Photo: "/uploads/shirley-klingenstijn.jpg"
 Photo2x: "/uploads/shirley-klingenstijn@2x.jpg"
+prio: 3
 ---
 
