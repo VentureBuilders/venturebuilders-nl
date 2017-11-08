@@ -1,7 +1,12 @@
 ---
 title: Stage Content Marketing
 date: 2017-11-08 15:28:00 Z
-published: false
+priority: 2
+Venture: HelloSpecial
+Location: Amsterdam
+type: Internship
+contact: Lisa Groenewegen
+email_address: lisa@hellospecial.com
 ---
 
 **Ja, jij!**
@@ -34,8 +39,3 @@ Wekelijkse borrels
 Maandelijkse teambuilding activiteiten
 Strijd aan de tafeltennistafel
 Laat je brood maar thuis, want de lunch wordt geregeld
-
-
-**Ja, graag!**
-Klinkt dit als een match? Stuur je CV en motivatiebrief naar lisa@hellospecial.com en wie weet tot snel!
-
