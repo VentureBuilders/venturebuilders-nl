@@ -1,18 +1,12 @@
 ---
 title: Home
-headline: VentureBuilders
-subhead: We enable talented entrepreneurs to build market leading tech companies
-quote: Our aim is to achieve great things with talented people. With our unique positioning,
-  we are able to be a part of the entire growth process of companies.
-quote_cite: Paul Montagne, CEO, VentureBuilders
-feature_group_heading: What we offer
 feature_group:
 - subhead: Incubation
   image: icon-cube.svg
   description: Leveraging our successful track record, we start and build market leading
     companies from scratch.
   cta: Our Ventures
-  cta_ref: "/ventures/"
+  cta_ref: "/contact-us/"
 - subhead: Investment
   image: icon-circles.svg
   description: Through our venture funds we invest in talented individuals and help
@@ -25,6 +19,12 @@ feature_group:
     the ride of your lifetime.
   cta: Our Open Positions
   cta_ref: "/careers/"
+headline: VentureBuilders
+subhead: We enable talented entrepreneurs to build market leading tech companies
+quote: Our aim is to achieve great things with talented people. With our unique positioning,
+  we are able to be a part of the entire growth process of companies.
+quote_cite: Paul Montagne, CEO, VentureBuilders
+feature_group_heading: What we offer
 feature_block_heading: How we build
 feature_blocks:
 - subhead: Accelerate
