@@ -3,7 +3,7 @@
     {% for item in include.content %}
         <li class="col-9 col-md-3 mb-4 text-center">
             <h5 class="headline-variant mb-1">{{ item.subhead }}</h5>
-            <p class="mb-1">{{ item.description }}</p>
+            {% if item.description %}<p class="mb-1">{{ item.description }}</p>{% endif %}
         </li>
     {% endfor %}
 
