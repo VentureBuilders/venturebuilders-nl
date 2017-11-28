@@ -1,6 +1,7 @@
 ---
 title: Investment
 permalink: "/investment/"
+published: false
 intro: VentureBuilders backs passionate and thoughtful founders as they turn exciting
   ideas into market leading businesses.
 feature_group_heading: Our focus
@@ -18,23 +19,23 @@ feature_group:
 contentBlockB_heading: What we will look for
 contentBlockB_description: This is a brief intro to the bullet points below
 list_groupA:
-- subhead: Subhead
+- subhead: Problem & Solution
   description: description
-- subhead: Subhead
+- subhead: Market & Competition
   description: description
-- subhead: Subhead
+- subhead: Product & Technology
   description: description
-- subhead: Subhead
+- subhead: Business Model
   description: description
-- subhead: Subhead
+- subhead: Growth Plan
   description: description
-- subhead: Subhead
+- subhead: Traction
   description: description
-- subhead: Subhead
+- subhead: Team
   description: description
-- subhead: Subhead
+- subhead: Financials
   description: description
-- subhead: Subhead
+- subhead: Funding
   description: description
 contentBlockC_heading: We will not invest in
 contentBlockC_description: VentureBuilders does not invest in companies that are not
