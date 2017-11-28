@@ -18,7 +18,7 @@ feature_group:
   description: Through our venture funds we invest in talented individuals and help
     them build great companies.
   cta: Investment Enquiries
-  cta_ref: "/contact-us/"
+  cta_ref: "/investment/"
 - subhead: Growth
   image: icon-molecules.svg
   description: Our team of experts work side-by-side with our founders. Join now for
@@ -40,4 +40,3 @@ feature_blocks:
     and investments.
 layout: home
 ---
-

@@ -30,6 +30,5 @@ feature_group:
 - subhead: Work hard, play hard
   description: Whether its our monthly events or weekly borrels, we know how to unwind
     at the end of the week.
-layout: careers
+layout: investment
 ---
-

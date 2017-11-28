@@ -6,7 +6,7 @@ layout: global
     <div class="row no-gutters pt-3 mb-2 mb-lg-3">
         <div class="col col-lg-5">
             <h2 class="display-2 pb-2">{{ page.title }}</h2>
-            <!-- <p class="lead intro page-intro">{{ page.intro }}</p> -->
+            {% if page.intro %}<p class="lead intro page-intro">{{ page.intro }}</p>{% endif %}
         </div>
     </div>
 </div>
