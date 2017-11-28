@@ -1,5 +1,6 @@
 ---
 title: Semjon Avdejev
+published: false
 Position: Data Analyst/Scientist
 Venture: VentureBuilders
 Photo: "/uploads/semjon-avdejev.jpg"
