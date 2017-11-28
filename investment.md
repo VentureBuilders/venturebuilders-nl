@@ -20,27 +20,26 @@ contentBlockB_heading: What we will look for
 contentBlockB_description: This is a brief intro to the bullet points below
 list_groupA:
 - subhead: Problem & Solution
-  description: 
+  description:
 - subhead: Market & Competition
-  description: 
+  description:
 - subhead: Product & Technology
-  description: 
+  description:
 - subhead: Business Model
-  description: 
+  description:
 - subhead: Growth Plan
-  description: 
+  description:
 - subhead: Traction
-  description: 
+  description:
 - subhead: Team
-  description: 
+  description:
 - subhead: Financials
-  description: 
+  description:
 - subhead: Funding
-  description: 
+  description:
 contentBlockC_heading: We will not invest in
 contentBlockC_description: VentureBuilders does not invest in companies that are not
   scalable, have no customers, do not generate revenue or who do not own their core
   technology.
 layout: investment
 ---
-

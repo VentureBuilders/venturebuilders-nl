@@ -1,7 +1,6 @@
 ---
 title: Careers
 permalink: "/careers/"
-intro: This is the intro line
 feature_block_heading: Building something great together
 feature_blocks:
 - subhead: Top Talent, High Standards
@@ -32,4 +31,3 @@ feature_group:
     at the end of the week.
 layout: investment
 ---
-
