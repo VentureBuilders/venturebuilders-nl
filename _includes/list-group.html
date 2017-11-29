@@ -1,0 +1,10 @@
+<ul class="row list-unstyled justify-content-between mb-2 mb-lg-4 mb-xl-5">
+
+    {% for item in include.content %}
+        <li class="col-9 col-md-3 mb-4 text-center">
+            <h5 class="headline-variant mb-1">{{ item.subhead }}</h5>
+            {% if item.description %}<p class="mb-1">{{ item.description }}</p>{% endif %}
+        </li>
+    {% endfor %}
+
+</ul>

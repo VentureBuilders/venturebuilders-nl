@@ -1,7 +1,6 @@
 ---
 title: Careers
 permalink: "/careers/"
-intro: This is the intro line
 feature_block_heading: Building something great together
 feature_blocks:
 - subhead: Top Talent, High Standards
@@ -30,6 +29,6 @@ feature_group:
 - subhead: Work hard, play hard
   description: Whether its our monthly events or weekly borrels, we know how to unwind
     at the end of the week.
-layout: careers
+layout: investment
 ---
 
