@@ -1,7 +1,6 @@
 ---
 title: Investment
 permalink: "/investment/"
-published: false
 intro: VentureBuilders backs passionate and thoughtful founders as they turn exciting
   ideas into market leading businesses.
 feature_group_heading: Our focus
