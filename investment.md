@@ -1,7 +1,6 @@
 ---
 title: Investment
 permalink: "/investment/"
-published: false
 intro: VentureBuilders backs passionate and thoughtful founders as they turn exciting
   ideas into market leading businesses.
 feature_group_heading: Our focus
@@ -13,8 +12,8 @@ feature_group:
 - subhead: SaaS
   description: Software as a Service.
 contentBlockB_heading: What we will look for
-contentBlockB_description: 'In order to review as many pitch decks as possible, please
-  keep it as short as possible (max. 10 slides) and include the following topics:'
+contentBlockB_description: 'Please help us and keep it as short as possible (max.
+  10 slides) and include the following topics in your business plan:'
 list_groupA:
 - subhead: Problem & Solution
   description: 
