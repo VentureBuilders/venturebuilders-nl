@@ -35,8 +35,7 @@ list_groupA:
   description: 
 contentBlockC_heading: We will not invest in
 contentBlockC_description: VentureBuilders does not invest in companies that are not
-  scalable, have no customers, do not generate revenue or who do not own their core
-  technology.
+  scalable, have no customers, do not generate revenue or don't own core technology.
 layout: investment
 ---
 
