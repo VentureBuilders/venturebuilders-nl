@@ -7,17 +7,14 @@ intro: VentureBuilders backs passionate and thoughtful founders as they turn exc
 feature_group_heading: Our focus
 feature_group:
 - subhead: Marketplaces
-  description: It's not enough to just have the idea. You have to be able to make
-    it a reality.  At VentureBuilders, we strive to always surround ourselves with
-    talented individuals who can make a difference.
-- subhead: SaaS
-  description: Our passion for innovation combined with the ideas and drive of individuals
-    creates an environment that is focused on building products for tomorrow's problems.
+  description: Connecting supply and demand.
 - subhead: Data
-  description: We are a collection of specialists and generalists alike. Our network
-    provides the opportunity to always learn something new from those around you.
+  description: The collection and analysis of data.
+- subhead: SaaS
+  description: Software as a Service.
 contentBlockB_heading: What we will look for
-contentBlockB_description: This is a brief intro to the bullet points below
+contentBlockB_description: 'In order to review as many pitch decks as possible, please
+  keep it as short as possible (max. 10 slides) and include the following topics:'
 list_groupA:
 - subhead: Problem & Solution
   description: 
