@@ -18,21 +18,13 @@ list_groupA:
 - subhead: Problem & Solution
   description: 
 - subhead: Market & Competition
-  description: 
 - subhead: Product & Technology
-  description: 
 - subhead: Business Model
-  description: 
 - subhead: Growth Plan
-  description: 
 - subhead: Traction
-  description: 
 - subhead: Team
-  description: 
 - subhead: Financials
-  description: 
 - subhead: Funding
-  description: 
 contentBlockC_heading: We will not invest in
 contentBlockC_description: VentureBuilders does not invest in companies that are not
   scalable, have no customers, do not generate revenue or don't own core technology.
