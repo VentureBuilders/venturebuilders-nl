@@ -15,9 +15,9 @@ contentBlockB_heading: What we will look for
 contentBlockB_description: 'Please help us and keep it as short as possible (max.
   10 slides) and include the following topics in your business plan:'
 list_groupA:
-- subhead: Problem and Solution
-- subhead: Market and Competition
-- subhead: Product and Technology
+- subhead: Problem & Solution
+- subhead: Market & Competition
+- subhead: Product & Technology
 - subhead: Business Model
 - subhead: Growth Plan
 - subhead: Traction
