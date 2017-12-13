@@ -1,5 +1,6 @@
 ---
 title: Christiaan de Rijk
+published: false
 Position: Managing Director
 Venture: Case24
 Photo: "/uploads/christiaan-de-rijk.jpg"
