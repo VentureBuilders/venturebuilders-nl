@@ -20,7 +20,7 @@ We are a Amsterdam-based company builder and investment fund, with highly skille
 
 #### Your tasks will consist of:
 
-- Create content for our websites.
+- Create content for our websites/blogs.
 - Assist with the weekly/ad hoc reporting across marketing programs.
 - Conduct competitive analysis and present insights based on the findings.
 - Liaison with colleagues to facilitate multiple web projects.
