@@ -21,26 +21,30 @@ We are a Amsterdam-based company builder and investment fund, with highly skille
 
 #### Your tasks will consist of:
 
-- Editorial: you’ll write content/blogs and newsletters for our websites.
-- Research and link-building: searching new link partner websites.
-- Google Adwords en SEO: assist in setting up a range of search engine marketing campaigns.
-- Social Media: assist in setting up and carrying out social media campaigns.
-- Assist the customer service.
+- Create content for our websites.
+- Assist with the weekly/ad hoc reporting across marketing programs.
+- Conduct competitive analysis and present insights based on the findings.
+- Liaison with colleagues to facilitate multiple web projects.
+- Support the team on various strategic projects as needed.
 
 
 #### What are we looking for?
 
-- HBO education level minimum;
-- You are fluent in Dutch (and/or English, French, Italian or German) spoken and in writing;
-- You are comfortable using Microsoft Office (experience with Excel) and Google Docs;
-- You have great communication skills and a positive attitude;
-- You are capable of working independently;
-- You are available 5 days a week (full-time), for a minimum of 2,5 months.
+- HBO education level minimum
+- You are fluent in Dutch (and/or English, French, Italian, Spanish, Portuguese or German) spoken and in writing
+- You love writing / have strong creative writing skills
+- Passion for digital media, technology and marketing
+- Comfortable working autonomously, as well as the ability to contribute ideas, communicate effectively, and work well with a team
+- A distinct and original voice in your content
+- Attention to detail
+- Microsoft Office with competence in PowerPoint/Excel
+- Online media communications
+- You are available 5 days a week (full-time), for a minimum of 2,5 months
 
 
 #### Why you will love working for VentureBuilders?
 
-- Flexible hours
-- Daily lunch with a competition at table tennis.
-- Weekly drinks – yes we eat and drink together!
+- Informal atmosphere with young but skilled colleagues
+- Office based in Amsterdam (only 10 minutes from city centre by public transport)
+- Daily lunch with a competition at table tennis
 - Monthly game nights / team-building activities
