@@ -4,7 +4,7 @@ date: 2017-12-17 17:20:00 Z
 priority: 5
 Venture: VentureBuilders
 Location: Amsterdam
-type: Internship
+type: Intern
 contact: Chloe Witteveen
 email_address: chloe@venturebuilders.nl
 layout: vacancy
