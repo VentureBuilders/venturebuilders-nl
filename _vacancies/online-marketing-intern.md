@@ -21,7 +21,7 @@ layout: vacancy-applyr
 
 #### VentureBuilders
 
-We are an Amsterdam-based dynamic startup studio, with highly skilled and motivated people. We create a knowledge sharing culture, because together we grow faster. Our diverse and international team looks forward to welcoming new interns to work with on our online businesses.
+We are an Amsterdam-based dynamic company builder and investment fund, with highly skilled and motivated people. We create a knowledge sharing culture, because together we grow faster. Our diverse and international team looks forward to welcoming new interns to work with on our online businesses.
 
 
 #### Your tasks will consist of, among others:
@@ -36,7 +36,7 @@ We are an Amsterdam-based dynamic startup studio, with highly skilled and motiva
 #### What are we looking for?
 
 - HBO education level minimum;
-- You are fluent in Dutch and English, both spoken and in writing;
+- You are fluent in Dutch (and/or English, French, Italian or German) spoken and in writing;
 - You are comfortable using Microsoft Office (experience with Excel) and Google Docs;
 - You have great communication skills and a positive attitude;
 - You are capable of working independently;
