@@ -9,16 +9,16 @@ contact name: Nina Schaaper
 email_address: nina@venturebuilders.nl
 ---
 
-####Traveldeal
+#### Traveldeal
 Traveldeal.nl is een aanbiedingen site voor hotelovernachtingen en reizen. Als stagiair zul je in ons team een breed scala aan werkzaamheden krijgen. Verder krijg je veel vrijheid om ideeën te initiëren.
 
-####Wat ga je voor ons doen?
+#### Wat ga je voor ons doen?
 - Opstellen van de deals
 - Marketing analyse
 - Klantenservice
 - Contact met hotels en leveranciers
 
-####Wat verwachten wij van jou?
+#### Wat verwachten wij van jou?
 - Je hebt minimaal HBO denk en werkniveau
 - Perfecte beheersing van de Nederlandse Taal in woord en geschrift
 - Je houdt van schrijven
@@ -27,7 +27,7 @@ Traveldeal.nl is een aanbiedingen site voor hotelovernachtingen en reizen. Als s
 - Microsoft Office / Powerpoint / Excel
 
 
-Wat bieden wij?
+#### Wat bieden wij?
 - Een informele sfeer met jonge professionals
 - Dagelijkse lunch 
 - Wekelijkse borrels en strijd aan de tafeltennistafel
