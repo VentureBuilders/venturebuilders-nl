@@ -14,10 +14,10 @@ email_address: chloe@venturebuilders.nl
 #### Taken
 
 - Het werven van klanten per telefoon en e-mail
-- Het afhandelen van klant vragen
 - Administratieve werkzaamheden
 - Accountmanagement taken
 - Het opzetten, uitvoeren en rapporten van marketing acties
+- Klantenservice, contact met klanten 
 
 
 #### Wat we vragen
