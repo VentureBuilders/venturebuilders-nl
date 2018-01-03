@@ -30,7 +30,7 @@ VentureBuilders is een dynamische company builder in Amsterdam. Een snelkookpan 
 #### Wat verwachten wij van jou?
 
 - Uitstekende communicatieve vaardigheden (in woord en geschrift)
-- Uitstekende beheersing van de Nederlandse taal
+- Uitstekende beheersing van de Nederlandse en Engelse taal
 - Ervaring met Photoshop/ Illustrator is een vereiste, beheersing Sketch is een pré
 - Gedreven, doelgericht en op zoek naar een uitdaging
 - Positieve houding, energieke aanpak en zelfstandigheid zijn een pré
