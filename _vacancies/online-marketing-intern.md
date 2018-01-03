@@ -10,14 +10,14 @@ applyr_id: a371e008d8564c26a4db9e4a651f2513
 layout: vacancy-applyr
 ---
 
-##### Are you an enthusiastic Online Marketing student and do you want to contribute to one of our fast-growing companies?
+##### Are you an enthusiastic Online Marketing student, looking to contribute to one of our fast-growing companies?
 
 ##### Yes! We are looking for interns with the same drive and ambition as us. Let’s do this together!
 
 
 #### VentureBuilders
 
-We are a Amsterdam-based company builder and investment fund, with highly skilled and motivated people. Our diverse and international team looks forward meeting new interns. We'll share our knowledge and work together to make this a great experience for everyone!
+We are a Amsterdam-based company builder and investment fund, with highly skilled and motivated people. Our diverse and international team looks forward meeting new interns. We'll share our knowledge and we'll work together to make this a great experience for everyone!
 
 #### Your tasks will consist of:
 
@@ -34,7 +34,7 @@ We are a Amsterdam-based company builder and investment fund, with highly skille
 - You are fluent in Dutch (and/or English, French, Italian or German) spoken and in writing;
 - You are comfortable using Microsoft Office (experience with Excel) and Google Docs;
 - You have great communication skills and a positive attitude;
-- You are capable of working independently;
+- You are able to work independently;
 - You are available 5 days a week (full-time), for a minimum of 2,5 months.
 
 
