@@ -10,20 +10,20 @@ email_address: chloe@venturebuilders.nl
 
 #### Ja, jij!
 
-##### Jij hebt een passie voor design. Je weet wat je moet doen om het beste uit beeldmateriaal te halen. Zijn oma’s vakantiefoto’s mislukt, dan blijf jij net zo lang tweaken tot ze weer een lach op haar gezicht heeft. En dát kunnen wij wel gebruiken! Wil je HelloSpecial zien groeien en een mooie bijdrage leveren aan een jonge internet start-up? Lees dan snel verder en reageer!
+##### Jij hebt een passie voor design. Je weet wat je moet doen om het beste uit beeldmateriaal te halen. Zijn oma’s vakantiefoto’s mislukt, dan blijf jij net zo lang tweaken tot ze weer een lach op haar gezicht heeft. En dát kunnen wij wel gebruiken! Wil je een mooie bijdrage leveren aan  diverse projecten binnen VentureBuilders? Lees dan snel verder en reageer!
 
 
 #### VentureBuilders
 
-VentureBuilders is een dynamische startup studio in Amsterdam. Een snelkookpan met super gemotiveerde ondernemende mensen en een knowledge sharing cultuur om zo snel mogelijk te groeien. We hebben een divers en internationaal team dat met veel enthousiasme aan verschillende online bedrijven werkt.
+VentureBuilders is een dynamische company builder in Amsterdam. Een snelkookpan met super gemotiveerde ondernemende mensen en een knowledge sharing cultuur om zo snel mogelijk te groeien. We hebben een divers en internationaal team dat met veel enthousiasme aan verschillende online bedrijven werkt.
 
 
 #### Wat ga je voor ons doen?
 
-- Je ontwerpt uitingen voor advertenties & social media
-- Verbeteren van de website; focus op mobiel
+- Uitingen voor advertenties & social media ontwerpen
+- Websites verbeteren
 - Webdesign
-- Maakt en bewerkt beeldmateriaal en (product)foto’s
+- Maken en bewerken van beeldmateriaal en (product)foto’s
 - Overige design opdrachten
 
 
