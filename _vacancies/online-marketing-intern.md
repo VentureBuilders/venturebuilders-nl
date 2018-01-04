@@ -4,8 +4,8 @@ priority: 5
 Venture: VentureBuilders
 Location: Amsterdam
 type: Intern
-contact: Chloe Witteveen
-email_address: chloe@venturebuilders.nl
+contact: Nina Schaaper
+email_address: nina@venturebuilders.nl
 applyr_id: a371e008d8564c26a4db9e4a651f2513
 layout: vacancy-applyr
 ---
@@ -44,3 +44,7 @@ We are a Amsterdam-based company builder and investment fund, with highly skille
 - Daily lunch with a competition at table tennis.
 - Weekly drinks – yes we eat and drink together!
 - Monthly game nights / team-building activities
+
+#### Interested?
+
+Send your CV & motivation to nina@venturebuilders.nl or click on the button below to chat with us. 
