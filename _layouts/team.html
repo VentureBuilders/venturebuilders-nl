@@ -13,12 +13,14 @@ layout: page
             {% for mem in ven_team %}
                 {% assign memVenOnly = mem.Venture %}
                 {% assign memVenFirst = mem.Venture | first %}
-                {% if memVenFirst == ven or memVenOnly == ven %}
-                    <div class=" team-grid-item">
-                        <!-- <p>{{ mem.Venture | first }}</p> -->
-                        {% include team-profile.html member = mem show_social=false show_venture=true %}
-                    </div>
-                {% endif %}
+                {% unless mem.published == false %}
+                    {% if memVenFirst == ven or memVenOnly == ven %}
+                        <div class=" team-grid-item">
+                            <!-- <p>{{ mem.Venture | first }}</p> -->
+                            {% include team-profile.html member = mem show_social=false show_venture=true %}
+                        </div>
+                    {% endif %}
+                {% endunless %}
             {% endfor %}
 
         {% endfor %}
