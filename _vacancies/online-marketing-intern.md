@@ -3,7 +3,7 @@ title: Online Marketing Intern
 priority: 5
 Venture: VentureBuilders
 Location: Amsterdam
-type: Intern
+type: Internship
 contact: Nina Schaaper
 email_address: nina@venturebuilders.nl
 applyr_id: a371e008d8564c26a4db9e4a651f2513
