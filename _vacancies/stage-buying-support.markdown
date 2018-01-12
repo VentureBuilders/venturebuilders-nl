@@ -1,6 +1,12 @@
 ---
 title: Stage Buying Support
 date: 2018-01-12 13:34:00 Z
+priority: 6
+Venture: HelloSpecial
+Location: Amsterdam
+type: Internship
+contact name: Jos Verbeek
+email_address: jos@hellospecial.com
 ---
 
 #### Ja, jij!
