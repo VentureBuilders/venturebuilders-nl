@@ -4,8 +4,8 @@ priority: 5
 Venture: VentureBuilders
 Location: Amsterdam
 type: Internship
-contact: Chloe Witteveen
-email_address: chloe@venturebuilders.nl
+contact: Nina Schaaper
+email_address: nina@venturebuilders.nl
 ---
 
 #### Ja, jij!
