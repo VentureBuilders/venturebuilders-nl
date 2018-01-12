@@ -1,6 +1,5 @@
 ---
 title: PHP Developer
-published: false
 priority: 1
 Venture: VentureBuilders
 Location: Amsterdam
