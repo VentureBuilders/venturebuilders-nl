@@ -3,9 +3,9 @@ title: Sales en Online Marketing stage
 priority: 5
 Venture: VentureBuilders
 Location: Amsterdam
-type: Intern
-contact: Chloe Witteveen
-email_address: chloe@venturebuilders.nl
+type: Internship
+contact: Nina Schaaper
+email_address: nina@venturebuilders.nl
 ---
 
 ##### In deze uitdagende stage ben je verantwoordelijk voor de werving van nieuwe klanten. Dit doe je telefonisch, per e-mail en via social media. Je schrijft voorstellen voor nieuwe marketing acties, voert deze uit en rapporteert de resultaten aan je collega’s uit het team.
