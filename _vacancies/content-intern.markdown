@@ -1,10 +1,10 @@
 ---
-title: Content Intern
+title: Content Internship
 date: 2017-12-17 17:20:00 Z
 priority: 5
 Venture: VentureBuilders
 Location: Amsterdam
-type: Intern
+type: Internship
 contact: Nina Schaaper
 email_address: nina@venturebuilders.nl
 layout: vacancy
