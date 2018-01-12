@@ -3,7 +3,7 @@ title: Visual Design Stage
 priority: 5
 Venture: VentureBuilders
 Location: Amsterdam
-type: Intern
+type: Internship
 contact: Chloe Witteveen
 email_address: chloe@venturebuilders.nl
 ---
