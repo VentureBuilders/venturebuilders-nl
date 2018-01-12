@@ -1,7 +1,7 @@
 ---
 title: Stage Content Marketing
 date: 2018-01-02 15:22:00 Z
-priority: 5
+priority: 6
 Venture: Traveldeal
 Location: Amsterdam
 type: Internship
