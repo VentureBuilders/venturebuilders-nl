@@ -1,9 +1,8 @@
 ---
-title: Matthijs Bon (coming soon!)
+title: Matthijs Bon
 Position: PHP Developer
 Venture: HelloSpecial
-Photo: "/uploads/blank-gray.jpg"
-Photo2x: "/uploads/blank-gray@2x.jpg"
+Photo: "/uploads/matthijs-bon.jpg"
+Photo2x: "/uploads/matthijs-bon@2x.jpg"
 prio: 6
 ---
-

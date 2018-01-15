@@ -1,9 +1,8 @@
 ---
-title: Jos Verbeek (coming soon!)
+title: Jos Verbeek
 Position: Buying and Business Development
 Venture: HelloSpecial
-Photo: "/uploads/blank-gray.jpg"
-Photo2x: "/uploads/blank-gray@2x.jpg"
+Photo: "/uploads/jos-verbeek.jpg"
+Photo2x: "/uploads/jos-verbeek@2x.jpg"
 prio: 5
 ---
-
