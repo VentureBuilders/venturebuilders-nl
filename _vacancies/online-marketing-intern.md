@@ -7,7 +7,7 @@ type: Internship
 contact: Nina Schaaper
 email_address: nina@venturebuilders.nl
 applyr_id: a371e008d8564c26a4db9e4a651f2513
-layout: vacancy-applyr
+layout: vacancy
 ---
 
 ##### Are you an enthusiastic Online Marketing student, looking to contribute to one of our fast-growing companies?
