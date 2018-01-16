@@ -1,6 +1,5 @@
 ---
 title: Junior SEO Specialist
-published: false
 priority: 1
 Venture: VentureBuilders
 Location: Amsterdam
