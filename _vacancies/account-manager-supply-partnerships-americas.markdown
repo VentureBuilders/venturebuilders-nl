@@ -4,7 +4,7 @@ date: 2018-01-17 17:13:00 Z
 priority: 2
 Venture: Taxi2Airport
 Location: Amsterdam
-type: Fulltime
+type: Full-time
 contact: Chloe Witteveen
 email_address: chloe@venturebuilders.nl
 ---
