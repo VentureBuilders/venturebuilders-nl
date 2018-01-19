@@ -25,7 +25,7 @@ Staan een grote interesse in online media, passie voor e-commerce en teamwork bo
 * Je ontwerpt visuele uitingen en zet deze uit op de juiste kanalen 
 * Je adviseert en ondersteunt het continu verbeteren van onze communicatiemiddelen door nauw te schakelen met onze developers 
 * Je analyseert de team efforts en zorgt voor optimalisatie van de ingezette middelen 
-* Je inspireert, activeert en overtuigd met scherpe teksten en foutloos Nederlands 
+* Je inspireert, activeert en overtuigt met scherpe teksten en foutloos Nederlands 
 
 #### Wij zoeken iemand die
 * Een HBO/WO-opleiding heeft gevolgd in de richting van Marketing/Communicatie/Commerciële Economie 
