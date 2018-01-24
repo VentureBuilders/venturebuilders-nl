@@ -30,7 +30,7 @@ Story:
     modernization. Without the burden of a legacy platform, Dealroom’s mission is
     to transform the way Boardrooms and Investment Committees consume information
     and make strategic decisions, through easy to use but powerful data-driven software.
-quote: With the support form Venturebulders, Dealroom will accelerate the scaling
+quote: With the support from VentureBuilders, Dealroom will accelerate the scaling
   of its data platform and sales operations, while also investing in the value proposition.
 quote_cite: Yoram Wijngaarde, Founder & CEO
 ---
