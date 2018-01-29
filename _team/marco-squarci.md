@@ -1,6 +1,6 @@
 ---
 title: Marco Squarci
-Position: Sales & Marketing Intern
+Position: Sales & Marketing Manager
 Venture:
 - Dealroom
 Photo: "/uploads/marco-squarci.jpg"
