@@ -1,5 +1,5 @@
 ---
-title: Harold Mulder
+title: Herald Mulder
 Position: Sales Director
 Venture:
 - Contexta
