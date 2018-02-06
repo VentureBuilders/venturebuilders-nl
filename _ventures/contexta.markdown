@@ -10,7 +10,6 @@ Intro: Contexta combines state-of-the-art speech recognition with advanced Natur
   used to get valuable customer feedback and decrease operational cost significantly.
 Links:
 - www.contexta-solutions.io
-- www.amberscript.com
 Stats:
 - number: November 2016
   description: Founded
@@ -22,10 +21,7 @@ Story:
 - heading: About Our Growth
   description: Contexta B.V. is created in 2016 to reduce customer service cost significantly.
     Using advanced speech recognition, machine learning and text mining tools, Contexta
-    provides direct and actionable insights for companies. In addition to their proposal
-    for corporates, Contexta has developed a SaaS tool called AmberScript which allows
-    customers (e.g. lawyers, translators, journalists, student) to automatically transfer
-    audio into easily editable transcripts.
+    provides direct and actionable insights for companies.
 - heading: In the future
   description: In the near future Contexta aims to analyze customer service calls
     for a large part of the major players in the Netherlands. Thereby it has the ambition
@@ -37,4 +33,3 @@ quote: We think AI should not be about making jobs redundant, it should be about
   can focus on what’s important.
 quote_cite: Marc van der Peet, CEO
 ---
-
