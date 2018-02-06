@@ -1,6 +1,6 @@
 ---
 title: Jurre Immerzeel
-Position: Finance Intern
+Position: Finance employee
 Venture: VentureBuilders
 Photo: "/uploads/jurre-immerzeel.jpg"
 Photo2x: "/uploads/jurre-immerzeel@2x.jpg"
