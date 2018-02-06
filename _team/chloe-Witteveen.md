@@ -1,6 +1,6 @@
 ---
 title: Chloe Witteveen
-Position: Corporate Recruiter
+Position: Talent Agent
 Venture: VentureBuilders
 Photo: "/uploads/chloe-witteveen.jpg"
 Photo2x: "/uploads/chloe-witteveen@2x.jpg"
