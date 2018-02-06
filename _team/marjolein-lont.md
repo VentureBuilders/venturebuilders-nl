@@ -1,5 +1,6 @@
 ---
 title: Marjolein Lont
+published: false
 Position: Content Editor
 Venture:
 - Euroknaller
