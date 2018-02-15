@@ -26,6 +26,6 @@ Story:
     train stations, ports and hotel/accommodations.
 quote: With a user first approach, we are sure to offer the best choice for our customers
   and enable travel brands to effectively monetize the last step of every trip
-quote_cite: Carlos Pinto, CEO
+quote_cite: Gertjan van der Schaft, CEO
 ---
 
