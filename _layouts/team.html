@@ -1,5 +1,6 @@
 ---
 layout: page
+
 ---
 
 {% assign ventureArray = "VentureBuilders, Sleepdeal, Taxi2Airport, Case24, Offerte, HomeDeco, Applyr, Traveldeal, HelloSpecial, Dealroom, Euroknaller, Contexta, Amberscript, Consulto" | split: ", " %}
@@ -7,16 +8,15 @@ layout: page
 <div class="container">
 
     <div class="team-grid-container condense mb-3 mb-lg-5">
-        {% for ven in ventureArray %}
-            {% assign ven_team = site.team | where: "Venture", ven | sort: "prio" %}
-
+        {% for venture in page.teamOrder %}
+            {% assign ven_team = site.team | where: "Venture", venture | sort: "prio" %}
+            <!-- <p>{{ venture }}</p> -->
             {% for mem in ven_team %}
                 {% assign memVenOnly = mem.Venture %}
                 {% assign memVenFirst = mem.Venture | first %}
                 {% unless mem.published == false %}
                     {% if memVenFirst == ven or memVenOnly == ven %}
                         <div class=" team-grid-item">
-                            <!-- <p>{{ mem.Venture | first }}</p> -->
                             {% include team-profile.html member = mem show_social=false show_venture=true %}
                         </div>
                     {% endif %}
