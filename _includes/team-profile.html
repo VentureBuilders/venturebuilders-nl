@@ -26,12 +26,19 @@ member_social[1] - twitter
 
         {% if include.show_venture %}
             {% assign compFirst = company | first %}
+            {% assign posFirst = position | first %}
             {% if compFirst %}
             <p class="headline-variant small">{{ company | first }}</p>
-            <p class="mb-0">{{ position | first }}</p>
             {% else %}
             <p class="headline-variant small">{{ company }}</p>
             {% endif %}
+
+            {% if posFirst %}
+                <p class="mb-0">{{ position | last }}</p>
+            {% else %}
+                <p class="mb-0">{{ position }}</p>
+            {% endif %}
+            
         {% else %}
             {% assign posFirst = position | first %}
             {% if posFirst %}
