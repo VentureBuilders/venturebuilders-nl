@@ -7,3 +7,4 @@ Photo: "/uploads/daniel-spoor.jpg"
 Photo2x: "/uploads/daniel-spoor@2x.jpg"
 prio: 1
 ---
+
