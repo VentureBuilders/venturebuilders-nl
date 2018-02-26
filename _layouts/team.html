@@ -2,24 +2,35 @@
 layout: page
 ---
 
-{% assign ventureArray = "VentureBuilders, Sleepdeal, Taxi2Airport, Case24, Offerte, HomeDeco, Applyr, Traveldeal, HelloSpecial, Dealroom, Euroknaller, Contexta, Amberscript, Consulto" | split: ", " %}
 
 <div class="container">
 
     <div class="team-grid-container condense mb-3 mb-lg-5">
+
         {% for venture in page.teamOrder %}
-            {% assign ven_team = site.team | where: "Venture", venture | sort: "prio" %}
-            <!-- <p>{{ venture }}</p> -->
+
+            {% assign ven_team = site.team | where: "Venture", venture | uniq | sort: "prio" %}
+            <!-- {% assign ven_team2 = site.team | uniq %} -->
+
             {% for mem in ven_team %}
-                {% assign memVenOnly = mem.Venture %}
-                {% assign memVenFirst = mem.Venture | first %}
                 {% unless mem.published == false %}
-                    {% if memVenFirst == ven or memVenOnly == ven %}
-                        <div class=" team-grid-item">
-                            {% include team-profile.html member = mem show_social=false show_venture=true %}
-                        </div>
+                    {% if venture == "Taxi2Airport" and mem.title == "Yoon Sterkenburg" %}
+                        {% continue %}
                     {% endif %}
+
+                    {% assign fVen = mem.Venture[0] %}
+                    {% assign fPos = mem.Position[0] %}
+
+                    <div class=" team-grid-item">
+                        <p>{{ mPosSize }}</p>
+                        {% if mem.Position.size == 2 %}
+                            {% include team-profile.html member=mem memberName=mem.title memberVenture=fVen memberPosition=fPos %}
+                        {% else %}
+                            {% include team-profile.html member=mem memberName=mem.title memberVenture=fVen memberPosition=mem.Position %}
+                        {% endif %}
+                    </div>
                 {% endunless %}
+
             {% endfor %}
 
         {% endfor %}
