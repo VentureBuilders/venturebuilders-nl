@@ -58,10 +58,16 @@ layout: global
 
                 {% assign team = site.team | where: 'Venture', page.title | sort: 'prio' %}
                 {% for member in team %}
+                    {% assign sPos = member.Position[1] %}
+
                     {% unless member.published == false %}
                         {% if member.Venture contains page.title %}
                         <div class="team-grid-item">
-                            {% include team-profile.html member = member show_social=true show_venture=false %}
+                            {% if member.Position.size == 2 %}
+                                {% include team-profile.html member = member memberName = member.title memberPosition = sPos show_venture=false %}
+                            {% else %}
+                                {% include team-profile.html member = member memberName = member.title memberPosition = member.Position show_venture=false %}
+                            {% endif %}
                         </div>
                         {% endif %}
                     {% endunless %}
