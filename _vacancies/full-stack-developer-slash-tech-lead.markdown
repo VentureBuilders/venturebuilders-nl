@@ -15,13 +15,17 @@ Our self-developed AI speech to text engine obtains the best results in the mark
 
 In order to make text 100% right, we are currently optimizing our web-based text editor. Our challenge is to make it user-friendly, full of handy features and high performance. We are also looking at options to expand our product portfolio to other use cases of speech to text.
 
-Currently, we are looking for a VP of engineering that can help us stabilize our product, scale it for growth and expand its features. Preferably you fit the following profile:
+Currently, we are looking for a full-stack developer/tech lead that can help us stabilize our product, scale it for growth and expand its features. Preferably you fit the following profile:
 
--	You have 2+ years of experience using React/HTML5/CSS3. Experience with Angular is a plus 
--	Preferably you have some Java back-end experience, not a must 
--	You have a strong motivation to drive impact by making product improvements 
--	You are proactive, good in communicating in English and a fast learner 
--	You are able to work in Amsterdam (or willing to move)
+* You have 2\+ years of experience using React/HTML5/CSS3. Experience with Angular is a plus
+
+* Preferably you have some Java back-end experience, not a must
+
+* You have a strong motivation to drive impact by making product improvements
+
+* You are proactive, good in communicating in English and a fast learner
+
+* You are able to work in Amsterdam (or willing to move)
 
 We offer you the chance to work in a team of passionate and driven people who work on cutting-edge technology. You will be the one leading the technical side of the team (not including the speech to text engine itself) and will effectively function as the technical co-founder. We are flexible when it comes to working hours, we work and party hard and are passionate about what we do: change the world of transcription services. We are based in a great accelerator in Amsterdam.
 
