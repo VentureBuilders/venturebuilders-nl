@@ -1,6 +1,6 @@
 ---
 title: Ahnjili ZhuParris
-Position: Data Analyst Intern
+Position: Junior Data Analyst
 Venture:
 - VentureBuilders
 Photo: "/uploads/ahnjili-zhuparris.jpg"
