@@ -1,7 +1,7 @@
 ---
 title: Sales Stage
 date: 2018-01-12 11:02:00 Z
-priority: 15
+priority: 16
 Venture: Traveldeal
 Location: Amsterdam
 type: Internship
