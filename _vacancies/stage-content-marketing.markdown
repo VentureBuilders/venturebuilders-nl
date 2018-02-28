@@ -1,7 +1,7 @@
 ---
 title: Stage Content Marketing
 date: 2017-11-08 15:28:00 Z
-priority: 6
+priority: 15
 Venture: HelloSpecial
 Location: Amsterdam
 type: Internship
