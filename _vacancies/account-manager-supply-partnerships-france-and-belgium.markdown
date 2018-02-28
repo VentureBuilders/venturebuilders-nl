@@ -1,7 +1,7 @@
 ---
 title: Account Manager – Supply partnerships France and Belgium
 date: 2018-01-18 11:55:00 Z
-priority: 2
+priority: 13
 Venture: Taxi2Airport
 Location: Amsterdam
 type: Full-time
