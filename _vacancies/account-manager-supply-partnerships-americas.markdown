@@ -2,7 +2,7 @@
 title: Account Manager - Supply partnerships Americas
 date: 2018-01-17 17:13:00 Z
 published: false
-priority: 2
+priority: 13
 Venture: Taxi2Airport
 Location: Amsterdam
 type: Full-time
