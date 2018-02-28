@@ -1,7 +1,7 @@
 ---
 title: Stage Buying Support
 date: 2018-01-12 13:34:00 Z
-priority: 6
+priority: 15
 Venture: HelloSpecial
 Location: Amsterdam
 type: Internship
