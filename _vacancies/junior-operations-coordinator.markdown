@@ -1,7 +1,7 @@
 ---
 title: Junior Operations Coordinator
 date: 2018-02-26 16:29:00 Z
-priority: 2
+priority: 9
 Venture: HelloSpecial
 Location: Amsterdam
 type: Full-time
