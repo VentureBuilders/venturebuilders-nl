@@ -1,7 +1,7 @@
 ---
 title: Content Manager
 date: 2018-01-18 11:19:00 Z
-priority: 2
+priority: 7
 Venture: Euroknaller
 Location: Amsterdam
 type: Full-time
