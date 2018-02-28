@@ -1,7 +1,7 @@
 ---
 title: Software developer
 date: 2018-02-05 13:10:00 Z
-priority: 3
+priority: 6
 Venture: Dealroom
 Location: Amsterdam
 type: Full-time
