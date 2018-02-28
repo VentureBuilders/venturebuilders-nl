@@ -2,7 +2,7 @@
 title: Account Manager – Supply partnerships Southern Europe
 date: 2018-01-18 12:15:00 Z
 published: false
-priority: 2
+priority: 13
 Venture: Taxi2Airport
 Location: Amsterdam
 type: Full-time
