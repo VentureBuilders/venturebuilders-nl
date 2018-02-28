@@ -1,7 +1,7 @@
 ---
 title: Content Internship
 date: 2017-12-17 17:20:00 Z
-priority: 5
+priority: 15
 Venture: VentureBuilders
 Location: Amsterdam
 type: Internship
