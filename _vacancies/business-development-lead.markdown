@@ -1,7 +1,7 @@
 ---
 title: Business Development Lead
 date: 2018-02-06 13:11:00 Z
-priority: 3
+priority: 6
 Venture: Dealroom
 Location: Amsterdam
 type: Full-time
