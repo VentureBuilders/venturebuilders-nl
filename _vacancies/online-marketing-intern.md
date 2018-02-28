@@ -1,6 +1,6 @@
 ---
 title: Online Marketing Intern
-priority: 5
+priority: 15
 Venture: VentureBuilders
 Location: Amsterdam
 type: Internship
