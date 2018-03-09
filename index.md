@@ -8,7 +8,7 @@ feature_group:
   description: Leveraging our successful track record, we start and build market leading
     companies from scratch.
   cta: Our Ventures
-  cta_ref: "/contact-us/"
+  cta_ref: "/ventures/"
 - subhead: Investment
   image: icon-circles.svg
   description: Through our venture funds we invest in talented individuals and help
