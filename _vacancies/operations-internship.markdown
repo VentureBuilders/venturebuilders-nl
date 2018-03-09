@@ -2,6 +2,12 @@
 title: Operations Internship
 date: 2018-03-09 15:12:00 Z
 Field name: 
+priority: 3
+Venture: Amberscript
+Location: Amsterdam
+type: Internship
+contact: Nina Schaaper
+email_address: nina@venturebuilders.nl
 ---
 
 We are AmberScript, a young startup based in Amsterdam. We are building SaaS software that enables users to automatically transcribe audio into text using speech recognition. AI / algorithms and our own web text editor to bring it to 100% accuracy. We help users to avoid the costs and pain of manually transcribing their interviews, meetings, or other audio.
