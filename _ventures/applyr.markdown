@@ -1,6 +1,7 @@
 ---
 title: Applyr
 date: 2017-09-04 12:01:00 Z
+published: false
 class_name: applyr
 prio: 2
 Intro: Recruitment in 2017 is terribly inefficient. Applyr is developing an AI-powered
