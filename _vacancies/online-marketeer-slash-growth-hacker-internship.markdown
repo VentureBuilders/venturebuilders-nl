@@ -9,7 +9,7 @@ contact: Nina Schaaper
 email_address: nina@venturebuilders.nl
 ---
 
-We are AmberScript, a young startup based in Amsterdam. We are building SaaS software that enables users to automatically transcribe audio into text using speech recognition. AI / algorithms and our own web text editor to bring it to 100% accuracy. We help users to avoid the costs and pain of manually transcribing their interviews, meetings, or other audio.
+We are **AmberScript**, a young startup based in Amsterdam. We are building SaaS software that enables users to automatically transcribe audio into text using speech recognition. AI / algorithms and our own web text editor to bring it to 100% accuracy. We help users to avoid the costs and pain of manually transcribing their interviews, meetings, or other audio.
 
 Our self-developed AI speech to text engine obtains the best results in the market, as proven by independent tests in the media. Our product is being used by 1.500 journalists, scientists, students, doctors and lawyers.
 
