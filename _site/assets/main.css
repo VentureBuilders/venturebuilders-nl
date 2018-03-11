@@ -5958,7 +5958,7 @@ ul > li {
 .vacancy-title {
   font-weight: 700;
   margin-bottom: 1rem;
-  font-size: 1.25rem; }
+  line-height: 1.2; }
 
 .vacancy-meta {
   display: flex;
