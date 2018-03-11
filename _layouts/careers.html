@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<section class="container careers-photos-large">
+<!-- <section class="container careers-photos-large">
     <div class="row mb-1">
         <div class="col">
             {% include img_resp.html src_large="../assets/img/career-banner@2x.jpg" src_sm="../assets/img/career-banner-sm.jpg" %}
@@ -10,11 +10,9 @@ layout: page
     </div>
 </section>
 
-{% include feature-blocks.html content=page.feature_blocks heading=page.feature_block_heading %}
+{% include feature-blocks.html content=page.feature_blocks heading=page.feature_block_heading %} -->
 
-<section class="py-2">
-    {% include feature-group.html subhead=page.feature_group_heading left=true content=page.feature_group %}
-</section>
+
 
 <section class="container careers-photos-small">
     <div class="row mb-4">
@@ -22,6 +20,10 @@ layout: page
         {% include img_resp.html src_large="../assets/img/career-photo-strip@2x.jpg" src_sm="../assets/img/career-photo-strip-sm.jpg" %}
         </div>
     </div>
+</section>
+
+<section class="py-2">
+    {% include feature-group.html subhead=page.feature_group_heading center=true content=page.feature_group %}
 </section>
 
 <section class="container-fluid careers-positions py-3 bg-light">
