@@ -1,6 +1,5 @@
 ---
 title: VentureBuilders
-url: https://venturebuilders.nl
 timezone: UTC
 collections:
   posts:
@@ -41,8 +40,9 @@ defaults:
   values:
     Position: ''
     Venture: ''
-    linkedin:
-    twitter:
+    linkedin: 
+    twitter: 
+url: https://venturebuilders.nl
 permalink: date
 author: VentureBuilders
 email: info@venturebuilders.nl
