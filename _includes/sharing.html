@@ -1,0 +1,28 @@
+
+<div class="sharing-widget">
+
+<p>Share on: &nbsp;
+
+{% if include.twitter %}
+<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" title="Share on Twitter" target="_blank">
+    <img class="icon-share" src="{{ relative_url }}/assets/img/icons/social/twitter.svg" alt="Twitter">
+</a>
+{% endif %}
+
+{% if include.linkedin %}
+<a href="http://www.linkedin.com/shareArticle?mini=true&url={{ page.url }}&title={{ page.title }}&summary={{page.excertp}}&source={{site.url}}" title="Share on LinkedIn" target="_blank">
+    <img class="icon-share" src="{{ relative_url }}/assets/img/icons/social/linkedin.svg" alt="LinkedIn">
+</a>
+{% endif %}
+
+{% if include.facebook %}
+<!-- <a href="http://www.facebook.com/sharer.php?u={{ page.url }}&display=popup&p[title]={{ page.title }}" target="_blank">Facebook</a> -->
+<a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">
+    <img class="icon-share" src="{{ relative_url }}/assets/img/icons/social/facebook.svg" alt="Facebook">
+</a>
+
+{% endif %}
+
+</p>
+
+</div>

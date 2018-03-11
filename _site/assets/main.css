@@ -6066,3 +6066,17 @@ ul > li {
   @media (min-width: 992px) {
     .company-stat h1 {
       font-size: 4rem; } }
+
+.icon-share {
+  display: inline-block;
+  height: 2.5em;
+  width: auto;
+  margin-right: 1em;
+  border: solid 1px #E6E6E6;
+  border-radius: 2px; }
+  .icon-share:hover {
+    border-color: #009999; }
+
+.sharing-widget {
+  padding-top: 1em;
+  padding-bottom: 1em; }

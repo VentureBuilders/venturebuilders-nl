@@ -8,6 +8,9 @@ layout: global
         <div class="col col-lg-7 col-xl-6 mx-auto border-b-light">
             <h2 class="display-2 headline-variant mb-1 mb-lg-2">{{ page.title | escape }}</h2>
             <h5 class="display-5 mb-1">{{ page.date | date: "%d %b, %Y" }}</h5>
+            {% if page.share %}
+                {% include sharing.html twitter=true linkedin=true facebook=true %}
+            {% endif %}
         </div>
     </header>
 
@@ -15,6 +18,10 @@ layout: global
 
         <div class="col-9 col-lg-7 col-xl-6 mx-auto">
             {{ content }}
+
+            {% if page.share %}
+                {% include sharing.html twitter=true linkedin=true facebook=true %}
+            {% endif %}
         </div>
     </main>
 

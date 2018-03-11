@@ -1,0 +1,17 @@
+.icon-share {
+    display: inline-block;
+    height: 2.5em;
+    width: auto;
+    margin-right: 1em;
+    border: solid 1px $gray-mid;
+    border-radius: 2px;
+
+    &:hover {
+        border-color: $green-dark;
+    }
+}
+
+.sharing-widget {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
