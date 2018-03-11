@@ -1,5 +1,6 @@
 ---
 title: PHP Developer
+permalink: venturebuilders/php-developer
 priority: 2
 Venture: VentureBuilders
 Location: Amsterdam
