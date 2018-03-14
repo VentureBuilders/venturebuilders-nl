@@ -9,84 +9,46 @@ contact: Chloe Witteveen
 email_address: Chloe@venturebuilders.nl
 ---
 
-Traveldeal is seeking a junior email marketeer that can help us grow our email marketing efforts to the next level. We offer daily hotel, travel and experience orientated deals and
-grow rapidly in the Netherlands and Belgium. Moreover, we are on the verge of expanding internationally, while keeping our systems and team in line to scale with a strong foundation. Are you ready to be part of an international travel company and deliver your part in our overall growth?
+Traveldeal en Euroknaller zoeken een junior e-mail marketeer die hen kan helpen om de e-mail marketing naar het volgende niveau te tillen. De groeiende website Traveldeal vindt dagelijks de leukste en beste reisdeals voor de klant, van de mooiste hotels op onbekende locaties tot all-inclusive stedentrips. Traveldeal is momenteel actief in Nederland en België en staat op het punt om verder internationaal uit te breiden.
 
-**When you are not travelling, this is what you will do**
-**Within 1 month, you will...**
+Daarnaast ga je ook werken voor de dagdealsite Euroknaller. Euroknaller is momenteel in Nederland en België actief en geeft dagelijks tot 80% korting op alledaagse producten, van high-end elektronica tot huis- en tuinartikelen. Ben jij de e-mailmarketeer die deze bedrijven met hun groei gaat helpen? 
 
-* Coordinate and create newsletter campaigns that convert well in matter of engagement among different customer segments.
 
-* Deliver newsletter campaigns that comply with our deadline.
+**In jouw eerste maand:**
+* Leer je alle ins en outs van verschillende ESP’s
+* Coördineer en creëer je engaging nieuwsbrieven en rapporteer je de resultaten
+* Analyseer je de huidige nieuwsbrieven en zoek je naar kansen voor nieuwe campagnes
+* Werk je samen met diverse stakeholders om de merkwaarden van beide bedrijven in jouw e-mailcampagnes terug te laten komen
+* Controleer je de e-maildatabase, regel je dat iedereen goed aangeschreven wordt en zorg je dat de e-mailfrequentie bij de behoeften van de klant past
 
-* Collaborate with stakeholders to ensure that our brand values are embedded in email communications.
+**In de eerste 3 maanden:**
+* Verbeter je onze KPI’s door onze e-mails nog persoonlijker te maken
+* Denk je mee over de e-mail journeys die de klanten doorlopen
+* Optimaliseer je onze e-mailcampagnes middels A/B tests
+* Verzin en creëer je treffende manieren om nieuwe e-mail inschrijvingen te bemachtigen
+* Analyseer en beheer je de prospect wervingscampagnes van onze partners
 
-* Provide support in keeping our email database clean and actionable.
-
-**Within 3 months, you will:**
-
-* Create lead capture forms and landing pages to support acquisition and demand generation programs, to successfully reach new customers and expand revenue growth within existing customer base.
-
-* Improve our KPI’s by applying personalization to our email marketing efforts.
-
-* Improve our email journeys from the moment they sign-up for a newsletter to the journeys that welcome the customer back home after a pleasant trip.
-
-* A/B test email content to optimize our copy and visuals.
-
-* Optimize the cross-device email experience by promoting a mobile-first approach.
-
-* Ensure that all our email efforts comply with email, privacy and claim related laws.
-
-* Analyze and manage the performance of and contact with lead generation partners
-
-**Within 6 months, you will:**
-
-* Take ownership in creating triggered and batched campaigns for lead gen/nurture and visitor acquisition and retention.
-
-* Act as an advocate of customer email marketing experience, monitoring overall email volumes, list fatigue, subscription preferences and promoting consistent, cohesive conversations from a marketing automation perspective
-
-* Work with the marketing and sales teams to optimize the lead scoring programs and manage e-ngine/Copernica marketing campaign setup or similar
-
-* Create meaningful database segmentation so we can tailor campaign and program messages for targeted audiences across specific market segments, industries and roles.
-
-* Structure, collect, and visualize campaign and marketing data to support decision-making processes; work with appropriate marketing stakeholders to ensure accountability
-
-**You have…**
-
-* 1-3 years experience in email marketing
-
-* Good understanding of marketing automation
-
-* Fluent in English
-
-* Can produce scalable  html code
-
-* Pro-active attitude that is willing to go the extra mile.
-
-**Pro’s…**
-
-* Have experience with Copernica
-
-* Flexibel and independent work-attitude
-
-* Tough leader in email marketing
-
-* Are in a good mood, even on Monday mornings
-
-**We offer**
-
-* A market conform salary
-
-* 25 holidays a year
-
-* A vibrant and growing team that is eager to accomplish international growth
-
-* Freedom and responsibility are at the core of our company culture
-
-* Employee discount on our offers
-
-* Daily fresh lunches
-
-* Amsterdam office
-
-* Regular drinks and once a month a big event.
+**In de eerste 6 maanden:**
+* Toon je eigenaarschap voor alle prospect wervingscampagnes en de ROI hiervan
+* Ben je verantwoordelijk voor de nieuwsbrieven van de merken Traveldeal en Euroknaller, monitor je de volumes, activiteit en de voorkeuren van de klant
+* Ontwikkel je logische segmenten voor persoonlijke campagnes
+* Geef je onderbouwde adviezen aan de hand van de beschikbare data
+ 
+**Waar beschik je over**
+* HBO/WO werk- en denkniveau
+* 1-3 jaar ervaring met e-mail marketing
+* Je kunt HTML code lezen en schrijven
+* Een proactieve, zelfstandige en flexibele houding
+* Communicatieve vaardigheden en een goede beheersing van de Nederlandse en Engelse taal
+* Ervaring met Copernica is een pré
+* Een goed humeur, zelfs op maandagochtend
+ 
+**Wij bieden:**
+* Een marktconform salaris
+* Een werkplek in Amsterdam
+* 25 vakantiedagen per jaar
+* Personeelskorting op onze aanbiedingen
+* Persoonlijke begeleiding door professionals
+* Vrijheid en verantwoordelijkheid: jij kunt echt het verschil maken
+* Een plek in een team met ambitieuze, resultaat gedreven collega’s bij twee innovatieve en groeiende bedrijven
+* Elke dag een verse lunch, wekelijkse borrels en elke maand een groot event
