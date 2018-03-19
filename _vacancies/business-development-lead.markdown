@@ -54,6 +54,4 @@ We are looking for a highly driven individual in B2B Sales. As Business Developm
 
 * Exciting technology stack: combining SaaS, big data, machine learning, user-generated content, data visualisation
 
-**Application deadline:** 28/02/2018
-
 **Start Date:** ASAP
