@@ -5,6 +5,6 @@ Position: Design Intern
 Venture: VentureBuilders
 Photo: "/uploads/Laura.jpg"
 Photo2x: "/uploads/Laura@2x.jpg"
-prio: 4
+prio: 5
 ---
 
