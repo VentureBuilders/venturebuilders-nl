@@ -5,7 +5,7 @@ published: false
 Position: Full-stack developer
 Venture: VentureBuilders
 Photo: "/uploads/luca-soriano.jpg"
-Photo2x: 
+Photo2x: luca-soriano@2x.jpg
 prio: 3
 ---
 
