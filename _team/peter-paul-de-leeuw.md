@@ -1,6 +1,6 @@
 ---
 title: Peter-Paul de Leeuw
-Position: Co-founder & CEO
+Position: CEO
 Venture:
 - Amberscript
 Photo: "/uploads/peter-paul-de-leeuw.jpg"
