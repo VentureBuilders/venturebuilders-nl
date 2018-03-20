@@ -1,5 +1,6 @@
 ---
 title: Steve Parkins
+published: false
 Position: CEO
 Venture:
 - Applyr
