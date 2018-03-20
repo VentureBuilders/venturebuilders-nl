@@ -5,6 +5,6 @@ Position: 'Design Intern '
 Venture: VentureBuilders
 Photo: "/uploads/chris-haakman.jpg"
 Photo2x: "/uploads/chris-haakman@2x.jpg"
-prio: 4
+prio: 5
 ---
 
