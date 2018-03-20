@@ -1,5 +1,6 @@
 ---
 title: Susanne Ströer
+published: false
 Position: Online Marketing Intern
 Venture:
 - Offerte
