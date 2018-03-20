@@ -3,8 +3,8 @@ title: Herald Mulder
 Position: Sales Director
 Venture:
 - Contexta
-Photo: "/uploads/harold-mulder.jpg"
-Photo2x: "/uploads/harold-mulder@2x.jpg"
+Photo: "/uploads/Herald%20Mulder.png"
+Photo2x: "/uploads/Herald%20Mulder@2x.png"
 prio: 5
 ---
 
