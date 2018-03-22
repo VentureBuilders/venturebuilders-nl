@@ -1,5 +1,6 @@
 ---
 title: Pascal Veenhof
+published: false
 Position: Content Editor
 Venture:
 - Euroknaller
