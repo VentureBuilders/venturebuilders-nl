@@ -1,6 +1,7 @@
 ---
 title: Full-stack developer / tech lead
 date: 2018-02-21 15:11:00 Z
+published: false
 priority: 3
 Venture: Amberscript
 Location: Amsterdam
