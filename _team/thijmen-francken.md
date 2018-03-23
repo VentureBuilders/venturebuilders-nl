@@ -5,6 +5,6 @@ Venture:
 - VentureBuilders
 Photo: "/uploads/thijmen-francken.jpg"
 Photo2x: "/uploads/thijmen-francken@2x.jpg"
-prio: 4
+prio: 3
 ---
 
