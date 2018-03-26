@@ -9,24 +9,38 @@ contact: Chloe Witteveen
 email_address: chloe@venturebuilders.nl
 ---
 
-Wij zijn op zoek naar een ervaren boekhouder /  administratief medewerker. 
+VentureBuilders is een jonge participatiemaatschappij met een groot aantal snel groeiende deelnemingen. 
+ 
 
-Het zelfstandig opstellen en voorbereiden van jaarrekening en aangiftes is voor jou geen probleem. Je wilt graag de verantwoordelijkheid nemen om zorg te dragen over de volledige administratie / boekhouding van het bedrijf en die aan het eind van het jaar netjes af te sluiten.
+De administratie van de 15 deelnemingen en 35 holdings binnen onze groep wordt momenteel geleid middels een gecentraliseerde financiële afdeling en gecontroleerd door een extern administratiekantoor. 
 
-Het gaat om een brede functie bij verschillende deelnemingen van VentureBuilders. De organisatie heeft meer dan 10 deelnemingen waarbij je werkzaam zult zijn op 1 centrale financiële afdeling. De bedrijven waarvoor je werkzaam zult zijn variëren van Bedden.nl tot Offerte.nl en van Euroknaller.nl tot Case24. Je zult nauw samenwerken met stagiairs en overige finance medewerkers. Je rapporteert aan het management en de Head of Finance.
 
-**Taken en verantwoordelijkheden:**
-* Het bijhouden en / of controleren van de administraties van de verschillende deelnemingen;
-* Het samenstellen van de jaarrekening;
-* Het opstellen van de aangiftes (OB, IB en VPB);
-* Het ondersteunen bij overige administratieve werkzaamheden. 
+Wij zijn op zoek naar een full-time ervaren boekhouder / accountant die de administratie en fiscale aangiftes van de bestaande en nieuwe VentureBuilders entiteiten zelfstandig kan verzorgen (zonder toepassing van een extern administratiekantoor). Je vindt het leuk om met jonge mensen te werken en leiding te geven aan een klein team van administratie stagiairs. Je rapporteert direct aan de directie en Head of Finance van VentureBuilders.
 
-**Functieprofiel:**
+ 
+
+**Taken en verantwoordelijkheden:** 
+
+* Het bijhouden en/of controleren van administraties;
+
+* Het samenstellen van de jaarrekeningen;
+
+* Het opstellen van de fiscale aangiftes (OB, IB en VPB).
+
+ 
+
+**Functieprofiel:** 
+
 * Minimaal 5 jaar relevante werkervaring;
-* Een afgeronde opleiding Accountancy, Bedrijfseconomie of iets soortgelijks;
-* Kennis van Exact Online is een pré;
-* Goed overweg kunnen met Excel, Google sheets en overige relevante computersoftware 
-* Zelfstandig kunnen opstellen van jaarrekeningen en aangiftes;
-* Nauwkeurig kunnen werken;
-* Flexibel zijn en snel kunnen schakelen met interne en externe betrokkenen.
-* Ambitie hebben om mee te groeien met deze snelgroeiende bedrijven
+
+* Een afgeronde opleiding Accountancy, Bedrijfseconomie of soortgelijke opleiding;
+
+* Uitstekende beheersing van Exact Online en MS Office;
+
+* Zelfstandig kunnen opstellen van jaarrekeningen en fiscale aangiftes;
+
+* Nauwkeurig, flexibel en ambitie om mee te groeien met onze snelgroeiende en jonge organisatie.
+
+ 
+
+Wij bieden een informele en dynamische werkomgeving, een marktconform salaris en bonusregeling.
