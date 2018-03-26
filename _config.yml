@@ -46,7 +46,7 @@ defaults:
     type: team
   values:
     Position: ''
-    Venture: [""]
+    Venture: VentureBuilders
     Photo: ""
     Photo2x: ""
     prio: 7
