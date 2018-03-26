@@ -9,7 +9,6 @@ layout: page
         {% for venture in page.teamOrder %}
 
             {% assign ven_team = site.team | where: "Venture", venture | sort: "prio" %}
-            <!-- {% assign ven_team2 = site.team | uniq %} -->
 
             {% for mem in ven_team %}
                 {% unless mem.published == false %}
