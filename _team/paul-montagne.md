@@ -1,6 +1,6 @@
 ---
 title: Paul Montagne
-Position: CEO
+Position: Managing Partner
 Venture:
 - VentureBuilders
 Photo: "/uploads/paul-montagne.jpg"
