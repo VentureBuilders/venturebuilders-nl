@@ -15,10 +15,18 @@ collections:
     title: Vacancies
     output: true
     permalink: "/:collection/:name"
+    values:
+      priority: 1
+      Venture: VentureBuilders
+      Location: Amsterdam
+      type: Full-time
+      contact: Nina Schaaper
+      email_address: nina@venturebuilders.nl
   ventures:
     title: Ventures
     output: true
     permalink: "/:collection/:name"
+
 defaults:
 - scope:
     path: assets/img
@@ -40,8 +48,8 @@ defaults:
   values:
     Position: ''
     Venture: ''
-    linkedin: 
-    twitter: 
+    linkedin:
+    twitter:
 url: https://venturebuilders.nl
 permalink: date
 author: VentureBuilders

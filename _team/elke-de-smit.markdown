@@ -6,6 +6,5 @@ Venture:
 - Fashiolista
 Photo: "/uploads/elke-de-smit.jpg"
 Photo2x: "/uploads/elke-de-smit@2x.jpg"
-Prio: 3
+prio: 3
 ---
-

@@ -1,7 +1,7 @@
 ---
 title: Traineeship Online Marketing
 date: 2018-02-28 13:11:00 Z
-Priority: 2
+priority: 2
 Venture: VentureBuilders
 Location: Amsterdam
 type: Full-time
