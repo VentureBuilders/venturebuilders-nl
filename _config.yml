@@ -26,7 +26,6 @@ collections:
     title: Ventures
     output: true
     permalink: "/:collection/:name"
-
 defaults:
 - scope:
     path: assets/img
@@ -48,8 +47,8 @@ defaults:
   values:
     Position: ''
     Venture: ''
-    linkedin:
-    twitter:
+    linkedin: 
+    twitter: 
 url: https://venturebuilders.nl
 permalink: date
 author: VentureBuilders
