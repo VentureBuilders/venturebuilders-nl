@@ -1,6 +1,6 @@
 ---
 title: Diederik Ingen Housz
-Position: CFO
+Position: Partner
 Venture:
 - VentureBuilders
 Photo: "/uploads/diederik-ingen-housz.jpg"
