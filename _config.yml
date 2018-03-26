@@ -46,9 +46,10 @@ defaults:
     type: team
   values:
     Position: ''
-    Venture: [""]
-    Photo: ""
-    Photo2x: ""
+    Venture:
+    - ''
+    Photo: ''
+    Photo2x: ''
     prio: 7
 url: https://venturebuilders.nl
 permalink: date
