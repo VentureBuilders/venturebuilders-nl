@@ -34,13 +34,12 @@ defaults:
     type: vacancies
   values:
     layout: vacancy
-    values:
-      priority: 1
-      Venture: VentureBuilders
-      Location: Amsterdam
-      type: Full-time
-      contact: Nina Schaaper
-      email_address: nina@venturebuilders.nl
+    priority: 1
+    Venture: VentureBuilders
+    Location: Amsterdam
+    type: Full-time
+    contact: Nina Schaaper
+    email_address: nina@venturebuilders.nl
 - scope:
     path: ''
     type: team
