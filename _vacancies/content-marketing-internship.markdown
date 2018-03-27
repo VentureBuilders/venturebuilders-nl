@@ -1,6 +1,6 @@
 ---
 title: Content Marketing Internship
-date: 2018-03-27 11:59:00 Z
+date: 2018-03-27 04:00:00 Z
 values:
   priority: 16
   Venture: HelloSpecial
