@@ -28,7 +28,7 @@ feature_block_heading: How we build
 feature_blocks:
 - subhead: Accelerate
   description: By working side-by-side with our founders, we are able to provide them
-    with operational know-how and rescources to grow concepts into profitable businesses.
+    with operational know-how and resources to grow concepts into profitable businesses.
 - subhead: Invest
   description: We provide seed and early growth capital during development and early
     revenue stage. Further down the road, we assist in raising external growth capital
