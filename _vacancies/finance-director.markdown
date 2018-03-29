@@ -11,9 +11,7 @@ email_address: chloe@venturebuilders.nl
 
 VentureBuilders is een jonge participatiemaatschappij met een groot aantal snel groeiende deelnemingen. 
  
-
 De administratie van de 15 deelnemingen en 35 holdings binnen onze groep wordt momenteel geleid middels een gecentraliseerde financiële afdeling en gecontroleerd door een extern administratiekantoor. 
-
 
 Wij zijn op zoek naar een full-time finance director die de administratie en fiscale aangiftes van de bestaande en nieuwe VentureBuilders entiteiten zelfstandig kan verzorgen (zonder toepassing van een extern administratiekantoor). Je vindt het leuk om met jonge mensen te werken en leiding te geven aan een klein team van administratie stagiairs. Je rapporteert direct aan de directie en Head of Finance van VentureBuilders.
 
