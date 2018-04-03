@@ -1,6 +1,8 @@
 ---
 title: Online Marketing Manager
 date: 2018-04-03 11:49:00 Z
+contact: Chloe Witteveen
+email_address: chloe@venturebuilders.nl
 ---
 
 VentureBuilders is an operational VC that provides its ventures with seed capital, an extensive network and exclusive access to a wide range of operational expertise. We back early-stage companies in the digital technology space with initial seed investments of 250k-
