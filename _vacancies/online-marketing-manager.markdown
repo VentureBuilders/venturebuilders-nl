@@ -28,17 +28,17 @@ Doordat je communicatief sterk bent en goed kan samenwerken, weet je zeker dat j
 
 #### Over jou
 
-• Verantwoordelijk voor de ROI van alle online marketing kanalen.
-• Verantwoordelijk voor het online budget en omzet forecast i.s.m. Managing Director.
-• Zorg dragen dat alle marketing activiteiten gemonitord en geanalyseerd worden.
-• Realiseren van de doelstellingen met betrekking tot bezoekersaantallen, conversiepercentage en omzet en ebitda levels.
-• Je draagt je ideeën op een enthousiaste en overtuigende manier uit en hebt een duidelijke visie waar je je activiteiten aan koppelt.
-• Je hebt goede kennis van Google Analytics en je weet data op een juiste manier te analyseren en hiernaar te handelen.
-• Je hebt ervaring met SEO, SEA, emailmarketing, linkbuilding, social media, etc.
-• Je bent analytisch, proactief en een echte zelfstarter.
-• Je hebt oog voor detail en werkt georganiseerd.
-• Je hebt expertise op het gebied van: keyword research, on-page optimization, linkbuilding, lead nurturing & lead scoring.
-• Je hebt ervaring met Social Advertising (Facebook, LinkedIn, Twitter, Instagram), Google Adwords, Google Analytics.
+* Verantwoordelijk voor de ROI van alle online marketing kanalen.
+* Verantwoordelijk voor het online budget en omzet forecast i.s.m. Managing Director.
+* Zorg dragen dat alle marketing activiteiten gemonitord en geanalyseerd worden.
+* Realiseren van de doelstellingen met betrekking tot bezoekersaantallen, conversiepercentage en omzet en ebitda levels.
+* Je draagt je ideeën op een enthousiaste en overtuigende manier uit en hebt een duidelijke visie waar je je activiteiten aan koppelt.
+* Je hebt goede kennis van Google Analytics en je weet data op een juiste manier te analyseren en hiernaar te handelen.
+* Je hebt ervaring met SEO, SEA, emailmarketing, linkbuilding, social media, etc.
+* Je bent analytisch, proactief en een echte zelfstarter.
+* Je hebt oog voor detail en werkt georganiseerd.
+* Je hebt expertise op het gebied van: keyword research, on-page optimization, linkbuilding, lead nurturing & lead scoring.
+* Je hebt ervaring met Social Advertising (Facebook, LinkedIn, Twitter, Instagram), Google Adwords, Google Analytics.
 
 
 #### Onze wensenlijst 
