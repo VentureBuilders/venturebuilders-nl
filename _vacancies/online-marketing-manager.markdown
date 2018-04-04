@@ -54,6 +54,9 @@ Doordat je communicatief sterk bent en goed kan samenwerken, weet je zeker dat j
 #### Onze wensenlijst
 
 * Je hebt een HBO/WO denk- en werkniveau
+
 * Bij voorkeur minimaal 4 jaar werkervaring in een soortgelijke functie en aantoonbare affiniteit met online marketing.
+
 * Overtuigend, commercieel, communicatief, positief en prettig gestoord.
+
 * 40 uur per week beschikbaar.
