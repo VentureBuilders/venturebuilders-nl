@@ -5,17 +5,20 @@ subhead: We enable talented entrepreneurs to build market leading tech companies
 feature_group:
 - subhead: Network
   image: icon-cube.svg
-  description: Leveraging our extensive network, we provide our ventures with an unprecedented advantage
+  description: Leveraging our extensive network, we provide our ventures with an unprecedented
+    advantage
   cta: Our Ventures
   cta_ref: "/ventures/"
 - subhead: Capital
   image: icon-circles.svg
-  description: We back early-stage companies in the digital technology space with initial seed investments
+  description: We back early-stage companies in the digital technology space with
+    initial seed investments
   cta: Investment Enquiries
   cta_ref: "/investment/"
 - subhead: 25 Experts
   image: icon-molecules.svg
-  description: A digital-focused team of 25 passionate experts helps our ventures to accelerate their growth
+  description: A digital-focused team of 25 passionate experts helps our ventures
+    to accelerate their growth
   cta: Our Expertise
   cta_ref: "/expertise/"
 quote: Our aim is to achieve great things with talented people. With our unique positioning,
@@ -36,3 +39,4 @@ feature_blocks:
     and investments.
 layout: home
 ---
+
