@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row flex-wrap">
 
-            <a class="col-9 col-sm-6 col-md-4 mb-xs-2 mb-sm-1 mb-md-0 site-title" title="{{ site.title }}" href="{{ "/" | relative_url }}"><img src="{{ 'assets/img/logo-color.svg' | relative_url }}" alt="{{ site.title }}"></a>
+            <a class="col-9 col-sm-6 col-md-4 mb-xs-2 mb-sm-1 mb-md-0 site-title" title="{{ site.title }}" href="{{ site.url }}"><img src="{{ 'assets/img/logo-color.svg' | relative_url }}" alt="{{ site.title }}"></a>
 
             <nav class="col-9 col-md-5 site-nav">
                 {% for nav in site.data.nav %}
