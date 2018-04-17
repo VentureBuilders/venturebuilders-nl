@@ -1,13 +1,11 @@
 ---
 title: Expertise
-layout: experts
 headline: A digital-focused team of passionate builders
 subhead: We support our ventures with a digital-focused team of 25 passionate experts.
   This operational squad offers hands-on support. In close collaboration with our
   ventures, we decide which competence is needed to accelerate their growth.
 Service_Heading: Experts for one step, or every step
-Service_Subhead: We have the right people available for you for every task needed
-  in growing your company online.
+Service_Subhead: We have the right people available for you to grow your company online.
 Services:
 - heading: Design
   description: Design for your users at every point of contact.  Our specialists can
@@ -54,5 +52,6 @@ Services:
   - Utilising predictive and prescriptive data modelling
   - Employing algorithms to automate procedures & strategies
   image: data.svg
+layout: experts
 ---
 
