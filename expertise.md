@@ -1,7 +1,7 @@
 ---
 title: Expertise
-layout: experts
 permalink: "/expertise/"
+layout: experts
 headline: A digital-focused team of passionate builders
 subhead: We support our ventures with a digital-focused team of 25 passionate experts.
   This operational squad offers hands-on support. In close collaboration with our
@@ -54,5 +54,5 @@ Services:
   - Utilising predictive and prescriptive data modelling
   - Employing algorithms to automate procedures & strategies
   image: data.svg
-layout: experts
 ---
+
