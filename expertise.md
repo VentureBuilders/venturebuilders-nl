@@ -10,6 +10,7 @@ Service_Heading: Experts for one step, or every step
 Service_Subhead: We have the right people available for you to grow your company online.
 Services:
 - heading: Design
+  icon: icon-gem.svg
   description: Design for your users at every point of contact.  Our specialists can
     help you focus your experience to the right audience. We can help at any stage,
     from concept to re-branding.
@@ -21,6 +22,7 @@ Services:
   - Conversion optimisation
   image: design.svg
 - heading: Tech
+  icon: icon-lightning.svg
   description: Our expert developers create reliable, secure and scalable applications
     for web, desktop and mobile. From a prototype to a full featured application.
     We develop, test, deploy, support and monitor
@@ -31,6 +33,7 @@ Services:
   - Support and monitoring
   image: tech.svg
 - heading: Marketing
+  icon: icon-collaboration.svg
   description: Our mission is to help companies with building scalable and effective
     online marketing campaigns.
   capabilities:
@@ -43,7 +46,8 @@ Services:
   - Feed management
   - Omni-channel strategy and setup
   image: marketing.svg
-- heading: Data Analytics
+- heading: Data Sciences
+  icon: icon-molecule.svg
   description: Data increasingly fuels decision-making. We employ machine learning
     algorithms to predict trends, forecast sales and identify the weaknesses, strengths
     and opportunities in our clients. We highly value utilising experimental models
@@ -55,4 +59,3 @@ Services:
   - Employing algorithms to automate procedures & strategies
   image: data.svg
 ---
-
