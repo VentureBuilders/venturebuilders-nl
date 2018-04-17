@@ -1,5 +1,7 @@
 ---
 title: Expertise
+layout: experts
+permalink: "/expertise/"
 headline: A digital-focused team of passionate builders
 subhead: We support our ventures with a digital-focused team of 25 passionate experts.
   This operational squad offers hands-on support. In close collaboration with our
@@ -54,4 +56,3 @@ Services:
   image: data.svg
 layout: experts
 ---
-
