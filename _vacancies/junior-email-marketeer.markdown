@@ -1,12 +1,13 @@
 ---
 title: "(Junior) Email Marketeer"
 date: 2018-03-09 15:22:00 Z
+published: false
 priority: 2
 Venture: VentureBuilders
 Location: Amsterdam
-Type: Full-time
 contact: Chloe Witteveen
 email_address: Chloe@venturebuilders.nl
+Type: Full-time
 ---
 
 Traveldeal en Euroknaller zoeken een junior e-mail marketeer die hen kan helpen om de e-mail marketing naar het volgende niveau te tillen. De groeiende website Traveldeal vindt dagelijks de leukste en beste reisdeals voor de klant, van de mooiste hotels op onbekende locaties tot all-inclusive stedentrips. Traveldeal is momenteel actief in Nederland en België en staat op het punt om verder internationaal uit te breiden.
