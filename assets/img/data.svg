@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="460" height="459" viewBox="0 0 460 459">
+  <defs>
+    <polygon id="data-a" points=".301 .921 90.797 .921 90.797 2.421 .301 2.421"/>
+    <polygon id="data-c" points=".301 .921 90.797 .921 90.797 2.421 .301 2.421"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path fill="#60BFBF" d="M429,150.289875 C404.64524,63.5867639 324.859637,0 230.189057,0 C193.009588,0 158.131255,9.81218056 128,26.9745556 L230.189057,206 L429,150.289875 Z"/>
+    <path fill="#E6E6E6" d="M428.368417,150 L229.934382,205.771831 L38,280.962048 C68.0254778,357.674631 142.638404,412 229.934382,412 C343.739844,412 436,319.668498 436,205.771831 C436,186.443668 433.336888,167.741351 428.368417,150"/>
+    <path fill="#099" d="M128.153609,27 C100.035289,43.0612969 76.0779883,65.5748612 58.2707666,92.5224819 C41.4652191,117.953941 30.1438728,147.330281 26,178.97371 L230,206 L128.153609,27 Z"/>
+    <path fill="#FCF765" d="M25.7653056,179 C24.605125,187.834781 24,196.842428 24,205.994369 C24,232.461566 29.0098056,257.760127 38.1267361,281 L230,205.994369 L25.7653056,179 Z"/>
+    <path stroke="#404040" stroke-width="2" d="M22 22L162 22M22 45L74 45"/>
+    <g transform="translate(369 44)">
+      <mask id="data-b" fill="#fff">
+        <use xlink:href="#data-a"/>
+      </mask>
+      <path stroke="#30241C" stroke-width="4" d="M0.300855385,0.92145 L90.7970092,0.92145" mask="url(#data-b)"/>
+    </g>
+    <g transform="translate(369 67)">
+      <mask id="data-d" fill="#fff">
+        <use xlink:href="#data-c"/>
+      </mask>
+      <path stroke="#30241C" stroke-width="4" d="M0.300855385,0.92145 L90.7970092,0.92145" mask="url(#data-d)"/>
+    </g>
+    <path stroke="#404040" stroke-width="2" d="M369,91 L423,91"/>
+    <path fill="#FFF" d="M349,206 C349,271.722077 295.722077,325 230,325 C164.277923,325 111,271.722077 111,206 C111,140.277923 164.277923,87 230,87 C295.722077,87 349,140.277923 349,206"/>
+    <polygon stroke="#404040" stroke-width="2" points="319 353 337 353 337 335 319 335"/>
+    <path stroke="#404040" stroke-width="2" d="M354,342 L459,342"/>
+    <polygon stroke="#404040" stroke-width="2" points="319 388 337 388 337 370 319 370"/>
+    <path stroke="#404040" stroke-width="2" d="M354,377 L459,377"/>
+    <polygon stroke="#404040" stroke-width="2" points="319 423 337 423 337 405 319 405"/>
+    <path stroke="#404040" stroke-width="2" d="M354,412 L459,412"/>
+    <polygon stroke="#404040" stroke-width="2" points="319 458 337 458 337 440 319 440"/>
+    <path stroke="#404040" stroke-width="2" d="M354,448 L459,448"/>
+    <polyline stroke="#404040" stroke-width="2" points="459 21 321.361 21 273 69"/>
+    <path stroke="#404040" stroke-width="2" d="M91 435L0 435M38 458L0 458"/>
+    <polyline stroke="#404040" stroke-width="2" points="1 411 138.639 411 187 361"/>
+  </g>
+</svg>
