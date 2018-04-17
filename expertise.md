@@ -1,7 +1,7 @@
 ---
 title: Expertise
 layout: experts
-headline: A digitally-focused team of passionate builders
+headline: A digital-focused team of passionate builders
 subhead: We support our ventures with a digital-focused team of 25 passionate experts. This operational squad offers hands-on support. In close collaboration with our ventures, we decide which competence is needed to accelerate their growth.
 Service_Heading: Experts for one step, or every step
 Service_Subhead: We have the right people available for you for every task needed
