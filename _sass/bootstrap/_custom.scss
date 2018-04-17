@@ -146,7 +146,7 @@ $spacer: 1rem;
 $spacing-unit: $spacer;
 
 $spacers: (
-  0: ($spacer / 2),
+  0: ($spacer * 0),
   1: $spacer,
   2: ($spacer * 1.5),
   3: ($spacer * 2),

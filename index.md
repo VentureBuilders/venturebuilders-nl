@@ -3,24 +3,21 @@ title: Home
 headline: VentureBuilders
 subhead: We enable talented entrepreneurs to build market leading tech companies
 feature_group:
-- subhead: Incubation
+- subhead: Network
   image: icon-cube.svg
-  description: Leveraging our successful track record, we start and build market leading
-    companies from scratch.
+  description: Leveraging our extensive network, we provide our ventures with an unprecedented advantage
   cta: Our Ventures
   cta_ref: "/ventures/"
-- subhead: Investment
+- subhead: Capital
   image: icon-circles.svg
-  description: Through our venture funds we invest in talented individuals and help
-    them build great companies.
+  description: We back early-stage companies in the digital technology space with initial seed investments
   cta: Investment Enquiries
   cta_ref: "/investment/"
-- subhead: Growth
+- subhead: 25 Experts
   image: icon-molecules.svg
-  description: Our team of experts work side-by-side with our founders. Join now for
-    the ride of your lifetime.
-  cta: Our Open Positions
-  cta_ref: "/careers/"
+  description: A digital-focused team of 25 passionate experts helps our ventures to accelerate their growth
+  cta: Our Expertise
+  cta_ref: "/expertise/"
 quote: Our aim is to achieve great things with talented people. With our unique positioning,
   we are able to be a part of the entire growth process of companies.
 quote_cite: Paul Montagne, CEO, VentureBuilders
@@ -39,4 +36,3 @@ feature_blocks:
     and investments.
 layout: home
 ---
-
