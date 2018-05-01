@@ -1,6 +1,7 @@
 ---
 title: Case24
 date: 2017-09-04 12:01:00 Z
+published: false
 class_name: case24
 prio: 5
 Intro: "People carry their smartphone around 24-7. In fact, for a lot people it's
