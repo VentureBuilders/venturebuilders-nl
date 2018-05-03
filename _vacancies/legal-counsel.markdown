@@ -50,7 +50,7 @@ Your main goal is to ensure that VentureBuilders and its participations have sol
 
 * Excellent command of Dutch and English;
 
-**Start:** asap./
-**Availability:** at least 20 hours per week./
-**Remuneration:** Based on experience and knowledge./
-**Location:** Amsterdam./
+**Start:** asap.
+**Availability:** at least 20 hours per week.
+**Remuneration:** Based on experience and knowledge.
+**Location:** Amsterdam.
