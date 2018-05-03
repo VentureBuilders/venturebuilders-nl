@@ -17,6 +17,8 @@ h6 {
     color: inherit;
 }
 
+
+
 .display-1,
 .display-2,
 .display-3,
@@ -94,9 +96,13 @@ h6 {
 
 ul {
     margin-bottom: $spacer * 3;
-    margin-left: $spacer * 2;
+    margin-left: $spacer;
 }
-ul > li { margin-bottom: $spacer / 2; }
+
+ul > li {
+    margin-bottom: $spacer / 2;
+    padding-left: $spacer;
+}
 
 .cta-link {
     @include cta-link();
