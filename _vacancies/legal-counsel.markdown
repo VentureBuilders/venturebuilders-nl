@@ -15,7 +15,6 @@ We are looking for a legal counsel to expand our investment team.
 
 **The role**
 
-
 Your main goal is to ensure that VentureBuilders and its participations have solid contractual relations with all stakeholders. As Legal Counsel, you are involved in a wide variety of company projects, ranging from negotiating and drafting term sheets, investment documentation, shareholders and equity remuneration agreements to setting up new fund structures. You will work closely with the partners of VentureBuilders.
 
 **Your main responsibilities will cover the following areas:**
@@ -50,12 +49,9 @@ Your main goal is to ensure that VentureBuilders and its participations have sol
 
 * Experience in corporate law and preferably M&A, experience in employment law is a plus;
 
-* Excellent command of Dutch and English;
+* Excellent command of Dutch and English.
 
-**Start:** asap.
-
-**Availability:** at least 20 hours per week.
-
-**Remuneration:** Based on experience and knowledge.
-
+**Start:** asap.\
+**Availability:** at least 20 hours per week.\
+**Remuneration:** Based on experience and knowledge.\
 **Location:** Amsterdam.
