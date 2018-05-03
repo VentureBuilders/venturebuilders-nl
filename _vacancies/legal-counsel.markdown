@@ -4,7 +4,6 @@ date: 2018-05-03 12:12:00 Z
 priority: 2
 Venture: VentureBuilders
 Location: Amsterdam
-type: Part-time
 contact: Chloe Witteveen
 email_address: chloe@venturebuilders.nl
 ---
