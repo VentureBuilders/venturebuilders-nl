@@ -30,7 +30,7 @@ Your main goal is to ensure that VentureBuilders and its participations have sol
 
 * Monitoring and ensuring compliance with legal and regulatory requirements;
 
-* Providing guidance to our participations on legal compliance (including GDPR);
+* Providing guidance to our participations on legal compliance (including GDPR;
 
 * Assisting with legal data rooms and due diligence processes;
 
