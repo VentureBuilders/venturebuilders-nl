@@ -14,7 +14,7 @@ VentureBuilders is an operational VC that provides its ventures with capital, an
 We are looking for a legal counsel to expand our investment team.
 
 **The role**
-Your main goal is to ensure that VentureBuilders and its participations have solid contractual relations with all stakeholders. As Legal Counsel, you are involved in a wide variety of company projects, ranging from negotiating and drafting term sheets, investment documentation, shareholders and equity remuneration agreements to setting up new fund structures. You will work closely with the partners of VentureBuilders. 
+Your main goal is to ensure that VentureBuilders and its participations have solid contractual relations with all stakeholders. As Legal Counsel, you are involved in a wide variety of company projects, ranging from negotiating and drafting term sheets, investment documentation, shareholders and equity remuneration agreements to setting up new fund structures. You will work closely with the partners of VentureBuilders.
 
 **Your main responsibilities will cover the following areas:**
 
@@ -50,7 +50,7 @@ Your main goal is to ensure that VentureBuilders and its participations have sol
 
 * Excellent command of Dutch and English;
 
-**Start:** asap.
-**Availability:** at least 20 hours per week.
-**Remuneration:** Based on experience and knowledge.
-**Location:** Amsterdam.
+**Start:** asap./
+**Availability:** at least 20 hours per week./
+**Remuneration:** Based on experience and knowledge./
+**Location:** Amsterdam./
