@@ -1,6 +1,6 @@
 ---
 title: Bart van den Hengel
-Position: Email Marketeer
+Position: Head of Email Marketing
 Venture:
 - VentureBuilders
 Photo: "/uploads/bart-van-den-hengel.jpg"
