@@ -13,8 +13,7 @@ Bonjour! Ter uitbreiding van ons team, zijn wij op zoek naar een Franstalige Med
 
 Wij zijn een E-commerce bedrijf in Amsterdam en voorzien klanten van een transfer van en naar luchthavens over de hele wereld. Taxi2Airport.com is de gemakkelijkste en meest betrouwbare manier om van en naar de luchthaven of het station te komen. Wij zijn actief in meer dan 130 landen met een uitstekende klanttevredenheid.
 
-**Hoe leg je aan je vrienden, moeder of kapster uit Taxi2airport.com voor bedrijf is?**
-
+**Hoe leg je aan je vrienden, moeder of kapster uit Taxi2airport.com voor bedrijf is?**\
 Taxi2airport.com is een internationale speler in de transfer e-commerce branche, met de ambitie om naast Nederland overal marktleider te worden. Al onze activiteiten sturen we aan vanuit Amsterdam, Spanje, Argentinië, India en Kroatië. Inmiddels zijn we met meer dan 25 collega’s en er werken vooral jonge, gedreven medewerkers. Onze bedrijfscultuur? Er heerst een relaxte, gezellige, informele maar bovenal professionele werksfeer. We hebben respect voor elkaar en helpen elkaar waar nodig en mogelijk.
 
 **Wat is jouw takenpakket en wie worden je collega’s?**
@@ -23,11 +22,17 @@ Je maakt deel uit van Customer Service Team; je beantwoordt vragen van onze Fran
 Nog geen ervaring met taxi’s? Geen enkel probleem. Wij vinden enthousiasme en de wil om te leren veel belangrijker. Jij en je collega’s helpen elkaar en je kunt alles vragen!
 
 **Wanneer is deze baan voor jou?**
+
 * Je spreekt en schrijft vloeiend Frans, Engels en Nederlands
+
 * Je vindt het leuk om mensen te helpen
+
 * Je kunt je geduldig opstellen, en communiceert op professionele wijze met de klant
+
 * Je bent op korte termijn beschikbaar, en houdt van aanpakken; handjes uit de mouwen!
+
 * Je bent bereid regelmatig een dag in het weekend te werken
+
 * Af en toe in de avond werken is voor jou ook geen probleem
 
 **Wat wij jou te bieden hebben.**
