@@ -5644,7 +5644,9 @@ ul > li {
   background-color: #FFFFFF;
   padding-top: 0.5rem;
   padding-bottom: 1rem;
-  transition: box-shadow 0.5s ease-in-out; }
+  transition: box-shadow 0.5s ease-in-out;
+  margin-left: auto;
+  margin-right: auto; }
   @media (min-width: 992px) {
     .site-header {
       padding-top: 1rem;
@@ -5656,7 +5658,7 @@ ul > li {
 .site-header .row {
   justify-content: center;
   align-items: center; }
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     .site-header .row {
       justify-content: space-between; } }
 
@@ -5669,7 +5671,7 @@ ul > li {
   display: flex;
   flex-direction: row;
   justify-content: space-around; }
-  @media (min-width: 992px) {
+  @media (min-width: 1280px) {
     .site-nav {
       justify-content: flex-end; } }
 

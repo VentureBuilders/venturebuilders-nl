@@ -72,7 +72,7 @@ layout: global
             <a class="col-9 mb-3" href="/news" title="News &amp; Press"><h6 class="display-5">News &amp; Press</h6></a>
                 {% for news in site.posts %}
                 {% unless forloop.index > 4 %}
-                <div class="col-4 mb-2">
+                <div class="col-8 col-md-4 mb-2">
                     <p class="text-muted mb-0">{{ news.date | date: "%d %b, %Y" }}</p>
                     <h5 class="headline-variant mb-0"><a class="news-posts" href="{{ news.url }}">{{ news.title }}</a></h5>
                     <p class="mb-2">{{ news.intro }}</p>

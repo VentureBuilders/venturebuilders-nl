@@ -1,0 +1,90 @@
+// ------------------------------------
+// Colors
+
+$green: #009999;
+$yellow: #FCF765;
+$black: #404040;
+$gray-light: #F5F7F7;
+$white: #FFFFFF;
+
+
+
+// ------------------------------------
+// Type Scale
+
+$typescale-data: (
+    super: 3.5rem,
+    large: 2.25rem,
+    medium: 1.5rem,
+    base: 1rem,
+    small: 0.875rem,
+    tiny: 0.625rem
+);
+
+// Returns the type size for a given scale.
+@function typscale($variant: base) {
+    $fetched-value: map-get($typescale-data, $variant);
+
+    @if type-of($fetched-value) == number {
+        @return $fetched-value;
+    } @else {
+        @error 'Spacing variant `#{$variant}` not found. Available variants: #{available-names($typescale-data)}';
+    }
+}
+
+
+// ------------------------------------
+// Spacing scale
+
+$unit: 0.25rem;
+
+$spacing-data: (
+    none: 0,
+    extra-tight: $unit,
+    tight: $unit * 2,
+    base: $unit * 4,
+    loose: $unit * 8,
+    extra-loose: $unit * 16
+);
+
+// Returns the spacing value for a given scale.
+@function spacing($variant: base) {
+    $fetched-value: map-get($spacing-data, $variant);
+
+    @if type-of($fetched-value) == number {
+        @return $fetched-value;
+    } @else {
+        @error 'Spacing variant `#{$variant}` not found. Available variants: #{available-names($spacing-data)}';
+    }
+}
+
+
+
+// ------------------------------------
+// Grid Settings
+
+$columns: 9;
+
+$grid-gutters: (
+    small: 1.5rem,
+    medium: 2rem,
+    large: 2.5rem
+);
+
+$grid-data: (
+    2: (2/$columns),
+    3: (3/$columns),
+    4: (4/$columns),
+    5: (5/$columns),
+    6: (6/$columns)
+);
+
+@function grid($variant: base) {
+    $fetched-value: map-get($grid-data, $variant);
+
+    @if type-of($fetched-value) == number {
+        @return $fetched-value;
+    } @else {
+        @error 'Spacing variant `#{$variant}` not found. Available variants: #{available-names($grid-data)}';
+    }
+}
