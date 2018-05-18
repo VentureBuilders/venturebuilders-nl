@@ -13,7 +13,7 @@ email_address: chloe@venturebuilders.nl
 
 Taxi2Airport.com is a fast growing, fast-paced international e-commerce scale-up, providing airport transfer services worldwide. Headquartered in Amsterdam and supported in Spain, Argentina, India and Croatia, we serve customers from all over the world, finding a safe and reliable way to travel from and to the airports in more than 180 countries.
 
-**What will you be doing?**\
+**What will you be doing?**
 
 You will be responsible for the growth and quality of our global supplier network.
 
