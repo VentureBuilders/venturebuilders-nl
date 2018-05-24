@@ -4,7 +4,7 @@ date: 2018-04-13 10:12:00 Z
 priority: 18
 Venture: HelloSpecial
 Location: Amsterdam
-type: Full-time
+type: Internship
 contact: Nina Schaaper
 email_address: nina@venturebuilders.nl
 ---
