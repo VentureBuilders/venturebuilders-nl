@@ -1,14 +1,14 @@
 ---
 title: Content Marketing Internship
 date: 2017-11-08 11:59:00 Z
-values:
-  Venture: HelloSpecial
 priority: 18
 Venture: HelloSpecial
 Location: Amsterdam
-type: Full-time
+type: Internship
 contact: Nina Schaaper
 email_address: nina@venturebuilders.nl
+values:
+  Venture: HelloSpecial
 ---
 
 **Are you enthusiastic about marketing and want to contribute to the growth of a young and fast-growing internet company? Do you want to accomplish big things with a small team and help build our startup? Then we want you!**
