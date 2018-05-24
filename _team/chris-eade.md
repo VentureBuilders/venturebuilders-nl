@@ -1,5 +1,6 @@
 ---
 title: Chris Eade
+published: false
 Position: CTO
 Venture:
 - Taxi2Airport
