@@ -4,6 +4,7 @@ date: 2018-05-24 09:29:00 Z
 priority: 16
 Venture: Euroknaller
 Location: 'Amsterdam '
+type: Internship
 ---
 
 **Wij zoeken jou!**
