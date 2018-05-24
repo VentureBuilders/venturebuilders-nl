@@ -4,7 +4,7 @@ date: 2018-04-24 15:17:00 Z
 priority: 20
 Venture: Traveldeal
 Location: Amsterdam
-type: Full-time
+type: Internship
 contact: Nina Schaaper
 email_address: nina@venturebuilders.nl
 ---
