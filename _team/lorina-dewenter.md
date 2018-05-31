@@ -1,5 +1,6 @@
 ---
 title: Lorina Dewenter
+published: false
 Position: Intern
 Venture:
 - HomeDeco
