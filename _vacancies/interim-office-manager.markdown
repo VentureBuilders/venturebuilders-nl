@@ -9,8 +9,6 @@ contact: Chloe Witteveen
 email_address: chloe@venturebuilders.nl
 ---
 
-Wij zijn een company builder en investeringsfonds in Amsterdam met een verbonden online marketing bureau. Een snelkookpan met super gemotiveerde ondernemende mensen en een knowledge sharing cultuur om zo snel mogelijk te groeien. We hebben een divers en internationaal team dat met veel enthousiasme aan verschillende online bedrijven werkt. Ons kantoor ligt op loopafstand van station Amsterdam Sloterdijk. Wij hebben een gevarieerd aanbod aan ventures waaronder Bedden.nl, Taxi2Airport.com, Case24.com, Fashiolista.com, Amberscript, Hellospecial, Euroknaller en Homedeco.nl. Naast interne bedrijven helpen we ook bedrijven van buitenaf, o.a Livefootballtickets, Overstappen.nl.
-
 In verband met de zwangerschapsverlof van onze office manager zijn wij per 16 juli voor een periode van 5 maanden op zoek naar een interim die haar kan vervangen en ons redt van de chaos die er anders ontstaat.
 
 Als office manager bij VentureBuilders ben je onmisbaar voor een soepel verloop van de  dag. Iedereen weet je dan ook te vinden als ze iets nodig hebben, die ad hoc taken zorgen ervoor dat elke dag anders is. Je vindt het belangrijk dat bezoek op een prettige manier wordt ontvangen en dat je collega’s met plezier naar kantoor komen. Aan het eind van de week plan jij de borrels en zorg je dat iedereen met een drankje in de hand de week kan afsluiten.
@@ -54,5 +52,7 @@ Als office manager bij VentureBuilders ben je onmisbaar voor een soepel verloop 
 **Wat bieden we jou?**
 
 * Een plek in een team met ambitieuze, resultaat gedreven en gezellige collega’s bij een innovatief bedrijf
+
 * Veel verantwoordelijkheid
+
 * Wekelijkse borrels en dagelijks een uitgebreide lunch
