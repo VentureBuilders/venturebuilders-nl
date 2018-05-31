@@ -5,18 +5,14 @@ priority: 18
 Venture: HelloSpecial
 Location: Amsterdam
 type: Internship
-contact name: Jos Verbeek
 email_address: jos@hellospecial.com
+contact name: Jos Verbeek
 ---
 
 #### Ja, jij!
 
 Jij vindt het leuk om met leveranciers en producten bezig te zijn en bent in staat om met jouw productkeuze onze bezoekers te overtuigen om te bieden. Je bent positief ingesteld en je kunt met jouw assertieve en creatieve vermogen de juiste producten binnenhalen. Bij het woord ‘creatief’ denken je vrienden aan jou en dat kunnen wij goed gebruiken.
 HelloSpecial is op zoek naar stagiaires met dezelfde drive zoals wij. Wil jij ons helpen om van ons bedrijf een groot succes te maken? Ben jij degene die het verschil maakt? Dan ben je bij ons aan het juiste adres!
-
-#### VentureBuilders
-
-HelloSpecial is onderdeel van VentureBuilders. Een dynamische startup studio in Amsterdam. Een snelkookpan met super gemotiveerde ondernemende mensen en een knowledge sharing cultuur om zo snel mogelijk te groeien.
 
 #### Wat ga je doen?
 
