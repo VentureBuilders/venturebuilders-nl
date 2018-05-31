@@ -56,3 +56,5 @@ Als office manager bij VentureBuilders ben je onmisbaar voor een soepel verloop 
 * Veel verantwoordelijkheid
 
 * Wekelijkse borrels en dagelijks een uitgebreide lunch
+
+Wij zijn een operational VC in Amsterdam met een verbonden online marketing bureau. Een snelkookpan met super gemotiveerde ondernemende mensen en een knowledge sharing cultuur om zo snel mogelijk te groeien. We hebben een divers en internationaal team dat met veel enthousiasme aan verschillende online bedrijven werkt. Ons kantoor ligt op loopafstand van station Amsterdam Sloterdijk. Wij hebben een gevarieerd aanbod aan ventures waaronder Taxi2Airport.com, Amberscript, Contexta en Dealroom.co.
