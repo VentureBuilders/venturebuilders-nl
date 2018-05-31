@@ -15,7 +15,7 @@ layout: vacancy
 
 #### VentureBuilders
 
-We are a Amsterdam-based company builder and investment fund, with highly skilled and motivated people. Our diverse and international team looks forward meeting new interns. We'll share our knowledge and work together to make this a great experience for everyone!
+We are an operational VC, with highly skilled and motivated people. Our diverse and international team looks forward meeting new interns. We'll share our knowledge and work together to make this a great experience for everyone!
 
 
 #### Your tasks will consist of:
