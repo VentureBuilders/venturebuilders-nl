@@ -17,7 +17,7 @@ Your will work on fast growing platforms and exciting tech projects like Taxi2Ai
 
 ### VentureBuilders (Taxi2Airport.com, Fashiolista.com, TravelDeal.nl etc)
 
-VentureBuilders is a dynamic startup studio in Amsterdam. A pressure cooker with highly motivated entrepreneurial people and a knowledge sharing culture to grow our businesses as fast as possible. We have a enthusiastic, diverse and international team and several online ventures, which include our global marketplace taxi2airport.com, a fast growing auction platform HelloSpecial.com, Dealroom.co, a data-analytics SaaS company and more.
+VentureBuilders is a operational VC in Amsterdam. A pressure cooker with highly motivated entrepreneurial people and a knowledge sharing culture to grow our businesses as fast as possible. We have a enthusiastic, diverse and international team and several online ventures, which include our global marketplace taxi2airport.com, a fast growing auction platform HelloSpecial.com, Dealroom.co, a data-analytics SaaS company and more.
 
 ### What will you be doing?
 
