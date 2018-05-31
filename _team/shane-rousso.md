@@ -1,6 +1,6 @@
 ---
 title: Shane Rousso
-Position: Online Marketing Intern
+Position: Online Marketing
 Venture:
 - Taxi2Airport
 Photo: "/uploads/shane-rousso.jpg"
