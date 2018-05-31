@@ -1,6 +1,7 @@
 ---
 title: Kristina Kalincheva
 date: 2018-03-22 13:43:00 Z
+published: false
 Position: Research Analyst Intern
 Venture: Dealroom
 Photo: "/uploads/kristina-kalincheva.jpg"
