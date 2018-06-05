@@ -17,7 +17,7 @@ Your will work on fast growing platforms and exciting tech using PHP (for exampl
 
 **VentureBuilders** 
 
-VentureBuilders is an operational VC in Amsterdam. A pressure cooker with highly motivated entrepreneurial people and a knowledge sharing culture to grow our businesses as fast as possible. We have a enthusiastic, diverse and international team and several online ventures, which include our global marketplace taxi2airport.com, a fast growing auction platform HelloSpecial.com, Dealroom.co, a data-analytics SaaS company and more.
+VentureBuilders is an operational VC that provides its ventures with seed capital, an extensive network and exclusive access to a wide range of operational expertise. We back early-stage companies in the digital technology space with initial seed investments of 250k-500k. With an unique organizational structure featuring 20 operational experts, VentureBuilders offers its portfolio companies hands-on support in the areas of Digital Marketing, Design, PR, Sales and Recruiting. The current portfolio includes 15 companies such as Amberscript, Dealroom.co, Contexta and Taxi2Airport. With our latest VentureBuilders Growth Fund, we aim to add another 10 companies to our portfolio in the next 2 years.
 
 **What will you be doing?**
 
