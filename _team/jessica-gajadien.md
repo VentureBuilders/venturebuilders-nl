@@ -1,6 +1,6 @@
 ---
 title: Jessica Gajadien
-Position: Customer Service / Business Development
+Position: Project Manager
 Venture:
 - Taxi2Airport
 Photo: "/uploads/Jessica.jpg"
