@@ -9,7 +9,7 @@ contact: Chloe Witteveen
 email_address: chloe@venturebuilders.nl
 ---
 
-**Are you a talented PHP Developer and do you want to work on great projects in a fast moving startup environment with a huge potential?**
+Are you a talented PHP Developer and do you want to work on great projects in a fast moving startup environment with a huge potential?
 
 **We are looking for you!**
 
