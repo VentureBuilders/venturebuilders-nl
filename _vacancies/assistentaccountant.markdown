@@ -39,6 +39,8 @@ Wij zijn op zoek naar een full-time assistent- accountant die de administratie e
 
 * Nauwkeurig, flexibel en ambitie om mee te groeien met onze snelgroeiende en jonge organisatie.
 
- 
+* Salaris tussen de € 3.500,- en de € 4.500,- bruto per maand afhankelijk van ervaring
 
+
+ 
 Wij bieden een informele en dynamische werkomgeving, een marktconform salaris en bonusregeling.
