@@ -1,5 +1,5 @@
 ---
-title: Assistant accountant
+title: "(Assistent)-Accountant"
 date: 2018-03-14 16:34:00 Z
 priority: 2
 Venture: VentureBuilders
@@ -13,7 +13,7 @@ VentureBuilders is een jonge participatiemaatschappij met een groot aantal snel 
  
 De administratie van de 15 deelnemingen en 35 holdings binnen onze groep wordt momenteel geleid middels een gecentraliseerde financiële afdeling en gecontroleerd door een extern administratiekantoor. 
 
-Wij zijn op zoek naar een full-time assistant accountant die de administratie en fiscale aangiftes van de bestaande en nieuwe VentureBuilders entiteiten zelfstandig kan verzorgen (zonder toepassing van een extern administratiekantoor). Je vindt het leuk om met jonge mensen te werken en leiding te geven aan een klein team van administratie stagiairs. Je rapporteert direct aan de directie en Head of Finance van VentureBuilders.
+Wij zijn op zoek naar een full-time assistent- accountant die de administratie en fiscale aangiftes van de bestaande en nieuwe VentureBuilders entiteiten zelfstandig kan verzorgen (zonder toepassing van een extern administratiekantoor). Je vindt het leuk om met jonge mensen te werken en leiding te geven aan een klein team van administratie stagiairs. Je rapporteert direct aan de directie en Head of Finance van VentureBuilders.
 
  
 
