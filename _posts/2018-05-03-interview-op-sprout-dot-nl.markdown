@@ -1,6 +1,8 @@
 ---
 title: Interview op Sprout.nl
 date: 2018-05-03 13:47:00 Z
+intro: 'Op Sprout.nl delen Paul Montagne en Diederik Ingen Housz hun visie op early
+  stage investeren en ondernemen. '
 layout: post
 ---
 
