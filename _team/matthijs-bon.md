@@ -1,8 +1,8 @@
 ---
 title: Matthijs Bon
-Position: CTO
+Position: Tech Lead
 Venture:
-- Fashiolista
+- Taxi2Airport
 Photo: "/uploads/matthijs-bon.jpg"
 Photo2x: "/uploads/matthijs-bon@2x.jpg"
 prio: 2
