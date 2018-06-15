@@ -1,6 +1,7 @@
 ---
 title: Fashiolista
 date: 2017-09-04 12:01:00 Z
+published: false
 class_name: fashiolista
 prio: 7
 Intro: 'Fashiolista was founded in 2010 and turned into one of the largest international
