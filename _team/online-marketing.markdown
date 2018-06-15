@@ -5,6 +5,6 @@ Position: Online Marketing
 Venture: Taxi2Airport
 Photo: "/uploads/Timothee.jpg"
 Photo2x: "/uploads/Timothee2x.jpg"
-prio: 4
+prio: 5
 ---
 
