@@ -1,6 +1,7 @@
 ---
 title: Legal Counsel
 date: 2018-05-03 12:12:00 Z
+published: false
 priority: 2
 Venture: VentureBuilders
 Location: Amsterdam
