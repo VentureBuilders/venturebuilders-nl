@@ -1,12 +1,13 @@
 ---
 title: Stage Content Marketing
 date: 2018-01-02 15:22:00 Z
+published: false
 priority: 20
 Venture: Traveldeal
 Location: Amsterdam
 type: Internship
-contact name: Nina Schaaper
 email_address: nina@venturebuilders.nl
+contact name: Nina Schaaper
 ---
 
 #### Traveldeal
