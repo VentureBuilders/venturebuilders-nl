@@ -19,6 +19,10 @@ collections:
     title: Ventures
     output: true
     permalink: "/:collection/:name"
+  newsletters:
+    title: Newsletters
+    output: true
+    permalink: "/:collection/:name"
 defaults:
 - scope:
     path: assets/img
