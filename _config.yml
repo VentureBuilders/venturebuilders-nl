@@ -2,6 +2,10 @@
 title: VentureBuilders
 timezone: UTC
 collections:
+  newsletters:
+    title: Newsletters
+    output: true
+    permalink: "/:collection/:name"
   posts:
     title: Posts
     output: true
@@ -17,10 +21,6 @@ collections:
     permalink: "/:collection/:name"
   ventures:
     title: Ventures
-    output: true
-    permalink: "/:collection/:name"
-  newsletters:
-    title: Newsletters
     output: true
     permalink: "/:collection/:name"
 defaults:
