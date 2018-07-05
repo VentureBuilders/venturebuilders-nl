@@ -17,6 +17,7 @@ Partner/Kids:
 Sports/Hobbies:
 Favorite food:
 
+#####################################################################
 
 How did you end up at VentureBuilders?
 
@@ -24,7 +25,7 @@ How would your former colleagues describe you? Use five words?
 
 What gives you energy (at work)? 
 
-What really puts you of in working with people?
+What really puts you of in people?
 
 For what can we wake you up at night?
 
