@@ -5,7 +5,7 @@ Title: 'Interview: Milou Hoes'
 layout: newsletter
 ---
 
-# All you always wanted to know about..
+# All you always wanted to know about...Milou Hoes
 
 So many interesting people at VentureBuilders and their portfolio companies, so little time to talk to them all. That's why we interview a person every month. This time it's ...... She replaces Nina during her maternity leave.
 
