@@ -1,15 +1,13 @@
 ---
 title: Our Team
 permalink: "/team/"
-layout: team
 teamOrder:
 - VentureBuilders
 - Taxi2Airport
 - Sleepdeal
 - Case24
-- Offerte
+- Offerte.nl
 - HomeDeco
-- Applyr
 - Traveldeal
 - HelloSpecial
 - Dealroom
@@ -18,5 +16,6 @@ teamOrder:
 - Amberscript
 - Consulto
 - Fashiolista
+layout: team
 ---
 
