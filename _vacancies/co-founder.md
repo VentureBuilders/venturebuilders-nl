@@ -4,8 +4,8 @@ priority: 1
 Venture: VentureBuilders
 Location: Amsterdam
 type: Full-time
-contact: Nina Schaaper
-email_address: nina@venturebuilders.nl
+contact: Paul Montagne
+email_address: Paul@venturebuilders.nl
 ---
 
 ##### VentureBuilders is looking for a hands-on co-founder and talented business owner, for different new and existing startups. The co-founder will help get these projects going and build them out successfully.
