@@ -4,8 +4,8 @@ priority: 15
 Venture: VentureBuilders
 Location: Amsterdam
 type: Internship
-contact: Nina Schaaper
-email_address: nina@venturebuilders.nl
+contact: Milou Hoes
+email_address: milou@venturebuilders.nl
 ---
 
 **Ja, jij!**
