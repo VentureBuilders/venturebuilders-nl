@@ -1,7 +1,7 @@
 ---
 title: Contact Us
 permalink: "/contact-us/"
-email_address: nina@venturebuilders.nl
+email_address: paul@venturebuilders.nl
 layout: contact
 ---
 
