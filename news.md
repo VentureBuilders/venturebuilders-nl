@@ -1,7 +1,6 @@
 ---
 title: News & Press
 permalink: "/news/"
-layout: page
+layout: news
 intro: Recent notable funding milestones and press releases
 ---
-
