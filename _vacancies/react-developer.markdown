@@ -1,6 +1,7 @@
 ---
 title: React Developer
 date: 2018-08-29 14:51:00 Z
+priority: 1
 Venture: Amberscript
 Location: Amsterdam
 type: Full-Time
