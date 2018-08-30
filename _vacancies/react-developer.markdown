@@ -6,7 +6,7 @@ Venture: Amberscript
 Location: Amsterdam
 type: Full-Time
 contact: Milou Hoes
-email_address: milou@venturebuilders.nl
+email_address: timo@amberscript.com
 ---
 
 **Company**
