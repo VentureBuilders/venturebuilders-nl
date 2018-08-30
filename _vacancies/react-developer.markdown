@@ -5,7 +5,7 @@ priority: 1
 Venture: Amberscript
 Location: Amsterdam
 type: Full-Time
-contact: Milou Hoes
+contact: Timo Behrens
 email_address: timo@amberscript.com
 ---
 
