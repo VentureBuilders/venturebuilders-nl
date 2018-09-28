@@ -3,28 +3,28 @@ layout: page
 ---
 
 <div class="container">
+    <div class="founder-grid-container row mb-3 mb-lg-5">
+        <h3 class="col-9 mb-2 heading-medium">Investment Team</h3>
+        {% assign founders = site.team | where: "Venture", "Investment Team" | sort: "prio" %}
+        {% for member in founders %}
+        <div class="founder-grid-item col">
+            <img class="mb-2" src="{{ member.Photo }}" alt="{{ member.title }}">
+            <h6 class="headline-variant mb-1">{{ member.title }}</h6>
+            <div class="body-small">{{ member.content }}</div>
+        </div>
+        {% endfor %}
+    </div>
 
-    <div class="team-grid-container condense mb-3 mb-lg-5">
+    <div class="row mb-3 mb-lg-5">
+        <h3 class="col-9 mb-2 heading-medium">Specialists</h3>
+        {% assign specialists = site.team | where: "Venture", "VentureSquad" | sort: "prio" %}
 
-        {% for venture in page.teamOrder %}
+        {% for member in specialists %}
+            <div class="team-grid-item">
 
-            {% assign ven_team = site.team | where: "Venture", venture | sort: "prio" %}
+                {% include team-profile.html member=member memberName=member.title memberPosition=member.Position %}
 
-            {% for mem in ven_team %}
-                {% unless mem.published == false %}
-
-                    {% assign fVen = mem.Venture[0] %}
-                    {% assign fPos = mem.Position[0] %}
-
-                    <div class=" team-grid-item">
-
-                        {% include team-profile.html member=mem memberName=mem.title memberVenture=mem.Venture memberPosition=mem.Position %}
-
-                    </div>
-                {% endunless %}
-
-            {% endfor %}
-
+            </div>
         {% endfor %}
 
     </div>

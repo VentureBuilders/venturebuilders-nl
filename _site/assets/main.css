@@ -5751,7 +5751,9 @@ ul > li {
       width: 70%; } }
   @media (min-width: 1280px) {
     .hero {
-      width: 50%; } }
+      width: 50%;
+      padding-top: 11vh;
+      padding-bottom: 13vh; } }
 
 .hero-logo-tree {
   max-width: 3rem;
@@ -5772,9 +5774,9 @@ ul > li {
     .hero-headline {
       font-size: 5rem; } }
 
-.hero-description {
-  line-height: 1.5rem;
-  font-size: 1.25rem; }
+.hero-intro {
+  max-width: 30em;
+  margin: 0 auto; }
 
 .hero-services {
   margin-left: 0; }
@@ -5846,6 +5848,55 @@ ul > li {
 .order-md-4 {
   order: 4;
   -webkit-order: 4; }
+
+.feature-group.left-align {
+  text-align: left; }
+
+.feature-group.center-align {
+  text-align: center; }
+
+.feature-item {
+  text-align: center; }
+  @media (min-width: 768px) {
+    .feature-item {
+      text-align: center; } }
+  .left-align .feature-item {
+    text-align: left; }
+
+.home .feature-item {
+  opacity: 0;
+  animation-duration: 1.25s;
+  animation-fill-mode: forwards;
+  animation-name: fadeIn;
+  animation-timing-function: ease-in-out; }
+  .home .feature-item:nth-child(1) {
+    animation-delay: 0.75s; }
+  .home .feature-item:nth-child(2) {
+    animation-delay: 1s; }
+  .home .feature-item:nth-child(3) {
+    animation-delay: 1.25s; }
+
+.feature-icon {
+  min-width: 1rem;
+  max-width: 2rem; }
+
+.feature-description {
+  opacity: 0.6;
+  transition: opacity 0.2s ease-in-out; }
+  .feature-item:hover .feature-description {
+    opacity: 1; }
+
+.feature-link {
+  transition: color 0.2s ease-out;
+  color: #009999;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  line-height: 250%;
+  text-transform: uppercase; }
+  .feature-link:hover {
+    color: #3F4040;
+    text-decoration: none; }
 
 .feature-venture {
   min-height: 50vh;
@@ -5920,9 +5971,6 @@ ul > li {
   @media (min-width: 768px) {
     .venture-grid-item {
       width: 33.333%; } }
-  @media (min-width: 992px) {
-    .venture-grid-item {
-      width: 25%; } }
 
 .venture-grid-link {
   display: block;

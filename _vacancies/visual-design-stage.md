@@ -1,5 +1,6 @@
 ---
 title: Visual Design Stage
+published: false
 priority: 15
 Venture: VentureBuilders
 Location: Amsterdam

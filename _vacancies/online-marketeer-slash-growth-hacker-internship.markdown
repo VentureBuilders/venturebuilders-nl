@@ -1,5 +1,6 @@
 ---
 title: Online Marketeer / growth hacker Internship
+published: false
 date: 2018-03-09 15:19:00 Z
 priority: 16
 Venture: Amberscript
@@ -13,7 +14,7 @@ We are **AmberScript**, a young startup based in Amsterdam. We are building SaaS
 
 Our self-developed AI speech to text engine obtains the best results in the market, as proven by independent tests in the media. Our product is being used by thousands of journalists, scientists, students, doctors and lawyers.
 
-Now that we have achieved product-market fit, we are scaling rapidly. Currently, we are looking for a marketing intern that can help us to target the right segments, promote our product and accelerate our customer acquisition and conversion. 
+Now that we have achieved product-market fit, we are scaling rapidly. Currently, we are looking for a marketing intern that can help us to target the right segments, promote our product and accelerate our customer acquisition and conversion.
 
 **Preferably you fit the following profile:**
 * You have studied (a subject related to) marketing, business, economics, quantitative analysis at college level (NL: HBO or WO) or have marketing working experience
