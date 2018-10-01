@@ -20,29 +20,52 @@
 
 <body>
 
-    <header class="container-fluid site-header sticky-top mb-2 mb-lg-0" id="site-header" role="banner">
+    
+
+<header class="site-header container-fluid fixed-top" id="site-header" role="banner">
     <div class="container">
-        <div class="row flex-wrap">
 
-            <a class="col-9 col-sm-6 col-md-4 col-lg-4 mb-xs-2 mb-md-0 site-title" title="VentureBuilders" href="http://localhost:4000"><img src="/assets/img/logo-color.svg" alt="VentureBuilders"></a>
 
-            <nav class="col-9 col-lg-5 site-nav">
-                
-                    <a class="site-nav-link link-item " title="About Us" href="/about/">About Us</a>
-                
-                    <a class="site-nav-link link-item " title="Expertise" href="/expertise/">Expertise</a>
-                
-                    <a class="site-nav-link link-item " title="Ventures" href="/ventures/">Ventures</a>
-                
-                    <a class="site-nav-link link-item " title="Careers" href="/careers/">Careers</a>
-                
-                    <a class="site-nav-link link-item active" title="Team" href="/team/">Team</a>
-                
-                    <a class="site-nav-link link-item " title="Contact" href="/contact-us/">Contact</a>
-                
-            </nav>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" title="VentureBuilders" href="http://localhost:4000"><img src="/assets/img/logo-color.svg" alt="VentureBuilders">
+        </a>
+        <button class="navbar-toggler d-flex d-lg-none" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+            <ul class="navbar-nav">
+                
+                <li class="nav-item">
+                    <a class="nav-link " title="About Us" href="/about/">About Us</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link " title="Expertise" href="/expertise/">Expertise</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link " title="Ventures" href="/ventures/">Ventures</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link " title="Careers" href="/careers/">Careers</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link active" title="Team" href="/team/">Team</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link " title="Contact" href="/contact-us/">Contact</a>
+                </li>
+                
+            </ul>
         </div>
+
+    </nav>
     </div>
 
 </header>
@@ -50,9 +73,9 @@
 
     <main class="page-content" aria-label="Content">
         <div class="container">
-    <div class="row no-gutters pt-3 mb-2 mb-lg-3">
+    <div class="row no-gutters pt-7 mb-2 mb-lg-3">
         <div class="col col-lg-5">
-            <h2 class="display-2 pb-2">Who we are</h2>
+            <h2 class="heading-large">Who we are</h2>
             
         </div>
     </div>
@@ -62,35 +85,39 @@
     <div class="founder-grid-container row mb-3 mb-lg-5">
         <h3 class="col-9 mb-2 heading-medium">Investment Team</h3>
         
-        
-        <div class="founder-grid-item col">
-            <img class="mb-2" src="/uploads/paul-montagne.jpg" alt="Paul Montagne">
-            <h6 class="headline-variant mb-1">Paul Montagne</h6>
-            <div class="body-small"><p>Paul Montagne founded his first company, GET ME IN!, in London in 2004. Despite a global economic crisis, he sold the company to Ticketmaster in 2009. Shortly thereafter, he started Groupdeal, a daily deal website, which he sold to Telegraaf Media Group in 2014. In 2016, he started VentureBuilders. Paul studied at UC San Diego as well as the Free University of Amsterdam and holds an Msc. in Business Economics.</p>
+        <div class="founders-container d-flex flex-wrap flex-row justify-content-between">
+
+            
+            <div class="founder-grid-item col-sm-4 col-lg mb-4">
+                <img class="mb-2" src="/uploads/paul-2.jpg" alt="Paul Montagne">
+                <h6 class="base-intro bold">Paul Montagne</h6>
+                <div class="base-small mute"><p>Paul Montagne founded his first company, GET ME IN!, in London in 2004. Despite a global economic crisis, he sold the company to Ticketmaster in 2009. Shortly thereafter, he started Groupdeal, a daily deal website, which he sold to Telegraaf Media Group in 2014. In 2016, he started VentureBuilders. Paul studied at UC San Diego as well as the Free University of Amsterdam and holds an Msc. in Business Economics.</p>
 </div>
-        </div>
-        
-        <div class="founder-grid-item col">
-            <img class="mb-2" src="/uploads/diederik-ingen-housz.jpg" alt="Diederik Ingen Housz">
-            <h6 class="headline-variant mb-1">Diederik Ingen Housz</h6>
-            <div class="body-small"><p>Diederik Ingen Housz started his career as a tax lawyer at Loyens &amp; Loeff in Amsterdam and London. After years of experience, he got bitten by the entrepreneurial bug and co-founded a boutique (tax) law firm. He has extensive experience in M&amp;A (seed, VC and PE) and MBI transactions. In 2016, he started VentureBuilders. Diederik studied at UC Berkeley and holds an LL.M. from the University of Amsterdam.</p>
+            </div>
+            
+            <div class="founder-grid-item col-sm-4 col-lg mb-4">
+                <img class="mb-2" src="/uploads/diederik-2.jpg" alt="Diederik Ingen Housz">
+                <h6 class="base-intro bold">Diederik Ingen Housz</h6>
+                <div class="base-small mute"><p>Diederik Ingen Housz started his career as a tax lawyer at Loyens &amp; Loeff in Amsterdam and London. After years of experience, he got bitten by the entrepreneurial bug and co-founded a boutique (tax) law firm. He has extensive experience in M&amp;A (seed, VC and PE) and MBI transactions. In 2016, he started VentureBuilders. Diederik studied at UC Berkeley and holds an LL.M. from the University of Amsterdam.</p>
 </div>
-        </div>
-        
-        <div class="founder-grid-item col">
-            <img class="mb-2" src="/uploads/diederik-ingen-housz.jpg" alt="Arie Kuiper">
-            <h6 class="headline-variant mb-1">Arie Kuiper</h6>
-            <div class="body-small"><p>Arie Kuiper started his career at McKinsey &amp; Company. After a 2-year stint at IceMobile and BrandLoyalty as head of data analytics, he returned to McKinsey to build start-ups for enterprise clients. After having built three ventures in a Built-Operate-Transfer model, he decided to build ventures and stay with them. Arie joined VentureBuilders as a partner in 2018. Arie studied at University College Utrecht (economics &amp; neurolinguistics), the University of Amsterdam and the Free University of Amsterdam, and holds an Msc. in Business as well as an MA in philosophy.</p>
+            </div>
+            
+            <div class="founder-grid-item col-sm-4 col-lg mb-4">
+                <img class="mb-2" src="/uploads/arie-kuiper.jpg" alt="Arie Kuiper">
+                <h6 class="base-intro bold">Arie Kuiper</h6>
+                <div class="base-small mute"><p>Arie Kuiper started his career at McKinsey &amp; Company. After a 2-year stint at IceMobile and BrandLoyalty as head of data analytics, he returned to McKinsey to build start-ups for enterprise clients. After having built three ventures in a Built-Operate-Transfer model, he decided to build ventures and stay with them. Arie joined VentureBuilders as a partner in 2018. Arie studied at University College Utrecht (economics &amp; neurolinguistics), the University of Amsterdam and the Free University of Amsterdam, and holds an Msc. in Business as well as an MA in philosophy.</p>
 </div>
-        </div>
-        
-        <div class="founder-grid-item col">
-            <img class="mb-2" src="/uploads/akarsh.jpg" alt="Akarsh Kumar Dhaiya">
-            <h6 class="headline-variant mb-1">Akarsh Kumar Dhaiya</h6>
-            <div class="body-small"><p>Akarsh Dhaiya started his career at LiteForex Official, a forex trading company in Russia. He grew to become its CFO during the currency crisis in Russia. In 2017, he traded Russia for New York to become an investment banking associate at New York Bay Capital. Akarsh joined VentureBuilders in 2018 as a Sr. Investment Associate. He studied at the University of Rajasthan (engineering) and has an MBA from INSEAD. In addition, Akarsh is a CFA level 2.</p>
+            </div>
+            
+            <div class="founder-grid-item col-sm-4 col-lg mb-4">
+                <img class="mb-2" src="/uploads/akarsh.jpg" alt="Akarsh Dhaiya">
+                <h6 class="base-intro bold">Akarsh Dhaiya</h6>
+                <div class="base-small mute"><p>Akarsh Dhaiya started his career at LiteForex Official, a forex trading company in Russia. He grew to become its CFO during the currency crisis in Russia. In 2017, he traded Russia for New York to become an investment banking associate at New York Bay Capital. Akarsh joined VentureBuilders in 2018 as a Sr. Investment Associate. He studied at the University of Rajasthan (engineering) and has an MBA from INSEAD. In addition, Akarsh is a CFA level 2.</p>
 </div>
+            </div>
+            
+
         </div>
-        
     </div>
 
     <div class="row mb-3 mb-lg-5">
@@ -116,11 +143,9 @@
         </picture>
     </div>
     <figcaption class="pt-1 member-meta">
-        <h6 class="headline-variant">Nina Schaaper</h6>
+        <h6 class="base bold">Nina Schaaper</h6>
 
         
-        
-            <p class="mb-0">Office Manager</p>
         
 
     </figcaption>
@@ -147,11 +172,9 @@
         </picture>
     </div>
     <figcaption class="pt-1 member-meta">
-        <h6 class="headline-variant">Stefan Balkenende</h6>
+        <h6 class="base bold">Stefan Balkenende</h6>
 
         
-        
-            <p class="mb-0">Search Engine Optimisation</p>
         
 
     </figcaption>
@@ -178,11 +201,9 @@
         </picture>
     </div>
     <figcaption class="pt-1 member-meta">
-        <h6 class="headline-variant">Patrick Fase</h6>
+        <h6 class="base bold">Patrick Fase</h6>
 
         
-        
-            <p class="mb-0">Head of Finance</p>
         
 
     </figcaption>
@@ -209,11 +230,9 @@
         </picture>
     </div>
     <figcaption class="pt-1 member-meta">
-        <h6 class="headline-variant">Thijmen Francken</h6>
+        <h6 class="base bold">Thijmen Francken</h6>
 
         
-        
-            <p class="mb-0">Growth Hacker</p>
         
 
     </figcaption>
@@ -240,11 +259,9 @@
         </picture>
     </div>
     <figcaption class="pt-1 member-meta">
-        <h6 class="headline-variant">Michael DeFazio</h6>
+        <h6 class="base bold">Michael DeFazio</h6>
 
         
-        
-            <p class="mb-0">Lead Designer</p>
         
 
     </figcaption>
@@ -271,11 +288,9 @@
         </picture>
     </div>
     <figcaption class="pt-1 member-meta">
-        <h6 class="headline-variant">Bart van den Hengel</h6>
+        <h6 class="base bold">Bart van den Hengel</h6>
 
         
-        
-            <p class="mb-0">Head of Email Marketing</p>
         
 
     </figcaption>
@@ -302,11 +317,9 @@
         </picture>
     </div>
     <figcaption class="pt-1 member-meta">
-        <h6 class="headline-variant">Chloe Witteveen</h6>
+        <h6 class="base bold">Chloe Witteveen</h6>
 
         
-        
-            <p class="mb-0">Talent Agent</p>
         
 
     </figcaption>
@@ -333,11 +346,9 @@
         </picture>
     </div>
     <figcaption class="pt-1 member-meta">
-        <h6 class="headline-variant">Tim Vroom</h6>
+        <h6 class="base bold">Tim Vroom</h6>
 
         
-        
-            <p class="mb-0">Developer</p>
         
 
     </figcaption>
@@ -364,11 +375,9 @@
         </picture>
     </div>
     <figcaption class="pt-1 member-meta">
-        <h6 class="headline-variant">Ruben Löhflefink</h6>
+        <h6 class="base bold">Ruben Löhflefink</h6>
 
         
-        
-            <p class="mb-0">Junior Online Marketeer</p>
         
 
     </figcaption>
@@ -395,11 +404,9 @@
         </picture>
     </div>
     <figcaption class="pt-1 member-meta">
-        <h6 class="headline-variant">Dave de Fijter</h6>
+        <h6 class="base bold">Dave de Fijter</h6>
 
         
-        
-            <p class="mb-0">Senior Developer</p>
         
 
     </figcaption>
@@ -426,11 +433,9 @@
         </picture>
     </div>
     <figcaption class="pt-1 member-meta">
-        <h6 class="headline-variant">Franchesca Garcia del Villar</h6>
+        <h6 class="base bold">Franchesca Garcia del Villar</h6>
 
         
-        
-            <p class="mb-0">Facility employee</p>
         
 
     </figcaption>
@@ -457,11 +462,9 @@
         </picture>
     </div>
     <figcaption class="pt-1 member-meta">
-        <h6 class="headline-variant">Milou Hoes</h6>
+        <h6 class="base bold">Milou Hoes</h6>
 
         
-        
-            <p class="mb-0">Front Office Manager</p>
         
 
     </figcaption>
@@ -488,11 +491,9 @@
         </picture>
     </div>
     <figcaption class="pt-1 member-meta">
-        <h6 class="headline-variant">Joyce van der Vlies</h6>
+        <h6 class="base bold">Joyce van der Vlies</h6>
 
         
-        
-            <p class="mb-0">Junior SEO Specialist</p>
         
 
     </figcaption>
@@ -519,11 +520,9 @@
         </picture>
     </div>
     <figcaption class="pt-1 member-meta">
-        <h6 class="headline-variant">Mark van der Eng</h6>
+        <h6 class="base bold">Mark van der Eng</h6>
 
         
-        
-            <p class="mb-0">Head of SEA</p>
         
 
     </figcaption>
@@ -550,11 +549,9 @@
         </picture>
     </div>
     <figcaption class="pt-1 member-meta">
-        <h6 class="headline-variant">René Oosterloo</h6>
+        <h6 class="base bold">René Oosterloo</h6>
 
         
-        
-            <p class="mb-0">Financial Controller</p>
         
 
     </figcaption>
@@ -601,9 +598,9 @@
 </footer>
 
 
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </body>
 

@@ -6,13 +6,17 @@ layout: page
     <div class="founder-grid-container row mb-3 mb-lg-5">
         <h3 class="col-9 mb-2 heading-medium">Investment Team</h3>
         {% assign founders = site.team | where: "Venture", "Investment Team" | sort: "prio" %}
-        {% for member in founders %}
-        <div class="founder-grid-item col">
-            <img class="mb-2" src="{{ member.Photo }}" alt="{{ member.title }}">
-            <h6 class="headline-variant mb-1">{{ member.title }}</h6>
-            <div class="body-small">{{ member.content }}</div>
+        <div class="founders-container d-flex flex-wrap flex-row justify-content-between">
+
+            {% for member in founders %}
+            <div class="founder-grid-item col-sm-4 col-lg mb-4">
+                <img class="mb-2" src="{{ member.Photo }}" alt="{{ member.title }}">
+                <h6 class="base-intro bold">{{ member.title }}</h6>
+                <div class="base-small mute">{{ member.content }}</div>
+            </div>
+            {% endfor %}
+
         </div>
-        {% endfor %}
     </div>
 
     <div class="row mb-3 mb-lg-5">
@@ -22,7 +26,7 @@ layout: page
         {% for member in specialists %}
             <div class="team-grid-item">
 
-                {% include team-profile.html member=member memberName=member.title memberPosition=member.Position %}
+                {% include team-profile.html member=member memberName=member.title  %}
 
             </div>
         {% endfor %}

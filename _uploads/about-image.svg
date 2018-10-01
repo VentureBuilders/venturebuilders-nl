@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg  viewBox="0 0 483 411" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>about-image</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M239.5,353 C336.978258,353 416,273.978258 416,176.5 C416,79.0217417 336.978258,0 239.5,0 C142.021742,0 63,79.0217417 63,176.5 C63,273.978258 142.021742,353 239.5,353 Z" class="" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="353" height="353" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="v3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g class="" id="Investment--Desktop" transform="translate(-760.000000, -262.000000)">
+            <g id="about-image" transform="translate(761.000000, 262.000000)">
+                <use class="" id="Oval" stroke="#E6E6E6" mask="url(#mask-2)" stroke-width="4" stroke-dasharray="12" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <text id="WE-BELIEVE-IN…" font-family="Oswald-Regular, Oswald" font-size="24" font-weight="normal" letter-spacing="1" fill="#404040">
+                    <tspan x="168.184" y="182">WE BELIEVE IN…</tspan>
+                </text>
+                <g class="" class="" id="Group-3" transform="translate(0.000000, 33.000000)">
+                    <circle class="" id="Oval-4" stroke="#404040" fill="#FFFFFF" fill-rule="nonzero" cx="65" cy="65" r="65"></circle>
+                    <text class="" id="FOUNDERS" font-family="Oswald-Medium, Oswald" font-size="12" font-weight="400" letter-spacing="1.5" fill="#404040">
+                        <tspan x="35.488" y="32">FOUNDER</tspan>
+                        <tspan x="89.584" y="32">S</tspan>
+                    </text>
+                    <g class="" id="Group-20" transform="translate(34.000000, 50.000000)" stroke="#009999" stroke-width="2">
+                        <polyline class="" id="Stroke-1" points="19 5 62 5 62 43 21 43"></polyline>
+                        <path d="M21,39 L59,39" class="" id="Stroke-3"></path>
+                        <polyline class="" id="Stroke-4" points="26 36 26 31 22 31 22 36"></polyline>
+                        <polyline class="" id="Stroke-5" points="42 36 42 24 38 24 38 36"></polyline>
+                        <polyline class="" id="Stroke-6" points="50 36 50 18 46 18 46 36"></polyline>
+                        <polyline class="" id="Stroke-7" points="58 36 58 13 54 13 54 36"></polyline>
+                        <polyline id="Stroke-8" points="34 36 34 28 30 28 30 36"></polyline>
+                        <g class="" id="Group-19">
+                            <path d="M11,59 L11,38" class="" id="Stroke-9"></path>
+                            <path d="M16,5 C16,7.762 13.762,10 11,10 C8.238,10 6,7.762 6,5 C6,2.238 8.238,0 11,0 C13.762,0 16,2.238 16,5 Z" class="" id="Stroke-11"></path>
+                            <path d="M4,59 L4,35 L0,35 L0,21 C0,17.134 3.134,14 7,14 L34,14 L34,20 L18,20 L18,59" class="" id="Stroke-13"></path>
+                            <path d="M11,17 L11,19" class="" id="Stroke-15"></path>
+                            <path d="M11,21 L11,23" class="" id="Stroke-17"></path>
+                        </g>
+                    </g>
+                </g>
+                <g class="" id="Group-2" transform="translate(351.000000, 33.000000)">
+                    <circle class="" id="Oval-4" stroke="#404040" fill="#FFFFFF" fill-rule="nonzero" cx="65" cy="65" r="65"></circle>
+                    <text class="" id="SUPPORT" font-family="Oswald-Medium, Oswald" font-size="12" font-weight="400" letter-spacing="1.5" fill="#404040">
+                        <tspan x="38.498" y="32">SUPPOR</tspan>
+                        <tspan x="86.354" y="32">T</tspan>
+                    </text>
+                    <g class="" id="Group-29" transform="translate(34.000000, 46.000000)" stroke="#009999" stroke-width="2">
+                        <path d="M34,5 C34,7.762 31.762,10 29,10 C26.238,10 24,7.762 24,5 C24,2.238 26.238,0 29,0 C31.762,0 34,2.238 34,5 Z" class="" id="Stroke-1"></path>
+                        <path d="M48,63 L48,45" class="" id="Stroke-3"></path>
+                        <path d="M52,12 C52,14.21 50.209,16 48,16 C45.791,16 44,14.21 44,12 C44,9.791 45.791,8 48,8 C50.209,8 52,9.791 52,12 Z" class="" id="Stroke-5"></path>
+                        <polyline class="" id="Stroke-7" points="39 42 42 42 42 63"></polyline>
+                        <path d="M54,63 L54,42 L58,42 L58,25 C58,22.238 55.762,20 53,20 L43,20" class="" id="Stroke-9"></path>
+                        <path d="M48,21 L48,26" class="" id="Stroke-11"></path>
+                        <path d="M10,21 L10,23" class="" id="Stroke-11"></path>
+                        <path d="M10,24 L10,26" class="" id="Stroke-11"></path>
+                        <path d="M10,63 L10,45" class="" id="Stroke-13"></path>
+                        <polyline class="" id="Stroke-15" points="19 42 16 42 16 63"></polyline>
+                        <path d="M4,63 L4,42 L0,42 L0,25 C0,22.238 2.238,20 5,20 L15,20" class="" id="Stroke-17"></path>
+                        <path d="M14,12 C14,14.21 12.209,16 10,16 C7.791,16 6,14.21 6,12 C6,9.791 7.791,8 10,8 C12.209,8 14,9.791 14,12 Z" class="" id="Stroke-21"></path>
+                        <path d="M22,63 L22,38 L18,38 L18,20 C18,16.687 20.687,14 24,14 L34,14 C37.313,14 40,16.687 40,20 L40,38 L36,38 L36,63" class="" id="Stroke-23"></path>
+                        <path d="M29,41 L29,63" class="" id="Stroke-25"></path>
+                        <path d="M29,15 L29,17" class="" id="Stroke-29" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+                <g class="" id="Group" transform="translate(167.000000, 280.000000)">
+                    <circle class="" id="Oval-4" stroke="#404040" fill="#FFFFFF" fill-rule="nonzero" cx="65" cy="65" r="65"></circle>
+                    <text id="AI-&amp;-DATA" font-family="Oswald-Medium, Oswald" font-size="12" font-weight="400" letter-spacing="1.5" fill="#404040">
+                        <tspan x="35.864" y="35">AI &amp; DAT</tspan>
+                        <tspan x="87.872" y="35">A</tspan>
+                    </text>
+                    <g class="" id="Group-17" transform="translate(34.000000, 47.000000)" stroke="#009999" stroke-linejoin="round" stroke-width="2">
+                        <path d="M16,54 C16,58.418 12.418,62 8,62 C3.582,62 0,58.418 0,54 C0,49.582 3.582,46 8,46 C12.418,46 16,49.582 16,54 Z" class="" id="Stroke-1"></path>
+                        <path d="M16,31 C16,35.418 12.418,39 8,39 C3.582,39 0,35.418 0,31 C0,26.582 3.582,23 8,23 C12.418,23 16,26.582 16,31 Z" class="" id="Stroke-3"></path>
+                        <path d="M39,19 C39,23.418 35.418,27 31,27 C26.582,27 23,23.418 23,19 C23,14.582 26.582,11 31,11 C35.418,11 39,14.582 39,19 Z" class="" id="Stroke-5"></path>
+                        <path d="M62,31 C62,35.418 58.418,39 54,39 C49.582,39 46,35.418 46,31 C46,26.582 49.582,23 54,23 C58.418,23 62,26.582 62,31 Z" class="" id="Stroke-7"></path>
+                        <path d="M39,43 C39,47.418 35.418,51 31,51 C26.582,51 23,47.418 23,43 C23,38.582 26.582,35 31,35 C35.418,35 39,38.582 39,43 Z" class="" id="Stroke-9"></path>
+                        <path d="M16,8 C16,12.418 12.418,16 8,16 C3.582,16 0,12.418 0,8 C0,3.582 3.582,0 8,0 C12.418,0 16,3.582 16,8 Z" class="" id="Stroke-11"></path>
+                        <polyline class="" id="Stroke-13" points="31 43 8 31 31 19"></polyline>
+                        <polyline class="" id="Stroke-15" points="31 43 8 8 31 19 54 31 31 43 8 54 31 19"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

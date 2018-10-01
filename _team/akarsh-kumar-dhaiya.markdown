@@ -1,5 +1,5 @@
 ---
-title: Akarsh Kumar Dhaiya
+title: Akarsh Dhaiya
 date: 2018-09-10 15:06:00 Z
 Venture: Investment Team
 Position: Senior  Investment  Associate
