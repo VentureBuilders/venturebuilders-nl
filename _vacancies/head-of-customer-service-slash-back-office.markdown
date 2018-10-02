@@ -5,8 +5,8 @@ priority: 1
 Venture: Euroknaller
 Location: Amsterdam
 type: Fulltime
-contact: 'Steven '
-email_address: steven@euroknaller.nl
+contact: Chloe
+email_address: Chloe@venturebuilders.nl
 ---
 
 Jij bent de allrounder, een organisatietalent. Communicatief sterk én nauwkeurig. Je verbindt mensen en bewaart het overzicht. Uiteraard word je enthousiast van een veelzijdig takenpakket.
@@ -53,7 +53,7 @@ Euroknaller is een e-commerce website met dagelijkse verrassende productdeals. V
 -	Laat je brood maar thuis, want de lunch wordt geregeld
 
 **Ja, graag!**
-Groei met ons mee en solliciteer! Stuur je CV en motivatiebrief naar steven@euroknaller.nl en wie weet tot snel!
+Groei met ons mee en solliciteer! Stuur je CV en motivatiebrief naar chloe@venturebuilders.nl en wie weet tot snel!
 
 
 
