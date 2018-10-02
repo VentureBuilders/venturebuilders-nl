@@ -1,6 +1,6 @@
 ---
 title: Home
-headline: Enabling Founders
+headline: Supporting Founders
 subhead: Enabling Founders
 intro: VentureBuilders is a hands-on European venture capital fund, focused on AI, data and general SaaS companies
 feature_group:
