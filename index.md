@@ -1,42 +1,25 @@
 ---
 title: Home
-headline: VentureBuilders
-subhead: We enable talented entrepreneurs to build market leading tech companies
+headline: Enabling Founders
+subhead: Enabling Founders
+intro: VentureBuilders is a hands-on European venture capital fund, focused on AI, data and general SaaS companies
 feature_group:
 - subhead: Network
   image: icon-cube.svg
-  description: Leveraging our extensive network, we provide our ventures with an unprecedented
-    advantage
-  cta: Our Ventures
-  cta_ref: "/ventures/"
+  description: We provide our ventures with access to network, including world-class experts at top institutions, potential customers and follow-up investors
 - subhead: Capital
   image: icon-circles.svg
-  description: We back early-stage companies in the digital technology space with
-    initial seed investments
-  cta: Investment Enquiries
-  cta_ref: "/investment/"
-- subhead: 25 Experts
+  description: We invest during seed-stage and continue to fund the best ventures through additional rounds. We help secure investment from later-stage investors where possible
+- subhead: Specialists
   image: icon-molecules.svg
-  description: A digital-focused team of 25 passionate experts helps our ventures
-    to accelerate their growth
-  cta: Our Expertise
-  cta_ref: "/expertise/"
+  description: We have a team of specialists in marketing, UX, design, finance and HR to support ventures in areas where an in-house hire doesn’t make sense
 quote: Our aim is to achieve great things with talented people. With our unique positioning,
   we are able to be a part of the entire growth process of companies.
 quote_cite: Paul Montagne, CEO, VentureBuilders
-feature_block_heading: How we build
-feature_blocks:
-- subhead: Accelerate
-  description: By working side-by-side with our founders, we are able to provide them
-    with operational know-how and resources to grow concepts into profitable businesses.
-- subhead: Invest
-  description: We provide seed and early growth capital during development and early
-    revenue stage. Further down the road, we assist in raising external growth capital
-    to expand the business.
-- subhead: Support
-  description: After the early growth phase, we continue to support our founders.
-    Our expert network focuses on business strategy, development, human resources
-    and investments.
+feature_single_heading: About us
+feature_single_content: We are a hands-on venture capital fund, focused on AI and data companies. We are founded by founders, allowing us to bring our experience in running companies to our own ventures. We believe Artificial Intelligence will change every industry in the next decade; and more broadly that software will continue to impact every industry. We invest in founders with an exceptional drive and a unique perspective on their industry.
+feature_single_link: More about us
+feature_single_linkref: /about/
+feature_single_image: http://placehold.it/800x520
 layout: home
 ---
-

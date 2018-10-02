@@ -1,5 +1,6 @@
 ---
 title: Stagiaire Social Media & Content Marketing
+published: false
 date: 2018-06-20 15:36:00 Z
 priority: 20
 Venture: Traveldeal
@@ -8,7 +9,7 @@ contact: Nina Schaaper
 email_address: nina@venturebuilders.nl
 ---
 
-Wil jij dit jaar de allerleukste stage regelen waar je alles kan leren over content creatie en social media marketing? En zit jij in je 3e of 4e jaar van je opleiding communicatie/marketing (of vergelijkbaar), ben je creatief, sociaal en heel leuk om mee samen te werken? HAL-LE-LU-JA! Dan ben jij wellicht de nieuwe social media & content marketing stagiaire bij Traveldeal. 
+Wil jij dit jaar de allerleukste stage regelen waar je alles kan leren over content creatie en social media marketing? En zit jij in je 3e of 4e jaar van je opleiding communicatie/marketing (of vergelijkbaar), ben je creatief, sociaal en heel leuk om mee samen te werken? HAL-LE-LU-JA! Dan ben jij wellicht de nieuwe social media & content marketing stagiaire bij Traveldeal.
 
 **Traveldeal**
 Wij zijn actief in de travel markt van Nederland en België en zal er in de nabije toekomst gestart worden met verdere internationalisatie. Om deze groei verder te stimuleren zijn wij opzoek naar een social savvy persoon. Naast social media zal je ook meewerken aan de uitvoering van onze content marketing plannen. Concreet ga je aan de slag met het schrijven van de creatiefste reisblogs en het beheren van onze social channels. Zie jij dit wel voor je en heb je ook nog eens affiniteit met reizen? Kom dan bij ons stage lopen!
@@ -18,7 +19,7 @@ Wij zijn actief in de travel markt van Nederland en België en zal er in de nabi
 * Beheren van de verschillende social channels;
 * Acteren op UGC voor onze kanalen;
 * Strategie voor groei volgen en aanscherpen;
-* Community management; 
+* Community management;
 * Onderzoek naar de doelgroep, hashtags, communities etc;
 * Creeren van social media rapporten o.b.v. je analyse;
 * Schrijven van reisblogs;

@@ -1,5 +1,6 @@
 ---
 title: Sales Stage
+published: false
 date: 2018-01-12 11:02:00 Z
 priority: 20
 Venture: Traveldeal
@@ -18,7 +19,7 @@ Traveldeal.nl is een aanbiedingen site voor hotelovernachtingen en reizen. Als s
 
 * Vergelijken van onze deals met concurrent websites
 * Websites checken voor nieuwe deals
-* Acquisitie voorbereiden 
+* Acquisitie voorbereiden
 * Contact onderhouden met hotels en leveranciers
 
 

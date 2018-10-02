@@ -1,9 +1,10 @@
 ---
 title: Backoffice & Customer Service Stage
+published: false
 date: 2018-05-24 09:29:00 Z
 priority: 16
 Venture: Euroknaller
-Location: 'Amsterdam '
+Location: Amsterdam
 type: Internship
 ---
 

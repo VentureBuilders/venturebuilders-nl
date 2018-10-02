@@ -27,7 +27,7 @@ Story:
     online. Expending to diverse verticals such as mortgage advice, financial consulting,
     legal services, dating, nutrition, fitness, esoteric and spiritual, beauty, or
     even medical advice. '
-quote: 
-quote_cite: 
+quote:
+quote_cite:
+published: false
 ---
-

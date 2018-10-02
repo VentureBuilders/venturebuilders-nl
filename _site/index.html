@@ -20,27 +20,52 @@
 
 <body>
 
-    <header class="container-fluid site-header sticky-top mb-2 mb-lg-0" id="site-header" role="banner">
+    
+
+<header class="site-header container-fluid fixed-top" id="site-header" role="banner">
     <div class="container">
-        <div class="row flex-wrap">
 
-            <a class="col-9 col-sm-6 col-md-4 col-lg-4 mb-xs-2 mb-md-0 site-title" title="VentureBuilders" href="http://localhost:4000"><img src="/assets/img/logo-color.svg" alt="VentureBuilders"></a>
 
-            <nav class="col-9 col-lg-5 site-nav">
-                
-                    <a class="site-nav-link link-item " title="Expertise" href="/expertise/">Expertise</a>
-                
-                    <a class="site-nav-link link-item " title="Ventures" href="/ventures/">Ventures</a>
-                
-                    <a class="site-nav-link link-item " title="Careers" href="/careers/">Careers</a>
-                
-                    <a class="site-nav-link link-item " title="Team" href="/team/">Team</a>
-                
-                    <a class="site-nav-link link-item " title="Contact" href="/contact-us/">Contact</a>
-                
-            </nav>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" title="VentureBuilders" href="http://localhost:4000"><img src="/assets/img/logo-color.svg" alt="VentureBuilders">
+        </a>
+        <button class="navbar-toggler d-flex d-lg-none" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+            <ul class="navbar-nav">
+                
+                <li class="nav-item">
+                    <a class="nav-link " title="About Us" href="/about/">About Us</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link " title="Expertise" href="/expertise/">Expertise</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link " title="Ventures" href="/ventures/">Ventures</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link " title="Careers" href="/careers/">Careers</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link " title="Team" href="/team/">Team</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link " title="Contact" href="/contact-us/">Contact</a>
+                </li>
+                
+            </ul>
         </div>
+
+    </nav>
     </div>
 
 </header>
@@ -52,10 +77,11 @@
     
 <section class="container hero">
 
-    <div class="mx-auto py-4 py-lg-5">
+    <div class="mx-auto py-5 py-lg-6 py-xl-7">
         <img class="mb-2 mb-lg-3 mb-xl-4 hero-logo-tree" src="assets/img/logo-tree.svg" alt="VentureBuilders">
-        <h1 class="mb-2 display-1 hero-headline">VentureBuilders</h1>
-        <p class="hero-description">We enable talented entrepreneurs to build market leading tech companies</p>
+        <h1 class="mb-2 display-1 hero-headline">Enabling Founders</h1>
+        <!-- <h3 class="mb-2 display-4 hero-subhead">Enabling Founders</h3> -->
+        <p class="hero-intro">VentureBuilders is a hands-on European venture capital fund, focused on AI, data and general SaaS companies</p>
 
     </div>
 
@@ -70,22 +96,22 @@
         <li class="col-sm-9 col-md pt-1 mb-3 mb-md-2 feature-item">
             <img class="mb-1 mb-lg-2 mb-xl-3 feature-icon" src="assets/img/icons/icon-cube.svg" alt="">
             <h4 class="mb-1 headline-variant feature-headline">Network</h4>
-            <p class="mb-1 mb-lg-2 feature-description">Leveraging our extensive network, we provide our ventures with an unprecedented advantage</p>
-            <a class="feature-link" href="/ventures/">Our Ventures</a>
+            <p class="mb-1 mb-lg-2 feature-description">We provide our ventures with access to network, including world-class experts at top institutions, potential customers and follow-up investors</p>
+            
         </li>
         
         <li class="col-sm-9 col-md pt-1 mb-3 mb-md-2 feature-item">
             <img class="mb-1 mb-lg-2 mb-xl-3 feature-icon" src="assets/img/icons/icon-circles.svg" alt="">
             <h4 class="mb-1 headline-variant feature-headline">Capital</h4>
-            <p class="mb-1 mb-lg-2 feature-description">We back early-stage companies in the digital technology space with initial seed investments</p>
-            <a class="feature-link" href="/investment/">Investment Enquiries</a>
+            <p class="mb-1 mb-lg-2 feature-description">We invest during seed-stage and continue to fund the best ventures through additional rounds. We help secure investment from later-stage investors where possible</p>
+            
         </li>
         
         <li class="col-sm-9 col-md pt-1 mb-3 mb-md-2 feature-item">
             <img class="mb-1 mb-lg-2 mb-xl-3 feature-icon" src="assets/img/icons/icon-molecules.svg" alt="">
-            <h4 class="mb-1 headline-variant feature-headline">25 Experts</h4>
-            <p class="mb-1 mb-lg-2 feature-description">A digital-focused team of 25 passionate experts helps our ventures to accelerate their growth</p>
-            <a class="feature-link" href="/expertise/">Our Expertise</a>
+            <h4 class="mb-1 headline-variant feature-headline">Specialists</h4>
+            <p class="mb-1 mb-lg-2 feature-description">We have a team of specialists in marketing, UX, design, finance and HR to support ventures in areas where an in-house hire doesn’t make sense</p>
+            
         </li>
         
 
@@ -101,7 +127,7 @@
                 <div class="col-9 col-md-6">
                     <ul class="row list-unstyled mb-6">
                         <li class="col-4 mb-3 company-stat">
-                            <h1 class="display-1">88</h1>
+                            <h1 class="display-1">104</h1>
                             <p>Talented individuals</p>
                         </li>
                         <li class="col-4 mb-3 company-stat">
@@ -109,7 +135,7 @@
                             <p>Companies</p>
                         </li>
                         <li class="col-4 mb-3 company-stat">
-                            <h1 class="display-1">87</h1>
+                            <h1 class="display-1">130+</h1>
                             <p>Countries with active users</p>
                         </li>
                         <li class="col-4 mb-3 company-stat">
@@ -127,32 +153,25 @@
         </div>
     </section>
 
-    <section class="container py-2 py-md-4 py-lg-5 feature-blocks">
-    <h4 class="mb-4 display-4 border-b">How we build</h4>
-    <ul class="list-unstyled row feature-blocks-list">
+    <!-- <section class="container feature-single mt-6 mb-6">
+
+    <div class="row align-items-center">
 
         
-        <li class="col-9 col-md-3 mb-4 order-md-1">
-            <h4 class="mb-2 headline-variant">Accelerate</h4>
-            <p class="">By working side-by-side with our founders, we are able to provide them with operational know-how and resources to grow concepts into profitable businesses.</p>
-        </li>
-        
-        <li class="col-9 col-md-3 mb-4 order-md-2">
-            <h4 class="mb-2 headline-variant">Invest</h4>
-            <p class="">We provide seed and early growth capital during development and early revenue stage. Further down the road, we assist in raising external growth capital to expand the business.</p>
-        </li>
-        
-        <li class="col-9 col-md-3 mb-4 order-md-4">
-            <h4 class="mb-2 headline-variant">Support</h4>
-            <p class="">After the early growth phase, we continue to support our founders. Our expert network focuses on business strategy, development, human resources and investments.</p>
-        </li>
+        <div class="feature-single-image col">
+            <img src="http://placehold.it/800x520" alt="">
+        </div>
         
 
-        
+        <div class="col-5">
+            <h4 class="display-4 mb-4">About us</h4>
+            <p class="mb-2">We are a hands-on venture capital fund, focused on AI and data companies. We are founded by founders, allowing us to bring our experience in running companies to our own ventures. We believe Artificial Intelligence will change every industry in the next decade; and more broadly that software will continue to impact every industry. We invest in founders with an exceptional drive and a unique perspective on their industry.</p>
+            <a class="cta-link" href="/about/" title="More about us">More about us</a>
+        </div>
 
-    </ul>
+    </div>
 </section>
-
+ -->
 
     <section class="container-fluid feature-venture">
         <div class="container">
@@ -242,6 +261,8 @@
 
             <div class="col-9 col-sm-7 col-md-6 col-lg-5 col-xl-4 footer-link-wrapper">
                 
+                    <a class="footer-link" href="/about/">About Us</a>
+                
                     <a class="footer-link" href="/expertise/">Expertise</a>
                 
                     <a class="footer-link" href="/ventures/">Ventures</a>
@@ -259,9 +280,9 @@
 </footer>
 
 
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </body>
 

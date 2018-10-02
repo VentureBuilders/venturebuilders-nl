@@ -1,0 +1,54 @@
+//
+//
+
+.feature-group {
+
+}
+
+.feature-group.left-align {
+    text-align: left;
+}
+.feature-group.center-align {
+    text-align: center;
+}
+
+.feature-item {
+    // text-align: left;
+    text-align: center;
+    @include media-breakpoint-up(md) {
+        text-align: center;
+    };
+
+    .left-align & { text-align: left; }
+}
+
+.home .feature-item {
+    opacity: 0;
+    animation-duration: 1.25s;
+    animation-fill-mode: forwards;
+    animation-name: fadeIn;
+    animation-timing-function: ease-in-out;
+
+    &:nth-child(1) { animation-delay: 0.75s; }
+    &:nth-child(2) { animation-delay: 1s; }
+    &:nth-child(3) { animation-delay: 1.25s; }
+}
+
+.feature-icon {
+    min-width: $spacer;
+    max-width: $spacer * 2;
+}
+
+
+.feature-description {
+    opacity: 0.6;
+    transition: opacity 0.2s ease-in-out;
+
+    .feature-item:hover & {
+        opacity: 1;
+    }
+}
+
+.feature-link {
+    @include cta-link($arrow: true);
+}

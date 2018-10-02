@@ -1,0 +1,25 @@
+---
+layout: section
+---
+
+<section class="container">
+    <div class="row page-hero justify-content-between">
+        <div class="col-lg-4 page-hero-content ">
+            <h2 class="heading-large">{{ page.headline }}</h2>
+            <p class="base-large mute">{{ page.lead }}</p>
+            <p class="base">{{ page.intro }}</p>
+        </div>
+
+        <div class="col-lg-4 page-hero-image">
+            <img src="{{ page.hero-image }}" alt="">
+        </div>
+    </div>
+</section>
+
+
+{% for block in page.Blocks %}
+<section class="py-2">
+    {% include block_sidebyside.html content=block %}
+</section>
+
+{% endfor %}
