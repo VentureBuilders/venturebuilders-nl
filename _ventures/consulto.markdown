@@ -1,6 +1,7 @@
 ---
 title: Consulto
 date: 2017-09-04 12:01:00 Z
+published: false
 class_name: consulto
 prio: 8
 Intro: Consulto gives you the marketing tools to promote your advice business like
@@ -27,7 +28,7 @@ Story:
     online. Expending to diverse verticals such as mortgage advice, financial consulting,
     legal services, dating, nutrition, fitness, esoteric and spiritual, beauty, or
     even medical advice. '
-quote:
-quote_cite:
-published: false
+quote: 
+quote_cite: 
 ---
+

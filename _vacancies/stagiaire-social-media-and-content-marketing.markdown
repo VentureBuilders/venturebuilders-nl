@@ -1,7 +1,7 @@
 ---
 title: Stagiaire Social Media & Content Marketing
-published: false
 date: 2018-06-20 15:36:00 Z
+published: false
 priority: 20
 Venture: Traveldeal
 type: Internship
