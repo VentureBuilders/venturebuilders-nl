@@ -1,7 +1,6 @@
 ---
 title: About Us
 permalink: "/about/"
-layout: about
 headline: About Us
 lead: We are a hands-on venture capital fund, focused on AI and data companies.
 intro: We are founded by founders, allowing us to bring our experience in running
@@ -19,8 +18,8 @@ Blocks:
     and build teams to complement rather than compliment them.
   image: "../uploads/woman-founder.jpg"
   flip: false
-- heading: We believe in enablement.
-  text: VentureBuilders enables top founder teams to grow their companies. We have
+- heading: We believe in support.
+  text: VentureBuilders supports top founder teams to grow their companies. We have
     a team of 25 specialists in marketing, UX, design, finance and HR to support ventures
     in areas where an in-house hire doesn’t make sense. In addition, we have a broad
     network of experts to assist strategic decision making. Finally, our global executive
@@ -38,5 +37,6 @@ Blocks:
     SaaS applications.
   image: "../uploads/data-dashboard.jpg"
   flip: false
+layout: about
 ---
 
