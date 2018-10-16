@@ -6,7 +6,7 @@ layout: page
     <div class="founder-grid-container row mb-3 mb-lg-5">
         <h3 class="col-9 mb-2 heading-medium">Investment Team</h3>
         {% assign founders = site.team | where: "Venture", "Investment Team" | sort: "prio" %}
-        <div class="founders-container d-flex flex-wrap flex-row justify-content-between">
+        <div class="col-9 founders-container d-flex flex-wrap flex-row justify-content-between">
 
             {% for member in founders %}
             <div class="founder-grid-item col-sm-4 col-lg mb-4">
