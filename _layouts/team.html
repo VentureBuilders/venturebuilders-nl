@@ -24,11 +24,11 @@ layout: page
         {% assign specialists = site.team | where: "Venture", "VentureSquad" | sort: "prio" %}
 
         {% for member in specialists %}
-            <div class="team-grid-item">
-
-                {% include team-profile.html member=member memberName=member.title  %}
-
-            </div>
+            {% unless member.published == false %}
+                <div class="team-grid-item">
+                        {% include team-profile.html member=member memberName=member.title  %}
+                </div>
+            {% endunless %}
         {% endfor %}
 
     </div>
