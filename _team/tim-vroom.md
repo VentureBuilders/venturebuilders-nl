@@ -1,5 +1,6 @@
 ---
 title: Tim Vroom
+published: false
 Position: Developer
 Venture:
 - VentureSquad
