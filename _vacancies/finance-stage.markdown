@@ -1,13 +1,12 @@
 ---
 title: Finance Stage
 date: 2018-05-30 11:42:00 Z
-published: false
-priority: 18
-Venture: HelloSpecial
+priority: 1
+Venture: Euroknaller
 Location: Amsterdam
 type: Internship
-contact: Nina Schaaper
-email_address: nina@venturebuilders.nl
+contact: Jeroen
+email_address: jeroen@euroknaller.nl
 ---
 
 Wij zoeken jou! Ben jij een enthousiaste 3e-jaars student Bedrijfseconomie / Finance & Control die wil bijdragen aan de groei van een jong en snelgroeiend internetbedrijf? Wil je met een klein team grootse dingen bereiken en helpen met de lancering van onze nieuwe website? Yes! HelloSpecial is op zoek naar stagiairs met dezelfde drive als wij. Wil je ons helpen om van ons bedrijf een groot succes te maken en echt het verschil maken? Dan ben je bij ons aan het juiste adres!
