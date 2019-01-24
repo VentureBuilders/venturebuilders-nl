@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 @import url("https://fonts.googleapis.com/css?family=Fjalla+One|Mada:300,400,700");
-@import url("https://fonts.googleapis.com/css?family=Oswald|Yantramanav:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:500|Yantramanav:400,700");
 @media print {
   *,
   *::before,
@@ -5955,17 +5955,15 @@ ul > li {
   cursor: pointer; }
 
 .heading-super, .heading-large, .heading-medium, .heading-small {
-  font-family: "Oswald", sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
   text-transform: uppercase;
-  font-weight: 400;
-  color: #252626;
-  margin-bottom: 0.75em;
-  letter-spacing: 0.1em; }
+  font-weight: 500;
+  color: inherit;
+  margin-bottom: 0.75em; }
 
 .heading-super {
   font-size: 4.5em;
-  line-height: 110%;
-  letter-spacing: -0.1em; }
+  line-height: 110%; }
 
 .heading-large {
   font-size: 3rem;
@@ -5974,7 +5972,6 @@ ul > li {
 .heading-medium {
   font-size: 1.5em;
   line-height: 120%;
-  letter-spacing: 0.05em;
   margin-bottom: 1.125em; }
 
 .heading-small {
@@ -6274,7 +6271,8 @@ ul > li {
 
 .feature-description {
   opacity: 0.6;
-  transition: opacity 0.2s ease-in-out; }
+  transition: opacity 0.2s ease-in-out;
+  font-size: 0.875em; }
   .feature-item:hover .feature-description {
     opacity: 1; }
 

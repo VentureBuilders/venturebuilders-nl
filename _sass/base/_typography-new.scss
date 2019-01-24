@@ -1,9 +1,10 @@
 // Typography Updates
 
-@import url('https://fonts.googleapis.com/css?family=Oswald|Yantramanav:300,400,700');
+// @import url('https://fonts.googleapis.com/css?family=Oswald|Yantramanav:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:500|Yantramanav:400,700');
 
 $font-family-base: 'Yantramanav', sans-serif;
-$font-family-display: 'Oswald', sans-serif;
+$font-family-display: 'Barlow Condensed', sans-serif;
 
 $font-color: #252626;
 
@@ -12,10 +13,10 @@ $font-color: #252626;
 %heading {
     font-family: $font-family-display;
     text-transform: uppercase;
-    font-weight: 400;
-    color: $font-color;
+    font-weight: 500;
+    color: inherit;
     margin-bottom: 0.75em;
-    letter-spacing: 0.1em;
+    // letter-spacing: 0.1em;
 }
 
 
@@ -24,7 +25,7 @@ $font-color: #252626;
     @extend %heading;
     font-size: 4.5em;
     line-height: 110%;
-    letter-spacing: -0.1em;
+    // letter-spacing: -0.1em;
 }
 
 // Page Headings
@@ -39,7 +40,7 @@ $font-color: #252626;
     @extend %heading;
     font-size: 1.5em;
     line-height: 120%;
-    letter-spacing: 0.05em;
+    // letter-spacing: 0.05em;
     margin-bottom: 1.125em;
 }
 
