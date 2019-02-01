@@ -5,8 +5,9 @@ priority: 20
 Venture: Traveldeal
 Location: Amsterdam
 type: Internship
+contact: Laura
+email_address: laura@traveldeal.nl
 contact name: Nina Schaaper
-email_address: nina@venturebuilders.nl
 ---
 
 #### Traveldeal
@@ -18,7 +19,7 @@ Traveldeal.nl is een aanbiedingen site voor hotelovernachtingen en reizen. Als s
 
 * Vergelijken van onze deals met concurrent websites
 * Websites checken voor nieuwe deals
-* Acquisitie voorbereiden 
+* Acquisitie voorbereiden
 * Contact onderhouden met hotels en leveranciers
 
 

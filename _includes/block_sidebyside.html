@@ -1,0 +1,18 @@
+<section class="container sidebyside">
+
+    <div class="row align-items-center justify-content-between">
+
+        <div class="col-lg-4 block pb-4 {% if include.content.flip %}flip{% endif %}">
+            <img src="{{ include.content.image }}" alt="{{ include.img-alt }}">
+        </div>
+        
+        <div class="col-lg-4 block">
+            <h4 class="heading-medium">{{ include.content.heading }}</h4>
+            <p class="base">{{ include.content.text }}</p>
+        </div>
+
+
+
+
+    </div>
+</section>

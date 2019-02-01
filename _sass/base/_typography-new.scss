@@ -1,34 +1,50 @@
 // Typography Updates
 
+// @import url('https://fonts.googleapis.com/css?family=Oswald|Yantramanav:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:500|Yantramanav:400,700');
+
+$font-family-base: 'Yantramanav', sans-serif;
+$font-family-display: 'Barlow Condensed', sans-serif;
+
+$font-color: #252626;
 
 // Headings
 // ============================
 %heading {
-    font-family: $font-family-alt;
+    font-family: $font-family-display;
     text-transform: uppercase;
+    font-weight: 500;
+    color: inherit;
+    margin-bottom: 0.75em;
+    // letter-spacing: 0.1em;
 }
 
+
+// Site Hero Tagline
 .heading-super {
     @extend %heading;
     font-size: 4.5em;
     line-height: 110%;
-    letter-spacing: -0.1em;
+    // letter-spacing: -0.1em;
 }
 
+// Page Headings
 .heading-large {
     @extend %heading;
-    font-size: 3.5em;
+    font-size: 3rem;
     line-height: 115%;
-    letter-spacing: 0;
 }
 
+// Section Headings
 .heading-medium {
     @extend %heading;
     font-size: 1.5em;
     line-height: 120%;
-    letter-spacing: 0.05em;
+    // letter-spacing: 0.05em;
+    margin-bottom: 1.125em;
 }
 
+// Subheads
 .heading-small {
     @extend %heading;
     font-size: 1.1em;
@@ -41,23 +57,42 @@
 // ============================
 
 %body-text {
-    font-family: $font-family-sans-serif;
-    line-height: 130%;
+    font-family: $font-family-base;
+    color: $font-color;
 }
 
-.body-large {
-    font-size: 1.5em;
+.base-large {
+    @extend %body-text;
+    font-size: 1.3125em;
     font-weight: 300;
+    line-height: 120%;
+    margin-bottom: 0.75em;
 }
 
-.body-medium {
-    font-size: 1.1em;
-    font-weight: 300;
+.base-intro {
+    @extend %body-text;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 135%;
+    margin-bottom: 0.75em;
 }
 
-.body-small {
+.base {
+    @extend %body-text;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 135%;
+    opacity: 0.8;
+    margin-bottom: 0.5em;
+}
+
+
+.base-small {
+    @extend %body-text;
     font-size: 0.875em;
     font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 0.5em;
 }
 
 // Quotes
@@ -117,4 +152,15 @@
         background-color: $link-hover-color;
         color: $white;
     }
+}
+
+
+// Extra Styling
+
+.mute {
+    opacity: 0.65;
+}
+
+.bold {
+    font-weight: 700;
 }
