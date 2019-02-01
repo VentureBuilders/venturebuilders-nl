@@ -1,8 +1,39 @@
+.feature-block {
 
+    padding-top: spacing(7);
+    padding-bottom: spacing(7);
 
-@for $i from 1 through 4 {
-    .order-md-#{$i} {
-        order: #{$i};
-        -webkit-order: #{$i};
+    &-inner {
+        display: flex;
+        flex-direction: column;
+
+        @include media-breakpoint-up(md) {
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
     }
+
+    &-item {
+
+        margin-bottom: spacing(6);
+
+        @include media-breakpoint-up(md) {
+            margin-right: spacing(6);
+        }
+    }
+
+    &-heading {
+        @include type_medium();
+        margin-bottom: spacing(2);
+    }
+
+    &-description {
+        @include type_extra-small($muted: true);
+    }
+
+    &-icon {
+        margin-bottom: spacing(4);
+        max-width: 4em;
+    }
+
 }

@@ -1,14 +1,4 @@
 
-@keyframes treeBuild {
-    0% {
-        transform: translateY(20%);
-        opacity: 0;
-    }
-
-    50% { opacity: 1; }
-    100% { transform: translateY(0%); }
-}
-
 @keyframes fadeIn {
     from {
         transform: translateY(1%);
@@ -23,65 +13,39 @@
 
 
 .hero {
-    width: 90%;
-    padding-top: 7vh;
-    padding-bottom: 10vh;
-    text-align: center;
 
-    @include media-breakpoint-up(lg) {
-        width: 70%;
-    }
-
-    @include media-breakpoint-up(xl) {
-        width: 50%;
-        padding-top: 11vh;
-        padding-bottom: 13vh;
-    }
+    padding-top: 15vw;
+    padding-bottom: 5vw;
 
     animation-duration: 1.25s;
     animation-name: fadeIn;
     animation-timing-function: ease-in-out;
-}
 
-.hero-logo-tree {
-    max-width: $spacer * 3;
 
-    @include media-breakpoint-up(xl) {
-        max-width: $spacer * 4;
+    &-headline {
+        @include type_large();
+        margin-bottom: spacing(03);
+
+        @include media-breakpoint-up(md) {
+            @include type_extra-large();
+        }
+
+        @include media-breakpoint-up(md) {
+            @include type_super();
+        }
     }
 
-    animation-duration: 2s;
-    animation-name: treeBuild;
-    animation-delay: 0.2s;
-    animation-timing-function: cubic-bezier(0, 0.51, 0.48, 1.07);
-}
+    &-intro {
+        @include type_extra-small($muted: true);
+        max-width: 25em;
+        margin-bottom: spacing(04);
 
+        @include media-breakpoint-up(sm) {
+            @include type_small($muted: true);
+        }
 
-.hero-headline {
-    font-size: 7vw;
-
-    @include media-breakpoint-up(lg) {
-        font-size: 6vw;
+        @include media-breakpoint-up(md) {
+            @include type_medium($muted: true);
+        }
     }
-    @include media-breakpoint-up(xl) {
-        font-size: 5rem;
-    }
-}
-
-.hero-subhead {
-
-}
-
-.hero-intro {
-    max-width: 30em;
-    margin: 0 auto;
-}
-
-
-.hero-services {
-    margin-left: 0;
-}
-
-.hero-services .icon {
-    max-width: 3rem;
 }

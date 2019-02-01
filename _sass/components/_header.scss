@@ -1,114 +1,57 @@
+
+.pre-header {
+    background-color: $smoke;
+    padding: spacing(2) 0;
+
+
+}
+
+.header-locations {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+    @include media-breakpoint-up(md) {
+        justify-content: flex-end;
+    }
+
+    &-item {
+        margin: 0;
+        padding: 0 spacing(2);
+
+        @include type_tiny($muted: true);
+
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+
+        @include media-breakpoint-up(md) {
+            text-align: right;
+            padding-left: spacing(3);
+            padding-right: 0;
+        }
+    }
+}
+
+
+
+
+
+
 .site-header {
     background-color: $white;
-    padding-top: $spacer;
-    padding-bottom: $spacer;
+    padding-top: spacing(5);
+    padding-bottom: spacing(3);
     transition: box-shadow 0.5s ease-in-out;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0px 1px 0px rgba(0,0,0,0.05);
+    // box-shadow: 0px 1px 0px rgba(0,0,0,0.05);
 
     @include media-breakpoint-up(lg){
-        padding-top: $spacer;
-        padding-bottom: $spacer;
+        padding-top: spacing(5);
+        padding-bottom: spacing(3);
     };
-}
-
-.header-shadow {
-    box-shadow: 0px 4px 12px rgba($black, 0.1);
-}
-
-
-
-.site-header .navbar {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-
-.site-header .navbar-brand {
-    max-width: 15rem;
-
-    @include media-breakpoint-up(lg) {
-        max-width: 25rem;
-    }
-
-}
-
-.site-header .navbar-nav {
-    margin-left: 0;
-
-    li {
-        padding-left: 0;
-    }
-}
-
-.nav-item {
-    font-family: $font-family-base;
-    font-weight: 700;
-    font-size: 1rem;
-    letter-spacing: 0.05em;
-    margin-bottom: 0;
-    text-transform: uppercase;
-
-    @include media-breakpoint-up(md) {
-        font-size: 0.825rem;
-    }
-
-}
-
-.site-header .nav-item .nav-link {
-    color: $font-color;
-    opacity: 0.65;
-    transition: color 0.15s ease-in-out, opacity 0.15s ease-in-out;
-
-    &.active {
-        color: $green-dark;
-        opacity: 1;
-    }
-    &:hover {
-        opacity: 1;
-    }
-
-    @include media-breakpoint-up(lg) {
-        padding-right: 1rem;
-        padding-left: 1rem;
-    }
-}
-
-.site-header .navbar-toggler {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 1.75rem;
-}
-
-.site-header .navbar-toggler-icon {
-    display: block;
-    min-width: 1.5rem;
-    height: 2px;
-    background: no-repeat center center;
-    background-size: 100% 100%;
-    background-color: $black;
-}
-
-
-.city-list {
-    margin: 0;
-    padding: $spacer 0;
-    display: flex;
-    background-color: $gray-light;
-
-    .container {
-        margin-bottom: 0;
-    }
-
-    ul {
-
-    }
-
-    li {
-        display: inline-block;
-        padding: 0 $spacer * 2 0 0;
-        margin-bottom: 0;
-    }
 }

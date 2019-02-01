@@ -5810,14 +5810,16 @@ figure > img {
 figcaption {
   font-size: 80%; }
 
+@font-face {
+  font-family: 'Financier';
+  src: url("fonts/FinancierTextWeb-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/FinancierTextWeb-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/FinancierTextWeb-Regular.woff2") format("woff2"), url("fonts/FinancierTextWeb-Regular.woff") format("woff"); }
+body {
+  font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif; }
+
 html {
-  font-size: 14px; }
-  @media (min-width: 768px) {
-    html {
-      font-size: 16px; } }
-  @media (min-width: 1280px) {
-    html {
-      font-size: 18px; } }
+  font-size: 16px; }
 
 a {
   transition: color 0.2s ease-in-out; }
@@ -5899,7 +5901,7 @@ ul > li {
   line-height: 250%;
   text-transform: uppercase; }
   .cta-link:hover {
-    color: #3F4040;
+    color: #303233;
     text-decoration: none; }
 
 .cta-link.external {
@@ -5920,7 +5922,7 @@ ul > li {
     background-size: contain;
     content: ''; }
   .cta-link.external:hover {
-    color: #3F4040;
+    color: #303233;
     text-decoration: none; }
 
 .blockquote {
@@ -5954,16 +5956,12 @@ ul > li {
 .btn {
   cursor: pointer; }
 
-.heading-super, .heading-large, .heading-medium, .heading-small {
-  font-family: "Barlow Condensed", sans-serif;
+.heading-large, .heading-medium, .heading-small {
+  font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
   text-transform: uppercase;
   font-weight: 500;
   color: inherit;
   margin-bottom: 0.75em; }
-
-.heading-super {
-  font-size: 4.5em;
-  line-height: 110%; }
 
 .heading-large {
   font-size: 3rem;
@@ -6056,36 +6054,109 @@ ul > li {
   padding-left: 0;
   padding-right: 0; }
 
+.pre-header {
+  background-color: #F4F5F5;
+  padding: 0.75rem 0; }
+
+.header-locations {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: baseline; }
+  @media (min-width: 768px) {
+    .header-locations {
+      justify-content: flex-end; } }
+  .header-locations-item {
+    margin: 0;
+    padding: 0 0.75rem;
+    font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+    font-size: 0.875rem;
+    line-height: 1.45;
+    letter-spacing: 0.015em;
+    color: #7D7F80;
+    text-transform: uppercase;
+    letter-spacing: 0.1em; }
+    @media (min-width: 768px) {
+      .header-locations-item {
+        text-align: right;
+        padding-left: 1rem;
+        padding-right: 0; } }
+
 .site-header {
   background-color: #FFFFFF;
-  padding-top: 1rem;
+  padding-top: 2rem;
   padding-bottom: 1rem;
   transition: box-shadow 0.5s ease-in-out;
   margin-left: auto;
-  margin-right: auto;
-  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05); }
+  margin-right: auto; }
   @media (min-width: 992px) {
     .site-header {
-      padding-top: 1rem;
+      padding-top: 2rem;
       padding-bottom: 1rem; } }
 
-.header-shadow {
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); }
-
-.site-header .navbar {
-  padding-left: 0;
-  padding-right: 0; }
-
-.site-header .navbar-brand {
-  max-width: 15rem; }
-  @media (min-width: 992px) {
-    .site-header .navbar-brand {
-      max-width: 25rem; } }
-
-.site-header .navbar-nav {
-  margin-left: 0; }
-  .site-header .navbar-nav li {
-    padding-left: 0; }
+.site-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; }
+  .site-nav-logo {
+    display: inline-block;
+    flex-basis: 50%;
+    margin-right: 1.5rem;
+    max-width: 13rem; }
+    @media (min-width: 576px) {
+      .site-nav-logo {
+        flex-basis: 40%; } }
+    @media (min-width: 768px) {
+      .site-nav-logo {
+        flex-basis: 30%; } }
+    @media (min-width: 992px) {
+      .site-nav-logo {
+        flex-basis: 25%; } }
+    @media (min-width: 1280px) {
+      .site-nav-logo {
+        flex-basis: 25%; } }
+    .site-nav-logo svg {
+      width: 100%;
+      height: auto; }
+  .site-nav-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
+    background-color: transparent;
+    cursor: pointer; }
+    .site-nav-toggle:focus {
+      outline: none; }
+    .site-nav-toggle .toggle-line {
+      display: block;
+      min-width: 2rem;
+      height: 2px;
+      margin-bottom: 5px;
+      background: no-repeat center center;
+      background-size: 100% 100%;
+      background-color: #17191A; }
+      .site-nav-toggle .toggle-line:last-of-type {
+        margin-bottom: 0; }
+  .site-nav-menu {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column; }
+  .site-nav-menu-link {
+    display: block;
+    font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+    font-size: 1.25rem;
+    line-height: 1.35;
+    letter-spacing: -0.005em;
+    color: #7D7F80;
+    padding: 0.75rem 1rem; }
+    .collapse .site-nav-menu-link {
+      display: none; }
+    .show .site-nav-menu-link {
+      display: block; }
 
 .nav-item {
   font-family: "Yantramanav", sans-serif;
@@ -6098,86 +6169,49 @@ ul > li {
     .nav-item {
       font-size: 0.825rem; } }
 
-.site-header .nav-item .nav-link {
-  color: #252626;
-  opacity: 0.65;
-  transition: color 0.15s ease-in-out, opacity 0.15s ease-in-out; }
-  .site-header .nav-item .nav-link.active {
-    color: #009999;
-    opacity: 1; }
-  .site-header .nav-item .nav-link:hover {
-    opacity: 1; }
-  @media (min-width: 992px) {
-    .site-header .nav-item .nav-link {
-      padding-right: 1rem;
-      padding-left: 1rem; } }
-
-.site-header .navbar-toggler {
+.footer-inner {
+  border-top: solid 1px #C8CBCC;
+  border-bottom: solid 3px #17191A;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 1.5rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: space-between;
-  height: 1.75rem; }
-
-.site-header .navbar-toggler-icon {
-  display: block;
-  min-width: 1.5rem;
-  height: 2px;
-  background: no-repeat center center;
-  background-size: 100% 100%;
-  background-color: #000; }
-
-.city-list {
-  margin: 0;
-  padding: 1rem 0;
+  align-items: flex-start; }
+.footer-description {
+  font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+  font-size: 1rem;
+  line-height: 1.45;
+  letter-spacing: 0.005em;
+  color: #7D7F80;
+  max-width: 30em;
+  margin-bottom: 1.5rem; }
+.footer-list {
   display: flex;
-  background-color: #FAFCFC; }
-  .city-list .container {
-    margin-bottom: 0; }
-  .city-list li {
-    display: inline-block;
-    padding: 0 2rem 0 0;
-    margin-bottom: 0; }
-
-.site-footer {
-  background-color: #3F4040; }
+  justify-content: flex-start;
+  margin-bottom: 1rem; }
+  .footer-list dt {
+    font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+    font-size: 1rem;
+    line-height: 1.45;
+    letter-spacing: 0.005em;
+    color: #7D7F80;
+    margin-right: 0.75rem; }
+  .footer-list dd {
+    font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+    font-size: 1rem;
+    line-height: 1.45;
+    letter-spacing: 0.005em;
+    color: #17191A;
+    margin-right: 0.75rem; }
 
 .footer-logo {
-  max-width: 240px;
+  max-width: 12rem;
   margin-bottom: 1rem;
   flex-basis: 100%; }
 
-.footer-link-wrapper {
-  display: flex;
-  justify-content: flex-start;
-  padding-top: 2rem;
-  padding-bottom: 2rem; }
-  @media (min-width: 768px) {
-    .footer-link-wrapper {
-      display: inherit;
-      padding-top: 0; } }
-  .footer-link-wrapper.top {
-    flex-direction: column; }
-
-.footer-link {
-  color: #FAFCFC;
-  margin-right: 2rem;
-  font-size: 0.875em;
-  transition: color 0.2s ease-out; }
-  .footer-link:hover {
-    color: #FFFFFF;
-    text-decoration: none; }
-
-.footer-copyright {
-  color: #E6E6E6; }
-
-@keyframes treeBuild {
-  0% {
-    transform: translateY(20%);
-    opacity: 0; }
-  50% {
-    opacity: 1; }
-  100% {
-    transform: translateY(0%); } }
 @keyframes fadeIn {
   from {
     transform: translateY(1%);
@@ -6186,50 +6220,54 @@ ul > li {
     transform: translateY(0%);
     opacity: 1; } }
 .hero {
-  width: 90%;
-  padding-top: 7vh;
-  padding-bottom: 10vh;
-  text-align: center;
+  padding-top: 15vw;
+  padding-bottom: 5vw;
   animation-duration: 1.25s;
   animation-name: fadeIn;
   animation-timing-function: ease-in-out; }
-  @media (min-width: 992px) {
-    .hero {
-      width: 70%; } }
-  @media (min-width: 1280px) {
-    .hero {
-      width: 50%;
-      padding-top: 11vh;
-      padding-bottom: 13vh; } }
-
-.hero-logo-tree {
-  max-width: 3rem;
-  animation-duration: 2s;
-  animation-name: treeBuild;
-  animation-delay: 0.2s;
-  animation-timing-function: cubic-bezier(0, 0.51, 0.48, 1.07); }
-  @media (min-width: 1280px) {
-    .hero-logo-tree {
-      max-width: 4rem; } }
-
-.hero-headline {
-  font-size: 7vw; }
-  @media (min-width: 992px) {
-    .hero-headline {
-      font-size: 6vw; } }
-  @media (min-width: 1280px) {
-    .hero-headline {
-      font-size: 5rem; } }
-
-.hero-intro {
-  max-width: 30em;
-  margin: 0 auto; }
-
-.hero-services {
-  margin-left: 0; }
-
-.hero-services .icon {
-  max-width: 3rem; }
+  .hero-headline {
+    font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+    font-size: 2.5rem;
+    line-height: 1.1;
+    letter-spacing: -0.015em;
+    color: #17191A;
+    margin-bottom: 1rem; }
+    @media (min-width: 768px) {
+      .hero-headline {
+        font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+        font-size: 4rem;
+        line-height: 1.1;
+        letter-spacing: -0.015em;
+        color: #17191A; } }
+    @media (min-width: 768px) {
+      .hero-headline {
+        font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+        font-size: 5.75rem;
+        line-height: 1.1;
+        letter-spacing: -0.025em;
+        color: #17191A; } }
+  .hero-intro {
+    font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+    font-size: 1rem;
+    line-height: 1.45;
+    letter-spacing: 0.005em;
+    color: #7D7F80;
+    max-width: 25em;
+    margin-bottom: 1.5rem; }
+    @media (min-width: 576px) {
+      .hero-intro {
+        font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+        font-size: 1.25rem;
+        line-height: 1.35;
+        letter-spacing: -0.005em;
+        color: #7D7F80; } }
+    @media (min-width: 768px) {
+      .hero-intro {
+        font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+        font-size: 1.75rem;
+        line-height: 1.35;
+        letter-spacing: -0.005em;
+        color: #7D7F80; } }
 
 .page-hero {
   padding-top: 8rem;
@@ -6298,24 +6336,40 @@ ul > li {
   line-height: 250%;
   text-transform: uppercase; }
   .feature-link:hover {
-    color: #3F4040;
+    color: #303233;
     text-decoration: none; }
 
-.order-md-1 {
-  order: 1;
-  -webkit-order: 1; }
-
-.order-md-2 {
-  order: 2;
-  -webkit-order: 2; }
-
-.order-md-3 {
-  order: 3;
-  -webkit-order: 3; }
-
-.order-md-4 {
-  order: 4;
-  -webkit-order: 4; }
+.feature-block {
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+  .feature-block-inner {
+    display: flex;
+    flex-direction: column; }
+    @media (min-width: 768px) {
+      .feature-block-inner {
+        flex-direction: row;
+        flex-wrap: nowrap; } }
+  .feature-block-item {
+    margin-bottom: 3rem; }
+    @media (min-width: 768px) {
+      .feature-block-item {
+        margin-right: 3rem; } }
+  .feature-block-heading {
+    font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+    font-size: 1.75rem;
+    line-height: 1.35;
+    letter-spacing: -0.005em;
+    color: #17191A;
+    margin-bottom: 0.75rem; }
+  .feature-block-description {
+    font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+    font-size: 1rem;
+    line-height: 1.45;
+    letter-spacing: 0.005em;
+    color: #7D7F80; }
+  .feature-block-icon {
+    margin-bottom: 1.5rem;
+    max-width: 4em; }
 
 .feature-group.left-align {
   text-align: left; }
@@ -6363,7 +6417,7 @@ ul > li {
   line-height: 250%;
   text-transform: uppercase; }
   .feature-link:hover {
-    color: #3F4040;
+    color: #303233;
     text-decoration: none; }
 
 .sidebyside {
@@ -6489,11 +6543,11 @@ ul > li {
   display: block;
   background-color: #FFFFFF;
   padding: 1rem;
-  box-shadow: 0px 0px 0px rgba(63, 64, 64, 0);
+  box-shadow: 0px 0px 0px rgba(48, 50, 51, 0);
   transition: box-shadow 0.3s ease-out;
   height: 100%; }
   .grid-item-wrapper:hover {
-    box-shadow: 0px 4px 12px rgba(63, 64, 64, 0.1); }
+    box-shadow: 0px 4px 12px rgba(48, 50, 51, 0.1); }
 
 .vacancy-title {
   font-weight: 700;
@@ -6558,7 +6612,7 @@ ul > li {
 
 @media (min-width: 768px) {
   .condense .member-profile:hover {
-    background-color: #000; }
+    background-color: #17191A; }
     .condense .member-profile:hover .member-photo {
       opacity: 0.6; }
     .condense .member-profile:hover .member-meta {
