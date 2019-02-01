@@ -1,10 +1,11 @@
 .site-header {
     background-color: $white;
-    padding-top: $spacer / 2;
+    padding-top: $spacer;
     padding-bottom: $spacer;
     transition: box-shadow 0.5s ease-in-out;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0px 1px 0px rgba(0,0,0,0.05);
 
     @include media-breakpoint-up(lg){
         padding-top: $spacer;
@@ -16,55 +17,98 @@
     box-shadow: 0px 4px 12px rgba($black, 0.1);
 }
 
-.site-header .row {
-    justify-content: center;
-    align-items: center;
+
+
+.site-header .navbar {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.site-header .navbar-brand {
+    max-width: 15rem;
+
     @include media-breakpoint-up(lg) {
-        justify-content: space-between;
+        max-width: 25rem;
+    }
+
+}
+
+.site-header .navbar-nav {
+    margin-left: 0;
+
+    li {
+        padding-left: 0;
     }
 }
 
-.site-title {
-    padding-top: $spacer;
-    padding-bottom: $spacer;
-    max-width: 340px;
-}
-
-
-.site-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    @include media-breakpoint-up(xl) {
-        justify-content: flex-end;
-    }
-}
-
-.site-nav-link {
+.nav-item {
+    font-family: $font-family-base;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    margin-bottom: 0;
     text-transform: uppercase;
-    font-size: $font-size-sm;
-    letter-spacing: 0.025rem;
-    margin: 0 ($spacer * 0.5);
-    color: $gray-dark;
-    transition: color 0.2s ease-in-out;
 
-    @include media-breakpoint-up(sm) {
-        font-size: $font-size-base;
-        letter-spacing: 0.05rem;
-        margin: 0 $spacer;
-    };
+    @include media-breakpoint-up(md) {
+        font-size: 0.825rem;
+    }
+
+}
+
+.site-header .nav-item .nav-link {
+    color: $font-color;
+    opacity: 0.65;
+    transition: color 0.15s ease-in-out, opacity 0.15s ease-in-out;
 
     &.active {
-        color: $charcoal;
+        color: $green-dark;
+        opacity: 1;
+    }
+    &:hover {
+        opacity: 1;
     }
 
-    &:hover {
-        color: $green-dark;
-        text-decoration: none;
+    @include media-breakpoint-up(lg) {
+        padding-right: 1rem;
+        padding-left: 1rem;
     }
 }
 
+.site-header .navbar-toggler {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1.75rem;
+}
 
-.link-item {
+.site-header .navbar-toggler-icon {
+    display: block;
+    min-width: 1.5rem;
+    height: 2px;
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    background-color: $black;
+}
 
+
+.city-list {
+    margin: 0;
+    padding: $spacer 0;
+    display: flex;
+    background-color: $gray-light;
+
+    .container {
+        margin-bottom: 0;
+    }
+
+    ul {
+
+    }
+
+    li {
+        display: inline-block;
+        padding: 0 $spacer * 2 0 0;
+        margin-bottom: 0;
+    }
 }

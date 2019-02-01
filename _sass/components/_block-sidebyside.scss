@@ -1,0 +1,19 @@
+.sidebyside {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    @include media-breakpoint-up(lg) {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+}
+
+.block {
+    order: 1;
+}
+
+.flip {
+    @include media-breakpoint-up(lg) {
+        order: 2;
+    }
+}

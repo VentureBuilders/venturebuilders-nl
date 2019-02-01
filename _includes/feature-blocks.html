@@ -4,7 +4,7 @@
 
         {% for item in include.content %}
         <li class="col-9 col-md-3 mb-4 order-md-{% if forloop.last %}{{ forloop.length | plus:1 }}{% else %}{{ forloop.index }}{% endif %}">
-            <h4 class="mb-2 headline-variant">{{ item.subhead }}</h4>
+            <h4 class="mb-2 heading-small">{{ item.subhead }}</h4>
             <p class="">{{ item.description }}</p>
         </li>
         {% endfor %}

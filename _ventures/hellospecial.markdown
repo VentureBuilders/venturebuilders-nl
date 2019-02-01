@@ -2,6 +2,7 @@
 title: HelloSpecial
 date: 2017-09-04 12:01:00 Z
 class_name: hellospecial
+published: false
 prio: 4
 Intro: HelloSpecial is the fastest and most entertaining marketplace in the Netherlands.
   The company aims to make buying online exciting again. Through a new, faster, auction
@@ -28,7 +29,6 @@ Story:
   description: |-
     HelloSpecial is on track to become the European miniature auction platform that connects sellers to buyers at a lightning fast pace.
     On the short term we plan to expand to France, Spain and Germany and to create a self service platform for our suppliers and sellers to offer their goods. Meanwhile developing and iterating our selling algorithms to automate offering the right product to the right person at the right time.
-quote: 
+quote:
 quote_cite: Lisa Groenewegen, CEO
 ---
-
