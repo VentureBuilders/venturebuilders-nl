@@ -3,9 +3,16 @@
 
         <div class="footer-inner">
 
-            <div class="footer-company">
+
                 <div class="footer-logo">
                     {% include svg/logo-horz.html %}
+                </div>
+
+                <div class="footer-menu">
+                    {% for nav in site.data.nav %}
+                        <a class="footer-menu-link link-line" href="{{ nav.path }}">{{ nav.title }}</a>
+                    {% endfor %}
+
                 </div>
 
                 <div class="footer-description">
@@ -14,25 +21,20 @@
 
                 <dl class="footer-list">
                     <dt>Locations:</dt>
-                    <dd>Amsterdam</dd>
-                    <dd>Berlin</dd>
-                    <dd>London</dd>
+                    <dd class="link-line">Amsterdam</dd>
+                    <dd class="link-line">Berlin</dd>
+                    <dd class="link-line">London</dd>
                 </dl>
 
                 <dl class="footer-list">
                     <dt>Follow us:</dt>
-                    <dd>Medium</dd>
-                    <dd>Twitter</dd>
+                    <dd class="link-line">Medium</dd>
+                    <dd class="link-line">Twitter</dd>
                 </dl>
 
-            </div>
 
-            <div class="footer-menu">
-                {% for nav in site.data.nav %}
-                    <a class="footer-link" href="{{ nav.path }}">{{ nav.title }}</a>
-                {% endfor %}
 
-            </div>
+
 
 
 
@@ -43,10 +45,10 @@
                 <p class="footer-legal-copy">&copy; {{ site.time | date: '%Y' }} VentureBuilders Capital B.V.</p>
             </li>
             <li>
-                <a href="#" class="footer-legal-link">Terms of Use</a>
+                <a href="#" class="footer-legal-link link-line">Terms of Use</a>
             </li>
             <li>
-                <a href="#" class="footer-legal-link">Privacy Policy</a>
+                <a href="#" class="footer-legal-link link-line">Privacy Policy</a>
             </li>
         </ul>
 

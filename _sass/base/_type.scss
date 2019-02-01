@@ -141,3 +141,35 @@ $font-family: 'Financier', 'Hoefler Text', 'Cambria', 'Georgia', serif;
 body {
     font-family: $font-family;
 }
+
+
+
+.link-line {
+    display: inline-block;
+    color: $black;
+    cursor: pointer;
+    position: relative;
+    line-height: 1.5;
+
+  &::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 0px;
+    position: absolute;
+    bottom: -0.025em;
+    left: 0;
+    background-color: $black;
+
+    transition: width 0.15s cubic-bezier(0.24, 0.01, 0.21, 1);
+
+  }
+
+  &:hover {
+      color: $black;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+}

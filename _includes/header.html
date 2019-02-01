@@ -29,7 +29,7 @@
 
             <div class="site-nav-menu collapse" id="mainNav">
                 {% for nav in site.data.nav %}
-                    <a class="site-nav-menu-link {% if page.url contains nav.path %}active{% endif %}" title="{{ nav.title }}" href="{{ nav.path }}">{{ nav.title }}</a>
+                    <a class="site-nav-menu-link link-line {% if page.url contains nav.path %}active{% endif %}" title="{{ nav.title }}" href="{{ nav.path }}">{{ nav.title }}</a>
                 {% endfor %}
             </div>
 

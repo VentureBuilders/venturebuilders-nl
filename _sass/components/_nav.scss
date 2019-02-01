@@ -6,6 +6,11 @@
     align-items: center;
     flex-wrap: wrap;
 
+    @include media-breakpoint-up(sm) {
+
+        align-items: flex-end;
+    }
+
     &-logo {
         display: inline-block;
         flex-basis: 50%;
@@ -42,6 +47,10 @@
         background-color: transparent;
         cursor: pointer;
 
+        @include media-breakpoint-up(md) {
+            display: none;
+        }
+
         &:focus {
             outline: none;
         }
@@ -65,15 +74,31 @@
         flex-basis: 100%;
         display: flex;
         flex-direction: column;
+
+        @include media-breakpoint-up(md) {
+            flex-basis: 50%;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
     }
 
     &-menu-link {
         display: block;
         @include type_small($muted: true);
-        padding: spacing(2) spacing(3);
+        margin-right: spacing(4);
+
+        &:last-of-type {
+            margin-right: 0;
+        }
+        // padding: spacing(2) spacing(3);
 
         .collapse & {
             display: none;
+
+            @include media-breakpoint-up(md) {
+                display: block;
+            }
         }
 
         .show & {

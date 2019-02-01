@@ -5818,6 +5818,27 @@ figcaption {
 body {
   font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif; }
 
+.link-line {
+  display: inline-block;
+  color: #17191A;
+  cursor: pointer;
+  position: relative;
+  line-height: 1.5; }
+  .link-line::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 0px;
+    position: absolute;
+    bottom: -0.025em;
+    left: 0;
+    background-color: #17191A;
+    transition: width 0.15s cubic-bezier(0.24, 0.01, 0.21, 1); }
+  .link-line:hover {
+    color: #17191A; }
+  .link-line:hover::after {
+    width: 100%; }
+
 html {
   font-size: 16px; }
 
@@ -6102,6 +6123,9 @@ ul > li {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap; }
+  @media (min-width: 576px) {
+    .site-nav {
+      align-items: flex-end; } }
   .site-nav-logo {
     display: inline-block;
     flex-basis: 50%;
@@ -6129,6 +6153,9 @@ ul > li {
     border: none;
     background-color: transparent;
     cursor: pointer; }
+    @media (min-width: 768px) {
+      .site-nav-toggle {
+        display: none; } }
     .site-nav-toggle:focus {
       outline: none; }
     .site-nav-toggle .toggle-line {
@@ -6145,6 +6172,12 @@ ul > li {
     flex-basis: 100%;
     display: flex;
     flex-direction: column; }
+    @media (min-width: 768px) {
+      .site-nav-menu {
+        flex-basis: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end; } }
   .site-nav-menu-link {
     display: block;
     font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
@@ -6152,9 +6185,14 @@ ul > li {
     line-height: 1.35;
     letter-spacing: -0.005em;
     color: #7D7F80;
-    padding: 0.75rem 1rem; }
+    margin-right: 1.5rem; }
+    .site-nav-menu-link:last-of-type {
+      margin-right: 0; }
     .collapse .site-nav-menu-link {
       display: none; }
+      @media (min-width: 768px) {
+        .collapse .site-nav-menu-link {
+          display: block; } }
     .show .site-nav-menu-link {
       display: block; }
 
@@ -6176,22 +6214,38 @@ ul > li {
   padding-bottom: 3rem;
   margin-bottom: 1.5rem;
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: flex-start; }
+  flex-direction: column; }
+  @media (min-width: 768px) {
+    .footer-inner {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: flex-start; } }
 .footer-description {
-  font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
-  font-size: 1rem;
-  line-height: 1.45;
-  letter-spacing: 0.005em;
-  color: #7D7F80;
-  max-width: 30em;
-  margin-bottom: 1.5rem; }
+  margin-bottom: 1.5rem;
+  flex-basis: 100%; }
+  .footer-description p {
+    font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+    font-size: 1rem;
+    line-height: 1.45;
+    letter-spacing: 0.005em;
+    color: #7D7F80;
+    max-width: 30em; }
+.footer-logo {
+  flex-basis: 100%; }
+  .footer-logo svg {
+    max-width: 12rem;
+    margin-bottom: 1rem; }
+  @media (min-width: 768px) {
+    .footer-logo {
+      flex-basis: 50%; } }
 .footer-list {
   display: flex;
   justify-content: flex-start;
   margin-bottom: 1rem; }
+  @media (min-width: 768px) {
+    .footer-list {
+      margin-right: 1.5rem; } }
   .footer-list dt {
     font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
     font-size: 1rem;
@@ -6206,11 +6260,22 @@ ul > li {
     letter-spacing: 0.005em;
     color: #17191A;
     margin-right: 0.75rem; }
-
-.footer-logo {
-  max-width: 12rem;
-  margin-bottom: 1rem;
-  flex-basis: 100%; }
+.footer-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-grow: 2; }
+.footer-menu-link {
+  margin-right: 1rem; }
+.footer-legal {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 3rem;
+  display: flex;
+  flex-direction: row; }
+  .footer-legal li {
+    margin: 0 1.5rem 0 0;
+    padding: 0; }
 
 @keyframes fadeIn {
   from {
@@ -6231,7 +6296,7 @@ ul > li {
     line-height: 1.1;
     letter-spacing: -0.015em;
     color: #17191A;
-    margin-bottom: 1rem; }
+    margin-bottom: 1.5rem; }
     @media (min-width: 768px) {
       .hero-headline {
         font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;

@@ -24,7 +24,7 @@
 
     &-headline {
         @include type_large();
-        margin-bottom: spacing(03);
+        margin-bottom: spacing(4);
 
         @include media-breakpoint-up(md) {
             @include type_extra-large();
