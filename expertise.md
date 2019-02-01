@@ -3,7 +3,8 @@ title: Expertise
 permalink: "/expertise/"
 layout: experts
 headline: A digital-focused team of passionate builders
-subhead: We support our ventures with a team of passionate experts. We offer hands-on support. You decide how to accelerate your growth
+subhead: We support our ventures with a team of passionate experts. We offer hands-on
+  support. You decide how to accelerate your growth
 Service_Heading: Experts for one step, or every step
 Service_Subhead: We have the right people available for you to grow your company online.
 Services:
@@ -45,3 +46,4 @@ Services:
   - Omni-channel strategy and setup
   image: marketing.svg
 ---
+
