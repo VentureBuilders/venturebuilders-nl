@@ -1,7 +1,7 @@
 ---
-title: About Us
-permalink: "/about/"
-headline: About Us
+title: Our Beliefs
+permalink: "/our-beliefs/"
+headline: Our Beliefs
 lead: We are a hands-on venture capital fund, focused on AI and data companies.
 intro: We are founded by founders, allowing us to bring our experience in running
   companies to our own ventures. We believe Artificial Intelligence will change every

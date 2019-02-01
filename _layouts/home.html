@@ -8,80 +8,22 @@ layout: global
 
     {% include feature-group.html content=page.feature_group %}
 
-    <section class="container-fluid border-t-light border-b-light companies">
-        <div class="container py-5">
-
-            <div class="row no-gutters">
-                <h4 class="col-9 heading-medium mb-4">Our Companies</h4>
-                <div class="col-9 col-md-6">
-                    <ul class="row list-unstyled mb-6">
-                        <li class="col-4 mb-3 company-stat">
-                            <h1 class="heading-super mb-1">104</h1>
-                            <p class="heading-small mute">Talented individuals</p>
-                        </li>
-                        <li class="col-4 mb-3 company-stat">
-                            <h1 class="heading-super mb-1">12</h1>
-                            <p class="heading-small mute">Companies</p>
-                        </li>
-                        <li class="col-4 mb-3 company-stat">
-                            <h1 class="heading-super mb-1">130+</h1>
-                            <p class="heading-small mute">Countries with active users</p>
-                        </li>
-                        <li class="col-4 mb-3 company-stat">
-                            <h1 class="heading-super mb-1">25</h1>
-                            <p class="heading-small mute">Investment rounds</p>
-                        </li>
-                    </dl>
-                </div>
-                <blockquote class="blockquote col-9 col-md-6">
-                    &ldquo;{{ page.quote }}&rdquo;
-                    <footer class="blockquote-footer">{{ page.quote_cite }}</footer>
-                </blockquote>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- {% include feature-single.html content=page.feature_single_content subhead=page.feature_single_heading cta=page.feature_single_link ctaref=page.feature_single_linkref singleimage=page.feature_single_image %} -->
-
     <section class="container-fluid feature-venture">
-        <div class="container">
 
+        <div class="container">
             <div class="row py-5 py-lg-7">
                 <div class="col-9 col-md-6 col-lg-5">
                     <img class="quote-logo" src="assets/img/venture-logos/taxi2airport.svg" alt="Taxi2Airport">
                     <blockquote class="blockquote">
                         “With a user first approach, we are sure to offer the best choice for our customers and enable travel brands to effectively monetize the last step of every trip.”
-                        <footer class="blockquote-footer">Gertjan van der Schaft, CEO <cite>Taxi2Airport</cite></footer>
+                        <footer class="blockquote-footer">Koen Bremer, CEO <cite>Taxi2Airport</cite></footer>
                     </blockquote>
                     <p><a class="cta-link" href="/ventures/taxi2airport">Learn More</a></p>
-
-
                 </div>
             </div>
 
         </div>
 
     </section>
-
-
-    <section class="container posts">
-
-        <div class="row py-6 justify-content-between">
-
-            <a class="col-9 mb-3" href="{{ site.url }}/news/" title="News &amp; Press"><h6 class="display-5">News &amp; Press</h6></a>
-                {% for news in site.posts %}
-                {% unless forloop.index > 4 %}
-                <div class="col-8 col-md-4 mb-2">
-                    <p class="text-muted mb-0">{{ news.date | date_to_long_string }}</p>
-                    <h5 class="headline-variant mb-0"><a class="news-posts" href="{{ news.url }}">{{ news.title }}</a></h5>
-                    <p class="mb-2">{{ news.intro }}</p>
-                </div>
-                {% endunless %}
-                {% endfor %}
-        </div>
-
-    </section>
-  {{ content }}
 
 </div>
