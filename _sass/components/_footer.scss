@@ -94,6 +94,7 @@
         li {
             margin: 0 spacing(4) 0 0;
             padding: 0;
+            @include type_extra-small($muted:true);
         }
     }
 

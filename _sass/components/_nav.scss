@@ -80,13 +80,14 @@
             display: flex;
             flex-direction: row;
             justify-content: flex-end;
+            margin-bottom: spacing(2);
         }
     }
 
     &-menu-link {
         display: block;
         @include type_small($muted: true);
-        margin-right: spacing(4);
+        margin-right: spacing(6);
 
         &:last-of-type {
             margin-right: 0;
