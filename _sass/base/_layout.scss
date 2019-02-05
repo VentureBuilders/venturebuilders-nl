@@ -5,4 +5,19 @@
 .container-fluid {
     padding-left: 0;
     padding-right: 0;
+    padding-top: spacing(7);
+    padding-bottom: spacing(7);
+}
+
+
+.svg-black {
+    fill: $black;
+}
+
+.svg-white {
+    fill: $white;
+}
+
+.svg-stroke-white {
+    stroke: $white;
 }

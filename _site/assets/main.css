@@ -5,7 +5,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 @import url("https://fonts.googleapis.com/css?family=Fjalla+One|Mada:300,400,700");
-@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:500|Yantramanav:400,700");
 @media print {
   *,
   *::before,
@@ -5818,6 +5817,15 @@ figcaption {
 body {
   font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif; }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit;
+  color: inherit; }
+
 .link-line {
   display: inline-block;
   color: #17191A;
@@ -5838,6 +5846,44 @@ body {
     color: #17191A; }
   .link-line:hover::after {
     width: 100%; }
+
+.link-box {
+  display: inline-block;
+  position: relative;
+  padding-left: 1em;
+  padding-right: 1em;
+  line-height: 2.25;
+  color: #17191A;
+  border: solid 1px #17191A;
+  overflow: hidden;
+  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out; }
+  .link-box span {
+    z-index: 2;
+    position: relative; }
+  .link-box:hover {
+    color: #FFFFFF; }
+  .link-box::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    background-color: black;
+    height: 5em;
+    width: 100%;
+    transform: rotate(-22deg) translate(103%, 0);
+    transition: transform 0.15s cubic-bezier(0.24, 0.01, 0.21, 1); }
+  .link-box:hover::after {
+    transform: translate(0%, 0%); }
+
+.link-box.inverse {
+  color: #FFFFFF;
+  border-color: #FFFFFF; }
+  .link-box.inverse:hover {
+    color: #17191A; }
+  .link-box.inverse::after {
+    background-color: #FFFFFF; }
 
 html {
   font-size: 16px; }
@@ -5977,103 +6023,20 @@ ul > li {
 .btn {
   cursor: pointer; }
 
-.heading-large, .heading-medium, .heading-small {
-  font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  color: inherit;
-  margin-bottom: 0.75em; }
-
-.heading-large {
-  font-size: 3rem;
-  line-height: 115%; }
-
-.heading-medium {
-  font-size: 1.5em;
-  line-height: 120%;
-  margin-bottom: 1.125em; }
-
-.heading-small {
-  font-size: 1.1em;
-  line-height: 120%;
-  letter-spacing: 0.1em; }
-
-.base-large, .base-intro, .base, .base-small {
-  font-family: "Yantramanav", sans-serif;
-  color: #252626; }
-
-.base-large {
-  font-size: 1.3125em;
-  font-weight: 300;
-  line-height: 120%;
-  margin-bottom: 0.75em; }
-
-.base-intro {
-  font-size: 1.125rem;
-  font-weight: 400;
-  line-height: 135%;
-  margin-bottom: 0.75em; }
-
-.base {
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 135%;
-  opacity: 0.8;
-  margin-bottom: 0.5em; }
-
-.base-small {
-  font-size: 0.875em;
-  font-weight: 400;
-  line-height: 140%;
-  margin-bottom: 0.5em; }
-
-.quote, .quote-large {
-  font-family: Georgia, sans-serif;
-  line-height: 115%;
-  font-size: 2.25em;
-  font-weight: 400; }
-
-.quote-large {
-  font-size: 3em; }
-
-.link {
-  font-family: "Mada", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 0.875em;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #009999;
-  letter-spacing: 0.05em;
-  text-decoration: none; }
-  .link:hover {
-    color: #60BFBF;
-    text-decoration: none; }
-
-.link.arrow:after {
-  content: "";
-  display: inline-block;
-  margin-left: 1em; }
-
-.contact-block {
-  background-color: #009999;
-  padding: 2rem;
-  font-family: "Fjalla One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  text-decoration: none;
-  color: #FFFFFF; }
-  .contact-block:hover {
-    background-color: #60BFBF;
-    color: #FFFFFF; }
-
-.mute {
-  opacity: 0.65; }
-
-.bold {
-  font-weight: 700; }
-
 .container-fluid {
   padding-left: 0;
-  padding-right: 0; }
+  padding-right: 0;
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+
+.svg-black {
+  fill: #17191A; }
+
+.svg-white {
+  fill: #FFFFFF; }
+
+.svg-stroke-white {
+  stroke: #FFFFFF; }
 
 .pre-header {
   background-color: #F4F5F5;
@@ -6088,7 +6051,7 @@ ul > li {
   align-items: baseline; }
   @media (min-width: 768px) {
     .header-locations {
-      justify-content: flex-end; } }
+      justify-content: flex-start; } }
   .header-locations-item {
     margin: 0;
     padding: 0 0.75rem;
@@ -6101,9 +6064,13 @@ ul > li {
     letter-spacing: 0.1em; }
     @media (min-width: 768px) {
       .header-locations-item {
-        text-align: right;
-        padding-left: 1rem;
-        padding-right: 0; } }
+        text-align: left;
+        padding-right: 2rem;
+        padding-left: 0; } }
+    .header-locations-item a {
+      color: inherit; }
+      .header-locations-item a:hover {
+        color: #17191A; }
 
 .site-header {
   background-color: #FFFFFF;
@@ -6198,7 +6165,7 @@ ul > li {
       display: block; }
 
 .nav-item {
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Mada", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-size: 1rem;
   letter-spacing: 0.05em;
@@ -6208,80 +6175,82 @@ ul > li {
     .nav-item {
       font-size: 0.825rem; } }
 
-.footer-inner {
-  border-top: solid 1px #C8CBCC;
-  border-bottom: solid 3px #17191A;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  margin-bottom: 1.5rem;
-  display: flex;
-  flex-direction: column; }
-  @media (min-width: 768px) {
-    .footer-inner {
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: flex-start;
-      align-items: flex-start; } }
-.footer-description {
-  margin-bottom: 1.5rem;
-  flex-basis: 100%; }
-  .footer-description p {
-    font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
-    font-size: 1rem;
-    line-height: 1.45;
-    letter-spacing: 0.005em;
-    color: #7D7F80;
-    max-width: 30em; }
-.footer-logo {
-  flex-basis: 100%; }
-  .footer-logo svg {
-    max-width: 12rem;
+.footer {
+  margin-top: 6rem; }
+  .footer-inner {
+    border-top: solid 1px #C8CBCC;
+    border-bottom: solid 3px #17191A;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column; }
+    @media (min-width: 768px) {
+      .footer-inner {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start; } }
+  .footer-description {
+    margin-bottom: 1.5rem;
+    flex-basis: 100%; }
+    .footer-description p {
+      font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+      font-size: 1rem;
+      line-height: 1.45;
+      letter-spacing: 0.005em;
+      color: #7D7F80;
+      max-width: 30em; }
+  .footer-logo {
+    flex-basis: 100%; }
+    .footer-logo svg {
+      max-width: 12rem;
+      margin-bottom: 1rem; }
+    @media (min-width: 768px) {
+      .footer-logo {
+        flex-basis: 50%; } }
+  .footer-list {
+    display: flex;
+    justify-content: flex-start;
     margin-bottom: 1rem; }
-  @media (min-width: 768px) {
-    .footer-logo {
-      flex-basis: 50%; } }
-.footer-list {
-  display: flex;
-  justify-content: flex-start;
-  margin-bottom: 1rem; }
-  @media (min-width: 768px) {
-    .footer-list {
-      margin-right: 1.5rem; } }
-  .footer-list dt {
-    font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
-    font-size: 1rem;
-    line-height: 1.45;
-    letter-spacing: 0.005em;
-    color: #7D7F80;
-    margin-right: 0.75rem; }
-  .footer-list dd {
-    font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
-    font-size: 1rem;
-    line-height: 1.45;
-    letter-spacing: 0.005em;
-    color: #17191A;
-    margin-right: 0.75rem; }
-.footer-menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  flex-grow: 2; }
-.footer-menu-link {
-  margin-right: 1rem; }
-.footer-legal {
-  list-style: none;
-  margin: 0;
-  padding: 0 0 3rem;
-  display: flex;
-  flex-direction: row; }
-  .footer-legal li {
-    margin: 0 1.5rem 0 0;
-    padding: 0;
-    font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
-    font-size: 1rem;
-    line-height: 1.45;
-    letter-spacing: 0.005em;
-    color: #7D7F80; }
+    @media (min-width: 768px) {
+      .footer-list {
+        margin-right: 1.5rem; } }
+    .footer-list dt {
+      font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+      font-size: 1rem;
+      line-height: 1.45;
+      letter-spacing: 0.005em;
+      color: #7D7F80;
+      margin-right: 0.75rem; }
+    .footer-list dd {
+      font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+      font-size: 1rem;
+      line-height: 1.45;
+      letter-spacing: 0.005em;
+      color: #17191A;
+      margin-right: 0.75rem; }
+  .footer-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-grow: 2; }
+  .footer-menu-link {
+    margin-right: 1rem; }
+  .footer-legal {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 3rem;
+    display: flex;
+    flex-direction: row; }
+    .footer-legal li {
+      margin: 0 1.5rem 0 0;
+      padding: 0;
+      font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+      font-size: 1rem;
+      line-height: 1.45;
+      letter-spacing: 0.005em;
+      color: #7D7F80; }
 
 @keyframes fadeIn {
   from {
@@ -6291,7 +6260,7 @@ ul > li {
     transform: translateY(0%);
     opacity: 1; } }
 .hero {
-  padding-top: 15vw;
+  padding-top: 12vw;
   padding-bottom: 5vw;
   animation-duration: 1.25s;
   animation-name: fadeIn;
@@ -6339,6 +6308,144 @@ ul > li {
         line-height: 1.35;
         letter-spacing: -0.005em;
         color: #7D7F80; } }
+
+.accordion-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+  font-size: 1.75rem;
+  line-height: 1.35;
+  letter-spacing: -0.005em;
+  color: #17191A;
+  margin-bottom: 1.5rem;
+  transition: all 0.15s ease-in-out; }
+  .accordion-title:hover {
+    color: #005580; }
+  .accordion-title.show {
+    color: #005580; }
+  .accordion-title .toggle {
+    display: block;
+    position: relative;
+    width: 24px;
+    height: 2px;
+    background-color: #C8CBCC;
+    margin-right: 1rem;
+    transition: background-color 0.15s ease-in-out, transform 0.15s ease-in-out; }
+    .accordion-title .toggle span {
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: inherit;
+      opacity: 1;
+      transform: rotate(90deg);
+      transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out; }
+  .accordion-title:hover .toggle {
+    background-color: #005580; }
+  .accordion-title.show .toggle {
+    background-color: #005580; }
+    .accordion-title.show .toggle span {
+      opacity: 0;
+      transform: rotate(0deg); }
+.accordion-list {
+  opacity: 0;
+  max-height: 0;
+  overflow-y: hidden;
+  margin-left: 24px;
+  transition: max-height 0.3s cubic-bezier(0.63, 0, 0.21, 1), opacity 0.35s cubic-bezier(0.79, 0, 0.58, 1); }
+  .show + .accordion-list {
+    display: inherit;
+    max-height: 90vh;
+    opacity: 1; }
+  .accordion-list ul {
+    list-style: none;
+    margin-left: 1rem;
+    padding: 0; }
+  .accordion-list li {
+    font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+    font-size: 1.25rem;
+    line-height: 1.35;
+    letter-spacing: -0.005em;
+    color: #17191A;
+    margin-left: 0;
+    padding-left: 0; }
+
+.carousel {
+  position: relative;
+  background-color: #17191A;
+  overflow: hidden;
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
+  .carousel-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    height: 35vw;
+    z-index: 10; }
+  .carousel-item {
+    width: 50%; }
+  .carousel-quote {
+    font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+    font-size: 1.75rem;
+    line-height: 1.35;
+    letter-spacing: -0.005em;
+    color: #17191A;
+    margin-bottom: 3rem;
+    color: #FFFFFF; }
+    .carousel-quote cite {
+      margin-top: 1.5rem;
+      display: inline-block;
+      color: inherit;
+      font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+      font-size: 1rem;
+      line-height: 1.45;
+      letter-spacing: 0.005em;
+      color: #7D7F80;
+      font-style: normal; }
+  .carousel-image {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    z-index: 1; }
+    .carousel-image img {
+      height: 150%;
+      max-width: none;
+      width: auto;
+      margin-top: -15%; }
+  .carousel-mask {
+    position: absolute;
+    right: 35%;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    z-index: 2; }
+  .carousel-controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+  .carousel-arrow {
+    display: block;
+    height: 1rem;
+    width: 70px;
+    overflow-x: hidden; }
+    .carousel-arrow svg {
+      transform: translateX(-1rem);
+      opacity: 0.5;
+      transition: transform 0.55s cubic-bezier(0, 0.6, 0.17, 1.02), opacity 0.2s ease-in-out; }
+    .carousel-arrow:hover svg {
+      transform: translateX(0);
+      opacity: 1; }
 
 .page-hero {
   padding-top: 8rem;
@@ -6491,20 +6598,52 @@ ul > li {
     color: #303233;
     text-decoration: none; }
 
-.sidebyside {
-  padding-top: 2rem;
-  padding-bottom: 2rem; }
-  @media (min-width: 992px) {
-    .sidebyside {
-      padding-top: 4rem;
-      padding-bottom: 4rem; } }
-
-.block {
-  order: 1; }
-
-@media (min-width: 992px) {
-  .flip {
-    order: 2; } }
+.block .container {
+  display: flex;
+  flex-direction: column; }
+  @media (min-width: 768px) {
+    .block .container {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start; } }
+@media (min-width: 768px) {
+  .block-main {
+    width: 50%; } }
+@media (min-width: 768px) {
+  .block-aside {
+    width: 25%;
+    margin-top: 3rem;
+    margin-right: 8.3333%; } }
+.block-heading {
+  font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+  font-size: 1.75rem;
+  line-height: 1.35;
+  letter-spacing: -0.005em;
+  color: #17191A;
+  margin-bottom: 1rem; }
+  @media (min-width: 768px) {
+    .block-heading {
+      font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+      font-size: 2.5rem;
+      line-height: 1.1;
+      letter-spacing: -0.015em;
+      color: #17191A;
+      margin-bottom: 1.5rem; } }
+.block-content {
+  font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+  font-size: 1rem;
+  line-height: 1.45;
+  letter-spacing: 0.005em;
+  color: #7D7F80;
+  margin-bottom: 1rem; }
+  @media (min-width: 768px) {
+    .block-content {
+      font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+      font-size: 1.25rem;
+      line-height: 1.35;
+      letter-spacing: -0.005em;
+      color: #7D7F80;
+      margin-bottom: 1.5rem; } }
 
 .feature-venture {
   min-height: 50vh;
@@ -6589,68 +6728,6 @@ ul > li {
       transition: transform 0.2s ease-out; }
       .venture-grid-link img:hover {
         transform: scale(1); } }
-
-.vacancy-grid {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: stretch;
-  margin-left: -1rem;
-  margin-right: -1rem; }
-
-.vacancy-grid-item {
-  padding: 1rem;
-  width: 100%; }
-  @media (min-width: 576px) {
-    .vacancy-grid-item {
-      width: 50%; } }
-  @media (min-width: 768px) {
-    .vacancy-grid-item {
-      width: 33.333%; } }
-  @media (min-width: 1280px) {
-    .vacancy-grid-item {
-      width: 25%; } }
-
-.grid-item-wrapper {
-  display: block;
-  background-color: #FFFFFF;
-  padding: 1rem;
-  box-shadow: 0px 0px 0px rgba(48, 50, 51, 0);
-  transition: box-shadow 0.3s ease-out;
-  height: 100%; }
-  .grid-item-wrapper:hover {
-    box-shadow: 0px 4px 12px rgba(48, 50, 51, 0.1); }
-
-.vacancy-title {
-  font-weight: 700;
-  margin-bottom: 1rem;
-  line-height: 1.2; }
-
-.vacancy-meta {
-  display: flex;
-  align-items: center;
-  margin-bottom: 1rem;
-  flex-wrap: wrap; }
-  .vacancy-meta span {
-    margin-right: 2rem; }
-
-.icon-location {
-  background-image: url("img/icons/icon-map-pin.svg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 1.2rem;
-  width: 0.6666666667rem;
-  margin-right: 0.25rem;
-  margin-bottom: 0.1666666667rem; }
-
-.vacancy-grid-logo {
-  width: auto;
-  max-height: 30px; }
-
-.vacancy-logo {
-  width: auto;
-  max-height: 100px;
-  flex: 1; }
 
 .team-grid-container {
   display: flex;

@@ -2,8 +2,6 @@
 .pre-header {
     background-color: $smoke;
     padding: spacing(2) 0;
-
-
 }
 
 .header-locations {
@@ -16,7 +14,7 @@
     align-items: baseline;
 
     @include media-breakpoint-up(md) {
-        justify-content: flex-end;
+        justify-content: flex-start;
     }
 
     &-item {
@@ -29,9 +27,17 @@
         letter-spacing: 0.1em;
 
         @include media-breakpoint-up(md) {
-            text-align: right;
-            padding-left: spacing(3);
-            padding-right: 0;
+            text-align: left;
+            padding-right: spacing(5);
+            padding-left: 0;
+        }
+
+        a {
+            color: inherit;
+
+            &:hover {
+                color: $black;
+            }
         }
     }
 }

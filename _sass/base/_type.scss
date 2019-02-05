@@ -142,6 +142,16 @@ body {
     font-family: $font-family;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: inherit;
+    color: inherit;
+}
+
 
 
 .link-line {
@@ -172,4 +182,62 @@ body {
   &:hover::after {
     width: 100%;
   }
+}
+
+
+.link-box {
+  display: inline-block;
+  position: relative;
+  padding-left: 1em;
+  padding-right: 1em;
+
+  line-height: 2.25;
+  color: $black;
+
+  border: solid 1px $black;
+  overflow: hidden;
+
+  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+
+  span {
+    z-index: 2;
+    position: relative;
+  }
+
+  &:hover {
+      color: $white;
+  }
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    background-color: black;
+    height: 5em;
+    width: 100%;
+    transform: rotate(-22deg) translate(103%, 0);
+    transition: transform 0.15s cubic-bezier(0.24, 0.01, 0.21, 1);
+  }
+
+  &:hover::after {
+    transform: translate(0%, 0%);
+  }
+
+}
+
+.link-box.inverse {
+  color: $white;
+  border-color: $white;
+
+  &:hover {
+    color: $black;
+  }
+
+  &::after {
+    background-color: $white;
+  }
+
 }

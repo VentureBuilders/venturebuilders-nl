@@ -1,0 +1,91 @@
+.carousel {
+    position: relative;
+    background-color: $black;
+    overflow: hidden;
+
+    margin-top: spacing(6);
+    margin-bottom: spacing(6);
+
+
+    &-inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        position: relative;
+        height: 35vw;
+        z-index: 10;
+    }
+
+    &-item {
+        width: 50%;
+    }
+
+    &-quote {
+        @include type_medium();
+        margin-bottom: spacing(6);
+        color: $white;
+
+        cite {
+            margin-top: spacing(4);
+            display: inline-block;
+            color: inherit;
+            @include type_extra-small($muted: true);
+            font-style: normal;
+
+        }
+    }
+
+    &-image {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 50%;
+        background-color: white;
+        z-index: 1;
+
+        img {
+            height: 150%;
+            max-width: none;
+            width: auto;
+            margin-top: -15%;
+        }
+    }
+
+    &-mask {
+        position: absolute;
+        right: 35%;
+        top: 0;
+        height: 100%;
+        width: 50%;
+        z-index: 2;
+    }
+
+    &-controls {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &-arrow {
+        display: block;
+        height: 1rem;
+        width: 70px;
+        overflow-x: hidden;
+
+        svg {
+            transform: translateX(-1rem);
+            opacity: 0.5;
+            transition: transform 0.55s cubic-bezier(0, 0.6, 0.17, 1.02), opacity 0.2s ease-in-out;
+        }
+
+        &:hover svg {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+
+}
