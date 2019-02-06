@@ -1,27 +1,25 @@
 - company: Dealroom
-  description: This is the snippet for this venture
+  description: Dealroom is one of the worlds leading databases on private company information for innovative companies & start-ups. The platform provides company profiles including board members, search volume and funding rounds. Cities like Berlin use Dealroom's white label product to manage their own start-up ecosystems.
   site: https://www.dealroom.co
 - company: Contexta
-  description: This is the snippet for this venture
-  site: https://www.dealroom.co
+  description: Contexta is AI-based speech intelligence software for contact centers. The software analyzes all spoken conversations with customers and provides proactive feedback to operators on compliance, effectiveness and quality. In addition, it integrates with CRM software to complete records of the contact moments.
+  site: https://www.contexta-solutions.io
 - company: Amberscript
-  description: This is the snippet for this venture
-  site: https://www.dealroom.co
+  description: AmberScript uses a proprietary AI speech engine to automatically convert your speech audio into text. Users can easily check their transcripts and use the built-in editor to adapt where needed. Customers range from professionals transcribing their audio to media companies automatically generating subtitles.
+  site: https://www.amberscript.com
 - company: Traveldeal
-  description: This is the snippet for this venture
-  site: https://www.dealroom.co
+  description: TravelDeal is a travel booking platform focused on the Dutch market and providing holiday packages as well as day trips.
+  site: https://www.traveldeal.nl
 - company: Taxi2Airport
-  description: This is the snippet for this venture
-  site: https://www.dealroom.co
+  description: Taxi2Airport is one of the worlds largest platforms for pre-booked taxi airport transfers. It's active in 130+ countries.
+  site: https://www.taxi2airport.com
 - company: Euroknaller
-  description: This is the snippet for this venture
-  site: https://www.dealroom.co
+  description: Euroknaller is a deal website providing attractive consumer products that are limited in stock or time.
+  site: https://www.euroknaller.nl
 - company: Offerte.nl
-  description: This is the snippet for this venture
-  site: https://www.dealroom.co
-- company: Case24
-  description: This is the snippet for this venture
-  site: https://www.dealroom.co
-- company: Bedden.nl
-  description: This is the snippet for this venture
-  site: https://www.dealroom.co
+  slug: offerte
+  description: Offerte.nl is a lead generation platform. It allows consumers to request quotes from various types of service companies such as cleaning, mediation, call center agents and a number of other services.
+  site: https://www.offerte.nl
+- company: HomeDeco
+  description: HomeDeco is an inspirational shopping market place for home furnishing and decoration. It allows users to find their favorite styles and shop the items instantly.
+  site: https://www.homdeco.nl

@@ -10,6 +10,27 @@
 }
 
 
+.page-header {
+
+    margin-top: spacing(4);
+    margin-bottom: spacing(5);
+
+    @include media-breakpoint-up(md) {
+        margin-top: spacing(6);
+        margin-bottom: spacing(5);
+    }
+
+    &-title {
+        @include type_large();
+        margin-bottom: spacing(3);
+    }
+
+    &-intro {
+        @include type_medium($muted: true);
+    }
+
+}
+
 .svg-black {
     fill: $black;
 }

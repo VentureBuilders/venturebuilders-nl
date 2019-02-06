@@ -13,7 +13,7 @@
         justify-content: center;
         align-items: flex-start;
         position: relative;
-        height: 35vw;
+        height: 40vw;
         z-index: 10;
     }
 
@@ -46,8 +46,6 @@
         z-index: 1;
 
         img {
-            height: 150%;
-            max-width: none;
             width: auto;
             margin-top: -15%;
         }
@@ -60,6 +58,11 @@
         height: 100%;
         width: 50%;
         z-index: 2;
+
+        svg {
+            height: 100%;
+            width: auto;
+        }
     }
 
     &-controls {

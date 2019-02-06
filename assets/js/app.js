@@ -17,9 +17,33 @@ accordionTitles.forEach(function (element) {
 });
 
 
-anime({
+var block = document.querySelectorAll('.v-block');
+
+block.forEach(function(element) {
+  element.addEventListener("mouseover", function() {
+    element.classList.add('hover');
+  })
+});
+
+block.forEach(function(element) {
+  element.addEventListener("mouseout", function() {
+    element.classList.remove('hover');
+  })
+});
+
+
+var blockAnimation = anime({
+    targets: '.v-block',
+    duration: 600,
+    autoplay: false,
+    easing: 'easeOutCubic',
+
+})
+
+var carouselAnimation = anime({
   targets: ['.carousel-image', '.carousel-quote'],
   duration: 1300,
   opacity: [0, 1],
-  easing: 'easeOutCubic'
+  easing: 'easeOutCubic',
+  autoplay: false
 });

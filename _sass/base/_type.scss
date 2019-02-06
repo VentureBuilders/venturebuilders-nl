@@ -5,24 +5,24 @@
 // Font family
 
 @font-face {
-  font-family: 'Financier';
-  src: url('fonts/FinancierTextWeb-Regular.eot'); /* IE9 Compat Modes */
-  src: url('fonts/FinancierTextWeb-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/FinancierTextWeb-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/FinancierTextWeb-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+    font-family: 'Financier';
+    src: url('fonts/FinancierTextWeb-Regular.eot'); /* IE9 Compat Modes */
+    src: url('fonts/FinancierTextWeb-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/FinancierTextWeb-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('fonts/FinancierTextWeb-Regular.woff') format('woff'), /* Pretty Modern Browsers */
 }
 
 
 // Type Scale
 
 $scale: (
-    1: 0.875rem,
-    2: 1rem,
-    3: 1.25rem,
-    4: 1.75rem,
-    5: 2.5rem,
-    6: 4rem,
-    super: 5.75rem
+1: 0.875rem,
+2: 1rem,
+3: 1.25rem,
+4: 1.75rem,
+5: 2.5rem,
+6: 4rem,
+super: 5.75rem
 );
 
 
@@ -81,7 +81,7 @@ $font-family: 'Financier', 'Hoefler Text', 'Cambria', 'Georgia', serif;
         size: map-get($scale, 4);
     }
     line-height: 1.35;
-    letter-spacing: -0.005em;
+    letter-spacing: -0.0015em;
 
     @if ($muted) {
         color: $slate;
@@ -97,7 +97,7 @@ $font-family: 'Financier', 'Hoefler Text', 'Cambria', 'Georgia', serif;
         size: map-get($scale, 3);
     }
     line-height: 1.35;
-    letter-spacing: -0.005em;
+    letter-spacing: -0.0015em;
 
     @if ($muted) {
         color: $slate;
@@ -161,83 +161,97 @@ h6 {
     position: relative;
     line-height: 1.5;
 
-  &::after {
-    content: '';
-    display: block;
-    height: 1px;
-    width: 0px;
-    position: absolute;
-    bottom: -0.025em;
-    left: 0;
-    background-color: $black;
+    &::after {
+        content: '';
+        display: block;
+        height: 1px;
+        width: 0px;
+        position: absolute;
+        bottom: -0.025em;
+        left: 0;
+        background-color: $black;
 
-    transition: width 0.15s cubic-bezier(0.24, 0.01, 0.21, 1);
+        transition: width 0.15s cubic-bezier(0.24, 0.01, 0.21, 1);
 
-  }
+    }
 
-  &:hover {
-      color: $black;
-  }
+    &:hover,
+    &.active {
+        color: $black;
+    }
 
-  &:hover::after {
-    width: 100%;
-  }
+    &:hover::after,
+    &.active::after {
+        width: 100%;
+    }
+
+    &.inverse {
+        color: $white;
+    }
+
+    &.inverse::after {
+        background-color: $white;
+    }
 }
 
 
+
+
+
+
 .link-box {
-  display: inline-block;
-  position: relative;
-  padding-left: 1em;
-  padding-right: 1em;
-
-  line-height: 2.25;
-  color: $black;
-
-  border: solid 1px $black;
-  overflow: hidden;
-
-  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
-
-  span {
-    z-index: 2;
+    display: inline-block;
     position: relative;
-  }
+    padding-left: 1em;
+    padding-right: 1em;
 
-  &:hover {
-      color: $white;
-  }
+    line-height: 2.25;
+    color: $black;
 
-  &::after {
-    content: '';
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 1;
-    background-color: black;
-    height: 5em;
-    width: 100%;
-    transform: rotate(-22deg) translate(103%, 0);
-    transition: transform 0.15s cubic-bezier(0.24, 0.01, 0.21, 1);
-  }
+    border: solid 1px $black;
+    overflow: hidden;
 
-  &:hover::after {
-    transform: translate(0%, 0%);
-  }
+    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+
+    span {
+        z-index: 2;
+        position: relative;
+    }
+
+    &:hover {
+        color: $white;
+    }
+
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1;
+        background-color: black;
+        height: 5em;
+        width: 100%;
+        transform: rotate(-22deg) translate(103%, 0);
+        transition: transform 0.15s cubic-bezier(0.24, 0.01, 0.21, 1);
+    }
+
+    &:hover::after {
+        transform: translate(0%, 0%);
+    }
 
 }
 
 .link-box.inverse {
-  color: $white;
-  border-color: $white;
+    color: $white;
+    border-color: $white;
 
-  &:hover {
-    color: $black;
-  }
+    &:hover {
+        color: $black;
+    }
 
-  &::after {
-    background-color: $white;
-  }
+    &::after {
+        background-color: $white;
+    }
 
 }
