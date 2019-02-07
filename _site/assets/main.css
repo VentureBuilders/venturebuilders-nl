@@ -6730,45 +6730,40 @@ ul > li {
 .v-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; }
+  justify-content: flex-start; }
   .v-grid-item {
     width: 100%;
-    height: 40vh;
-    background-color: #17191A;
-    color: #FFFFFF; }
+    height: 40vh; }
     @media (min-width: 576px) {
       .v-grid-item {
         width: calc(50% - 0px);
         margin-bottom: 0px; } }
     @media (min-width: 768px) {
       .v-grid-item {
-        width: calc(33% - 0px);
         margin-bottom: 0px; } }
     @media (min-width: 992px) {
       .v-grid-item {
-        width: calc(25% - 0px);
         margin-bottom: 0px; } }
   .v-grid-image {
     position: relative; }
     .v-grid-image .background {
-      height: 100%;
-      width: auto;
+      width: 100%;
       max-width: none;
       position: absolute;
       top: 0;
-      left: -10%;
       z-index: 1; }
     .v-grid-image .logo {
       position: absolute;
       z-index: 2;
       top: 32px;
       left: 32px;
-      max-width: 50%; }
+      max-height: 3.5rem;
+      width: auto; }
   .v-grid-text {
     padding: 1rem; }
     @media (min-width: 768px) {
       .v-grid-text {
-        padding: 1.5rem; } }
+        padding: 3rem; } }
     .v-grid-text .heading {
       margin-bottom: 1rem;
       font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
@@ -6779,11 +6774,10 @@ ul > li {
     .v-grid-text .description {
       margin-bottom: 1.5rem;
       font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
-      font-size: 1rem;
-      line-height: 1.45;
-      letter-spacing: 0.005em;
-      color: #17191A;
-      color: #FFFFFF; }
+      font-size: 1.25rem;
+      line-height: 1.35;
+      letter-spacing: -0.0015em;
+      color: #17191A; }
 
 .grid-flip {
   position: relative;
@@ -6797,22 +6791,26 @@ ul > li {
     height: 100%;
     transform-style: preserve-3d;
     backface-visibility: visible;
-    transition: transform 0.35s cubic-bezier(0.41, 0.01, 0.18, 1);
-    overflow: hidden; }
+    transition: transform 0.35s cubic-bezier(0.41, 0.01, 0.18, 1), opacity 0.5s cubic-bezier(0.41, 0.01, 0.18, 1);
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
     .hover .grid-flip-front {
-      transform: rotateX(180deg); }
+      transform: rotateY(180deg);
+      opacity: 0; }
   .grid-flip-back {
     position: absolute;
     top: 0;
     height: 100%;
     width: 100%;
     z-index: 2;
-    transform: rotateX(-180deg);
+    transform: rotateY(-180deg);
     transform-style: preserve-3d;
     transition: transform 0.35s cubic-bezier(0.41, 0.01, 0.18, 1);
     backface-visibility: hidden; }
     .hover .grid-flip-back {
-      transform: rotateX(0deg);
+      transform: rotateY(0deg);
       opacity: 1; }
   .grid-flip-back-matte {
     position: absolute;
@@ -6820,14 +6818,14 @@ ul > li {
     height: 100%;
     width: 100%;
     opacity: 1;
-    background-color: #17191A; }
+    background-color: #F4F5F5; }
   .grid-flip-back-inner {
     position: absolute;
     z-index: 2;
     top: 0;
     height: 100%;
     width: 100%;
-    color: #FFFFFF; }
+    color: #17191A; }
     .hover .grid-flip-back-inner {
       opacity: 1; }
 

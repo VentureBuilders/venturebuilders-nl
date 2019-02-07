@@ -8,17 +8,16 @@ layout: page
         {% assign ventures = site.data.ventures | sort: 'company' %}
         {% for venture in ventures %}
 
-        <article class="v-grid-item v-block grid-flip" id="test">
+        <article class="v-grid-item v-block grid-flip">
 
-            <div class="v-grid-image grid-flip-front">
+            <div class="v-grid-image grid-flip-front" style="background-image: url('{{ site.url }}/assets/img/venture-small/{{ venture.company | slugify }}.jpg')">
                 <img class="logo" src="{{ site.url }}/assets/img/venture-logos/white/{{ venture.company | slugify }}.svg" alt="">
-                <img class="background" src="{{ site.url }}/assets/img/venture-small/{{ venture.company | slugify }}.jpg" alt="{{ venture.company }}">
             </div>
             <div class="grid-flip-back">
                 <div class="grid-flip-back-matte"></div>
                 <div class="v-grid-text grid-flip-back-inner">
                     <p class="description">{{ venture.description }}</p>
-                    <a class="link-line inverse" href="{{ venture.site }}" target="_blank" title="ventureurl" class="block-text-link"><span>www.ventureurl.com</span></a>
+                    <a class="link-line" href="{{ venture.site }}" target="_blank" title="ventureurl" class="block-text-link"><span>Learn More</span></a>
                 </div>
 
             </div>
