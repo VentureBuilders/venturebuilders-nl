@@ -1,18 +1,25 @@
-// const anime = require('vendor/anime.min.js');
-const accordionTitles = document.querySelectorAll('.accordion-title');
-
-
-function showList(element) {
-    // console.log(element);
-    // element.classList.toggle('show');
-}
-
 console.log("App.js loaded");
+
+const accordionTitles = document.querySelectorAll('.accordion-title');
+let accordionActive = [];
+
 
 accordionTitles.forEach(function (element) {
     element.addEventListener('click', function() {
-        // console.log(this);
-        this.classList.toggle('show');
+        accordionActive = [];
+        var active = this.dataset.list;
+        var listSet = document.querySelectorAll('[data-list]');
+        // console.log(listSet);
+
+        listSet.forEach(function(element) {
+            if (element.dataset.list === active) {
+                element.classList.toggle('show');
+                accordionActive.push(element);
+            }
+        });
+
+        listAnimation.restart();
+        console.log(accordionActive);
     });
 });
 
@@ -45,5 +52,16 @@ var carouselAnimation = anime({
   duration: 1300,
   opacity: [0, 1],
   easing: 'easeOutCubic',
-  autoplay: false
+  autoplay: true
+});
+
+
+var listAnimation = anime({
+    targets: accordionActive,
+    duration: 500,
+    delay: anime.stagger(30),
+    translateX: ['-0.5em', 0],
+    opacity: [0, 1],
+    easing: 'easeOutCubic',
+    autoplay: false,
 });

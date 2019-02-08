@@ -20,6 +20,12 @@
         @include media-breakpoint-up(md) {
             margin-right: spacing(6);
         }
+
+        &:last-of-type {
+            @include media-breakpoint-up(md) {
+                margin-right: 0;
+            }
+        }
     }
 
     &-heading {

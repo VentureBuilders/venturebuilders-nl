@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="481" height="410" viewBox="0 0 481 410">
+  <defs>
+    <circle id="about-image-a" cx="239.5" cy="176.5" r="176.5"/>
+    <mask id="about-image-b" width="353" height="353" x="0" y="0" fill="#fff">
+      <use xlink:href="#about-image-a"/>
+    </mask>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill-rule="nonzero" stroke="#E6E6E6" stroke-dasharray="12" stroke-width="4" mask="url(#about-image-b)" xlink:href="#about-image-a"/>
+    <text fill="#303233" font-family="FinancierText-Regular, Financier Text" font-size="24" letter-spacing=".1">
+      <tspan x="171.41" y="182">We believe in..</tspan> <tspan x="312.59" y="182">.</tspan>
+    </text>
+    <g transform="translate(0 33)">
+      <circle cx="65" cy="65" r="65" fill="#FFF" fill-rule="nonzero"/>
+      <text fill="#303233" font-family="FinancierText-Regular, Financier Text" font-size="16" letter-spacing=".286">
+        <tspan x="34.557" y="32">Founders</tspan>
+      </text>
+      <g stroke="#099" stroke-width="2" transform="translate(34 50)">
+        <polyline points="19 5 62 5 62 43 21 43"/>
+        <path d="M21,39 L59,39"/>
+        <polyline points="26 36 26 31 22 31 22 36"/>
+        <polyline points="42 36 42 24 38 24 38 36"/>
+        <polyline points="50 36 50 18 46 18 46 36"/>
+        <polyline points="58 36 58 13 54 13 54 36"/>
+        <polyline points="34 36 34 28 30 28 30 36"/>
+        <path d="M11 59L11 38M16 5C16 7.762 13.762 10 11 10 8.238 10 6 7.762 6 5 6 2.238 8.238 0 11 0 13.762 0 16 2.238 16 5zM4 59L4 35 0 35 0 21C0 17.134 3.134 14 7 14L34 14 34 20 18 20 18 59M11 17L11 19M11 21L11 23"/>
+      </g>
+    </g>
+    <g transform="translate(351 33)">
+      <circle cx="65" cy="65" r="65" fill="#FFF" fill-rule="nonzero"/>
+      <text fill="#303233" font-family="FinancierText-Regular, Financier Text" font-size="16" letter-spacing=".286">
+        <tspan x="38.424" y="32">Support</tspan>
+      </text>
+      <g stroke="#099" stroke-width="2" transform="translate(34 46)">
+        <path d="M34 5C34 7.762 31.762 10 29 10 26.238 10 24 7.762 24 5 24 2.238 26.238 0 29 0 31.762 0 34 2.238 34 5zM48 63L48 45M52 12C52 14.21 50.209 16 48 16 45.791 16 44 14.21 44 12 44 9.791 45.791 8 48 8 50.209 8 52 9.791 52 12z"/>
+        <polyline points="39 42 42 42 42 63"/>
+        <path d="M54 63L54 42 58 42 58 25C58 22.238 55.762 20 53 20L43 20M48 21L48 26M10 21L10 23M10 24L10 26M10 63L10 45"/>
+        <polyline points="19 42 16 42 16 63"/>
+        <path d="M4 63L4 42 0 42 0 25C0 22.238 2.238 20 5 20L15 20M14 12C14 14.21 12.209 16 10 16 7.791 16 6 14.21 6 12 6 9.791 7.791 8 10 8 12.209 8 14 9.791 14 12zM22 63L22 38 18 38 18 20C18 16.687 20.687 14 24 14L34 14C37.313 14 40 16.687 40 20L40 38 36 38 36 63M29 41L29 63"/>
+        <path stroke-linejoin="round" d="M29,15 L29,17"/>
+      </g>
+    </g>
+    <g transform="translate(167 280)">
+      <circle cx="65" cy="65" r="65" fill="#FFF" fill-rule="nonzero"/>
+      <text fill="#303233" font-family="FinancierText-Regular, Financier Text" font-size="16" letter-spacing=".286">
+        <tspan x="32.562" y="35">AI &amp; Data</tspan>
+      </text>
+      <g stroke="#099" stroke-linejoin="round" stroke-width="2" transform="translate(34 47)">
+        <path d="M16 54C16 58.418 12.418 62 8 62 3.582 62 0 58.418 0 54 0 49.582 3.582 46 8 46 12.418 46 16 49.582 16 54zM16 31C16 35.418 12.418 39 8 39 3.582 39 0 35.418 0 31 0 26.582 3.582 23 8 23 12.418 23 16 26.582 16 31zM39 19C39 23.418 35.418 27 31 27 26.582 27 23 23.418 23 19 23 14.582 26.582 11 31 11 35.418 11 39 14.582 39 19zM62 31C62 35.418 58.418 39 54 39 49.582 39 46 35.418 46 31 46 26.582 49.582 23 54 23 58.418 23 62 26.582 62 31zM39 43C39 47.418 35.418 51 31 51 26.582 51 23 47.418 23 43 23 38.582 26.582 35 31 35 35.418 35 39 38.582 39 43zM16 8C16 12.418 12.418 16 8 16 3.582 16 0 12.418 0 8 0 3.582 3.582 0 8 0 12.418 0 16 3.582 16 8z"/>
+        <polyline points="31 43 8 31 31 19"/>
+        <polyline points="31 43 8 8 31 19 54 31 31 43 8 54 31 19"/>
+      </g>
+    </g>
+  </g>
+</svg>

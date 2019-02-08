@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "name": "static",
+  "builds": [
+    { "src": "_site/index.html", "use": "@now/static" }
+  ]
+}

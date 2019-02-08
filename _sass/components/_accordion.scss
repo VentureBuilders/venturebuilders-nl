@@ -65,17 +65,15 @@
 
 
     &-list {
-        opacity: 0;
+        opacity: 1;
         max-height: 0;
         overflow-y: hidden;
         margin-left: 24px;
-
-        transition: max-height 0.3s cubic-bezier(0.63, 0, 0.21, 1), opacity 0.35s cubic-bezier(0.79, 0, 0.58, 1);
+        display: none;
 
         .show + & {
             display: inherit;
-            max-height: 90vh;
-            opacity: 1;
+            max-height: none;
         }
 
         ul {

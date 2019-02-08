@@ -57,9 +57,7 @@ url: https://venturebuilders.nl
 permalink: date
 author: VentureBuilders
 email: info@venturebuilders.nl
-description: 'Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description. '
+description: 'VentureBuilders is a hands-on European venture capital fund, focused on AI, data and general SaaS companies. '
 markdown: kramdown
 exclude:
 - Gemfile

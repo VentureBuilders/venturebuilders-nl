@@ -13,8 +13,12 @@
         justify-content: center;
         align-items: flex-start;
         position: relative;
-        height: 40vw;
+        height: 70vw;
         z-index: 10;
+
+        @include media-breakpoint-up(md) {
+            height: 40vw;
+        }
     }
 
     &-item {
@@ -22,7 +26,14 @@
     }
 
     &-quote {
-        @include type_medium();
+
+        @include type_small();
+
+        @include media-breakpoint-up(lg) {
+            @include type_medium();
+            color: $white;
+        }
+
         margin-bottom: spacing(6);
         color: $white;
 
@@ -53,11 +64,19 @@
 
     &-mask {
         position: absolute;
-        right: 35%;
+        right: 65%;
         top: 0;
         height: 100%;
         width: 50%;
         z-index: 2;
+
+        @include media-breakpoint-up(md) {
+            right: 35%;
+        }
+
+        @include media-breakpoint-up(lg) {
+            right: 35%;
+        }
 
         svg {
             height: 100%;

@@ -1,0 +1,39 @@
+.locations-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @include media-breakpoint-up(md) {
+        flex-direction: row;
+    }
+}
+
+.location {
+
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: spacing(5);
+
+    &-inner {
+        margin-bottom: spacing(3);
+        @include media-breakpoint-up(md) {
+            order: 2;
+        }
+    }
+
+    &-image {
+
+
+        margin-bottom: spacing(3);
+    }
+
+    &-heading {
+        @include type_medium();
+    }
+
+    &-address {
+        @include type_small($muted: true);
+    }
+
+}

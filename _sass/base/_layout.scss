@@ -27,6 +27,11 @@
 
     &-intro {
         @include type_medium($muted: true);
+        margin-bottom: spacing(2);
+    }
+
+    &-subtext {
+        @include type_small($muted: true);
     }
 
 }
