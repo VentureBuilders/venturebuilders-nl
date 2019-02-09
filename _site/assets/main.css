@@ -6429,13 +6429,18 @@ ul > li {
     justify-content: center;
     align-items: flex-start;
     position: relative;
-    height: 70vw;
-    z-index: 10; }
+    z-index: 10;
+    padding-top: 4rem;
+    padding-bottom: 4rem; }
     @media (min-width: 768px) {
       .carousel-inner {
         height: 40vw; } }
-  .carousel-item {
-    width: 50%; }
+  @media (min-width: 576px) {
+    .carousel-item {
+      width: 70%; } }
+  @media (min-width: 768px) {
+    .carousel-item {
+      width: 50%; } }
   .carousel-quote {
     font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
     font-size: 1.25rem;
@@ -6454,7 +6459,7 @@ ul > li {
         color: #FFFFFF; } }
     .carousel-quote cite {
       margin-top: 1.5rem;
-      display: inline-block;
+      display: block;
       color: inherit;
       font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
       font-size: 1rem;
@@ -6469,18 +6474,22 @@ ul > li {
     height: 100%;
     width: 50%;
     background-color: white;
-    z-index: 1; }
+    z-index: 1;
+    display: none; }
+    @media (min-width: 576px) {
+      .carousel-image {
+        display: inherit; } }
     .carousel-image img {
       width: auto;
       margin-top: -15%; }
   .carousel-mask {
     position: absolute;
-    right: 65%;
+    right: 70%;
     top: 0;
     height: 100%;
     width: 50%;
     z-index: 2; }
-    @media (min-width: 768px) {
+    @media (min-width: 576px) {
       .carousel-mask {
         right: 35%; } }
     @media (min-width: 992px) {
