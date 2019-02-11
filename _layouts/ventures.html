@@ -7,7 +7,7 @@ layout: page
     <main class="v-grid">
         {% assign ventures = site.data.ventures | sort: 'company' %}
         {% for venture in ventures %}
-
+            {% unless venture.published == false %}
         <article class="v-grid-item v-block grid-flip">
 
             <div class="v-grid-image grid-flip-front" style="background-image: url('{{ site.url }}/assets/img/venture-small/{{ venture.company | slugify }}.jpg')">
@@ -23,6 +23,7 @@ layout: page
             </div>
 
         </article>
+        {% endunless %}
 
 
         {% endfor %}
