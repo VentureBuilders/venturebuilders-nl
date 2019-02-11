@@ -3,16 +3,17 @@ layout: page
 ---
 
 <div class="container">
-    <div class="founder-grid-container row mb-3 mb-lg-5">
+    <div class="row mb-3 mb-lg-5">
         <h3 class="col-9 mb-2 heading-medium">Investment Team</h3>
+
         {% assign founders = site.team | where: "Venture", "Investment Team" | sort: "prio" %}
-        <div class="col-9 founders-container d-flex flex-wrap flex-row justify-content-between">
+        <div class="team-grid-container">
 
             {% for member in founders %}
-            <div class="founder-grid-item col-sm-4 col-lg mb-4">
-                <img class="mb-2" src="{{ member.Photo }}" alt="{{ member.title }}">
-                <h6 class="base-intro bold">{{ member.title }}</h6>
-                <div class="base-small mute">{{ member.content }}</div>
+            <div class="team-grid-item large">
+                <img class="team-photo founder" src="{{ member.Photo }}" alt="{{ member.title }}">
+                <h6 class="team-name founder">{{ member.title }}</h6>
+                <div class="team-bio founder">{{ member.content }}</div>
             </div>
             {% endfor %}
 

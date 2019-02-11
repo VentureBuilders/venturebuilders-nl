@@ -6043,7 +6043,7 @@ ul > li {
   .page-header-intro {
     font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
     font-size: 1.75rem;
-    line-height: 1.35;
+    line-height: 1.1;
     letter-spacing: -0.0015em;
     color: #7D7F80;
     margin-bottom: 0.75rem; }
@@ -6334,7 +6334,7 @@ ul > li {
       .hero-intro {
         font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
         font-size: 1.75rem;
-        line-height: 1.35;
+        line-height: 1.1;
         letter-spacing: -0.0015em;
         color: #7D7F80; } }
 
@@ -6346,7 +6346,7 @@ ul > li {
   cursor: pointer;
   font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
   font-size: 1.75rem;
-  line-height: 1.35;
+  line-height: 1.1;
   letter-spacing: -0.0015em;
   color: #17191A;
   margin-bottom: 1.5rem;
@@ -6439,7 +6439,7 @@ ul > li {
       .carousel-quote {
         font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
         font-size: 1.75rem;
-        line-height: 1.35;
+        line-height: 1.1;
         letter-spacing: -0.0015em;
         color: #17191A;
         color: #FFFFFF; } }
@@ -6593,7 +6593,7 @@ ul > li {
   .feature-block-heading {
     font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
     font-size: 1.75rem;
-    line-height: 1.35;
+    line-height: 1.1;
     letter-spacing: -0.0015em;
     color: #17191A;
     margin-bottom: 0.75rem; }
@@ -6687,7 +6687,7 @@ ul > li {
 .block-heading {
   font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
   font-size: 1.75rem;
-  line-height: 1.35;
+  line-height: 1.1;
   letter-spacing: -0.0015em;
   color: #17191A;
   margin-bottom: 1rem; }
@@ -6841,7 +6841,7 @@ ul > li {
       margin-bottom: 1rem;
       font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
       font-size: 1.75rem;
-      line-height: 1.35;
+      line-height: 1.1;
       letter-spacing: -0.0015em;
       color: #17191A; }
     .v-grid-text .description {
@@ -6907,7 +6907,13 @@ ul > li {
   flex-wrap: wrap;
   justify-content: flex-start;
   margin-right: -1rem;
-  margin-left: -1rem; }
+  margin-left: -1rem;
+  padding-left: 1rem;
+  padding-right: 1rem; }
+  @media (min-width: 576px) {
+    .team-grid-container {
+      padding-left: 0;
+      padding-right: 0; } }
   @media (min-width: 768px) {
     .team-grid-container {
       margin-right: 0;
@@ -6915,7 +6921,9 @@ ul > li {
 
 .team-grid-item {
   width: 50%;
-  padding: 1rem; }
+  padding: 1rem;
+  flex-grow: 1;
+  max-width: none; }
   @media (min-width: 768px) {
     .team-grid-item {
       width: 33.333%; }
@@ -6927,6 +6935,71 @@ ul > li {
   @media (min-width: 1280px) {
     .team-grid-item {
       width: 20%; } }
+
+.team-grid-item.large {
+  width: 100%; }
+  @media (min-width: 576px) {
+    .team-grid-item.large {
+      width: 50%; } }
+  @media (min-width: 992px) {
+    .team-grid-item.large {
+      width: 25%; } }
+  @media (min-width: 1280px) {
+    .team-grid-item.large {
+      width: 25%; } }
+
+.team-photo {
+  margin-bottom: 0.75rem; }
+
+.team-name {
+  margin-bottom: 0.75rem;
+  font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+  font-size: 1.75rem;
+  line-height: 1.1;
+  letter-spacing: -0.0015em;
+  color: #17191A; }
+  @media (min-width: 576px) {
+    .team-name {
+      font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+      font-size: 1.25rem;
+      line-height: 1.35;
+      letter-spacing: -0.0015em;
+      color: #17191A; } }
+  @media (min-width: 768px) {
+    .team-name {
+      font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+      font-size: 1.75rem;
+      line-height: 1.1;
+      letter-spacing: -0.0015em;
+      color: #17191A; } }
+  @media (min-width: 992px) {
+    .team-name {
+      font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+      font-size: 1.25rem;
+      line-height: 1.35;
+      letter-spacing: -0.0015em;
+      color: #17191A; } }
+  @media (min-width: 1280px) {
+    .team-name {
+      font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+      font-size: 1.75rem;
+      line-height: 1.1;
+      letter-spacing: -0.0015em;
+      color: #17191A; } }
+
+.team-bio {
+  font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+  font-size: 1.25rem;
+  line-height: 1.35;
+  letter-spacing: -0.0015em;
+  color: #7D7F80; }
+  @media (min-width: 576px) {
+    .team-bio {
+      font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+      font-size: 1rem;
+      line-height: 1.45;
+      letter-spacing: 0.005em;
+      color: #7D7F80; } }
 
 .member-profile {
   position: relative; }
@@ -6985,7 +7058,9 @@ ul > li {
 .locations-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-right: -1rem;
+  margin-left: -1rem; }
   @media (min-width: 768px) {
     .locations-wrapper {
       flex-direction: row; } }
@@ -6994,20 +7069,38 @@ ul > li {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem; }
   .location-inner {
-    margin-bottom: 1rem; }
+    margin-bottom: 0.5rem; }
     @media (min-width: 768px) {
       .location-inner {
-        order: 2; } }
+        order: 2;
+        margin-bottom: 1rem; } }
   .location-image {
     margin-bottom: 1rem; }
   .location-heading {
     font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
     font-size: 1.75rem;
-    line-height: 1.35;
+    line-height: 1.1;
     letter-spacing: -0.0015em;
-    color: #17191A; }
+    color: #17191A;
+    margin-bottom: 0.75rem; }
+    @media (min-width: 576px) {
+      .location-heading {
+        font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+        font-size: 1.25rem;
+        line-height: 1.35;
+        letter-spacing: -0.0015em;
+        color: #17191A; } }
+    @media (min-width: 992px) {
+      .location-heading {
+        font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+        font-size: 1.75rem;
+        line-height: 1.1;
+        letter-spacing: -0.0015em;
+        color: #17191A; } }
   .location-address {
     font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
     font-size: 1.25rem;
