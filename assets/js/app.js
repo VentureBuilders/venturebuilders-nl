@@ -1,5 +1,9 @@
 console.log("App.js loaded");
 
+
+// ==============================
+// Expertise Accordion Animation
+
 const accordionTitles = document.querySelectorAll('.accordion-title');
 let accordionActive = [];
 
@@ -24,28 +28,64 @@ accordionTitles.forEach(function (element) {
 });
 
 
-var block = document.querySelectorAll('.v-block');
+// ==============================
+// Venture Grid Animations
+
+// var revealText = anime({
+//     targets: '.reveal-text',
+//     duration: 300,
+//     easing: 'easeOutExpo',
+//     delay: 200,
+//     opacity: [0, 1],
+//     translateY: ['-20px', '0px'],
+//     autoplay: false
+// })
+
+
+var block = document.querySelectorAll('.reveal');
 
 block.forEach(function(element) {
-  element.addEventListener("mouseover", function() {
-    element.classList.add('hover');
-  })
+    // var slices = element.children[1].children;
+    element.addEventListener("mouseenter", function() {
+        // var slices = this.querySelectorAll('.reveal-slice');
+        element.classList.add('hover');
+        // reveal(slices);
+    })
+
+    element.addEventListener("mouseleave", function() {
+
+        element.classList.remove('hover');
+        // outro(slices);
+    })
 });
 
-block.forEach(function(element) {
-  element.addEventListener("mouseout", function() {
-    element.classList.remove('hover');
-  })
-});
+function reveal(elements) {
+
+    var revealSlice = anime({
+        targets: elements,
+        duration: 500,
+        easing: 'easeOutExpo',
+        delay: anime.stagger(100, {start: 0}),
+        translateY: '0%',
+        autoplay: true
+    });
+}
+
+function outro(elements) {
+    var revealSlice = anime({
+        targets: elements,
+        duration: 300,
+        easing: 'easeOutExpo',
+        delay: anime.stagger(50, {start: 0}),
+        translateY: '-100%',
+        autoplay: true
+    });
+}
 
 
-var blockAnimation = anime({
-    targets: '.v-block',
-    duration: 600,
-    autoplay: false,
-    easing: 'easeOutCubic',
 
-})
+// ==============================
+// Carousel Animation
 
 var carouselAnimation = anime({
   targets: ['.carousel-image', '.carousel-quote'],
