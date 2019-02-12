@@ -8,72 +8,70 @@ $flip-bg: $smoke;
 $flip-text: $black;
 
 .v-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
 
-    &-item {
-        width: 100%;
-        height: 40vh;
-        min-height: 25rem;
+	&-item {
+		width: 100%;
+		height: 45vh;
+		min-height: 28rem;
 
-        @include media-breakpoint-up(md) {
-            width: calc(50% - #{$gutterSmall});
-            margin-bottom: $gutterSmall;
-        };
+		@include media-breakpoint-up(lg) {
+			width: calc(50% - #{$gutterSmall});
+			margin-bottom: $gutterSmall;
+		};
 
-        @include media-breakpoint-up(lg) {
-            width: calc(33% - #{$gutterSmall});
-            margin-bottom: $gutterSmall;
+		@include media-breakpoint-up(xl) {
+			width: calc(33% - #{$gutterSmall});
+			// width: calc(25% - #{$gutterSmall});
+			margin-bottom: $gutterSmall;
 
-        };
+		};
+	}
 
-        @include media-breakpoint-up(xl) {
-            // width: calc(25% - #{$gutterSmall});
-            margin-bottom: $gutterSmall;
+	&-image {
+		position: relative;
+		height: 100%;
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
 
-        };
-    }
+		.logo {
+			position: absolute;
+			z-index: 2;
+			top: $gutterMedium;
+			left: $gutterMedium;
 
-    &-image {
-        position: relative;
-        height: 100%;
+			max-height: 3.5rem;
+			width: auto;
 
-        .logo {
-            position: absolute;
-            z-index: 2;
-            top: $gutterMedium;
-            left: $gutterMedium;
-
-            max-height: 3.5rem;
-            width: auto;
-
-        }
-    }
+		}
+	}
 
 
-    &-text {
+	&-text {
 
-        padding: spacing(3);
+		padding: spacing(3);
 
 
-        @include media-breakpoint-up(md) {
-            padding: spacing(5);
-        }
+		@include media-breakpoint-up(md) {
+			padding: spacing(5);
+		}
 
-        .heading {
-            margin-bottom: spacing(3);
-            @include type_medium();
+		.heading {
+			margin-bottom: spacing(3);
+			@include type_medium();
 
-        }
+		}
 
-        .description {
-            margin-bottom: spacing(4);
-            @include type_small();
-            // color: $white;
-        }
+		.description {
+			margin-bottom: spacing(4);
+			@include type_small();
+			// color: $white;
+		}
 
-    }
+	}
 
 }
 
@@ -84,135 +82,142 @@ $flip-text: $black;
 
 
 .grid-flip {
-    position: relative;
-    overflow: visible;
-    cursor: pointer;
-    perspective: 1000px;
-    z-index: 0;
+	position: relative;
+	overflow: visible;
+	cursor: pointer;
+	perspective: 1000px;
+	z-index: 0;
 
-    &.hover {
-        z-index: 99;
-    }
+	&.hover {
+		z-index: 99;
+	}
 
-    &-front {
-        height: 100%;
-        transform-style: preserve-3d;
-        backface-visibility: visible;
-        transition: transform $timing $easing, opacity 0.5s $easing;
-        overflow: hidden;
+	&-front {
+		height: 100%;
+		transform-style: preserve-3d;
+		backface-visibility: visible;
+		transition: transform $timing $easing, opacity 0.5s $easing;
+		overflow: hidden;
 
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
 
-        .hover & {
-            transform: rotateY(180deg);
-            opacity: 0;
-        }
-    }
+		.hover & {
+			transform: rotateY(180deg);
+			opacity: 0;
+		}
+	}
 
-    &-back {
+	&-back {
 
-        position: absolute;
-        top: 0;
-        height: 100%;
-        width: 100%;
-        z-index: 2;
+		position: absolute;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		z-index: 2;
 
-        transform: rotateY(-180deg);
-        transform-style: preserve-3d;
+		transform: rotateY(-180deg);
+		transform-style: preserve-3d;
 
-        transition: transform $timing $easing;
-        backface-visibility: hidden;
+		transition: transform $timing $easing;
+		backface-visibility: hidden;
 
-        .hover & {
-            transform: rotateY(0deg);
-            opacity: 1;
-        }
+		.hover & {
+			transform: rotateY(0deg);
+			opacity: 1;
+		}
 
-    }
+	}
 
-    &-back-matte {
-        position: absolute;
-        top: 0;
-        height: 100%;
-        width: 100%;
-        opacity: 1;
-        background-color: $flip-bg;
-    }
+	&-back-matte {
+		position: absolute;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		opacity: 1;
+		background-color: $flip-bg;
+	}
 
-    &-back-inner {
+	&-back-inner {
 
-        position: absolute;
-        z-index: 2;
-        top: 0;
-        height: 100%;
-        width: 100%;
+		position: absolute;
+		z-index: 2;
+		top: 0;
+		height: 100%;
+		width: 100%;
 
-        color: $flip-text;
+		color: $flip-text;
 
-        .hover & {
-            opacity: 1;
-        }
+		.hover & {
+			opacity: 1;
+		}
 
-    }
+	}
 }
 
 
 .reveal {
-    position: relative;
-    cursor: pointer;
+	position: relative;
+	cursor: pointer;
 }
 
 .reveal-over {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    overflow: hidden;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	overflow: hidden;
 }
 
 .reveal-slice {
-    background-color: $mint;
-    position: absolute;
-    top: 0;
-    z-index: 10;
-    height: 100%;
-    width: 100%;
-    transform-origin: top;
-    opacity: 0;
-    transform: translateY(-100%);
-    transition: transform 0.15s ease-out, opacity 0.1s ease-out;
+	background-color: $mint;
+	position: absolute;
+	top: 0;
+	z-index: 10;
+	height: 100%;
+	width: 100%;
+	transform-origin: top;
+	opacity: 0;
+	transform: translateY(-100%);
+	transition: transform 0.15s ease-out, opacity 0.1s ease-out;
 
-    &:nth-of-type(2) {
-        background-color: $blue;
-        transition-delay: 0.03s;
-    }
+	&:nth-of-type(2) {
+		background-color: $blue;
+		transition-delay: 0.03s;
+	}
 
-    &:nth-of-type(3) {
-        background-color: $smoke;
-        transition-delay: 0.05s;
-    }
+	&:nth-of-type(3) {
+		background-color: $smoke;
+		transition-delay: 0.05s;
+	}
 
-    .hover & {
-        transform: translateY(0%);
-        opacity: 1;
-    }
+	.hover & {
+		transform: translateY(0%);
+		opacity: 1;
+	}
 }
 
+
+.reveal-wrapper {
+	position: relative;
+}
+
+
 .reveal-text {
-    z-index: 20;
-    position: absolute;
-    top: 0;
-    // display: none;
-    opacity: 0;
-    transform: translateY(-1em);
-    transition: transform 0.25s ease-in-out, opacity 0.1s ease-out;
-    // transition-delay: 0.1s;
+	z-index: 20;
+	height: 90%;
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	transform: scale(0.95);
+	transition: transform 0.25s cubic-bezier(0, 0.48, 0.24, 0.96), opacity 0.1s ease-out;
+	background-color: $smoke;
+	margin: spacing(1);
 
-    .hover & {
-        opacity: 1;
-        transform: translateY(0);
-    }
+}
 
+.reveal-wrapper:hover .reveal-text {
+	opacity: 1;
+	transform: scale(1);
 }

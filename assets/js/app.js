@@ -5,25 +5,23 @@ console.log("App.js loaded");
 // Expertise Accordion Animation
 
 const accordionTitles = document.querySelectorAll('.accordion-title');
-let accordionActive = [];
-
 
 accordionTitles.forEach(function (element) {
     element.addEventListener('click', function() {
-        accordionActive = [];
         var active = this.dataset.list;
         var listSet = document.querySelectorAll('[data-list]');
-        // console.log(listSet);
 
         listSet.forEach(function(element) {
             if (element.dataset.list === active) {
-                element.classList.toggle('show');
-                accordionActive.push(element);
+                element.classList.add('show');
+            } else {
+                element.classList.remove('show');
             }
         });
 
-        listAnimation.restart();
-        console.log(accordionActive);
+
+
+        // listAnimation.restart();
     });
 });
 
@@ -31,56 +29,18 @@ accordionTitles.forEach(function (element) {
 // ==============================
 // Venture Grid Animations
 
-// var revealText = anime({
-//     targets: '.reveal-text',
-//     duration: 300,
-//     easing: 'easeOutExpo',
-//     delay: 200,
-//     opacity: [0, 1],
-//     translateY: ['-20px', '0px'],
-//     autoplay: false
-// })
-
 
 var block = document.querySelectorAll('.reveal');
 
 block.forEach(function(element) {
-    // var slices = element.children[1].children;
     element.addEventListener("mouseenter", function() {
-        // var slices = this.querySelectorAll('.reveal-slice');
         element.classList.add('hover');
-        // reveal(slices);
     })
 
     element.addEventListener("mouseleave", function() {
-
         element.classList.remove('hover');
-        // outro(slices);
     })
 });
-
-function reveal(elements) {
-
-    var revealSlice = anime({
-        targets: elements,
-        duration: 500,
-        easing: 'easeOutExpo',
-        delay: anime.stagger(100, {start: 0}),
-        translateY: '0%',
-        autoplay: true
-    });
-}
-
-function outro(elements) {
-    var revealSlice = anime({
-        targets: elements,
-        duration: 300,
-        easing: 'easeOutExpo',
-        delay: anime.stagger(50, {start: 0}),
-        translateY: '-100%',
-        autoplay: true
-    });
-}
 
 
 

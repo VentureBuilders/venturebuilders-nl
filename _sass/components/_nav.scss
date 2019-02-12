@@ -1,129 +1,138 @@
 
 .site-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
 
-    @include media-breakpoint-up(lg) {
-        align-items: flex-end;
-    }
+	@include media-breakpoint-up(lg) {
+		align-items: flex-end;
+	}
 
-    // @include media-breakpoint-up(md) {
-    //     align-items: center;
-    // }
+	// @include media-breakpoint-up(md) {
+	//     align-items: center;
+	// }
 
-    &-logo {
-        display: inline-block;
-        flex-basis: 50%;
-        margin-right: spacing(4);
-        max-width: 13rem;
+	&-logo {
+		display: inline-block;
+		flex-basis: 50%;
+		margin-right: spacing(4);
+		max-width: 13rem;
 
-        @include media-breakpoint-up(sm) {
-            flex-basis: 40%;
-        }
+		@include media-breakpoint-up(sm) {
+			flex-basis: 40%;
+		}
 
-        @include media-breakpoint-up(lg) {
-            flex-basis: 30%;
-        }
+		@include media-breakpoint-up(lg) {
+			flex-basis: 30%;
+		}
 
-        @include media-breakpoint-up(lg) {
-            flex-basis: 25%;
-        }
+		@include media-breakpoint-up(lg) {
+			flex-basis: 25%;
+		}
 
-        @include media-breakpoint-up(xl) {
-            flex-basis: 25%;
-        }
+		@include media-breakpoint-up(xl) {
+			flex-basis: 25%;
+		}
 
-        svg {
-            width: 100%;
-            height: auto;
-        }
-    }
+		svg {
+			width: 100%;
+			height: auto;
+		}
+	}
 
-    &-toggle {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        border: none;
-        background-color: transparent;
-        cursor: pointer;
+	&-toggle {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		border: none;
+		background-color: transparent;
+		cursor: pointer;
 
-        @include media-breakpoint-up(lg) {
-            display: none;
-        }
+		@include media-breakpoint-up(lg) {
+			display: none;
+		}
 
-        &:focus {
-            outline: none;
-        }
+		&:focus {
+			outline: none;
+		}
 
-        .toggle-line {
-            display: block;
-            min-width: 2rem;
-            height: 2px;
-            margin-bottom: 5px;
-            background: no-repeat center center;
-            background-size: 100% 100%;
-            background-color: $black;
+		.toggle-line {
+			display: block;
+			min-width: 2rem;
+			height: 2px;
+			margin-bottom: 5px;
+			background: no-repeat center center;
+			background-size: 100% 100%;
+			background-color: $black;
 
-            &:last-of-type {
-                margin-bottom: 0;
-            }
-        }
-    }
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+		}
+	}
 
-    &-menu {
-        flex-basis: 100%;
-        display: flex;
-        flex-direction: column;
+	&-menu {
+		flex-basis: 100%;
+		display: flex;
+		flex-direction: column;
 
-        @include media-breakpoint-up(lg) {
-            flex-basis: 70%;
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-end;
-            margin-bottom: spacing(2);
-        }
-    }
+		@include media-breakpoint-up(lg) {
+			flex-basis: 70%;
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-end;
+			margin-bottom: spacing(2);
+		}
+	}
 
-    &-menu-link {
-        display: block;
-        @include type_small($muted: true);
-        margin-right: spacing(6);
+	&-menu-link {
+		display: block;
+		@include type_small($muted: true);
+		text-align: right;
 
-        &:last-of-type {
-            margin-right: 0;
-        }
-        // padding: spacing(2) spacing(3);
+		@include media-breakpoint-up(md) {
+			margin-right: spacing(6);
+			text-align: left;
 
-        .collapse & {
-            display: none;
+			&:last-of-type {
+				margin-right: 0;
+			}
+		}
 
-            @include media-breakpoint-up(lg) {
-                display: block;
-            }
-        }
+		.collapse & {
+			display: none;
 
-        .show & {
-            display: block;
-        }
+			@include media-breakpoint-up(lg) {
+				display: block;
+			}
+		}
 
-    }
+		.show & {
+			display: block;
+		}
+
+	}
 }
 
 
 
 .nav-item {
-    font-family: $font-family-base;
-    font-weight: 700;
-    font-size: 1rem;
-    letter-spacing: 0.05em;
-    margin-bottom: 0;
-    text-transform: uppercase;
+	font-family: $font-family-base;
+	font-weight: 700;
+	font-size: 1rem;
+	letter-spacing: 0.05em;
+	margin-bottom: 0;
+	text-transform: uppercase;
 
-    @include media-breakpoint-up(lg) {
-        font-size: 0.825rem;
-    }
+	@include media-breakpoint-up(lg) {
+		font-size: 0.825rem;
+	}
 
+}
+
+
+.site-nav-menu {
+	// margin-top: spacing(2);
 }

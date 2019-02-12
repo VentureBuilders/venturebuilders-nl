@@ -1,92 +1,110 @@
-.accordion {
 
-    &-title {
+.accordion-title {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
 
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
+	cursor: pointer;
 
-        cursor: pointer;
-
-        @include type_medium();
-        margin-bottom: spacing(4);
-
-        transition: all 0.15s ease-in-out;
-
-        &:hover {
-            color: $blue;
-        }
-
-        &.show {
-            color: $blue;
-        }
-
-        .toggle {
-            display: block;
-            position: relative;
-            width: 24px;
-            height: 2px;
-            background-color: $grey;
-            margin-right: spacing(3);
-
-            transition: background-color 0.15s ease-in-out, transform 0.15s ease-in-out;
-
-            span {
-                display: block;
-                position: absolute;
-                left:0;
-                top: 0;
-                width: 100%;
-                height: 100%;
-                background-color: inherit;
-                opacity: 1;
-
-                transform: rotate(90deg);
-                transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
-            }
-        }
-
-        &:hover .toggle {
-            background-color: $blue;
-        }
-
-        &.show .toggle {
-
-            background-color: $blue;
-
-            span {
-                opacity: 0;
-                transform: rotate(0deg);
-            }
-        }
-    }
+	@include type_medium();
+	margin-bottom: spacing(4);
+	transition: all 0.15s ease-in-out;
 
 
+	&:hover {
+		color: $blue;
+	}
 
-    &-list {
-        opacity: 1;
-        max-height: 0;
-        overflow-y: hidden;
-        margin-left: 24px;
-        display: none;
+	&.show {
+		color: $blue;
+	}
+}
 
-        .show + & {
-            display: inherit;
-            max-height: none;
-        }
+.accordion-title .toggle {
+	display: block;
+	position: relative;
+	width: 24px;
+	height: 2px;
+	background-color: $grey;
+	margin-right: spacing(3);
 
-        ul {
-            list-style: none;
-            margin-left: spacing(3);
-            padding: 0;
-        }
+	transition: background-color 0.15s ease-in-out, transform 0.15s ease-in-out;
+}
 
-        li {
-            @include type_small();
-            margin-left: 0;
-            padding-left: 0;
-        }
-    }
+.accordion-title:hover .toggle,
+.accordion-title.show .toggle {
+	background-color: $blue;
+}
 
+.accordion-title .toggle span {
+	display: block;
+	position: absolute;
+	left:0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: inherit;
+	opacity: 1;
+
+	transform: rotate(90deg);
+	transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.show .toggle span {
+	opacity: 0;
+	transform: rotate(0deg);
+}
+
+.accordion-list {
+	opacity: 1;
+	max-height: 0;
+	overflow-y: hidden;
+	margin-left: 24px;
+	display: none;
+	transition: height 0.2s ease-out;
+
+	.show + & {
+		display: inherit;
+		max-height: none;
+	}
+
+	ul {
+		list-style: none;
+		margin-left: spacing(3);
+		padding: 0;
+	}
+
+	li {
+		@include type_small();
+		margin-left: 0;
+		padding-left: 0;
+	}
+}
+
+.accordion-image {
+	display: none;
+	opacity: 0;
+	transform: opacity 0.2s ease-out;
+
+
+	&.show {
+		display: block;
+		opacity: 1;
+		animation-name: fadeIn;
+		animation-duration: 0.25s;
+		animation-timing-function: ease-out;
+	}
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+		transform: translateY(-2em);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0em);
+	}
 }

@@ -6178,9 +6178,13 @@ ul > li {
     line-height: 1.35;
     letter-spacing: -0.0015em;
     color: #7D7F80;
-    margin-right: 3rem; }
-    .site-nav-menu-link:last-of-type {
-      margin-right: 0; }
+    text-align: right; }
+    @media (min-width: 768px) {
+      .site-nav-menu-link {
+        margin-right: 3rem;
+        text-align: left; }
+        .site-nav-menu-link:last-of-type {
+          margin-right: 0; } }
     .collapse .site-nav-menu-link {
       display: none; }
       @media (min-width: 992px) {
@@ -6355,38 +6359,43 @@ ul > li {
     color: #005580; }
   .accordion-title.show {
     color: #005580; }
-  .accordion-title .toggle {
-    display: block;
-    position: relative;
-    width: 24px;
-    height: 2px;
-    background-color: #C8CBCC;
-    margin-right: 1rem;
-    transition: background-color 0.15s ease-in-out, transform 0.15s ease-in-out; }
-    .accordion-title .toggle span {
-      display: block;
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background-color: inherit;
-      opacity: 1;
-      transform: rotate(90deg);
-      transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out; }
-  .accordion-title:hover .toggle {
-    background-color: #005580; }
-  .accordion-title.show .toggle {
-    background-color: #005580; }
-    .accordion-title.show .toggle span {
-      opacity: 0;
-      transform: rotate(0deg); }
+
+.accordion-title .toggle {
+  display: block;
+  position: relative;
+  width: 24px;
+  height: 2px;
+  background-color: #C8CBCC;
+  margin-right: 1rem;
+  transition: background-color 0.15s ease-in-out, transform 0.15s ease-in-out; }
+
+.accordion-title:hover .toggle,
+.accordion-title.show .toggle {
+  background-color: #005580; }
+
+.accordion-title .toggle span {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  opacity: 1;
+  transform: rotate(90deg);
+  transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out; }
+
+.show .toggle span {
+  opacity: 0;
+  transform: rotate(0deg); }
+
 .accordion-list {
   opacity: 1;
   max-height: 0;
   overflow-y: hidden;
   margin-left: 24px;
-  display: none; }
+  display: none;
+  transition: height 0.2s ease-out; }
   .show + .accordion-list {
     display: inherit;
     max-height: none; }
@@ -6403,6 +6412,24 @@ ul > li {
     margin-left: 0;
     padding-left: 0; }
 
+.accordion-image {
+  display: none;
+  opacity: 0;
+  transform: opacity 0.2s ease-out; }
+  .accordion-image.show {
+    display: block;
+    opacity: 1;
+    animation-name: fadeIn;
+    animation-duration: 0.25s;
+    animation-timing-function: ease-out; }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-2em); }
+  100% {
+    opacity: 1;
+    transform: translateY(0em); } }
 .carousel {
   position: relative;
   background-color: #17191A;
@@ -6659,18 +6686,21 @@ ul > li {
 .block .container {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  justify-content: flex-start; }
   @media (min-width: 992px) {
     .block .container {
       flex-direction: row;
       justify-content: space-between;
       align-items: flex-start; } }
+
 @media (min-width: 992px) {
   .block-main {
     width: 75%; } }
 @media (min-width: 1280px) {
   .block-main {
     width: 50%; } }
+
 @media (min-width: 992px) {
   .block-aside {
     width: 50%; } }
@@ -6679,11 +6709,13 @@ ul > li {
     width: 25%;
     margin-right: 8.3333%;
     margin-top: 4rem; } }
+
 @media (min-width: 1280px) {
   .block-aside.large {
     width: 40%;
     margin-right: 0;
     margin-top: 0; } }
+
 .block-heading {
   font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
   font-size: 1.75rem;
@@ -6699,6 +6731,7 @@ ul > li {
       letter-spacing: -0.015em;
       color: #17191A;
       margin-bottom: 1.5rem; } }
+
 .block-content {
   font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
   font-size: 1rem;
@@ -6727,8 +6760,8 @@ ul > li {
   order: 2; }
   @media (min-width: 992px) {
     .about-us .block-main {
-      order: 1;
-      width: 50%; } }
+      width: 50%;
+      order: 1; } }
 
 .about-us .block-aside {
   order: 1;
@@ -6741,6 +6774,41 @@ ul > li {
     .about-us .block-aside {
       width: 40%;
       order: 2; } }
+
+@media (min-width: 768px) {
+  .expertise .block-main {
+    margin-right: 30%; } }
+
+.expertise-set {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between; }
+  @media (min-width: 992px) {
+    .expertise-set {
+      flex-direction: row; } }
+
+.expertise-list {
+  flex-grow: 1;
+  order: 2;
+  flex-basis: 100%; }
+  @media (min-width: 768px) {
+    .expertise-list {
+      margin-top: 1rem; } }
+  @media (min-width: 992px) {
+    .expertise-list {
+      order: 1; } }
+
+.expertise-image-set {
+  order: 1;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 0.75rem; }
+  @media (min-width: 992px) {
+    .expertise-image-set {
+      order: 2;
+      margin-top: -1rem;
+      width: 100%; } }
 
 .feature-venture {
   min-height: 50vh;
@@ -6804,22 +6872,22 @@ ul > li {
   justify-content: flex-start; }
   .v-grid-item {
     width: 100%;
-    height: 40vh;
-    min-height: 25rem; }
-    @media (min-width: 768px) {
+    height: 45vh;
+    min-height: 28rem; }
+    @media (min-width: 992px) {
       .v-grid-item {
         width: calc(50% - 0px);
         margin-bottom: 0px; } }
-    @media (min-width: 992px) {
+    @media (min-width: 1280px) {
       .v-grid-item {
         width: calc(33% - 0px);
         margin-bottom: 0px; } }
-    @media (min-width: 1280px) {
-      .v-grid-item {
-        margin-bottom: 0px; } }
   .v-grid-image {
     position: relative;
-    height: 100%; }
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; }
     .v-grid-image .logo {
       position: absolute;
       z-index: 2;
@@ -6929,16 +6997,23 @@ ul > li {
     transform: translateY(0%);
     opacity: 1; }
 
+.reveal-wrapper {
+  position: relative; }
+
 .reveal-text {
   z-index: 20;
+  height: 90%;
   position: absolute;
   top: 0;
   opacity: 0;
-  transform: translateY(-1em);
-  transition: transform 0.25s ease-in-out, opacity 0.1s ease-out; }
-  .hover .reveal-text {
-    opacity: 1;
-    transform: translateY(0); }
+  transform: scale(0.95);
+  transition: transform 0.25s cubic-bezier(0, 0.48, 0.24, 0.96), opacity 0.1s ease-out;
+  background-color: #F4F5F5;
+  margin: 0.5rem; }
+
+.reveal-wrapper:hover .reveal-text {
+  opacity: 1;
+  transform: scale(1); }
 
 .team-grid-container {
   display: flex;
@@ -7159,3 +7234,44 @@ ul > li {
 .sharing-widget {
   padding-top: 1em;
   padding-bottom: 1em; }
+
+.news-set {
+  display: flex;
+  border-top: solid 1px #C8CBCC;
+  padding-top: 1rem; }
+  @media (min-width: 992px) {
+    .news-set {
+      flex-direction: row;
+      justify-content: space-between;
+      padding-top: 2rem; } }
+
+.news-preview {
+  flex-grow: 1;
+  flex-basis: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 3rem; }
+
+.news-title {
+  font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+  font-size: 1.75rem;
+  line-height: 1.1;
+  letter-spacing: -0.0015em;
+  color: #17191A;
+  margin-bottom: 1rem; }
+
+.news-intro {
+  font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+  font-size: 1rem;
+  line-height: 1.45;
+  letter-spacing: 0.005em;
+  color: #7D7F80;
+  margin-bottom: 1.5rem; }
+
+.news-date {
+  font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+  font-size: 1rem;
+  line-height: 1.45;
+  letter-spacing: 0.005em;
+  color: #7D7F80;
+  margin-bottom: 0.75rem; }

@@ -1,0 +1,39 @@
+.news-set {
+	display: flex;
+
+	border-top: solid 1px $grey;
+	padding-top: spacing(3);
+
+	@include media-breakpoint-up(lg) {
+		flex-direction: row;
+		justify-content: space-between;
+		padding-top: spacing(5);
+	}
+}
+
+.news-preview {
+	flex-grow: 1;
+	flex-basis: 100%;
+	padding-left: spacing(3);
+	padding-right: spacing(3);
+	margin-bottom: spacing(6);
+}
+
+.news-title {
+	@include type_medium;
+	margin-bottom: spacing(3);
+}
+
+.news-intro {
+	@include type_extra-small($muted:true);
+	margin-bottom: spacing(4);
+}
+
+.news-date {
+	@include type_extra-small($muted:true);
+	margin-bottom: spacing(2);
+}
+
+.news-link {
+
+}

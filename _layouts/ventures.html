@@ -8,17 +8,17 @@ layout: page
         {% assign ventures = site.data.ventures | sort: 'company' %}
         {% for venture in ventures %}
             {% unless venture.published == false %}
-        <article class="v-grid-item v-block reveal">
+        <article class="v-grid-item v-block reveal-wrapper">
 
-            <div class="v-grid-image reveal-image" style="background-image: url('{{ site.url }}/assets/img/venture-small/{{ venture.company | slugify }}.jpg')">
+            <div class="v-grid-image" style="background-image: url('{{ site.url }}/assets/img/venture-small/{{ venture.company | slugify }}.jpg')">
                 <img class="logo" src="{{ site.url }}/assets/img/venture-logos/white/{{ venture.company | slugify }}.svg" alt="">
             </div>
 
-            <div class="reveal-over">
+            <!-- <div class="reveal-over">
                 <div class="reveal-slice"></div>
                 <div class="reveal-slice"></div>
                 <div class="reveal-slice"></div>
-            </div>
+            </div> -->
 
             <div class="v-grid-text reveal-text">
                 <p class="description">{{ venture.description }}</p>
