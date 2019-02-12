@@ -36,13 +36,13 @@
     }
 
     &-intro {
-        @include type_extra-small($muted: true);
+        @include type_small($muted: true);
         max-width: 25em;
         margin-bottom: spacing(04);
 
-        @include media-breakpoint-up(sm) {
-            @include type_small($muted: true);
-        }
+        // @include media-breakpoint-up(sm) {
+        //     @include type_small($muted: true);
+        // }
 
         @include media-breakpoint-up(md) {
             @include type_medium($muted: true);

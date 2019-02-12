@@ -80,7 +80,7 @@ $font-family: 'Financier', 'Hoefler Text', 'Cambria', 'Georgia', serif;
         family: $font-family;
         size: map-get($scale, 4);
     }
-    line-height: 1.35;
+    line-height: 1.1;
     letter-spacing: -0.0015em;
 
     @if ($muted) {
@@ -161,37 +161,24 @@ h6 {
     position: relative;
     line-height: 1.5;
 
-    &::after {
-        content: '';
-        display: block;
-        height: 1px;
-        width: 0px;
-        position: absolute;
-        bottom: -0.025em;
-        left: 0;
-        background-color: $black;
 
-        transition: width 0.15s cubic-bezier(0.24, 0.01, 0.21, 1);
+        background-image: linear-gradient(to right, $black 0%, $black 100%);
+        background-size: 0px 1px;
+        background-position: 0px 95%;
+        background-repeat: no-repeat;
+        transition: background-size 0.25s cubic-bezier(0.19, 1, 0.155, 1.01) 0s;
 
-    }
 
-    &:hover,
-    &.active {
+    &:hover {
+        background-size: 100% 1px;
         color: $black;
-    }
-
-    &:hover::after,
-    &.active::after {
-        width: 100%;
     }
 
     &.inverse {
         color: $white;
+        background-image: linear-gradient(to right, $white 0%, $white 100%);
     }
 
-    &.inverse::after {
-        background-color: $white;
-    }
 }
 
 

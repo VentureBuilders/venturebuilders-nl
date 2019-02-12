@@ -1,51 +1,51 @@
 console.log("App.js loaded");
 
-const accordionTitles = document.querySelectorAll('.accordion-title');
-let accordionActive = [];
 
+// ==============================
+// Expertise Accordion Animation
+
+const accordionTitles = document.querySelectorAll('.accordion-title');
 
 accordionTitles.forEach(function (element) {
     element.addEventListener('click', function() {
-        accordionActive = [];
         var active = this.dataset.list;
         var listSet = document.querySelectorAll('[data-list]');
-        // console.log(listSet);
 
         listSet.forEach(function(element) {
             if (element.dataset.list === active) {
-                element.classList.toggle('show');
-                accordionActive.push(element);
+                element.classList.add('show');
+            } else {
+                element.classList.remove('show');
             }
         });
 
-        listAnimation.restart();
-        console.log(accordionActive);
+
+
+        // listAnimation.restart();
     });
 });
 
 
-var block = document.querySelectorAll('.v-block');
+// ==============================
+// Venture Grid Animations
+
+
+var block = document.querySelectorAll('.reveal');
 
 block.forEach(function(element) {
-  element.addEventListener("mouseover", function() {
-    element.classList.add('hover');
-  })
+    element.addEventListener("mouseenter", function() {
+        element.classList.add('hover');
+    })
+
+    element.addEventListener("mouseleave", function() {
+        element.classList.remove('hover');
+    })
 });
 
-block.forEach(function(element) {
-  element.addEventListener("mouseout", function() {
-    element.classList.remove('hover');
-  })
-});
 
 
-var blockAnimation = anime({
-    targets: '.v-block',
-    duration: 600,
-    autoplay: false,
-    easing: 'easeOutCubic',
-
-})
+// ==============================
+// Carousel Animation
 
 var carouselAnimation = anime({
   targets: ['.carousel-image', '.carousel-quote'],

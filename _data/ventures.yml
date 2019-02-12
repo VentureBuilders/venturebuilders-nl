@@ -13,9 +13,9 @@
 - company: Taxi2Airport
   description: Taxi2Airport is one of the worlds largest platforms for pre-booked taxi airport transfers. It's active in 130+ countries.
   site: https://www.taxi2airport.com
-- company: Euroknaller
-  description: Euroknaller is a deal website providing attractive consumer products that are limited in stock or time.
-  site: https://www.euroknaller.nl
+# - company: Euroknaller
+#   description: Euroknaller is a deal website providing attractive consumer products that are limited in stock or time.
+#   site: https://www.euroknaller.nl
 - company: Offerte.nl
   slug: offerte
   description: Offerte.nl is a lead generation platform. It allows consumers to request quotes from various types of service companies such as cleaning, mediation, call center agents and a number of other services.

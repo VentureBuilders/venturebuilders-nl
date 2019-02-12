@@ -5831,25 +5831,18 @@ h6 {
   color: #17191A;
   cursor: pointer;
   position: relative;
-  line-height: 1.5; }
-  .link-line::after {
-    content: '';
-    display: block;
-    height: 1px;
-    width: 0px;
-    position: absolute;
-    bottom: -0.025em;
-    left: 0;
-    background-color: #17191A;
-    transition: width 0.15s cubic-bezier(0.24, 0.01, 0.21, 1); }
-  .link-line:hover, .link-line.active {
+  line-height: 1.5;
+  background-image: linear-gradient(to right, #17191A 0%, #17191A 100%);
+  background-size: 0px 1px;
+  background-position: 0px 95%;
+  background-repeat: no-repeat;
+  transition: background-size 0.25s cubic-bezier(0.19, 1, 0.155, 1.01) 0s; }
+  .link-line:hover {
+    background-size: 100% 1px;
     color: #17191A; }
-  .link-line:hover::after, .link-line.active::after {
-    width: 100%; }
   .link-line.inverse {
-    color: #FFFFFF; }
-  .link-line.inverse::after {
-    background-color: #FFFFFF; }
+    color: #FFFFFF;
+    background-image: linear-gradient(to right, #FFFFFF 0%, #FFFFFF 100%); }
 
 .link-box {
   display: inline-block;
@@ -6050,7 +6043,7 @@ ul > li {
   .page-header-intro {
     font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
     font-size: 1.75rem;
-    line-height: 1.35;
+    line-height: 1.1;
     letter-spacing: -0.0015em;
     color: #7D7F80;
     margin-bottom: 0.75rem; }
@@ -6185,9 +6178,13 @@ ul > li {
     line-height: 1.35;
     letter-spacing: -0.0015em;
     color: #7D7F80;
-    margin-right: 3rem; }
-    .site-nav-menu-link:last-of-type {
-      margin-right: 0; }
+    text-align: right; }
+    @media (min-width: 768px) {
+      .site-nav-menu-link {
+        margin-right: 3rem;
+        text-align: left; }
+        .site-nav-menu-link:last-of-type {
+          margin-right: 0; } }
     .collapse .site-nav-menu-link {
       display: none; }
       @media (min-width: 992px) {
@@ -6331,24 +6328,17 @@ ul > li {
         color: #17191A; } }
   .hero-intro {
     font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
-    font-size: 1rem;
-    line-height: 1.45;
-    letter-spacing: 0.005em;
+    font-size: 1.25rem;
+    line-height: 1.35;
+    letter-spacing: -0.0015em;
     color: #7D7F80;
     max-width: 25em;
     margin-bottom: 1.5rem; }
-    @media (min-width: 576px) {
-      .hero-intro {
-        font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
-        font-size: 1.25rem;
-        line-height: 1.35;
-        letter-spacing: -0.0015em;
-        color: #7D7F80; } }
     @media (min-width: 768px) {
       .hero-intro {
         font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
         font-size: 1.75rem;
-        line-height: 1.35;
+        line-height: 1.1;
         letter-spacing: -0.0015em;
         color: #7D7F80; } }
 
@@ -6360,7 +6350,7 @@ ul > li {
   cursor: pointer;
   font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
   font-size: 1.75rem;
-  line-height: 1.35;
+  line-height: 1.1;
   letter-spacing: -0.0015em;
   color: #17191A;
   margin-bottom: 1.5rem;
@@ -6369,38 +6359,43 @@ ul > li {
     color: #005580; }
   .accordion-title.show {
     color: #005580; }
-  .accordion-title .toggle {
-    display: block;
-    position: relative;
-    width: 24px;
-    height: 2px;
-    background-color: #C8CBCC;
-    margin-right: 1rem;
-    transition: background-color 0.15s ease-in-out, transform 0.15s ease-in-out; }
-    .accordion-title .toggle span {
-      display: block;
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background-color: inherit;
-      opacity: 1;
-      transform: rotate(90deg);
-      transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out; }
-  .accordion-title:hover .toggle {
-    background-color: #005580; }
-  .accordion-title.show .toggle {
-    background-color: #005580; }
-    .accordion-title.show .toggle span {
-      opacity: 0;
-      transform: rotate(0deg); }
+
+.accordion-title .toggle {
+  display: block;
+  position: relative;
+  width: 24px;
+  height: 2px;
+  background-color: #C8CBCC;
+  margin-right: 1rem;
+  transition: background-color 0.15s ease-in-out, transform 0.15s ease-in-out; }
+
+.accordion-title:hover .toggle,
+.accordion-title.show .toggle {
+  background-color: #005580; }
+
+.accordion-title .toggle span {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  opacity: 1;
+  transform: rotate(90deg);
+  transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out; }
+
+.show .toggle span {
+  opacity: 0;
+  transform: rotate(0deg); }
+
 .accordion-list {
   opacity: 1;
   max-height: 0;
   overflow-y: hidden;
   margin-left: 24px;
-  display: none; }
+  display: none;
+  transition: height 0.2s ease-out; }
   .show + .accordion-list {
     display: inherit;
     max-height: none; }
@@ -6417,6 +6412,24 @@ ul > li {
     margin-left: 0;
     padding-left: 0; }
 
+.accordion-image {
+  display: none;
+  opacity: 0;
+  transform: opacity 0.2s ease-out; }
+  .accordion-image.show {
+    display: block;
+    opacity: 1;
+    animation-name: fadeIn;
+    animation-duration: 0.25s;
+    animation-timing-function: ease-out; }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-2em); }
+  100% {
+    opacity: 1;
+    transform: translateY(0em); } }
 .carousel {
   position: relative;
   background-color: #17191A;
@@ -6429,13 +6442,18 @@ ul > li {
     justify-content: center;
     align-items: flex-start;
     position: relative;
-    height: 70vw;
-    z-index: 10; }
+    z-index: 10;
+    padding-top: 4rem;
+    padding-bottom: 4rem; }
     @media (min-width: 768px) {
       .carousel-inner {
         height: 40vw; } }
-  .carousel-item {
-    width: 50%; }
+  @media (min-width: 576px) {
+    .carousel-item {
+      width: 70%; } }
+  @media (min-width: 768px) {
+    .carousel-item {
+      width: 50%; } }
   .carousel-quote {
     font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
     font-size: 1.25rem;
@@ -6448,13 +6466,13 @@ ul > li {
       .carousel-quote {
         font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
         font-size: 1.75rem;
-        line-height: 1.35;
+        line-height: 1.1;
         letter-spacing: -0.0015em;
         color: #17191A;
         color: #FFFFFF; } }
     .carousel-quote cite {
       margin-top: 1.5rem;
-      display: inline-block;
+      display: block;
       color: inherit;
       font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
       font-size: 1rem;
@@ -6469,18 +6487,22 @@ ul > li {
     height: 100%;
     width: 50%;
     background-color: white;
-    z-index: 1; }
+    z-index: 1;
+    display: none; }
+    @media (min-width: 576px) {
+      .carousel-image {
+        display: inherit; } }
     .carousel-image img {
       width: auto;
       margin-top: -15%; }
   .carousel-mask {
     position: absolute;
-    right: 65%;
+    right: 70%;
     top: 0;
     height: 100%;
     width: 50%;
     z-index: 2; }
-    @media (min-width: 768px) {
+    @media (min-width: 576px) {
       .carousel-mask {
         right: 35%; } }
     @media (min-width: 992px) {
@@ -6598,7 +6620,7 @@ ul > li {
   .feature-block-heading {
     font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
     font-size: 1.75rem;
-    line-height: 1.35;
+    line-height: 1.1;
     letter-spacing: -0.0015em;
     color: #17191A;
     margin-bottom: 0.75rem; }
@@ -6664,18 +6686,21 @@ ul > li {
 .block .container {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  justify-content: flex-start; }
   @media (min-width: 992px) {
     .block .container {
       flex-direction: row;
       justify-content: space-between;
       align-items: flex-start; } }
+
 @media (min-width: 992px) {
   .block-main {
     width: 75%; } }
 @media (min-width: 1280px) {
   .block-main {
     width: 50%; } }
+
 @media (min-width: 992px) {
   .block-aside {
     width: 50%; } }
@@ -6684,15 +6709,17 @@ ul > li {
     width: 25%;
     margin-right: 8.3333%;
     margin-top: 4rem; } }
+
 @media (min-width: 1280px) {
   .block-aside.large {
     width: 40%;
     margin-right: 0;
     margin-top: 0; } }
+
 .block-heading {
   font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
   font-size: 1.75rem;
-  line-height: 1.35;
+  line-height: 1.1;
   letter-spacing: -0.0015em;
   color: #17191A;
   margin-bottom: 1rem; }
@@ -6704,6 +6731,7 @@ ul > li {
       letter-spacing: -0.015em;
       color: #17191A;
       margin-bottom: 1.5rem; } }
+
 .block-content {
   font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
   font-size: 1rem;
@@ -6732,8 +6760,8 @@ ul > li {
   order: 2; }
   @media (min-width: 992px) {
     .about-us .block-main {
-      order: 1;
-      width: 50%; } }
+      width: 50%;
+      order: 1; } }
 
 .about-us .block-aside {
   order: 1;
@@ -6746,6 +6774,41 @@ ul > li {
     .about-us .block-aside {
       width: 40%;
       order: 2; } }
+
+@media (min-width: 768px) {
+  .expertise .block-main {
+    margin-right: 30%; } }
+
+.expertise-set {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between; }
+  @media (min-width: 992px) {
+    .expertise-set {
+      flex-direction: row; } }
+
+.expertise-list {
+  flex-grow: 1;
+  order: 2;
+  flex-basis: 100%; }
+  @media (min-width: 768px) {
+    .expertise-list {
+      margin-top: 1rem; } }
+  @media (min-width: 992px) {
+    .expertise-list {
+      order: 1; } }
+
+.expertise-image-set {
+  order: 1;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 0.75rem; }
+  @media (min-width: 992px) {
+    .expertise-image-set {
+      order: 2;
+      margin-top: -1rem;
+      width: 100%; } }
 
 .feature-venture {
   min-height: 50vh;
@@ -6809,27 +6872,22 @@ ul > li {
   justify-content: flex-start; }
   .v-grid-item {
     width: 100%;
-    height: 40vh;
-    min-height: 25rem; }
-    @media (min-width: 576px) {
+    height: 45vh;
+    min-height: 28rem; }
+    @media (min-width: 992px) {
       .v-grid-item {
         width: calc(50% - 0px);
         margin-bottom: 0px; } }
-    @media (min-width: 768px) {
+    @media (min-width: 1280px) {
       .v-grid-item {
         width: calc(33% - 0px);
         margin-bottom: 0px; } }
-    @media (min-width: 992px) {
-      .v-grid-item {
-        margin-bottom: 0px; } }
   .v-grid-image {
-    position: relative; }
-    .v-grid-image .background {
-      width: 100%;
-      max-width: none;
-      position: absolute;
-      top: 0;
-      z-index: 1; }
+    position: relative;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; }
     .v-grid-image .logo {
       position: absolute;
       z-index: 2;
@@ -6841,12 +6899,12 @@ ul > li {
     padding: 1rem; }
     @media (min-width: 768px) {
       .v-grid-text {
-        padding: 3rem; } }
+        padding: 2rem; } }
     .v-grid-text .heading {
       margin-bottom: 1rem;
       font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
       font-size: 1.75rem;
-      line-height: 1.35;
+      line-height: 1.1;
       letter-spacing: -0.0015em;
       color: #17191A; }
     .v-grid-text .description {
@@ -6907,12 +6965,68 @@ ul > li {
     .hover .grid-flip-back-inner {
       opacity: 1; }
 
+.reveal {
+  position: relative;
+  cursor: pointer; }
+
+.reveal-over {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  overflow: hidden; }
+
+.reveal-slice {
+  background-color: #009999;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  height: 100%;
+  width: 100%;
+  transform-origin: top;
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: transform 0.15s ease-out, opacity 0.1s ease-out; }
+  .reveal-slice:nth-of-type(2) {
+    background-color: #005580;
+    transition-delay: 0.03s; }
+  .reveal-slice:nth-of-type(3) {
+    background-color: #F4F5F5;
+    transition-delay: 0.05s; }
+  .hover .reveal-slice {
+    transform: translateY(0%);
+    opacity: 1; }
+
+.reveal-wrapper {
+  position: relative; }
+
+.reveal-text {
+  z-index: 20;
+  height: 90%;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transform: scale(0.95);
+  transition: transform 0.25s cubic-bezier(0, 0.48, 0.24, 0.96), opacity 0.1s ease-out;
+  background-color: #F4F5F5;
+  margin: 0.5rem; }
+
+.reveal-wrapper:hover .reveal-text {
+  opacity: 1;
+  transform: scale(1); }
+
 .team-grid-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   margin-right: -1rem;
-  margin-left: -1rem; }
+  margin-left: -1rem;
+  padding-left: 1rem;
+  padding-right: 1rem; }
+  @media (min-width: 576px) {
+    .team-grid-container {
+      padding-left: 0;
+      padding-right: 0; } }
   @media (min-width: 768px) {
     .team-grid-container {
       margin-right: 0;
@@ -6920,7 +7034,9 @@ ul > li {
 
 .team-grid-item {
   width: 50%;
-  padding: 1rem; }
+  padding: 1rem;
+  flex-grow: 1;
+  max-width: none; }
   @media (min-width: 768px) {
     .team-grid-item {
       width: 33.333%; }
@@ -6932,6 +7048,71 @@ ul > li {
   @media (min-width: 1280px) {
     .team-grid-item {
       width: 20%; } }
+
+.team-grid-item.large {
+  width: 100%; }
+  @media (min-width: 576px) {
+    .team-grid-item.large {
+      width: 50%; } }
+  @media (min-width: 992px) {
+    .team-grid-item.large {
+      width: 25%; } }
+  @media (min-width: 1280px) {
+    .team-grid-item.large {
+      width: 25%; } }
+
+.team-photo {
+  margin-bottom: 0.75rem; }
+
+.team-name {
+  margin-bottom: 0.75rem;
+  font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+  font-size: 1.75rem;
+  line-height: 1.1;
+  letter-spacing: -0.0015em;
+  color: #17191A; }
+  @media (min-width: 576px) {
+    .team-name {
+      font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+      font-size: 1.25rem;
+      line-height: 1.35;
+      letter-spacing: -0.0015em;
+      color: #17191A; } }
+  @media (min-width: 768px) {
+    .team-name {
+      font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+      font-size: 1.75rem;
+      line-height: 1.1;
+      letter-spacing: -0.0015em;
+      color: #17191A; } }
+  @media (min-width: 992px) {
+    .team-name {
+      font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+      font-size: 1.25rem;
+      line-height: 1.35;
+      letter-spacing: -0.0015em;
+      color: #17191A; } }
+  @media (min-width: 1280px) {
+    .team-name {
+      font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+      font-size: 1.75rem;
+      line-height: 1.1;
+      letter-spacing: -0.0015em;
+      color: #17191A; } }
+
+.team-bio {
+  font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+  font-size: 1.25rem;
+  line-height: 1.35;
+  letter-spacing: -0.0015em;
+  color: #7D7F80; }
+  @media (min-width: 576px) {
+    .team-bio {
+      font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+      font-size: 1rem;
+      line-height: 1.45;
+      letter-spacing: 0.005em;
+      color: #7D7F80; } }
 
 .member-profile {
   position: relative; }
@@ -6990,7 +7171,9 @@ ul > li {
 .locations-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-right: -1rem;
+  margin-left: -1rem; }
   @media (min-width: 768px) {
     .locations-wrapper {
       flex-direction: row; } }
@@ -6999,20 +7182,38 @@ ul > li {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem; }
   .location-inner {
-    margin-bottom: 1rem; }
+    margin-bottom: 0.5rem; }
     @media (min-width: 768px) {
       .location-inner {
-        order: 2; } }
+        order: 2;
+        margin-bottom: 1rem; } }
   .location-image {
     margin-bottom: 1rem; }
   .location-heading {
     font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
     font-size: 1.75rem;
-    line-height: 1.35;
+    line-height: 1.1;
     letter-spacing: -0.0015em;
-    color: #17191A; }
+    color: #17191A;
+    margin-bottom: 0.75rem; }
+    @media (min-width: 576px) {
+      .location-heading {
+        font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+        font-size: 1.25rem;
+        line-height: 1.35;
+        letter-spacing: -0.0015em;
+        color: #17191A; } }
+    @media (min-width: 992px) {
+      .location-heading {
+        font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+        font-size: 1.75rem;
+        line-height: 1.1;
+        letter-spacing: -0.0015em;
+        color: #17191A; } }
   .location-address {
     font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
     font-size: 1.25rem;
@@ -7033,3 +7234,44 @@ ul > li {
 .sharing-widget {
   padding-top: 1em;
   padding-bottom: 1em; }
+
+.news-set {
+  display: flex;
+  border-top: solid 1px #C8CBCC;
+  padding-top: 1rem; }
+  @media (min-width: 992px) {
+    .news-set {
+      flex-direction: row;
+      justify-content: space-between;
+      padding-top: 2rem; } }
+
+.news-preview {
+  flex-grow: 1;
+  flex-basis: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 3rem; }
+
+.news-title {
+  font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+  font-size: 1.75rem;
+  line-height: 1.1;
+  letter-spacing: -0.0015em;
+  color: #17191A;
+  margin-bottom: 1rem; }
+
+.news-intro {
+  font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+  font-size: 1rem;
+  line-height: 1.45;
+  letter-spacing: 0.005em;
+  color: #7D7F80;
+  margin-bottom: 1.5rem; }
+
+.news-date {
+  font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+  font-size: 1rem;
+  line-height: 1.45;
+  letter-spacing: 0.005em;
+  color: #7D7F80;
+  margin-bottom: 0.75rem; }

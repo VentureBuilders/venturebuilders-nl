@@ -60,55 +60,94 @@ layout: global
         <article class="container">
 
             <main class="block-main">
-                <h3 class="block-heading">Our ventures are supported with a team of passionate experts to help accelerate each stage of growth.</h3>
-                <p class="block-content">This operational squad offers hands-on support. In close collaboration with our ventures, we decide which competence is needed to accelerate their growth.</p>
+                <h3 class="block-heading">We offer expertise to our ventures</h3>
+                <p class="block-content">Our ventures are supported with a team of passionate experts to help accelerate each stage of growth. Ventures can decide to make use of the in-house capabilities on a project or longer-term basis.</p>
             </main>
 
-            <aside class="block-aside">
-                <dl class="accordion">
-                    <dt class="accordion-title" data-list="1">
-                        <i class="toggle"><span></span></i>
-                        Design
-                    </dt>
-                    <dd class="accordion-list" data-list="1">
-                        <ul>
-                            <li>Branding</li>
-                            <li>Web, iOS and Android design</li>
-                            <li>Prototyping</li>
-                            <li>Conversion Optimisation</li>
-                        </ul>
-                    </dd>
-                    <dt class="accordion-title" data-list="2">
-                        <i class="toggle"><span></span></i>
-                        Software Development
-                    </dt>
-                    <dd class="accordion-list" data-list="2">
-                        <ul>
-                            <li>Full-stack development</li>
-                            <li>Server and cloud architecture</li>
-                            <li>Quality assurance and release management</li>
-                            <li>Support and monitoring</li>
-                        </ul>
-                    </dd>
-                    <dt class="accordion-title" data-list="3">
-                        <i class="toggle"><span></span></i>
-                        Marketing
-                    </dt>
-                    <dd class="accordion-list" data-list="3">
-                        <ul>
-                            <li>Online strategy</li>
-                            <li>Tracking setup</li>
-                            <li>Search engine optimisation</li>
-                            <li>Social media advertising</li>
-                            <li>Email marketing</li>
-                            <li>Marketplace advertising</li>
-                            <li>Feed management</li>
-                            <li>Omni-channel strategy and setup</li>
-                        </ul>
-                    </dd>
-                </dl>
-            </aside>
+			<div class="expertise-set">
+
+	            <aside class="block-aside expertise-list">
+
+	                <dl class="accordion">
+	                    <dt class="accordion-title show" data-list="1">
+	                        <i class="toggle"><span></span></i>
+	                        Design
+	                    </dt>
+	                    <dd class="accordion-list show" data-list="1">
+	                        <ul>
+	                            <li>Branding</li>
+	                            <li>Web, iOS and Android design</li>
+	                            <li>Prototyping</li>
+	                            <li>Conversion Optimisation</li>
+	                        </ul>
+	                    </dd>
+	                    <dt class="accordion-title" data-list="2">
+	                        <i class="toggle"><span></span></i>
+	                        Software Development
+	                    </dt>
+	                    <dd class="accordion-list" data-list="2">
+	                        <ul>
+	                            <li>Full-stack development</li>
+	                            <li>Server and cloud architecture</li>
+	                            <li>Quality assurance and release management</li>
+	                            <li>Support and monitoring</li>
+	                        </ul>
+	                    </dd>
+	                    <dt class="accordion-title" data-list="3">
+	                        <i class="toggle"><span></span></i>
+	                        Marketing
+	                    </dt>
+	                    <dd class="accordion-list" data-list="3">
+	                        <ul>
+	                            <li>Online strategy</li>
+	                            <li>Tracking setup</li>
+	                            <li>Search engine optimisation</li>
+	                            <li>Social media advertising</li>
+	                            <li>Email marketing</li>
+	                            <li>Marketplace advertising</li>
+	                            <li>Feed management</li>
+	                            <li>Omni-channel strategy and setup</li>
+	                        </ul>
+	                    </dd>
+	                </dl>
+	            </aside>
+
+				<div class="expertise-image-set">
+	                <div class="accordion-image show" data-list="1">
+	                    <img src="{{ site.baseURL }}/assets/img/expertise-design.svg" alt="">
+	                </div>
+
+	                <div class="accordion-image" data-list="2">
+	                    <img src="{{ site.baseURL }}/assets/img/expertise-development.svg" alt="">
+	                </div>
+
+	                <div class="accordion-image" data-list="3">
+	                    <img src="{{ site.baseURL }}/assets/img/expertise-marketing.svg" alt="">
+	                </div>
+	            </div>
+
+			</div>
+
+
+
         </article>
     </section>
+
+
+    <!-- <section class="container-fluid article-list">
+        <div class="container">
+			<div class="news-set">
+			{% assign news = site.posts | sort:'date' | reverse %}
+			{% for news_article in news limit:3 %}
+				<article class="news-preview">
+					<a class="news-title link-line" href="{{ news_article.url }}"><h4>{{ news_article.title }}</h4></a>
+					<p class="news-date">{{ news_article.date | date_to_long_string }}</p>
+					<p class="news-intro">{{ news_article.intro }}</p>
+					<a class="news-link link-line" href="{{ news_article.url }}">Read Article</a>
+				</article>
+			{% endfor %}
+			</div>
+        </div>
+    </section> -->
 
 </div>
