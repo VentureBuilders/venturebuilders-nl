@@ -28,3 +28,13 @@ from = "https://www.venturebuilders.nl/*"
 to = "https://www.venturebuilders.capital/:splat"
 status = 301
 force = true
+[[redirects]]
+from = "http://venturebuilders.nl/*"
+to = "https://www.venturebuilders.capital/:splat"
+status = 301
+force = true
+[[redirects]]
+from = "http://www.venturebuilders.nl/*"
+to = "https://www.venturebuilders.capital/:splat"
+status = 301
+force = true
