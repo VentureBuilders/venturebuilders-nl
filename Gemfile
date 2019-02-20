@@ -10,7 +10,7 @@ source "https://rubygems.org"
 
 gem "jekyll", "3.6.3"
 
-gem "autoprefixer-rails"
+gem 'jekyll-autoprefixer'
 gem "jekyll-assets"
 
 # Bourbon Neat framework
