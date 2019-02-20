@@ -59,9 +59,6 @@ author: VentureBuilders
 email: info@venturebuilders.nl
 description: 'VentureBuilders is a hands-on European venture capital fund, focused on AI, data and general SaaS companies. '
 markdown: kramdown
-include:
-    - _redirects
-    - .htaccess
 exclude:
 - Gemfile
 - Gemfile.lock
