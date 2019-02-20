@@ -1,51 +1,51 @@
 
 @keyframes fadeIn {
-    from {
-        transform: translateY(1%);
-        opacity: 0;
-    }
+	from {
+		transform: translateY(1%);
+		opacity: 0;
+	}
 
-    to {
-        transform: translateY(0%);
-        opacity: 1;
-    }
+	to {
+		transform: translateY(0%);
+		opacity: 1;
+	}
 }
 
 
 .hero {
 
-    padding-top: 12vw;
-    padding-bottom: 5vw;
+	padding-top: 12vw;
+	padding-bottom: 5vw;
 
-    animation-duration: 1.25s;
-    animation-name: fadeIn;
-    animation-timing-function: ease-in-out;
+	animation-duration: 1.25s;
+	animation-name: fadeIn;
+	animation-timing-function: ease-in-out;
 
 
-    &-headline {
-        @include type_large();
-        margin-bottom: spacing(4);
+	&-headline {
+		@include type_large();
+		margin-bottom: spacing(4);
 
-        @include media-breakpoint-up(md) {
-            @include type_extra-large();
-        }
+		@include media-breakpoint-up(md) {
+			@include type_extra-large();
+		}
 
-        @include media-breakpoint-up(md) {
-            @include type_super();
-        }
-    }
+		@include media-breakpoint-up(md) {
+			@include type_super();
+		}
+	}
 
-    &-intro {
-        @include type_small($muted: true);
-        max-width: 25em;
-        margin-bottom: spacing(04);
+	&-intro {
+		@include type_small($muted: true);
+		max-width: 25em;
+		margin-bottom: spacing(04);
+		line-height: 1.55;
+		// @include media-breakpoint-up(sm) {
+		//     @include type_small($muted: true);
+		// }
 
-        // @include media-breakpoint-up(sm) {
-        //     @include type_small($muted: true);
-        // }
-
-        @include media-breakpoint-up(md) {
-            @include type_medium($muted: true);
-        }
-    }
+		@include media-breakpoint-up(md) {
+			@include type_medium($muted: true);
+		}
+	}
 }
