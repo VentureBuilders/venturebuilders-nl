@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "http://www.venturebuilders.nl/*"
+  to = "https://www.venturebuilders.capital/:splat 301!"
+[[redirects]]
+  from = "http://www.vb.capital/*"
+  to = "https://www.venturebuilders.capital/:splat 301!"
