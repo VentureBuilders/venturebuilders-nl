@@ -22,7 +22,7 @@
 .team-grid-item {
     width: 50%;
     padding: $spacer;
-    flex-grow: 1;
+    // flex-grow: 1;
     max-width: none;
 
     @include media-breakpoint-up(md) {
