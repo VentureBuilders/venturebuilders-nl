@@ -80,7 +80,7 @@ $font-family: 'Financier', 'Hoefler Text', 'Cambria', 'Georgia', serif;
         family: $font-family;
         size: map-get($scale, 4);
     }
-    line-height: 1.1;
+    line-height: 1.35;
     letter-spacing: -0.0015em;
 
     @if ($muted) {

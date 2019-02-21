@@ -46,6 +46,7 @@
 
 		@include media-breakpoint-up(md) {
 			@include type_medium($muted: true);
+			line-height: 1.55;
 		}
 	}
 }
