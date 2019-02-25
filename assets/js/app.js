@@ -1,4 +1,4 @@
-console.log("App.js loaded");
+// console.log("App.js loaded");
 
 
 // ==============================
@@ -46,22 +46,22 @@ block.forEach(function(element) {
 
 // ==============================
 // Carousel Animation
-
-var carouselAnimation = anime({
-  targets: ['.carousel-image', '.carousel-quote'],
-  duration: 1300,
-  opacity: [0, 1],
-  easing: 'easeOutCubic',
-  autoplay: true
-});
-
-
-var listAnimation = anime({
-    targets: accordionActive,
-    duration: 500,
-    delay: anime.stagger(30),
-    translateX: ['-0.5em', 0],
-    opacity: [0, 1],
-    easing: 'easeOutCubic',
-    autoplay: false,
-});
+// 
+// var carouselAnimation = anime({
+//   targets: ['.carousel-image', '.carousel-quote'],
+//   duration: 1300,
+//   opacity: [0, 1],
+//   easing: 'easeOutCubic',
+//   autoplay: true
+// });
+//
+//
+// var listAnimation = anime({
+//     targets: accordionActive,
+//     duration: 500,
+//     delay: anime.stagger(30),
+//     translateX: ['-0.5em', 0],
+//     opacity: [0, 1],
+//     easing: 'easeOutCubic',
+//     autoplay: false,
+// });
