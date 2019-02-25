@@ -4,7 +4,6 @@ headline: Supporting Founders
 subhead: Enabling Founders
 intro: VentureBuilders is a hands-on European venture capital fund, focused on AI,
   data and general SaaS companies
-
 feature_block:
 - subhead: Capital
   image: assets/img/icons/capital.svg
@@ -19,7 +18,6 @@ feature_block:
   image: assets/img/icons/specialists.svg
   description: We have a team of specialists in marketing, UX, design, finance and
     HR to support ventures in areas where an in-house hire doesn’t make sense
-
 quote: Our aim is to achieve great things with talented people. With our unique positioning,
   we are able to be a part of the entire growth process of companies.
 quote_cite: Paul Montagne, CEO, VentureBuilders
@@ -35,3 +33,4 @@ feature_single_linkref: "/about/"
 feature_single_image: http://placehold.it/800x520
 layout: home
 ---
+

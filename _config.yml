@@ -57,7 +57,8 @@ url: https://www.venturebuilders.capital
 permalink: date
 author: VentureBuilders
 email: info@venturebuilders.nl
-description: 'VentureBuilders is a hands-on European venture capital fund, focused on AI, data and general SaaS companies. '
+description: 'VentureBuilders is a hands-on European venture capital fund, focused
+  on AI, data and general SaaS companies. '
 markdown: kramdown
 plugins:
 - jekyll-autoprefixer
