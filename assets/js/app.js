@@ -1,4 +1,4 @@
-// console.log("App.js loaded");
+console.log("App.js loaded");
 
 
 // ==============================
@@ -68,35 +68,8 @@ carouselArrow.addEventListener("click", function(event) {
 });
 
 getActive = function(set) {
-	// console.log(carActive, set.length);
 	return set[carActive];
 }
 
 getActive(carouselQuotes).classList.add('show');
 getActive(carouselImages).classList.add('show');
-//
-// carouselImages.forEach(function(element) {
-//
-// 	console.log(element);
-//
-// });
-
-// 
-// var carouselAnimation = anime({
-//   targets: ['.carousel-image', '.carousel-quote'],
-//   duration: 1300,
-//   opacity: [0, 1],
-//   easing: 'easeOutCubic',
-//   autoplay: true
-// });
-//
-// //
-// var listAnimation = anime({
-//     targets: accordionActive,
-//     duration: 500,
-//     delay: anime.stagger(30),
-//     translateX: ['-0.5em', 0],
-//     opacity: [0, 1],
-//     easing: 'easeOutCubic',
-//     autoplay: false,
-// });
