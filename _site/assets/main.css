@@ -6520,10 +6520,13 @@ ul > li {
     justify-content: space-between;
     align-items: center; }
   .carousel-arrow {
-    display: block;
+    display: none;
     height: 1rem;
     width: 70px;
     overflow-x: hidden; }
+    @media (min-width: 576px) {
+      .carousel-arrow {
+        display: block; } }
     .carousel-arrow svg {
       transform: translateX(-1rem);
       opacity: 0.5;

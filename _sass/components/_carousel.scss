@@ -108,10 +108,14 @@
 	}
 
 	&-arrow {
-		display: block;
+		display: none;
 		height: 1rem;
 		width: 70px;
 		overflow-x: hidden;
+
+		@include media-breakpoint-up(sm) {
+			display: block;
+		}
 
 		svg {
 			transform: translateX(-1rem);

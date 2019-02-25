@@ -81,16 +81,16 @@ getActive(carouselImages).classList.add('show');
 //
 // });
 
-
-var carouselAnimation = anime({
-  targets: ['.carousel-image', '.carousel-quote'],
-  duration: 1300,
-  opacity: [0, 1],
-  easing: 'easeOutCubic',
-  autoplay: true
-});
-
+// 
+// var carouselAnimation = anime({
+//   targets: ['.carousel-image', '.carousel-quote'],
+//   duration: 1300,
+//   opacity: [0, 1],
+//   easing: 'easeOutCubic',
+//   autoplay: true
+// });
 //
+// //
 // var listAnimation = anime({
 //     targets: accordionActive,
 //     duration: 500,
