@@ -5,4 +5,45 @@
 .container-fluid {
     padding-left: 0;
     padding-right: 0;
+    padding-top: spacing(7);
+    padding-bottom: spacing(7);
+}
+
+
+.page-header {
+
+    margin-top: spacing(4);
+    margin-bottom: spacing(5);
+
+    @include media-breakpoint-up(md) {
+        margin-top: spacing(6);
+        margin-bottom: spacing(5);
+    }
+
+    &-title {
+        @include type_large();
+        margin-bottom: spacing(3);
+    }
+
+    &-intro {
+        @include type_medium($muted: true);
+        margin-bottom: spacing(2);
+    }
+
+    &-subtext {
+        @include type_small($muted: true);
+    }
+
+}
+
+.svg-black {
+    fill: $black;
+}
+
+.svg-white {
+    fill: $white;
+}
+
+.svg-stroke-white {
+    stroke: $white;
 }

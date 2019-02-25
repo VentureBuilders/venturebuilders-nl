@@ -8,7 +8,7 @@ intro: We are founded by founders, allowing us to bring our experience in runnin
   industry in the next decade; and more broadly that software will continue to impact
   every industry. We invest in founders with an exceptional drive and a unique perspective
   on their industry.
-hero-image: "../uploads/about-image@2x.png"
+hero-image: "../assets/img/about-image.svg"
 Blocks:
 - heading: We believe in founders.
   text: VentureBuilders is run by people who have owned or built ventures. As a result,
@@ -39,4 +39,3 @@ Blocks:
   flip: false
 layout: about
 ---
-

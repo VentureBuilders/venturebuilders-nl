@@ -1,0 +1,55 @@
+.locations-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: -$spacer;
+    margin-left: -$spacer;
+
+    @include media-breakpoint-up(md) {
+        flex-direction: row;
+
+    }
+}
+
+.location {
+
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: spacing(5);
+    padding-left: $spacer;
+    padding-right: $spacer;
+
+    &-inner {
+        margin-bottom: spacing(1);
+
+        @include media-breakpoint-up(md) {
+            order: 2;
+            margin-bottom: spacing(3);
+        }
+    }
+
+    &-image {
+
+
+        margin-bottom: spacing(3);
+    }
+
+    &-heading {
+        @include type_medium();
+        margin-bottom: spacing(2);
+
+        @include media-breakpoint-up(sm) {
+            @include type_small();
+        }
+
+        @include media-breakpoint-up(lg) {
+            @include type_medium();
+        }
+    }
+
+    &-address {
+        @include type_small($muted: true);
+    }
+
+}

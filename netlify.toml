@@ -1,0 +1,40 @@
+[[redirects]]
+from = "http://www.vb.capital/*"
+to = "https://www.venturebuilders.capital/:splat"
+status = 301
+force = true
+[[redirects]]
+from = "http://vb.capital/*"
+to = "https://www.venturebuilders.capital/:splat"
+status = 301
+force = true
+[[redirects]]
+from = "https://www.vb.capital/*"
+to = "https://www.venturebuilders.capital/:splat"
+status = 301
+force = true
+[[redirects]]
+from = "https://vb.capital/*"
+to = "https://www.venturebuilders.capital/:splat"
+status = 301
+force = true
+[[redirects]]
+from = "https://venturebuilders.nl/*"
+to = "https://www.venturebuilders.capital/:splat"
+status = 301
+force = true
+[[redirects]]
+from = "https://www.venturebuilders.nl/*"
+to = "https://www.venturebuilders.capital/:splat"
+status = 301
+force = true
+[[redirects]]
+from = "http://venturebuilders.nl/*"
+to = "https://www.venturebuilders.capital/:splat"
+status = 301
+force = true
+[[redirects]]
+from = "http://www.venturebuilders.nl/*"
+to = "https://www.venturebuilders.capital/:splat"
+status = 301
+force = true

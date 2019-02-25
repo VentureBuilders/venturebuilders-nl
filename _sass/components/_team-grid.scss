@@ -4,16 +4,26 @@
     justify-content: flex-start;
     margin-right: -$spacer;
     margin-left: -$spacer;
+    padding-left: $spacer;
+    padding-right: $spacer;
 
+    @include media-breakpoint-up(sm) {
+        padding-left: 0;
+        padding-right: 0;
+    }
     @include media-breakpoint-up(md) {
         margin-right: 0;
         margin-left: 0;
     }
 }
 
+
+
 .team-grid-item {
     width: 50%;
     padding: $spacer;
+    // flex-grow: 1;
+    max-width: none;
 
     @include media-breakpoint-up(md) {
         width: 33.333%;
@@ -30,4 +40,54 @@
     @include media-breakpoint-up(xl) {
         width: 20%;
     };
+}
+
+.team-grid-item.large {
+    width: 100%;
+
+    @include media-breakpoint-up(sm) {
+        width: 50%;
+    }
+
+    @include media-breakpoint-up(lg) {
+        width: 25%;
+    };
+
+    @include media-breakpoint-up(xl) {
+        width: 25%;
+    };
+}
+
+
+.team-photo {
+    margin-bottom: spacing(2);
+}
+
+.team-name {
+    margin-bottom: spacing(2);
+    @include type_medium();
+
+    @include media-breakpoint-up(sm) {
+        @include type_small();
+    }
+
+    @include media-breakpoint-up(md) {
+        @include type_medium();
+    }
+
+    @include media-breakpoint-up(lg) {
+        @include type_small();
+    }
+
+    @include media-breakpoint-up(xl) {
+        @include type_medium();
+    }
+
+}
+
+.team-bio {
+    @include type_small($muted: true);
+    @include media-breakpoint-up(sm) {
+        @include type_extra-small($muted: true);
+    }
 }
