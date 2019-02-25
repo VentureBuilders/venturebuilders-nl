@@ -6455,6 +6455,7 @@ ul > li {
     .carousel-item {
       width: 50%; } }
   .carousel-quote {
+    display: none;
     font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
     font-size: 1.25rem;
     line-height: 1.35;
@@ -6469,7 +6470,8 @@ ul > li {
         line-height: 1.1;
         letter-spacing: -0.0015em;
         color: #17191A;
-        color: #FFFFFF; } }
+        color: #FFFFFF;
+        line-height: 1.3; } }
     .carousel-quote cite {
       margin-top: 1.5rem;
       display: block;
@@ -6493,8 +6495,7 @@ ul > li {
       .carousel-image {
         display: inherit; } }
     .carousel-image img {
-      width: auto;
-      margin-top: -15%; }
+      width: auto; }
   .carousel-mask {
     position: absolute;
     right: 70%;
@@ -6529,6 +6530,27 @@ ul > li {
       transform: translateX(0);
       opacity: 1; }
 
+.carousel-image-item {
+  display: none;
+  margin-top: 0;
+  height: 100%;
+  max-width: none; }
+
+.carousel-quote.show,
+.carousel-image-item.show {
+  display: inherit;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.03, 0.42, 0.18, 0.98);
+  animation-direction: normal; }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-2rem); }
+  100% {
+    opacity: 1;
+    transform: translateX(0rem); } }
 .page-hero {
   padding-top: 8rem;
   padding-bottom: 4rem; }

@@ -12,25 +12,32 @@ layout: global
 
         <div class="carousel-inner container">
             <div class="carousel-item">
-                <blockquote class="carousel-quote">
-                    “With a user first approach, we are sure to offer the best choice for our customers and enable travel brands to effectively monetize the last step of every trip.”
-                    <cite>Koen Bremer, CEO, Taxi2Airport</cite>
-                </blockquote>
+
+				{% for item in page.carousel %}
+				<blockquote class="carousel-quote">
+					{{ item.quote}}
+					<cite>{{ item.quote_cite}}</cite>
+				</blockquote>
+				{% endfor %}
 
                 <div class="carousel-controls">
                     <a class="link-box inverse" href="/our-ventures/"><span>Our Ventures</span></a>
-                    <!-- <a class="carousel-arrow" href="#">
+                    <a class="carousel-arrow" id="car-arrow" href="#">
                         <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 71 18">
                             <path class="svg-white" fill-rule="nonzero" d="M68.8481728 8.5552796l-7.2017262-7.2017262c-.1952621-.19526216-.1952621-.51184465 0-.7071068.1952622-.19526214.5118446-.19526214.7071068 0l8 8.00000001c.1952621.19526215.1952621.51184463 0 .70710678l-8 8.00000001c-.1952622.1952621-.5118446.1952621-.7071068 0-.1952621-.1952622-.1952621-.5118446 0-.7071068l7.091167-7.091167H1c-.27614237 0-.5-.22385763-.5-.5 0-.27614238.22385763-.5.5-.5h67.8481728z"/>
                         </svg>
-                    </a> -->
+                    </a>
                 </div>
 
             </div>
         </div>
 
         <div class="carousel-image">
-            <img src="assets/img/quote-image-t2a.jpg" alt="">
+
+			{% for image in page.carousel %}
+				<img class="carousel-image-item " src="{{ image.quote_image }}" alt="">
+			{% endfor %}
+
         </div>
 
         <div class="carousel-mask">
