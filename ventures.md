@@ -1,6 +1,6 @@
 ---
 title: Our Ventures
-permalink: "/ventures/"
+permalink: "/our-ventures/"
 layout: ventures
 ---
 

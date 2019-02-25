@@ -1,13 +1,19 @@
 @import 'bootstrap/bootstrap';
 
-@import 'base/base';
+@import 'base/reset';
+@import 'base/settings';
+@import 'base/type';
 @import 'base/typography';
-@import 'base/typography-new';
+
 @import 'base/layout';
 
 @import 'components/header';
+@import 'components/nav';
 @import 'components/footer';
 @import 'components/hero';
+@import 'components/text-block';
+@import 'components/accordion';
+@import 'components/carousel';
 @import 'components/page-hero';
 @import 'components/feature-group';
 @import 'components/feature-blocks';
@@ -16,8 +22,10 @@
 @import 'components/feature-venture';
 @import 'components/ventures';
 @import 'components/venture-grid';
-@import 'components/vacancy-grid';
+// @import 'components/vacancy-grid';
 @import 'components/team-grid';
 @import 'components/member-profile';
 @import 'components/companies';
+@import 'components/locations';
 @import 'components/social';
+@import 'components/news';

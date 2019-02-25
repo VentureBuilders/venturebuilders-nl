@@ -1,34 +1,36 @@
+<div class="pre-header">
 
-
-<header class="site-header container-fluid fixed-top" id="site-header" role="banner">
-    <!-- <div class="city-list">
-        <ul class="list-unstyled container">
-            <li>Amsterdam</li>
-            <li>Berlin</li>
-            <li>London</li>
-        </ul>
-    </div> -->
     <div class="container">
 
+        <ul class="header-locations">
+            <li class="header-locations-item"><a href="/contact-us#amsterdam">Amsterdam</a></li>
+            <li class="header-locations-item"><a href="/contact-us#berlin">Berlin</a></li>
+            <li class="header-locations-item"><a href="/contact-us#london">London</a></li>
+        </ul>
 
+    </div>
 
-        <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" title="{{ site.title }}" href="{{ site.url }}"><img src="{{ 'assets/img/logo-color.svg' | relative_url }}" alt="{{ site.title }}">
+</div>
+
+<header class="site-header" id="site-header" role="banner">
+
+    <div class="container">
+
+        <nav class="site-nav">
+            <a class="site-nav-logo" title="{{ site.title }}" href="{{ site.url }}">
+                {% include svg/logo.html %}
             </a>
-            <button class="navbar-toggler d-flex d-lg-none" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
+
+            <button class="site-nav-toggle" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="toggle-line"></span>
+                <span class="toggle-line"></span>
+                <span class="toggle-line"></span>
             </button>
 
-            <div class="collapse navbar-collapse justify-content-end" id="mainNav">
-                <ul class="navbar-nav">
-                    {% for nav in site.data.nav %}
-                    <li class="nav-item">
-                        <a class="nav-link {% if page.url contains nav.path %}active{% endif %}" title="{{ nav.title }}" href="{{ nav.path }}">{{ nav.title }}</a>
-                    </li>
-                    {% endfor %}
-                </ul>
+            <div class="site-nav-menu collapse" id="mainNav">
+                {% for nav in site.data.nav %}
+                    <a class="site-nav-menu-link link-line {% if page.url contains nav.path %}active{% endif %}" title="{{ nav.title }}" href="{{ nav.path }}">{{ nav.title }}</a>
+                {% endfor %}
             </div>
 
         </nav>

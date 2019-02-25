@@ -1,17 +1,48 @@
-<footer class="container-fluid site-footer">
-    <div class="container py-3 py-lg-4">
-        <div class="row justify-content-between">
-            <div class="col-sm-9 footer-link-wrapper top">
-                <img class="footer-logo" src="{{ site.url }}/assets/img/logo-white.svg" alt="">
-                <p class="footer-copyright"><small>&copy;&nbsp;2019&nbsp;VentureBuilders&nbsp;B.V. </small></p>
-            </div>
+<footer class="footer">
+    <div class="container">
 
-            <div class="col-sm-9 footer-link-wrapper">
-                {% for nav in site.data.nav %}
-                    <a class="footer-link" href="{{ nav.path }}">{{ nav.title }}</a>
-                {% endfor %}
-            </div>
+        <div class="footer-inner">
 
+
+                <div class="footer-logo">
+                    {% include svg/logo-horz.html %}
+                </div>
+
+                <div class="footer-menu">
+                    {% for nav in site.data.nav %}
+                        <a class="footer-menu-link link-line" href="{{ nav.path }}">{{ nav.title }}</a>
+                    {% endfor %}
+
+                </div>
+
+                <div class="footer-description">
+                    <p>{{ site.description }}</p>
+                </div>
+
+                <dl class="footer-list">
+                    <dt>Locations:</dt>
+                    <dd><a href="{{ site.url }}/contact-us/" class="link-line" title="">Amsterdam</a></dd>
+                    <dd><a href="{{ site.url }}/contact-us/" class="link-line" title="">Berlin</a></dd>
+                    <dd><a href="{{ site.url }}/contact-us/" class="link-line" title="">London</a></dd>
+                </dl>
+
+                <dl class="footer-list">
+                    <dt>Follow us:</dt>
+                    <dd><a href="https://medium.com/venturebuilders" target="_blank" class="link-line" title="Follow us on Medium">Medium</a></dd>
+                </dl>
         </div>
+
+        <ul class="footer-legal">
+            <li>
+                <p class="footer-legal-copy">&copy; {{ site.time | date: '%Y' }} VentureBuilders Capital B.V.</p>
+            </li>
+            <!-- <li>
+                <a href="#" class="footer-legal-link link-line">Terms of Use</a>
+            </li>
+            <li>
+                <a href="#" class="footer-legal-link link-line">Privacy Policy</a>
+            </li> -->
+        </ul>
+
     </div>
 </footer>

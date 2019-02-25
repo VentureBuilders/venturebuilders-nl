@@ -1,19 +1,145 @@
-.sidebyside {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+.block .container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
 
-    @include media-breakpoint-up(lg) {
-        padding-top: 4rem;
-        padding-bottom: 4rem;
-    }
+	@include media-breakpoint-up(lg) {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
 }
 
-.block {
-    order: 1;
+.block-main {
+	@include media-breakpoint-up(lg) {
+		width: 75%;
+
+	}
+	@include media-breakpoint-up(xl) {
+		width: 50%;
+	}
 }
 
-.flip {
-    @include media-breakpoint-up(lg) {
-        order: 2;
-    }
+.block-aside {
+
+	@include media-breakpoint-up(lg) {
+		width: 50%;
+	}
+
+	@include media-breakpoint-up(xl) {
+		width: 25%;
+		margin-right: 8.3333%;
+		margin-top: spacing(7);
+	}
+}
+
+.block-aside.large {
+	@include media-breakpoint-up(xl) {
+		width: 40%;
+		margin-right: 0;
+		margin-top: 0;
+	}
+}
+.block-heading {
+	@include type_medium();
+	margin-bottom: spacing(3);
+
+	@include media-breakpoint-up(md) {
+		@include type_large();
+		margin-bottom: spacing(4);
+	}
+}
+
+.block-content {
+	@include type_extra-small($muted: true);
+	margin-bottom: spacing(3);
+
+	@include media-breakpoint-up(md) {
+		@include type_small($muted: true);
+		margin-bottom: spacing(4);
+	}
+}
+
+
+
+
+.block.about-us .container {
+	justify-content: center;
+	align-items: center;
+
+	@include media-breakpoint-up(lg) {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+
+.about-us .block-main {
+	order: 2;
+
+	@include media-breakpoint-up(lg) {
+		width: 50%;
+		order: 1;
+	}
+}
+
+
+.about-us .block-aside {
+	order: 1;
+	margin-bottom: spacing(4);
+	width: 75%;
+
+	@include media-breakpoint-up(sm) {
+		width: 65%;
+	}
+
+	@include media-breakpoint-up(lg) {
+		width: 40%;
+		order: 2;
+	}
+}
+
+
+.expertise .block-main {
+	@include media-breakpoint-up(md) {
+		margin-right: 30%;
+	}
+}
+
+.expertise-set {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: space-between;
+
+	@include media-breakpoint-up(lg) {
+		flex-direction: row;
+	}
+}
+
+.expertise-list {
+	flex-grow: 1;
+	order: 2;
+	flex-basis: 100%;
+
+	@include media-breakpoint-up(md) {
+		margin-top: spacing(3);
+	}
+
+	@include media-breakpoint-up(lg) {
+		order: 1;
+	}
+}
+
+.expertise-image-set {
+	order: 1;
+	width: 60%;
+	margin: 0 auto;
+	margin-bottom: spacing(2);
+
+	@include media-breakpoint-up(lg) {
+		order: 2;
+		margin-top: -(spacing(3));
+		width: 100%;
+	}
 }

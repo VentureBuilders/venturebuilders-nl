@@ -8,83 +8,47 @@ $gray-light: #F5F7F7;
 $white: #FFFFFF;
 
 
-
-// ------------------------------------
-// Type Scale
-
-$typescale-data: (
-    super: 3.5rem,
-    large: 2.25rem,
-    medium: 1.5rem,
-    base: 1rem,
-    small: 0.875rem,
-    tiny: 0.625rem
-);
-
-// Returns the type size for a given scale.
-@function typscale($variant: base) {
-    $fetched-value: map-get($typescale-data, $variant);
-
-    @if type-of($fetched-value) == number {
-        @return $fetched-value;
-    } @else {
-        @error 'Spacing variant `#{$variant}` not found. Available variants: #{available-names($typescale-data)}';
-    }
-}
-
+$mint: #009999;
+$blue: #005580;
+$black: #17191A;
+$charcoal: #303233;
+$slate: #7D7F80;
+$grey: #C8CBCC;
+$smoke: #F4F5F5;
 
 // ------------------------------------
 // Spacing scale
 
-$unit: 0.25rem;
+$spacer-unit: 0.5rem;
 
-$spacing-data: (
-    none: 0,
-    extra-tight: $unit,
-    tight: $unit * 2,
-    base: $unit * 4,
-    loose: $unit * 8,
-    extra-loose: $unit * 16
+$spacers: (
+    01: 1,
+    02: 1.5,
+    03: 2,
+    04: 3,
+    05: 4,
+    06: 6,
+    07: 8,
+    08: 12,
+    09: 16
 );
+// 1     = 8
+// 1.5   = 12
+// 2     = 16
+// 3     = 24
+// 4     = 32
+// 6     = 48
+// 8     = 64
+// 12    = 96
+// 16    = 128
 
-// Returns the spacing value for a given scale.
+
 @function spacing($variant: base) {
-    $fetched-value: map-get($spacing-data, $variant);
+    $fetched-value: map-get($spacers, $variant);
 
     @if type-of($fetched-value) == number {
-        @return $fetched-value;
+        @return $fetched-value * $spacer-unit;
     } @else {
-        @error 'Spacing variant `#{$variant}` not found. Available variants: #{available-names($spacing-data)}';
-    }
-}
-
-
-
-// ------------------------------------
-// Grid Settings
-
-$columns: 9;
-
-$grid-gutters: (
-    small: 1.5rem,
-    medium: 2rem,
-    large: 2.5rem
-);
-
-$grid-data: (
-    2: (2/$columns),
-    3: (3/$columns),
-    4: (4/$columns),
-    5: (5/$columns),
-    6: (6/$columns)
-);
-
-@function grid($variant: base) {
-    $fetched-value: map-get($grid-data, $variant);
-
-    @if type-of($fetched-value) == number {
-        @return $fetched-value;
-    } @else {
-        @error 'Spacing variant `#{$variant}` not found. Available variants: #{available-names($grid-data)}';
+        @error 'Spacing variant `#{$variant}` not found. Available variants: #{available-names($spacers)}';
     }
 }

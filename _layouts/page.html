@@ -2,13 +2,11 @@
 layout: global
 ---
 
-<div class="container">
-    <div class="row no-gutters pt-7 mb-2 mb-lg-3">
-        <div class="col col-lg-5">
-            <h2 class="heading-large">{{ page.title }}</h2>
-            {% if page.intro %}<p class="base-large">{{ page.intro }}</p>{% endif %}
-        </div>
+<section class="container">
+    <div class="page-header">
+            <h2 class="page-header-title">{{ page.title }}</h2>
+            {% if page.intro %}<p class="page-header-intro">{{ page.intro }}</p>{% endif %}
     </div>
-</div>
+</section>
 
 {{ content }}

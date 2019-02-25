@@ -2,25 +2,35 @@
 layout: page
 ---
 
-<div class="container">
+<section class="container">
 
-    <div class="mb-2 mb-md-4 venture-grid">
-        {% assign v = site.ventures | sort: 'title' %}
-        {% for venture in v %}
+    <main class="v-grid">
+        {% assign ventures = site.data.ventures | sort: 'company' %}
+        {% for venture in ventures %}
+            {% unless venture.published == false %}
+        <article class="v-grid-item v-block reveal-wrapper">
 
-            {% unless venture.title == 'VentureBuilders' %}
-                <div class="venture-grid-item {{ venture.class_name }}">
-                    <a class="venture-grid-link" href="{{ venture.url }}" title="{{ venture.title }}">
-                        <picture>
-                             <source srcset='/assets/img/venture-small/{{ venture.class_name }}@2x.png' media="(min-width: 900px)">
-                             <img src='/assets/img/venture-small/{{ venture.class_name }}.png' alt="{{ venture.title }}">
-                        </picture>
-                    </a>
-                </div>
-            {% endunless %}
+            <div class="v-grid-image" style="background-image: url('{{ site.url }}/assets/img/venture-small/{{ venture.company | slugify }}.jpg')">
+                <img class="logo" src="{{ site.url }}/assets/img/venture-logos/white/{{ venture.company | slugify }}.svg" alt="">
+            </div>
+
+            <!-- <div class="reveal-over">
+                <div class="reveal-slice"></div>
+                <div class="reveal-slice"></div>
+                <div class="reveal-slice"></div>
+            </div> -->
+
+            <div class="v-grid-text reveal-text">
+                <p class="description">{{ venture.description }}</p>
+                <a class="link-line" href="{{ venture.site }}" target="_blank" title="ventureurl" class="block-text-link"><span>Learn More</span></a>
+            </div>
+
+        </article>
+        {% endunless %}
+
 
         {% endfor %}
 
-    </div>
+    </main>
 
-</div>
+</section>
