@@ -7393,7 +7393,7 @@ ul > li {
 
 .carousel-image-item {
   display: none;
-  margin-top: 0;
+  margin-top: 0px;
   height: 100%;
   max-width: none; }
 
