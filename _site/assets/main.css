@@ -6043,7 +6043,7 @@ ul > li {
   .page-header-intro {
     font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
     font-size: 1.75rem;
-    line-height: 1.1;
+    line-height: 1.35;
     letter-spacing: -0.0015em;
     color: #7D7F80;
     margin-bottom: 0.75rem; }
@@ -6333,14 +6333,16 @@ ul > li {
     letter-spacing: -0.0015em;
     color: #7D7F80;
     max-width: 25em;
-    margin-bottom: 1.5rem; }
+    margin-bottom: 1.5rem;
+    line-height: 1.55; }
     @media (min-width: 768px) {
       .hero-intro {
         font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
         font-size: 1.75rem;
-        line-height: 1.1;
+        line-height: 1.35;
         letter-spacing: -0.0015em;
-        color: #7D7F80; } }
+        color: #7D7F80;
+        line-height: 1.55; } }
 
 .accordion-title {
   display: flex;
@@ -6350,7 +6352,7 @@ ul > li {
   cursor: pointer;
   font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
   font-size: 1.75rem;
-  line-height: 1.1;
+  line-height: 1.35;
   letter-spacing: -0.0015em;
   color: #17191A;
   margin-bottom: 1.5rem;
@@ -6467,7 +6469,7 @@ ul > li {
       .carousel-quote {
         font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
         font-size: 1.75rem;
-        line-height: 1.1;
+        line-height: 1.35;
         letter-spacing: -0.0015em;
         color: #17191A;
         color: #FFFFFF;
@@ -6642,7 +6644,7 @@ ul > li {
   .feature-block-heading {
     font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
     font-size: 1.75rem;
-    line-height: 1.1;
+    line-height: 1.35;
     letter-spacing: -0.0015em;
     color: #17191A;
     margin-bottom: 0.75rem; }
@@ -6741,7 +6743,7 @@ ul > li {
 .block-heading {
   font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
   font-size: 1.75rem;
-  line-height: 1.1;
+  line-height: 1.35;
   letter-spacing: -0.0015em;
   color: #17191A;
   margin-bottom: 1rem; }
@@ -6926,7 +6928,7 @@ ul > li {
       margin-bottom: 1rem;
       font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
       font-size: 1.75rem;
-      line-height: 1.1;
+      line-height: 1.35;
       letter-spacing: -0.0015em;
       color: #17191A; }
     .v-grid-text .description {
@@ -7057,7 +7059,6 @@ ul > li {
 .team-grid-item {
   width: 50%;
   padding: 1rem;
-  flex-grow: 1;
   max-width: none; }
   @media (min-width: 768px) {
     .team-grid-item {
@@ -7090,7 +7091,7 @@ ul > li {
   margin-bottom: 0.75rem;
   font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
   font-size: 1.75rem;
-  line-height: 1.1;
+  line-height: 1.35;
   letter-spacing: -0.0015em;
   color: #17191A; }
   @media (min-width: 576px) {
@@ -7104,7 +7105,7 @@ ul > li {
     .team-name {
       font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
       font-size: 1.75rem;
-      line-height: 1.1;
+      line-height: 1.35;
       letter-spacing: -0.0015em;
       color: #17191A; } }
   @media (min-width: 992px) {
@@ -7118,7 +7119,7 @@ ul > li {
     .team-name {
       font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
       font-size: 1.75rem;
-      line-height: 1.1;
+      line-height: 1.35;
       letter-spacing: -0.0015em;
       color: #17191A; } }
 
@@ -7218,7 +7219,7 @@ ul > li {
   .location-heading {
     font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
     font-size: 1.75rem;
-    line-height: 1.1;
+    line-height: 1.35;
     letter-spacing: -0.0015em;
     color: #17191A;
     margin-bottom: 0.75rem; }
@@ -7233,7 +7234,7 @@ ul > li {
       .location-heading {
         font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
         font-size: 1.75rem;
-        line-height: 1.1;
+        line-height: 1.35;
         letter-spacing: -0.0015em;
         color: #17191A; } }
   .location-address {
@@ -7277,7 +7278,7 @@ ul > li {
 .news-title {
   font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
   font-size: 1.75rem;
-  line-height: 1.1;
+  line-height: 1.35;
   letter-spacing: -0.0015em;
   color: #17191A;
   margin-bottom: 1rem; }

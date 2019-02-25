@@ -5,11 +5,11 @@
 // Font family
 
 @font-face {
-    font-family: 'Financier';
-    src: url('fonts/FinancierTextWeb-Regular.eot'); /* IE9 Compat Modes */
-    src: url('fonts/FinancierTextWeb-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('fonts/FinancierTextWeb-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-    url('fonts/FinancierTextWeb-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+	font-family: 'Financier';
+	src: url('fonts/FinancierTextWeb-Regular.eot'); /* IE9 Compat Modes */
+	src: url('fonts/FinancierTextWeb-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('fonts/FinancierTextWeb-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+	url('fonts/FinancierTextWeb-Regular.woff') format('woff'), /* Pretty Modern Browsers */
 }
 
 
@@ -31,115 +31,115 @@ $font-family: 'Financier', 'Hoefler Text', 'Cambria', 'Georgia', serif;
 
 
 @mixin type_super($muted: false) {
-    font: {
-        family: $font-family;
-        size: map-get($scale, super);
-    }
-    line-height: 1.1;
-    letter-spacing: -0.025em;
+	font: {
+		family: $font-family;
+		size: map-get($scale, super);
+	}
+	line-height: 1.1;
+	letter-spacing: -0.025em;
 
-    @if ($muted) {
-        color: $slate;
-    } @else {
-        color: $black;
-    }
+	@if ($muted) {
+		color: $slate;
+	} @else {
+		color: $black;
+	}
 }
 
 @mixin type_extra-large($muted: false) {
-    font: {
-        family: $font-family;
-        size: map-get($scale, 6);
-    }
-    line-height: 1.1;
-    letter-spacing: -0.015em;
+	font: {
+		family: $font-family;
+		size: map-get($scale, 6);
+	}
+	line-height: 1.1;
+	letter-spacing: -0.015em;
 
-    @if ($muted) {
-        color: $slate;
-    } @else {
-        color: $black;
-    }
+	@if ($muted) {
+		color: $slate;
+	} @else {
+		color: $black;
+	}
 }
 
 @mixin type_large($muted: false) {
-    font: {
-        family: $font-family;
-        size: map-get($scale, 5);
-    }
-    line-height: 1.1;
-    letter-spacing: -0.015em;
+	font: {
+		family: $font-family;
+		size: map-get($scale, 5);
+	}
+	line-height: 1.1;
+	letter-spacing: -0.015em;
 
-    @if ($muted) {
-        color: $slate;
-    } @else {
-        color: $black;
-    }
+	@if ($muted) {
+		color: $slate;
+	} @else {
+		color: $black;
+	}
 }
 
 @mixin type_medium($muted: false) {
-    font: {
-        family: $font-family;
-        size: map-get($scale, 4);
-    }
-    line-height: 1.1;
-    letter-spacing: -0.0015em;
+	font: {
+		family: $font-family;
+		size: map-get($scale, 4);
+	}
+	line-height: 1.35;
+	letter-spacing: -0.0015em;
 
-    @if ($muted) {
-        color: $slate;
-    } @else {
-        color: $black;
-    }
+	@if ($muted) {
+		color: $slate;
+	} @else {
+		color: $black;
+	}
 }
 
 
 @mixin type_small($muted: false) {
-    font: {
-        family: $font-family;
-        size: map-get($scale, 3);
-    }
-    line-height: 1.35;
-    letter-spacing: -0.0015em;
+	font: {
+		family: $font-family;
+		size: map-get($scale, 3);
+	}
+	line-height: 1.35;
+	letter-spacing: -0.0015em;
 
-    @if ($muted) {
-        color: $slate;
-    } @else {
-        color: $black;
-    }
+	@if ($muted) {
+		color: $slate;
+	} @else {
+		color: $black;
+	}
 }
 
 @mixin type_extra-small($muted: false) {
-    font: {
-        family: $font-family;
-        size: map-get($scale, 2);
-    }
-    line-height: 1.45;
-    letter-spacing: 0.005em;
+	font: {
+		family: $font-family;
+		size: map-get($scale, 2);
+	}
+	line-height: 1.45;
+	letter-spacing: 0.005em;
 
-    @if ($muted) {
-        color: $slate;
-    } @else {
-        color: $black;
-    }
+	@if ($muted) {
+		color: $slate;
+	} @else {
+		color: $black;
+	}
 }
 
 @mixin type_tiny($muted: false) {
-    font: {
-        family: $font-family;
-        size: map-get($scale, 1);
-    }
-    line-height: 1.45;
-    letter-spacing: 0.015em;
+	font: {
+		family: $font-family;
+		size: map-get($scale, 1);
+	}
+	line-height: 1.45;
+	letter-spacing: 0.015em;
 
-    @if ($muted) {
-        color: $slate;
-    } @else {
-        color: $black;
-    }
+	@if ($muted) {
+		color: $slate;
+	} @else {
+		color: $black;
+	}
 }
 
 
 
 body {
-    font-family: $font-family;
+	font-family: $font-family;
 }
 
 h1,
@@ -148,36 +148,36 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: inherit;
-    color: inherit;
+	font-family: inherit;
+	color: inherit;
 }
 
 
 
 .link-line {
-    display: inline-block;
-    color: $black;
-    cursor: pointer;
-    position: relative;
-    line-height: 1.5;
+	display: inline-block;
+	color: $black;
+	cursor: pointer;
+	position: relative;
+	line-height: 1.5;
 
 
-        background-image: linear-gradient(to right, $black 0%, $black 100%);
-        background-size: 0px 1px;
-        background-position: 0px 95%;
-        background-repeat: no-repeat;
-        transition: background-size 0.25s cubic-bezier(0.19, 1, 0.155, 1.01) 0s;
+	background-image: linear-gradient(to right, $black 0%, $black 100%);
+	background-size: 0px 1px;
+	background-position: 0px 95%;
+	background-repeat: no-repeat;
+	transition: background-size 0.25s cubic-bezier(0.19, 1, 0.155, 1.01) 0s;
 
 
-    &:hover {
-        background-size: 100% 1px;
-        color: $black;
-    }
+	&:hover {
+		background-size: 100% 1px;
+		color: $black;
+	}
 
-    &.inverse {
-        color: $white;
-        background-image: linear-gradient(to right, $white 0%, $white 100%);
-    }
+	&.inverse {
+		color: $white;
+		background-image: linear-gradient(to right, $white 0%, $white 100%);
+	}
 
 }
 
@@ -187,58 +187,58 @@ h6 {
 
 
 .link-box {
-    display: inline-block;
-    position: relative;
-    padding-left: 1em;
-    padding-right: 1em;
+	display: inline-block;
+	position: relative;
+	padding-left: 1em;
+	padding-right: 1em;
 
-    line-height: 2.25;
-    color: $black;
+	line-height: 2.25;
+	color: $black;
 
-    border: solid 1px $black;
-    overflow: hidden;
+	border: solid 1px $black;
+	overflow: hidden;
 
-    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+	transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
 
-    span {
-        z-index: 2;
-        position: relative;
-    }
+	span {
+		z-index: 2;
+		position: relative;
+	}
 
-    &:hover {
-        color: $white;
-    }
+	&:hover {
+		color: $white;
+	}
 
-    &::after {
-        content: '';
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-        z-index: 1;
-        background-color: black;
-        height: 5em;
-        width: 100%;
-        transform: rotate(-22deg) translate(103%, 0);
-        transition: transform 0.15s cubic-bezier(0.24, 0.01, 0.21, 1);
-    }
+	&::after {
+		content: '';
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 1;
+		background-color: black;
+		height: 5em;
+		width: 100%;
+		transform: rotate(-22deg) translate(103%, 0);
+		transition: transform 0.15s cubic-bezier(0.24, 0.01, 0.21, 1);
+	}
 
-    &:hover::after {
-        transform: translate(0%, 0%);
-    }
+	&:hover::after {
+		transform: translate(0%, 0%);
+	}
 
 }
 
 .link-box.inverse {
-    color: $white;
-    border-color: $white;
+	color: $white;
+	border-color: $white;
 
-    &:hover {
-        color: $black;
-    }
+	&:hover {
+		color: $black;
+	}
 
-    &::after {
-        background-color: $white;
-    }
+	&::after {
+		background-color: $white;
+	}
 
 }
