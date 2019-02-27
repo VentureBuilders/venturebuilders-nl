@@ -32,11 +32,14 @@
 }
 
 .news-grid .news-list {
+
+	padding-left: 0;
+	padding-right: spacing(3);
+
+
 	@include media-breakpoint-up(md) {
 		flex-basis: 45%;
 		margin-right: spacing(7);
-		padding-left: 0;
-		padding-right: 0;
 		flex-grow: 0;
 	}
 
@@ -44,6 +47,7 @@
 		flex-basis: 28%;
 	}
 }
+
 .news-grid .news-list:nth-child(2n) {
 	@include media-breakpoint-up(md) {
 		margin-right: 0;
