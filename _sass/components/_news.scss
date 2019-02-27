@@ -1,6 +1,6 @@
 .news-set {
 	display: flex;
-
+	flex-direction: column;
 	border-top: solid 1px $grey;
 	padding-top: spacing(3);
 
@@ -17,6 +17,8 @@
 	padding-left: spacing(3);
 	padding-right: spacing(3);
 	margin-bottom: spacing(6);
+
+
 }
 
 
