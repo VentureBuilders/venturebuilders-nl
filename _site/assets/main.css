@@ -7168,6 +7168,7 @@ ul > li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-weight: 400;
   cursor: pointer;
   font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
   font-size: 1.75rem;
