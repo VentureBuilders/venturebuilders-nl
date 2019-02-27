@@ -6519,22 +6519,24 @@ h6 {
   font-family: inherit;
   color: inherit; }
 
+a:hover {
+  color: #005580; }
+
 .link-line {
   display: inline-block;
   color: #17191A;
   cursor: pointer;
   position: relative;
   line-height: 1.5;
-  background-image: -webkit-linear-gradient(left, #17191A 0%, #17191A 100%);
-  background-image: linear-gradient(to right, #17191A 0%, #17191A 100%);
+  background-image: -webkit-linear-gradient(left, #005580 0%, #005580 100%);
+  background-image: linear-gradient(to right, #005580 0%, #005580 100%);
   background-size: 0px 1px;
   background-position: 0px 95%;
   background-repeat: no-repeat;
   -webkit-transition: background-size 0.25s cubic-bezier(0.19, 1, 0.155, 1.01) 0s;
   transition: background-size 0.25s cubic-bezier(0.19, 1, 0.155, 1.01) 0s; }
   .link-line:hover {
-    background-size: 100% 1px;
-    color: #17191A; }
+    background-size: 100% 1px; }
   .link-line.inverse {
     color: #FFFFFF;
     background-image: -webkit-linear-gradient(left, #FFFFFF 0%, #FFFFFF 100%);
@@ -8301,13 +8303,55 @@ ul > li {
   padding-right: 1rem;
   margin-bottom: 3rem; }
 
+@media (min-width: 768px) {
+  .news-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; } }
+
+@media (min-width: 768px) {
+  .news-grid .news-list {
+    -ms-flex-preferred-size: 45%;
+        flex-basis: 45%;
+    margin-right: 4rem;
+    padding-left: 0;
+    padding-right: 0;
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0; } }
+@media (min-width: 1280px) {
+  .news-grid .news-list {
+    -ms-flex-preferred-size: 28%;
+        flex-basis: 28%; } }
+
+@media (min-width: 768px) {
+  .news-grid .news-list:nth-child(2n) {
+    margin-right: 0; } }
+@media (min-width: 1280px) {
+  .news-grid .news-list:nth-child(2n) {
+    margin-right: 4rem; } }
+
+.news-grid .news-list:last-of-type {
+  margin-left: 0px;
+  margin-right: auto; }
+
 .news-title {
+  display: inline-block;
   font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
   font-size: 1.75rem;
   line-height: 1.35;
   letter-spacing: -0.0015em;
   color: #17191A;
-  margin-bottom: 1rem; }
+  margin-bottom: 0.75rem; }
 
 .news-intro {
   font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
@@ -8324,3 +8368,58 @@ ul > li {
   letter-spacing: 0.005em;
   color: #7D7F80;
   margin-bottom: 0.75rem; }
+
+.news-list {
+  border-bottom: solid 1px #F4F5F5;
+  padding-bottom: 1.5rem; }
+
+.article-container {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  max-width: 720px; }
+
+.article-header {
+  padding-top: 1.5rem;
+  padding-bottom: 1rem; }
+  @media (min-width: 768px) {
+    .article-header {
+      padding-top: 3rem; } }
+
+.article-header-title {
+  font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+  font-size: 1.75rem;
+  line-height: 1.35;
+  letter-spacing: -0.0015em;
+  color: #17191A; }
+  @media (min-width: 768px) {
+    .article-header-title {
+      font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+      font-size: 2.5rem;
+      line-height: 1.1;
+      letter-spacing: -0.015em;
+      color: #17191A; } }
+
+.article-header-date {
+  font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+  font-size: 1rem;
+  line-height: 1.45;
+  letter-spacing: 0.005em;
+  color: #7D7F80;
+  border-bottom: solid 1px #C8CBCC;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.75rem; }
+
+.article-content-inner {
+  margin-bottom: 3rem; }
+  @media (min-width: 768px) {
+    .article-content-inner {
+      margin-bottom: 4rem; } }
+  .article-content-inner p {
+    font-family: "Financier", "Hoefler Text", "Cambria", "Georgia", serif;
+    font-size: 1.25rem;
+    line-height: 1.35;
+    letter-spacing: -0.0015em;
+    color: #17191A;
+    margin-bottom: 0.75rem; }
+  .article-content-inner p:last-of-type {
+    margin-bottom: 1.5rem; }
