@@ -1,4 +1,4 @@
-// console.log("App.js loaded");
+console.log("App.js loaded");
 
 
 // ==============================
@@ -19,9 +19,6 @@ accordionTitles.forEach(function (element) {
             }
         });
 
-
-
-        // listAnimation.restart();
     });
 });
 
@@ -46,22 +43,33 @@ block.forEach(function(element) {
 
 // ==============================
 // Carousel Animation
-// 
-// var carouselAnimation = anime({
-//   targets: ['.carousel-image', '.carousel-quote'],
-//   duration: 1300,
-//   opacity: [0, 1],
-//   easing: 'easeOutCubic',
-//   autoplay: true
-// });
-//
-//
-// var listAnimation = anime({
-//     targets: accordionActive,
-//     duration: 500,
-//     delay: anime.stagger(30),
-//     translateX: ['-0.5em', 0],
-//     opacity: [0, 1],
-//     easing: 'easeOutCubic',
-//     autoplay: false,
-// });
+const carouselArrow = document.getElementById("car-arrow");
+const carouselQuotes = document.querySelectorAll(".carousel-quote");
+const carouselImages = document.querySelectorAll(".carousel-image-item");
+
+let carActive = 0;
+
+carouselArrow.addEventListener("click", function(event) {
+	// console.log("hit", this);
+	event.preventDefault();
+
+	getActive(carouselQuotes).classList.remove('show');
+	getActive(carouselImages).classList.remove('show');
+
+	if (carActive >= (carouselQuotes.length - 1)) {
+		carActive = 0;
+		console.log("reset count");
+	} else {
+		carActive++;
+	}
+
+	getActive(carouselQuotes).classList.add('show');
+	getActive(carouselImages).classList.add('show');
+});
+
+getActive = function(set) {
+	return set[carActive];
+}
+
+getActive(carouselQuotes).classList.add('show');
+getActive(carouselImages).classList.add('show');
